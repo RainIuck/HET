@@ -6,6 +6,8 @@ import numpy as np
 import itertools
 from typing import Dict, List, Optional, Tuple
 import torch
+
+from compat import torch_load
 import torch.nn.functional as F
 from torch import nn
 
@@ -52,7 +54,7 @@ def build_vlpart(checkpoint=None):
     vlpart.eval()
     if checkpoint is not None:
         with open(checkpoint, "rb") as f:
-            state_dict = torch.load(f)
+            state_dict = torch_load(f, map_location="cpu")
         vlpart.load_state_dict(state_dict['model'], strict=False)
 
     return vlpart

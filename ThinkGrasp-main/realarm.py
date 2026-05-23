@@ -15,10 +15,17 @@ import argparse
 from engine import grasp_model
 from langsam import langsamutils
 from langsam.langsam_actor import LangSAM
-# from VLP.new_vlp_actor import SegmentAnythingActor
+try:
+    from VLP.new_vlp_actor import SegmentAnythingActor
+except Exception as exc:
+    SegmentAnythingActor = None
+    VLP_IMPORT_ERROR = exc
+else:
+    VLP_IMPORT_ERROR = None
 from openai import OpenAI
 from grasp_detetor import Graspnet
 import utils
+from compat import load_local_env
 
 
 app = Flask(__name__)
@@ -152,19 +159,74 @@ def get_args_parser():
     return parser
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-# Configure OpenAI API key
-api_key = os.environ["OPENAI_API_KEY"]
-client = OpenAI(api_key=api_key)
+load_local_env()
+client = None
+langsam_actor = None
+vlp_actor = None
+DEFAULT_OPENAI_MODEL = "gpt-4o-2024-05-13"
 
-# Initialize Ray and load actors and models
-ray.init(num_gpus=2)  # Add arguments as necessary, e.g., address, num_gpus
-use_gpu = torch.cuda.is_available()
-gpu_allocation = 0.8 if use_gpu else 0
-actor_options = {"num_gpus": gpu_allocation}
-langsam_actor = LangSAM.options(**actor_options).remote(use_gpu=use_gpu)
-# vlp_actor = SegmentAnythingActor.options(**actor_options).remote(
-#     vlpart_checkpoint="VLP/swinbase_part_0a0000.pth", sam_checkpoint="VLP/sam_vit_h_4b8939.pth",
-#     device="cuda" if use_gpu else "cpu")
+
+def get_openai_model():
+    return os.environ.get("OPENAI_MODEL", DEFAULT_OPENAI_MODEL)
+
+
+def get_openai_client():
+    global client
+    if client is None:
+        api_key = os.environ.get("OPENAI_API_KEY")
+        base_url = os.environ.get("OPENAI_BASE_URL")
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY is not set")
+        client = OpenAI(api_key=api_key, base_url=base_url)
+    return client
+
+
+def ensure_ray_actors():
+    global langsam_actor, vlp_actor
+    if langsam_actor is not None:
+        return
+
+    use_gpu = torch.cuda.is_available()
+    if not ray.is_initialized():
+        ray.init(num_gpus=torch.cuda.device_count() if use_gpu else 0, ignore_reinit_error=True)
+
+    gpu_count = torch.cuda.device_count() if use_gpu else 0
+    gpu_allocation = 0.8 if gpu_count >= 2 else 0.45
+    actor_options = {"num_gpus": gpu_allocation} if use_gpu else {}
+    langsam_actor = LangSAM.options(**actor_options).remote(use_gpu=use_gpu, skip_sam=False)
+
+    vlpart_checkpoint = "VLP/swinbase_part_0a0000.pth"
+    sam_checkpoint = "VLP/sam_vit_h_4b8939.pth"
+    if SegmentAnythingActor is None:
+        logging.warning("VLPart actor unavailable; falling back to LangSAM for part prompts: %s", VLP_IMPORT_ERROR)
+        return
+    if not (os.path.exists(vlpart_checkpoint) and os.path.exists(sam_checkpoint)):
+        logging.warning("VLPart checkpoints not found; falling back to LangSAM for part prompts")
+        return
+
+    try:
+        vlp_actor = SegmentAnythingActor.options(**actor_options).remote(
+            vlpart_checkpoint=vlpart_checkpoint,
+            sam_checkpoint=sam_checkpoint,
+            device="cuda" if use_gpu else "cpu",
+        )
+    except Exception as exc:
+        vlp_actor = None
+        logging.warning("VLPart actor initialization failed; falling back to LangSAM: %s", exc)
+
+
+def has_masks(masks):
+    if masks is None:
+        return False
+    if hasattr(masks, "numel"):
+        return masks.numel() > 0
+    return len(masks) > 0
+
+
+def boxes_to_list(boxes):
+    if hasattr(boxes, "cpu"):
+        return boxes.cpu().numpy().tolist()
+    return [box.cpu().numpy().tolist() if hasattr(box, "cpu") else list(box) for box in boxes]
 
 def visualize_cropping_box(image, cropping_box):
     # Visualize the cropping box on the image
@@ -292,6 +354,9 @@ def crop_pointcloud(pcd, cropping_box, color_image, depth_image):
 
 @app.route('/grasp_pose', methods=['POST'])
 def get_grasp_pose():
+    api_client = get_openai_client()
+    ensure_ray_actors()
+
     data = request.json
     rgb_image_path = data['image_path']
     depth_image_path = data['depth_path']
@@ -387,8 +452,8 @@ def get_grasp_pose():
     }
 
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o-2024-05-13",
+        response = api_client.chat.completions.create(
+            model=get_openai_model(),
             messages=messages,
             temperature=0,
             max_tokens=713,
@@ -414,18 +479,20 @@ def get_grasp_pose():
             if obj['name'] == goal:
                 preferred_grasping_location = obj.get('preferred_grasping_location', 5)
 
-        if not result["is_part"]:
-            masks, boxes, phrases, logits = ray.get(langsam_actor.predict.remote(image_pil, goal))
-        else:
+        if result["is_part"] and vlp_actor is not None:
             masks, boxes, phrases, logits = ray.get(
                 vlp_actor.predict.remote(image_path=rgb_image_path, text_prompt=goal))
+        else:
+            if result["is_part"]:
+                logging.info("Using LangSAM fallback for part prompt: %s", goal)
+            masks, boxes, phrases, logits = ray.get(langsam_actor.predict.remote(image_pil, goal))
 
-        if masks is None or masks.numel() == 0:
+        if not has_masks(masks):
             masks, boxes, phrases, logits = ray.get(langsam_actor.predict.remote(image_pil, input_text))
-            if masks is None or masks.numel() == 0:
+            if not has_masks(masks):
                 masks, boxes, phrases, logits = ray.get(langsam_actor.predict.remote(image_pil, "object"))
 
-        boxes_list = boxes.cpu().numpy().tolist()
+        boxes_list = boxes_to_list(boxes)
         cropping_box = create_cropping_box_from_boxes(boxes_list, (img_ori.shape[1], img_ori.shape[0]))
 
         visualize_cropping_box(img_ori, cropping_box)

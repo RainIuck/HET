@@ -1,1 +1,5 @@
 Paper/
+.codex
+.agents
+ThinkGrasp-main/__pycache__
+ThinkGrasp-main/assets/

@@ -7,6 +7,7 @@ from torch import nn
 import torch.nn.functional as F
 import torch.utils.checkpoint as checkpoint
 from maskrcnn_benchmark.config import try_to_find
+from compat import torch_load
 
 from timm.models.layers import DropPath, trunc_normal_
 
@@ -139,7 +140,7 @@ class CLIPTransformer(nn.Module):
 
     def init_weights(self, pretrained="", pretrained_layers=[], verbose=False):
         if os.path.isfile(pretrained):
-            pretrained_dict = torch.load(pretrained, map_location="cpu")
+            pretrained_dict = torch_load(pretrained, map_location="cpu")
             logger.info(f'=> loading pretrained clip text model {pretrained}')
             model_dict = self.state_dict()
 

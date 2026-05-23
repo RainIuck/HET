@@ -5,6 +5,8 @@ import cv2
 import torch
 import numpy as np
 
+from compat import torch_load
+
 
 class Logger:
     def __init__(self, case_dir=None, case=None):
@@ -122,7 +124,7 @@ class Logger:
     def load_checkpoint(self, model, ckpt_path, evaluate=False):
         print('Loading models from {}'.format(ckpt_path))
         if ckpt_path is not None:
-            checkpoint = torch.load(ckpt_path)
+            checkpoint = torch_load(ckpt_path, map_location="cpu")
 
             model.vilg_fusion.load_state_dict(checkpoint['feature_state_dict'])
             model.policy.load_state_dict(checkpoint['policy_state_dict'])
@@ -142,4 +144,3 @@ class Logger:
                 model.policy.train()
                 model.critic.train()
                 model.critic_target.train()
-

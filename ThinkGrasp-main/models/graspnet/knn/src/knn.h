@@ -5,6 +5,7 @@
 #include "cuda/vision.h"
 #include <ATen/cuda/CUDAContext.h>
 #include <ATen/cuda/CUDAEvent.h>
+#include <c10/cuda/CUDACachingAllocator.h>
 #endif
 
 
@@ -20,14 +21,14 @@ int knn(at::Tensor& ref, at::Tensor& query, at::Tensor& idx)
     ref_nb = ref.size(2);
     query_nb = query.size(2);
 
-    float *ref_dev = ref.data<float>();
-    float *query_dev = query.data<float>();
-    long *idx_dev = idx.data<long>();
+    float *ref_dev = ref.data_ptr<float>();
+    float *query_dev = query.data_ptr<float>();
+    long *idx_dev = idx.data_ptr<long>();
 
 
 
 
-  if (ref.type().is_cuda()) {
+  if (ref.is_cuda()) {
 #ifdef WITH_CUDA
     // TODO raise error if not compiled with CUDA
     float *dist_dev = (float*)c10::cuda::CUDACachingAllocator::raw_alloc(ref_nb * query_nb * sizeof(float));
@@ -41,7 +42,6 @@ int knn(at::Tensor& ref, at::Tensor& query, at::Tensor& idx)
     if (err != cudaSuccess)
     {
         printf("error in knn: %s\n", cudaGetErrorString(err));
-        // THError("aborting");
     }
     return 1;
 #else

@@ -15,6 +15,8 @@ import torch
 from graspnetAPI import GraspGroup
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(ROOT_DIR))
+sys.path.append(PROJECT_ROOT)
 sys.path.append(os.path.join(ROOT_DIR, 'models'))
 sys.path.append(os.path.join(ROOT_DIR, 'dataset'))
 sys.path.append(os.path.join(ROOT_DIR, 'utils'))
@@ -23,6 +25,7 @@ from models.FGC_graspnet import FGC_graspnet
 from dataset.graspnet_dataset import GraspNetDataset
 from utils.collision_detector import ModelFreeCollisionDetector
 from utils.data_utils import CameraInfo, create_point_cloud_from_depth_image
+from compat import torch_load
 from models.decode import pred_decode
 
 parser = argparse.ArgumentParser()
@@ -41,7 +44,7 @@ def get_net():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     net.to(device)
     # Load checkpoint
-    checkpoint = torch.load(cfgs.checkpoint_path)
+    checkpoint = torch_load(cfgs.checkpoint_path, map_location=device)
     net.load_state_dict(checkpoint['model_state_dict'])
     start_epoch = checkpoint['epoch']
     print("-> loaded checkpoint %s (epoch: %d)"%(cfgs.checkpoint_path, start_epoch))

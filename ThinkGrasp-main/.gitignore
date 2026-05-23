@@ -12,3 +12,6 @@ ThinkGrasp.egg-info/dependency_links.txt
 /assets/simplified_objects
 /assets/unseen_objects_40
 /assets/unseen_objects
+.env
+.env.*
+!.env.example

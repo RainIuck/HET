@@ -67,10 +67,18 @@ Looking forward to more research in this area! 🚀
    conda activate thinkgrasp
    ```
 
-2. **Install PyTorch and Torchvision**:  
+2. **Install PyTorch and Torchvision**:
+
+   For the original GTX 3090 / CUDA 11.x environment, use the legacy pinned
+   versions:
    ```bash
    pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
    ```
+
+   For RTX 50-series / CUDA 13 / newer PyTorch environments, install a PyTorch
+   build that supports your driver and GPU, then follow
+   [`CUDA13_PYTORCH_COMPAT.md`](CUDA13_PYTORCH_COMPAT.md) to rebuild the local
+   PointNet2 and KNN CUDA extensions.
 
 3. **Allow Deprecated Scikit-learn**:  
    ```bash
@@ -287,10 +295,15 @@ RuntimeError: CUDA error: no kernel image is available for execution on the devi
 ```
 
 **Solution**:  
-Ensure the installed PyTorch version matches your CUDA version. For CUDA 11.8, use:  
+Ensure the installed PyTorch version matches your CUDA version. For CUDA 11.8
+on the original environment, use:  
 ```bash
 pip3 install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
+
+For RTX 50-series / CUDA 13 systems, do not use the legacy `cu117` command.
+Use a current PyTorch build and rebuild the native extensions as described in
+[`CUDA13_PYTORCH_COMPAT.md`](CUDA13_PYTORCH_COMPAT.md).
 
 ---
 

@@ -1,0 +1,72 @@
+{
+    "selected_object": "blue ball",
+    "cropping_box": [
+        40,
+        25,
+        125,
+        120
+    ],
+    "objects": [
+        {
+            "name": "Blue Ball",
+            "grasping_score": 85,
+            "material_composition": 70,
+            "surface_texture": 25,
+            "stability_assessment": 60,
+            "centroid_coordinates": [
+                64,
+                92
+            ],
+            "preferred_grasping_location": 7
+        },
+        {
+            "name": "Purple Round Object",
+            "grasping_score": 78,
+            "material_composition": 55,
+            "surface_texture": 65,
+            "stability_assessment": 65,
+            "centroid_coordinates": [
+                84,
+                77
+            ],
+            "preferred_grasping_location": 5
+        },
+        {
+            "name": "Light Green Round Object",
+            "grasping_score": 72,
+            "material_composition": 60,
+            "surface_texture": 35,
+            "stability_assessment": 78,
+            "centroid_coordinates": [
+                68,
+                49
+            ],
+            "preferred_grasping_location": 2
+        },
+        {
+            "name": "Yellow-Green Small Block",
+            "grasping_score": 55,
+            "material_composition": 65,
+            "surface_texture": 35,
+            "stability_assessment": 70,
+            "centroid_coordinates": [
+                106,
+                54
+            ],
+            "preferred_grasping_location": 3
+        },
+        {
+            "name": "Orange and Teal Pencil/Brush",
+            "grasping_score": 60,
+            "material_composition": 75,
+            "surface_texture": 30,
+            "stability_assessment": 55,
+            "centroid_coordinates": [
+                103,
+                66
+            ],
+            "preferred_grasping_location": 6
+        }
+    ],
+    "is_part": false
+}

@@ -8,6 +8,7 @@ import torch
 
 from functools import partial
 
+from compat import torch_load
 from .modeling import ImageEncoderViT, MaskDecoder, PromptEncoder, Sam, TwoWayTransformer
 
 
@@ -102,6 +103,6 @@ def _build_sam(
     sam.eval()
     if checkpoint is not None:
         with open(checkpoint, "rb") as f:
-            state_dict = torch.load(f)
+            state_dict = torch_load(f, map_location="cpu")
         sam.load_state_dict(state_dict)
     return sam

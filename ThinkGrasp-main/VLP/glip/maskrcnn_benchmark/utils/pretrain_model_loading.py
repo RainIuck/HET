@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 
 from collections import OrderedDict
+from compat import torch_load
 
 def _remove_bn_statics(state_dict):
     layer_keys = sorted(state_dict.keys())
@@ -42,7 +43,7 @@ def _rename_conv_weights_for_deformable_conv_layers(state_dict, cfg):
 
 
 def load_pretrain_format(cfg, f):
-    model = torch.load(f)
+    model = torch_load(f, map_location="cpu")
     model = _remove_bn_statics(model)
     model = _rename_conv_weights_for_deformable_conv_layers(model, cfg)
 

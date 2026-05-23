@@ -10,6 +10,7 @@ from PIL import Image
 import torch
 from graspnetAPI import GraspGroup
 
+from compat import torch_load
 from models.backbone import Pointnet2Backbone
 from models.modules import ToleranceNet
 from models.graspnet import GraspNet, pred_decode
@@ -34,7 +35,7 @@ class GN():
                 cylinder_radius=0.05, hmin=-0.02, hmax_list=[0.01,0.02,0.03,0.04], is_training=False)
         net.to(device)
         # Load checkpoint
-        checkpoint = torch.load(self.checkpoint_path)
+        checkpoint = torch_load(self.checkpoint_path, map_location=device)
         net.load_state_dict(checkpoint['model_state_dict'])
         start_epoch = checkpoint['epoch']
         print("-> loaded checkpoint %s (epoch: %d)"%(self.checkpoint_path, start_epoch))
@@ -42,7 +43,7 @@ class GN():
         net.eval()
 
         # Load network parameters
-        whole_dict = torch.load(checkpoint['model_state_dict'])
+        whole_dict = torch_load(checkpoint['model_state_dict'], map_location=device)
 
         # Init the point cloud processing model
         pc_net = Pointnet2Backbone(input_feature_dim=0)

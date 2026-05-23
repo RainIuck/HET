@@ -14,6 +14,8 @@ import datetime
 import torch
 import torch.distributed as dist
 
+from compat import torch_load
+
 _LOCAL_PROCESS_GROUP = None
 
 
@@ -83,7 +85,7 @@ def all_gather(data):
     for size, tensor in zip(size_list, tensor_list):
         tensor = torch.split(tensor, [size, max_size - size], dim=0)[0]
         buffer = io.BytesIO(tensor.cpu().numpy())
-        obj = torch.load(buffer)
+        obj = torch_load(buffer, map_location="cpu")
         data_list.append(obj)
 
     return data_list

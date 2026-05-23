@@ -10,6 +10,8 @@ import itertools
 import collections
 from torchvision.ops import nms
 
+from compat import torch_load
+
 
 GlobalParams = collections.namedtuple('GlobalParams', [
     'batch_norm_momentum', 'batch_norm_epsilon', 'dropout_rate',
@@ -1308,7 +1310,7 @@ class EfficientDetBackbone(nn.Module):
         return features, regression, classification, anchors
 
     def init_backbone(self, path):
-        state_dict = torch.load(path)
+        state_dict = torch_load(path, map_location="cpu")
         try:
             ret = self.load_state_dict(state_dict, strict=False)
             print(ret)
@@ -1493,7 +1495,7 @@ def display(preds, imgs, obj_list, imshow=True, imwrite=False):
             continue
 
         for j in range(len(preds[i]['rois'])):
-            (x1, y1, x2, y2) = preds[i]['rois'][j].detach().cpu().numpy().astype(np.int)
+            (x1, y1, x2, y2) = preds[i]['rois'][j].detach().cpu().numpy().astype(int)
             logging.info((x1, y1, x2, y2))
             cv2.rectangle(imgs[i], (x1, y1), (x2, y2), (255, 255, 0), 2)
             #obj = obj_list[preds[i]['class_ids'][j]]
@@ -1879,4 +1881,3 @@ class InferenceModel(nn.Module):
             if len(p['rois']) > 0:
                 p['rois'] /= s
         return preds
-

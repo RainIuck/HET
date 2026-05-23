@@ -14,6 +14,7 @@ from PIL import Image
 import torch
 from graspnetAPI import GraspGroup
 
+from compat import torch_load
 from .models.graspnet import GraspNet, pred_decode
 from .dataset.graspnet_dataset import GraspNetDataset
 from .utils.collision_detector import ModelFreeCollisionDetector
@@ -36,7 +37,7 @@ class GraspNetBaseLine():
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         net.to(device)
         # Load checkpoint
-        checkpoint = torch.load(self.checkpoint_path)
+        checkpoint = torch_load(self.checkpoint_path, map_location=device)
         net.load_state_dict(checkpoint['model_state_dict'])
         start_epoch = checkpoint['epoch']
         print("-> loaded checkpoint %s (epoch: %d)"%(self.checkpoint_path, start_epoch))

@@ -4,6 +4,7 @@ import os
 
 import torch
 
+from compat import torch_load
 from maskrcnn_benchmark.utils.model_serialization import load_state_dict
 from maskrcnn_benchmark.utils.c2_model_loading import load_c2_format
 from maskrcnn_benchmark.utils.big_model_loading import load_big_format
@@ -112,7 +113,7 @@ class Checkpointer(object):
             f.write(last_filename)
 
     def _load_file(self, f):
-        return torch.load(f, map_location=torch.device("cpu"))
+        return torch_load(f, map_location=torch.device("cpu"))
 
     def _load_model(self, checkpoint, keyword="model"):
         load_state_dict(self.model, checkpoint.pop(keyword))

@@ -2,6 +2,8 @@ from copy import deepcopy
 from collections import OrderedDict
 import torch
 
+from compat import torch_load
+
 
 class ModelEma:
     def __init__(self, model, decay=0.9999, device=''):
@@ -17,7 +19,7 @@ class ModelEma:
 
     def load_checkpoint(self, checkpoint):
         if isinstance(checkpoint, str):
-            checkpoint = torch.load(checkpoint)
+            checkpoint = torch_load(checkpoint, map_location="cpu")
 
         assert isinstance(checkpoint, dict)
         if 'model_ema' in checkpoint:
@@ -43,4 +45,3 @@ class ModelEma:
                 if self.device:
                     model_v = model_v.to(device=self.device)
                 ema_v.copy_(ema_v * self.decay + (1. - self.decay) * model_v)
-

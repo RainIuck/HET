@@ -16,7 +16,7 @@ at::Tensor cylinder_query(at::Tensor new_xyz, at::Tensor xyz, at::Tensor rot, co
   CHECK_IS_FLOAT(xyz);
   CHECK_IS_FLOAT(rot);
 
-  if (new_xyz.type().is_cuda()) {
+  if (new_xyz.is_cuda()) {
     CHECK_CUDA(xyz);
     CHECK_CUDA(rot);
   }
@@ -25,10 +25,10 @@ at::Tensor cylinder_query(at::Tensor new_xyz, at::Tensor xyz, at::Tensor rot, co
       torch::zeros({new_xyz.size(0), new_xyz.size(1), nsample},
                    at::device(new_xyz.device()).dtype(at::ScalarType::Int));
 
-  if (new_xyz.type().is_cuda()) {
+  if (new_xyz.is_cuda()) {
     query_cylinder_point_kernel_wrapper(xyz.size(0), xyz.size(1), new_xyz.size(1),
-                                    radius, hmin, hmax, nsample, new_xyz.data<float>(),
-                                    xyz.data<float>(), rot.data<float>(), idx.data<int>());
+                                    radius, hmin, hmax, nsample, new_xyz.data_ptr<float>(),
+                                    xyz.data_ptr<float>(), rot.data_ptr<float>(), idx.data_ptr<int>());
   } else {
     TORCH_CHECK(false, "CPU not supported");
   }

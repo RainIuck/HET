@@ -7,6 +7,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 
+from compat import torch_load
 
 from collections import OrderedDict
 from yaml import safe_dump
@@ -168,7 +169,7 @@ class EvolutionTrainer(object):
     def load_checkpoint(self):
         if not os.path.exists(self.checkpoint_name):
             return False
-        info = torch.load(self.checkpoint_name)
+        info = torch_load(self.checkpoint_name, map_location="cpu")
         self.candidates = info['candidates']
         self.vis_dict = info['vis_dict']
         self.keep_top_k = info['keep_top_k']

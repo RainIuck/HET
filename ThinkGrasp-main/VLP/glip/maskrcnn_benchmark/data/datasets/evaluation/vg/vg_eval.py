@@ -277,7 +277,7 @@ def eval_detection_voc(pred_boxlists, gt_boxlists, classes, iou_thresh=0.5, eval
                                                                   use_07_metric=use_07_metric)
         # Determine per class detection thresholds that maximise f score
         # if npos > 1:
-        if npos > 1 and type(scores) != np.int:
+        if npos > 1 and type(scores) != int:
             f = np.nan_to_num((prec * rec) / (prec + rec))
             thresh += [scores[np.argmax(f)]]
         else:

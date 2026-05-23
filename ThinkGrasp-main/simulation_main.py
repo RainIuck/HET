@@ -22,14 +22,32 @@ from logger import Logger
 from grasp_detetor import Graspnet
 # from VLP.new_vlp_actor import SegmentAnythingActor
 from openai import OpenAI
+from compat import load_local_env
 
 import base64
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+load_local_env()
 
-api_key = os.environ["OPENAI_API_KEY"]
-client = OpenAI(api_key=api_key)
+client = None
+DEFAULT_OPENAI_MODEL = "gpt-4o-2024-05-13"
+DEFAULT_LANGSAM_TIMEOUT = 90.0
+
+
+def get_openai_model():
+    return os.environ.get("OPENAI_MODEL", DEFAULT_OPENAI_MODEL)
+
+
+def get_openai_client():
+    global client
+    if client is None:
+        api_key = os.environ.get("OPENAI_API_KEY")
+        base_url = os.environ.get("OPENAI_BASE_URL")
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY is not set")
+        client = OpenAI(api_key=api_key, base_url=base_url)
+    return client
 
 
 def select_action(bboxes, pos_bboxes, text, actions, evaluate=True):
@@ -98,6 +116,82 @@ def create_cropping_box_from_boxes(boxes, image_size, margin=20):
     return int(x1_min), int(y1_min), int(x2_max), int(y2_max)
 
 
+def get_env_float(name, default):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    try:
+        return float(value)
+    except ValueError:
+        logging.warning("Invalid %s=%r; using %s", name, value, default)
+        return default
+
+
+def get_env_int(name, default):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    try:
+        return int(value)
+    except ValueError:
+        logging.warning("Invalid %s=%r; using %s", name, value, default)
+        return default
+
+
+def get_env_bool(name, default=False):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def has_boxes(boxes):
+    if boxes is None:
+        return False
+    if hasattr(boxes, "numel"):
+        return boxes.numel() > 0
+    return len(boxes) > 0
+
+
+def fallback_detection_from_crop(cropping_box, image_size, phrase):
+    width, height = image_size
+    if not cropping_box or len(cropping_box) != 4:
+        cropping_box = (0, 0, width, height)
+    x0, y0, x1, y1 = [int(v) for v in cropping_box]
+    x0 = max(0, min(x0, width - 1))
+    y0 = max(0, min(y0, height - 1))
+    x1 = max(x0 + 1, min(x1, width))
+    y1 = max(y0 + 1, min(y1, height))
+    boxes = torch.tensor([[x0, y0, x1, y1]], dtype=torch.float32)
+    logits = torch.tensor([1.0], dtype=torch.float32)
+    masks = torch.empty((0, height, width), dtype=torch.bool)
+    return masks, boxes, [phrase], logits
+
+
+def predict_langsam_or_fallback(langsam_actor, image_pil, prompt, fallback_box, timeout_s):
+    logging.info("LangSAM predict start: prompt=%s, timeout=%ss", prompt, timeout_s)
+    ref = langsam_actor.predict.remote(image_pil, prompt)
+    try:
+        result = ray.get(ref, timeout=timeout_s)
+        logging.info("LangSAM predict done: prompt=%s", prompt)
+        return result, False
+    except ray.exceptions.GetTimeoutError:
+        logging.warning(
+            "LangSAM predict timed out after %ss for prompt=%s; using GPT cropping box fallback",
+            timeout_s,
+            prompt,
+        )
+        ray.cancel(ref, force=True)
+        return fallback_detection_from_crop(fallback_box, image_pil.size, prompt), True
+    except Exception as exc:
+        logging.warning(
+            "LangSAM predict failed for prompt=%s; using GPT cropping box fallback: %s",
+            prompt,
+            exc,
+        )
+        return fallback_detection_from_crop(fallback_box, image_pil.size, prompt), False
+
+
 def crop_pointcloud(pcd, cropping_box, color_image, depth_image, workspace_limits):
     # Convert the 2D cropping box coordinates to 3D coordinates
     x1, y1, x2, y2 = cropping_box
@@ -162,11 +256,17 @@ def crop_pointcloud(pcd, cropping_box, color_image, depth_image, workspace_limit
 def visualize_cropping_box(image, cropping_box):
     # Visualize the cropping box on the image
     x1, y1, x2, y2 = cropping_box
-    plt.figure()
+    fig = plt.figure()
     plt.imshow(image)
     plt.gca().add_patch(plt.Rectangle((x1, y1), x2-x1, y2-y1, edgecolor='red', facecolor='none'))
     plt.title("Cropping Box Visualization")
-    plt.show()
+    plt.savefig("cropping_box_visualization.png")
+    if get_env_bool("THINKGRASP_BLOCKING_PLOTS", False):
+        plt.show()
+    else:
+        plt.show(block=False)
+        plt.pause(0.5)
+        plt.close(fig)
 
 
 
@@ -265,14 +365,20 @@ def parse_args():
 
 
 if __name__ == "__main__":
-    wandb.init(project="robotic-grasping1.0")
+    args = parse_args()
+    wandb.init(project="robotic-grasping1.0", mode=os.environ.get("WANDB_MODE", "offline"))
     ray.init(num_gpus=1) 
     use_gpu = torch.cuda.is_available()
     gpu_allocation = 1 if use_gpu else 0
+    langsam_timeout = get_env_float("LANGSAM_PREDICT_TIMEOUT", DEFAULT_LANGSAM_TIMEOUT)
+    langsam_dino_resize = get_env_int("LANGSAM_DINO_RESIZE", 512)
+    langsam_skip_sam = get_env_bool("LANGSAM_SKIP_SAM", True)
     actor_options = {"num_gpus": gpu_allocation}
-    langsam_actor = LangSAM.options(**actor_options).remote(use_gpu=use_gpu)
-
-    args = parse_args()
+    langsam_actor = LangSAM.options(**actor_options).remote(
+        use_gpu=use_gpu,
+        dino_resize=langsam_dino_resize,
+        skip_sam=langsam_skip_sam,
+    )
     
 
 
@@ -425,8 +531,8 @@ if __name__ == "__main__":
 
                 try:
                     # Call OpenAI API
-                    response = client.chat.completions.create(
-                        model="gpt-4o-2024-05-13",
+                    response = get_openai_client().chat.completions.create(
+                        model=get_openai_model(),
                         messages=messages,
                         temperature=0,
                         max_tokens=713,
@@ -469,11 +575,47 @@ if __name__ == "__main__":
                         if obj['name'] == goal:
                             preferred_grasping_location = obj.get('preferred_grasping_location', 5)
 
-                    masks, boxes, phrases, logits = ray.get(langsam_actor.predict.remote(image_pil, goal))
-                    if masks is None or masks.numel() == 0:
-                        masks, boxes, phrases, logits = ray.get(langsam_actor.predict.remote(image_pil, lang_goal))
-                        if masks is None or masks.numel() == 0:
-                            masks, boxes, phrases, logits = ray.get(langsam_actor.predict.remote(image_pil, "object"))
+                    fallback_box = result.get("cropping_box")
+                    timed_out = False
+                    if langsam_actor is None:
+                        masks, boxes, phrases, logits = fallback_detection_from_crop(
+                            fallback_box,
+                            image_pil.size,
+                            goal,
+                        )
+                    else:
+                        (masks, boxes, phrases, logits), timed_out = predict_langsam_or_fallback(
+                            langsam_actor,
+                            image_pil,
+                            goal,
+                            fallback_box,
+                            langsam_timeout,
+                        )
+                        if timed_out:
+                            ray.kill(langsam_actor, no_restart=True)
+                            langsam_actor = None
+                        elif not has_boxes(boxes):
+                            (masks, boxes, phrases, logits), timed_out = predict_langsam_or_fallback(
+                                langsam_actor,
+                                image_pil,
+                                lang_goal,
+                                fallback_box,
+                                langsam_timeout,
+                            )
+                            if timed_out:
+                                ray.kill(langsam_actor, no_restart=True)
+                                langsam_actor = None
+                            elif not has_boxes(boxes):
+                                (masks, boxes, phrases, logits), timed_out = predict_langsam_or_fallback(
+                                    langsam_actor,
+                                    image_pil,
+                                    "object",
+                                    fallback_box,
+                                    langsam_timeout,
+                                )
+                                if timed_out:
+                                    ray.kill(langsam_actor, no_restart=True)
+                                    langsam_actor = None
 
                     boxes_list = boxes.cpu().numpy().tolist()  # Convert to list
                     cropping_box = create_cropping_box_from_boxes(boxes_list,
@@ -481,8 +623,9 @@ if __name__ == "__main__":
 
                     if args.gui:
                         visualize_cropping_box(color_image, cropping_box)
-                    ray.get(langsam_actor.save.remote(masks, boxes, phrases, logits, image_pil, gui=args.gui))
-                    bbox_images, bbox_positions = utils.convert_output(image_pil, boxes, phrases, logits, color_image, depth_image, mask_image, preferred_grasping_location)
+                    if langsam_actor is not None and masks is not None and masks.numel() > 0:
+                        ray.get(langsam_actor.save.remote(masks, boxes, phrases, logits, image_pil, gui=args.gui))
+                    bbox_images, bbox_positions = utils.convert_output(image_pil, boxes, logits, phrases, color_image, depth_image, mask_image, preferred_grasping_location)
 
                     # graspnet
                     pcd = utils.get_fuse_pointcloud(env)

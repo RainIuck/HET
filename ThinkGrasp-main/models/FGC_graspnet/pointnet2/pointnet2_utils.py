@@ -14,7 +14,10 @@ from __future__ import (
 import torch
 from torch.autograd import Function
 import torch.nn as nn
-import pytorch_utils as pt_utils
+try:
+    from . import pytorch_utils as pt_utils
+except ImportError:
+    import pytorch_utils as pt_utils
 import sys
 
 try:
@@ -23,7 +26,7 @@ except:
     import __builtin__ as builtins
 
 try:
-    import pointnet22._ext as _ext
+    import pointnet2._ext as _ext
 except ImportError:
     if not getattr(builtins, "__POINTNET2_SETUP__", False):
         raise ImportError(

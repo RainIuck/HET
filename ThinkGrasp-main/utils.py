@@ -726,7 +726,7 @@ def angle2rotm(angle, axis, point=None):
     if point is not None:
 
         # Rotation not around origin
-        point = np.array(point[:3], dtype=np.float, copy=False)
+        point = np.array(point[:3], dtype=float, copy=False)
         M[:3, 3] = point - np.dot(R, point)
     return M
 

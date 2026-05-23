@@ -17,6 +17,8 @@ from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(ROOT_DIR))
+sys.path.append(PROJECT_ROOT)
 # sys.path.append(os.path.join(ROOT_DIR, 'utils'))
 # sys.path.append(os.path.join(ROOT_DIR, 'pointnet2'))
 # sys.path.append(os.path.join(ROOT_DIR, 'models'))
@@ -27,6 +29,7 @@ from pointnet2.pytorch_utils import BNMomentumScheduler
 from dataset.graspnet_dataset import GraspNetDataset, collate_fn, load_grasp_labels
 from utils.label_generation import process_grasp_labels
 from utils import misc
+from compat import torch_load
 
 
 # --------------------------------------------------------------------------
@@ -152,7 +155,7 @@ def main(cfgs):
     it = -1  # for the initialize value of `LambdaLR` and `BNMomentumScheduler`
     start_epoch = 0
     if CHECKPOINT_PATH is not None and os.path.isfile(CHECKPOINT_PATH):
-        checkpoint = torch.load(CHECKPOINT_PATH)
+        checkpoint = torch_load(CHECKPOINT_PATH, map_location="cpu")
 
         from _collections import OrderedDict
 

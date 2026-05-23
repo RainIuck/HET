@@ -12,6 +12,8 @@ from torch.utils.data import DataLoader
 from graspnetAPI import GraspGroup, GraspNetEval
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(ROOT_DIR))
+sys.path.append(PROJECT_ROOT)
 sys.path.append(os.path.join(ROOT_DIR, 'models'))
 sys.path.append(os.path.join(ROOT_DIR, 'dataset'))
 sys.path.append(os.path.join(ROOT_DIR, 'utils'))
@@ -20,6 +22,7 @@ from models.FGC_graspnet import FGC_graspnet
 from models.loss import pred_decode
 from graspnet_dataset import GraspNetDataset, collate_fn, load_grasp_labels
 from collision_detector import ModelFreeCollisionDetector
+from compat import torch_load
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset_root', default='./grasp_data', help='Dataset root')
@@ -58,7 +61,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 net.to(device)
 
 # Load checkpoint
-checkpoint = torch.load(cfgs.checkpoint_path)
+checkpoint = torch_load(cfgs.checkpoint_path, map_location=device)
 net.load_state_dict(checkpoint['model_state_dict'])
 start_epoch = checkpoint['epoch']
 print("-> loaded checkpoint %s (epoch: %d)"%(cfgs.checkpoint_path, start_epoch))

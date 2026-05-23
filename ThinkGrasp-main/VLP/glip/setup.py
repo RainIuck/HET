@@ -14,7 +14,18 @@ from torch.utils.cpp_extension import CUDAExtension
 requirements = ["torch", "torchvision"]
 
 
+def configure_cuda_arch_list():
+    if os.environ.get("TORCH_CUDA_ARCH_LIST"):
+        return
+    if torch.cuda.is_available():
+        major, minor = torch.cuda.get_device_capability(0)
+        os.environ["TORCH_CUDA_ARCH_LIST"] = f"{major}.{minor}+PTX"
+    else:
+        os.environ["TORCH_CUDA_ARCH_LIST"] = "12.0+PTX"
+
+
 def get_extensions():
+    configure_cuda_arch_list()
     this_dir = os.path.dirname(os.path.abspath(__file__))
     extensions_dir = os.path.join(this_dir, "maskrcnn_benchmark", "csrc")
 
@@ -25,7 +36,7 @@ def get_extensions():
     sources = main_file + source_cpu
     extension = CppExtension
 
-    extra_compile_args = {"cxx": []}
+    extra_compile_args = {"cxx": ["-O2", "-std=c++17"]}
     define_macros = []
 
     if torch.cuda.is_available() and CUDA_HOME is not None:
@@ -33,6 +44,8 @@ def get_extensions():
         sources += source_cuda
         define_macros += [("WITH_CUDA", None)]
         extra_compile_args["nvcc"] = [
+            "-O2",
+            "-std=c++17",
             "-DCUDA_HAS_FP16=1",
             "-D__CUDA_NO_HALF_OPERATORS__",
             "-D__CUDA_NO_HALF_CONVERSIONS__",

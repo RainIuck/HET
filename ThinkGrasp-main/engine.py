@@ -16,6 +16,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 import cv2
 
+from compat import torch_load
 
 
 
@@ -44,7 +45,7 @@ class grasp_model():
         
         net.to(self.device)
         # Load checkpoint
-        checkpoint = torch.load(self.checkpoint_grasp_path)
+        checkpoint = torch_load(self.checkpoint_grasp_path, map_location=self.device)
         net.load_state_dict(checkpoint['model_state_dict'])
         start_epoch = checkpoint['epoch']
         print("-> loaded FGC_GraspNet checkpoint %s (epoch: %d)"%(self.checkpoint_grasp_path, start_epoch))
