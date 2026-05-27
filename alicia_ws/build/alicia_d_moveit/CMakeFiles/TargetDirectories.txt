@@ -1,0 +1,9 @@
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/uninstall.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/alicia_d_moveit_uninstall.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/test.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/edit_cache.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/rebuild_cache.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/list_install_components.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/install.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/install/local.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_moveit/CMakeFiles/install/strip.dir

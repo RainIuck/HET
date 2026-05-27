@@ -1,0 +1,56 @@
+[0.035s] Invoking command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver -- -j32 -l32
+[0.097s] Consolidate compiler generated dependencies of target serial_communicator_lib
+[0.110s] [ 25%] Built target serial_communicator_lib
+[0.123s] Consolidate compiler generated dependencies of target alicia_d_data_parser_control_lib
+[0.136s] [ 37%] Building CXX object CMakeFiles/alicia_d_data_parser_control_lib.dir/src/alicia_d_data_parser_control.cpp.o
+[2.307s] [ 50%] Linking CXX shared library libalicia_d_data_parser_control_lib.so
+[2.394s] [ 50%] Built target alicia_d_data_parser_control_lib
+[2.408s] Consolidate compiler generated dependencies of target alicia_d_hardware_interface
+[2.410s] Consolidate compiler generated dependencies of target alicia_d_driver_node
+[2.421s] [ 62%] Linking CXX shared library libalicia_d_hardware_interface.so
+[2.422s] [ 75%] Linking CXX executable alicia_d_driver_node
+[2.551s] [ 87%] Built target alicia_d_hardware_interface
+[2.772s] [100%] Built target alicia_d_driver_node
+[2.779s] Invoked command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver -- -j32 -l32
+[30.035s] Invoking command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver
+[30.069s] -- Install configuration: ""
+[30.069s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/serial_communicator.hpp
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_hardware_interface.hpp
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_data_parser_control.hpp
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_driver_node.hpp
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.launch.py
+[30.070s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+[30.070s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node
+[30.074s] -- Set runtime path of "/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node" to ""
+[30.074s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so
+[30.074s] -- Set runtime path of "/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so" to ""
+[30.074s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libserial_communicator_lib.so
+[30.074s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so
+[30.075s] -- Set runtime path of "/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so" to ""
+[30.075s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.sh
+[30.075s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.dsv
+[30.075s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/package_run_dependencies/alicia_d_driver
+[30.075s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/parent_prefix_path/alicia_d_driver
+[30.075s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.sh
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.dsv
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.sh
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.dsv
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.bash
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.sh
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.zsh
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.dsv
+[30.076s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.dsv
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/packages/alicia_d_driver
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/alicia_d_driver
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport.cmake
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport-noconfig.cmake
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_targets-extras.cmake
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig.cmake
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig-version.cmake
+[30.076s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.xml
+[60.058s] Invoked command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver

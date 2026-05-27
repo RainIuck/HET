@@ -1,0 +1,52 @@
+Consolidate compiler generated dependencies of target serial_communicator_lib
+[ 25%] Built target serial_communicator_lib
+Consolidate compiler generated dependencies of target alicia_d_data_parser_control_lib
+[ 37%] Building CXX object CMakeFiles/alicia_d_data_parser_control_lib.dir/src/alicia_d_data_parser_control.cpp.o
+[ 50%] Linking CXX shared library libalicia_d_data_parser_control_lib.so
+[ 50%] Built target alicia_d_data_parser_control_lib
+Consolidate compiler generated dependencies of target alicia_d_hardware_interface
+Consolidate compiler generated dependencies of target alicia_d_driver_node
+[ 62%] Linking CXX shared library libalicia_d_hardware_interface.so
+[ 75%] Linking CXX executable alicia_d_driver_node
+[ 87%] Built target alicia_d_hardware_interface
+[100%] Built target alicia_d_driver_node
+-- Install configuration: ""
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/serial_communicator.hpp
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_hardware_interface.hpp
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_data_parser_control.hpp
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_driver_node.hpp
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.launch.py
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+-- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node
+-- Set runtime path of "/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node" to ""
+-- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so
+-- Set runtime path of "/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so" to ""
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libserial_communicator_lib.so
+-- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so
+-- Set runtime path of "/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so" to ""
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.sh
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.dsv
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/package_run_dependencies/alicia_d_driver
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/parent_prefix_path/alicia_d_driver
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.sh
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.dsv
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.bash
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.sh
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.zsh
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.dsv
+-- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.dsv
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/packages/alicia_d_driver
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/alicia_d_driver
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport.cmake
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport-noconfig.cmake
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig.cmake
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig-version.cmake
+-- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.xml

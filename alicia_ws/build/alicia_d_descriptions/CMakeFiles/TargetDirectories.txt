@@ -1,0 +1,9 @@
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/uninstall.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/alicia_d_descriptions_uninstall.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/test.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/edit_cache.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/rebuild_cache.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/list_install_components.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/install.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/install/local.dir
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_descriptions/CMakeFiles/install/strip.dir

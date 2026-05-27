@@ -1,0 +1,10 @@
+# Default initial positions for alicia_d_descriptions's ros2_control fake system
+
+initial_positions:
+  Joint1: 0
+  Joint2: 0.1089
+  Joint3: 0.6703
+  Joint4: 0
+  Joint5: -1.4174
+  Joint6: 0
+  Gripper: 0

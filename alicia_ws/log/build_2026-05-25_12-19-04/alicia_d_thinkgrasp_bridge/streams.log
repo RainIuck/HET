@@ -1,0 +1,50 @@
+[30.034s] Invoking command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge -- -j32 -l32
+[30.052s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[30.132s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[30.211s] -- Configuring done
+[30.213s] -- Generating done
+[30.214s] -- Build files have been written to: /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge
+[30.245s] Built target ament_cmake_python_copy_alicia_d_thinkgrasp_bridge
+[30.379s] running egg_info
+[30.380s] writing alicia_d_thinkgrasp_bridge.egg-info/PKG-INFO
+[30.380s] writing dependency_links to alicia_d_thinkgrasp_bridge.egg-info/dependency_links.txt
+[30.380s] writing top-level names to alicia_d_thinkgrasp_bridge.egg-info/top_level.txt
+[30.382s] reading manifest file 'alicia_d_thinkgrasp_bridge.egg-info/SOURCES.txt'
+[30.382s] writing manifest file 'alicia_d_thinkgrasp_bridge.egg-info/SOURCES.txt'
+[30.399s] Built target ament_cmake_python_build_alicia_d_thinkgrasp_bridge_egg
+[60.061s] Invoked command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge -- -j32 -l32
+[60.094s] Invoking command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge
+[60.101s] -- Install configuration: ""
+[60.101s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/pythonpath.sh
+[60.101s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/pythonpath.dsv
+[60.101s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info
+[60.102s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/top_level.txt
+[60.102s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/PKG-INFO
+[60.102s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/SOURCES.txt
+[60.102s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/dependency_links.txt
+[60.102s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge
+[60.102s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge/__init__.py
+[60.125s] Listing '/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge'...
+[60.128s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/ik_workspace_probe.py
+[60.128s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/mock_decision_server.py
+[60.128s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/thinkgrasp_mock_pick.py
+[60.128s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/config
+[60.128s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/config/mock_grasp.yaml
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/launch
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/launch/mock_thinkgrasp_pick.launch.py
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/package_run_dependencies/alicia_d_thinkgrasp_bridge
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/parent_prefix_path/alicia_d_thinkgrasp_bridge
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/ament_prefix_path.sh
+[60.129s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/ament_prefix_path.dsv
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/path.sh
+[60.129s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/path.dsv
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.bash
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.sh
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.zsh
+[60.129s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.dsv
+[60.129s] -- Installing: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/package.dsv
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/packages/alicia_d_thinkgrasp_bridge
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/cmake/alicia_d_thinkgrasp_bridgeConfig.cmake
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/cmake/alicia_d_thinkgrasp_bridgeConfig-version.cmake
+[60.129s] -- Up-to-date: /home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/package.xml
+[60.131s] Invoked command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_thinkgrasp_bridge

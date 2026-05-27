@@ -1,0 +1,6 @@
+Invoking command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_driver -DCMAKE_INSTALL_PREFIX=/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver
+Invoked command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_driver -DCMAKE_INSTALL_PREFIX=/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_driver
+Invoking command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver -- -j32 -l32
+Invoked command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver -- -j32 -l32
+Invoking command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver
+Invoked command in '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_driver

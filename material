@@ -1,0 +1,857 @@
+1. 介绍
+Alicia-D ROS2 是基于 ROS 2 Humble 开发的灵动 Alicia-D 系列六轴机械臂（含夹爪）驱动与控制工具包，支持通过串口通信实现关节运动控制、夹爪操作以及实时姿态与状态读取。
+
+License ROS2
+
+1.1 主要特性
+核心特性
+ros2_control 集成：基于标准的 ros2_control 硬件接口，支持与 MoveIt2 无缝集成。
+MoveIt2 支持：完整的 MoveIt2 运动规划与执行功能。
+关节控制：支持设置与读取六个关节的角度，提供平滑轨迹执行。
+夹爪控制：支持精确位置控制，适配 50mm 和 100mm 两种夹爪类型。
+实时状态反馈：实时获取关节角、夹爪位置与机器人状态。
+自动固件检测：自动检测固件版本。
+串口通信：自动搜索串口或手动指定，支持高波特率通信。
+零位校准：将当前位置设置为新的零点。
+扭矩开关：开启或关闭关节电机扭矩，实现自由拖动示教。
+1.2 项目结构
+alicia_d_driver/
+├── include/alicia_d_driver/
+│   ├── alicia_d_hardware_interface.hpp    # 硬件接口头文件
+│   └── alicia_d_driver_node.hpp          # 独立驱动节点
+├── src/
+│   ├── alicia_d_hardware_interface.cpp   # 硬件接口实现
+│   ├── alicia_d_driver_node.cpp          # 独立驱动
+│   └── serial_communicator.cpp           # 串口通信
+├── launch/
+│   └── alicia_d_driver.launch.py         # 独立驱动启动
+├── alicia_d_driver.xml                   # 插件描述
+└── CMakeLists.txt
+
+alicia_d_moveit/
+├── config/
+│   ├── alicia_d_descriptions.ros2_control.xacro  # 硬件接口配置
+│   ├── ros2_controllers.yaml                     # 控制器配置
+│   ├── moveit_controllers.yaml                   # MoveIt 控制器映射
+│   └── ...                                       # 其他 MoveIt 配置
+├── launch/
+│   ├── real_robot.launch.py                      # 真实机械臂启动
+│   ├── demo.launch.py                            # 仿真启动
+│   └── ...                                       # 其他启动文件
+└── package.xml
+
+alicia_d_calibration/       # 手眼标定模块
+
+alicia_d_cube_sort/         # 2D抓取模块（物块分拣）
+
+alicia_d_6d_grasp/          # 6D抓取模块
+
+2. 快速开始
+2.1 设置串口权限
+方法1：临时设置串口权限
+
+sudo chmod 666 /dev/ttyACM*
+
+方法2：添加用户到dialout组（永久有效）
+
+sudo usermod -a -G dialout $USER
+
+注意：需要注销（Log out）再登陆，或者重启使权限生效。
+
+2.2 获取源代码并编译
+mkdir -p ~/alicia_ws/src
+cd ~/alicia_ws
+git clone https://github.com/Synria-Robotics/Alicia-D-ROS2.git -b v6.1.0rc1 ./src
+rosdep install --from-paths src --ignore-src -r -y
+colcon build
+source install/setup.bash
+
+3. 使用方法
+3.1 启动 MoveIt 仿真
+切换前请终止已有节点
+如果当前终端已有 ROS 2 节点在运行，请先按 Ctrl+C 终止，否则可能导致串口占用或 Topic 冲突。
+
+进入工作空间并 source 环境（每次新建终端都需要执行）：
+
+cd ~/alicia_ws
+source install/setup.bash
+
+请核对您的夹爪类型：
+
+如果您是 50mm 夹爪类型，可使用默认值启动：
+
+ros2 launch alicia_d_moveit demo.launch.py
+
+如果您是 100mm 夹爪类型，请指定夹爪类型：
+
+ros2 launch alicia_d_moveit demo.launch.py gripper_type:=100mm
+
+3.2 启动 MoveIt 和真实机械臂
+切换前请终止已有节点
+如果当前终端已有 ROS 2 节点在运行，请先按 Ctrl+C 终止，否则可能导致串口占用或 Topic 冲突。
+
+cd ~/alicia_ws
+source install/setup.bash
+
+使用 MoveIt 控制真实机械臂：
+
+方法一：基本启动（使用默认参数）：
+
+ros2 launch alicia_d_moveit real_robot.launch.py
+
+方法二：启动时指定参数：
+
+ros2 launch alicia_d_moveit real_robot.launch.py \
+    gripper_type:=50mm \
+    port:=/dev/ttyACM0 \
+    speed_deg_s:=30
+
+MoveIt Launch 参数说明
+参数	默认值	说明
+gripper_type	50mm	夹爪类型：50mm 或 100mm
+port	''（空字符串）	串口设备路径，如 /dev/ttyACM0，留空则自动检测
+speed_deg_s	20	关节运动的默认速度（度/秒）
+提示：底层驱动会自动检测固件版本与机械臂版本（v5_5 / v5_6），一般无需手动指定。
+
+Rviz基础操作
+执行前请确保机械臂周围环境安全，避免碰撞。
+Motion Planning: 启动机械臂后会弹出Rviz窗口，鼠标拖动机械臂末端到目标位置后，点击左下方 MotionPlanning 面板下的 Plan ，可进行运动规划；点击 Execute 即可执行该运动规划。
+关节控制：在Rviz中，点击左下方 MotionPlanning 面板上的 Joints 菜单，拖动各个关节的 Value 到目标值后，回到 Planning 菜单，可执行 Plan/Execute 。
+夹爪控制：在Rviz中，展开左下方 MotionPlanning 面板上的 Planning Group 项目，选择 Gripper 。点击 Joints 菜单，可设定夹爪开合值。回到 Planning 菜单，可执行 Plan/Execute ，观察夹爪变化。
+3.3 独立驱动节点（无 MoveIt）
+切换前请终止已有节点
+如果当前终端已有 ROS 2 节点在运行，请先按 Ctrl+C 终止，否则可能导致串口占用或 Topic 冲突。
+
+cd ~/alicia_ws
+source install/setup.bash
+
+独立驱动节点仅运行底层驱动，不依赖 MoveIt，适用于只需要基础关节/夹爪控制的场景。
+
+方法一：基本启动（使用默认参数）：
+
+ros2 launch alicia_d_driver alicia_d_driver.launch.py
+
+方法二：启动时指定参数：
+
+ros2 launch alicia_d_driver alicia_d_driver.launch.py \
+    port:=/dev/ttyACM0 \
+    default_speed_deg_s:=30.0
+
+独立驱动参数说明
+参数	默认值	说明
+port	''（空字符串）	串口设备路径，如 /dev/ttyACM0。留空则自动检测
+default_speed_deg_s	20.0	关节运动的默认速度（度/秒），范围：4.39–439.45
+独立驱动 Topics
+订阅 Topics：
+
+/joint_commands (sensor_msgs/JointState)：发送关节位置和速度命令
+/demonstration (std_msgs/Bool)：使能/禁用示教模式（零力矩）
+/zero_calibrate (std_msgs/Bool)：执行零位校准
+发布 Topics：
+
+/joint_states (sensor_msgs/JointState)：发布当前关节状态（位置、速度）
+使用示例
+新建终端并执行：
+
+cd ~/alicia_ws
+source install/setup.bash
+
+1. 使能示教模式（零力矩）
+执行前请手动托住机械臂！卸力后机械臂将失去支撑，可能因重力突然掉落。
+ros2 topic pub --once /demonstration std_msgs/msg/Bool "{data: true}"
+
+2. 禁用示教模式（恢复全力矩）
+ros2 topic pub --once /demonstration std_msgs/msg/Bool "{data: false}"
+
+3. 零位校准
+此操作不可逆，如非必要请忽略此步骤。
+先禁用力矩（进入示教模式）：
+
+ros2 topic pub --once /demonstration std_msgs/msg/Bool "{data: true}"
+
+将机械臂手动移动到期望的零位姿势
+
+执行零位校准（校准后会自动恢复力矩）：
+
+ros2 topic pub --once /zero_calibrate std_msgs/msg/Bool "{data: true}"
+
+4. 发送关节命令
+通过 /joint_commands topic 发送关节位置和速度命令。
+
+示例 1：移动到零位，使用默认速度（20 度/秒）
+
+ros2 topic pub --once /joint_commands sensor_msgs/msg/JointState "
+name: ['Joint1', 'Joint2', 'Joint3', 'Joint4', 'Joint5', 'Joint6', 'Gripper']
+position: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 500.0]
+"
+
+示例 2：指定速度移动（30 度/秒 = 0.524 弧度/秒）
+
+ros2 topic pub --once /joint_commands sensor_msgs/msg/JointState "
+name: ['Joint1', 'Joint2', 'Joint3', 'Joint4', 'Joint5', 'Joint6', 'Gripper']
+position: [0.785, 0.785, 0.0, 0.0, 0.0, 0.0, 500.0]
+velocity: [0.524, 0.524, 0.524, 0.524, 0.524, 0.524, 0.0]
+"
+
+示例 3：单独控制夹爪或某个关节
+
+ros2 topic pub --once /joint_commands sensor_msgs/msg/JointState "
+name: ['Gripper']
+position: [500.0]
+"
+
+ros2 topic pub --once /joint_commands sensor_msgs/msg/JointState "
+name: ['Joint1']
+position: [0.524] 
+"
+
+单位说明：
+
+/joint_commands topic 使用 sensor_msgs/JointState 消息类型，遵循 ROS 标准约定：
+
+关节位置单位为 弧度（rad）
+velocity 字段中的速度单位为 弧度/秒（rad/s）
+虽然驱动内部使用度/秒（speed_deg_s / default_speed_deg_s），但 ROS 消息标准要求使用 rad/s。驱动会自动将 rad/s 转换为 deg/s，因此请始终以 rad/s 提供速度值。
+
+行为说明：
+
+如果提供了 rad/s 的速度值，驱动会将其转换为 deg/s，并使用最大值作为所有关节的公共速度
+如果不提供速度，将使用 default_speed_deg_s 参数值（单位为度/秒）
+夹爪位置范围为 0–1000（0 为完全打开，1000 为完全闭合）
+速度转换参考（用于 /joint_commands topic）：
+
+20 度/秒 = 0.349 弧度/秒 → 使用 velocity: [0.349, 0.349, ...]
+30 度/秒 = 0.524 弧度/秒 → 使用 velocity: [0.524, 0.524, ...]
+40 度/秒 = 0.698 弧度/秒 → 使用 velocity: [0.698, 0.698, ...]
+100 度/秒 = 1.745 弧度/秒 → 使用 velocity: [1.745, 1.745, ...]
+快速换算公式：弧度/秒 = 度/秒 × π / 180 或 弧度/秒 = 度/秒 × 0.0174533
+
+5. 读取关节状态数据
+ros2 topic echo /joint_states
+
+4. 示例文件说明
+4.1 基础功能
+examples/ 目录包含演示脚本，用于展示如何使用 灵动操作臂ROS2 Humble 控制机械臂。
+
+examples/
+├── 01_demo_pick_and_place.py       # 关节夹爪控制    
+├── 01_moveit_pick_and_place.py     # 关节夹爪控制（MoveIt）
+└── 02_demo_drag_teaching.py         # 拖动示教
+
+01_demo_pick_and_place.py
+功能说明
+
+Pick and Place 演示程序。通过直接发布关节指令 (/joint_commands) 控制机械臂，演示了从 HOME 位置移动到点 A 抓取物体，搬运到点 B 放置，最后回到 HOME 位置的完整流程。
+
+程序启动，机械臂移动到HOME，夹爪张开
+移动到A点上方，下探并闭合夹爪，上移
+移动到HOME
+移动到B点上方，下探并张开夹爪，上移
+移动到HOME，程序结束
+使用方式
+
+运行前需要先启动底层的驱动节点 (注意根据实际情况选择夹爪类型 50mm 或 100mm):
+
+ros2 launch alicia_d_driver alicia_d_driver.launch.py gripper_type:=50mm
+
+然后在另一个终端运行此脚本 (假设在工作空间根目录下):
+
+python3 src/examples/01_demo_pick_and_place.py
+
+01_moveit_pick_and_place.py
+功能说明
+
+Pick and Place 演示程序。采用 MoveIt plan + execute 方式控制机械臂。调用 GetMotionPlan 服务，让规划器计算出一条包含多个中间点的完整轨迹。相比直接控制关节，具有更好的轨迹规划和平滑性。
+
+使用方式
+
+运行前需要先启动 MoveIt 及其相关节点 (注意根据实际情况选择夹爪类型 50mm 或 100mm):
+
+ros2 launch alicia_d_moveit real_robot.launch.py gripper_type:=50mm
+
+然后在另一个终端运行此脚本 (假设在工作空间根目录下):
+
+python3 src/examples/01_moveit_pick_and_place.py
+
+02_demo_drag_teaching.py
+功能说明
+
+Alicia D 机械臂拖动示教演示程序。
+
+用户按Enter后，机械臂关闭力矩，进入示教模式
+用户可以手动拖动机械臂，同时记录轨迹
+用户再次按Enter，机械臂恢复力矩
+询问用户是否回放轨迹，按Enter确认后机械臂按记录的轨迹运动
+注意事项
+
+关闭扭矩前请手动托住机械臂以免其突然掉落
+使用方式
+
+运行前需要先启动底层的驱动节点 (注意根据实际情况选择夹爪类型 50mm 或 100mm):
+
+ros2 launch alicia_d_driver alicia_d_driver.launch.py gripper_type:=50mm
+
+然后在另一个终端运行此脚本 (假设在工作空间根目录下):
+
+python3 src/examples/02_demo_drag_teaching.py
+
+4.2 手眼标定（外参标定）
+alicia_d_calibration 是一个完整的手眼标定解决方案，用于：
+
+计算机械臂末端与相机之间的空间关系
+输出标定结果转换矩阵
+支持各种 ArUco 标记配置
+提供标定结果验证功能
+INFO
+本模块以 Intel Realsense D405 和 Orbbec Gemini 335 相机为例。如使用其它相机，可能需要修改相关文件。
+
+alicia_d_calibration/
+├── scripts/
+│   ├── hand_eye_calibration.py             # 手眼标定主脚本
+│   ├── calibration_verifier.py             # 标定验证脚本
+│   └── aruco_detector.py                   # ArUco 标记检测器
+├── launch/
+│   ├── hand_eye_calibration.launch.py      # 标定启动文件
+│   └── verify_calibration.launch.py        # 标定验证启动文件
+├── config/
+│   └── hand_eye_calibration_result.yaml    # 标定结果输出文件
+├── package.xml                             
+├── CMakeLists.txt                          
+└── README.md                      
+
+4.2.1 环境准备
+在运行标定前，确保需要的环境已经设置：
+
+# 创建 conda 环境（如果需要）
+conda create -n calib python=3.10 -y
+conda activate calib
+conda install pip -y
+
+# 安装依赖
+pip install "numpy<2.0.0" "opencv-python<4.11" scipy pyyaml jinja2 typeguard
+
+TIP
+若非明确指定，请尽量确保退出 conda 再运行程序：
+
+conda deactivate
+
+4.2.2 启动必要的节点
+在不同的终端中依次启动：
+
+终端 1：启动机械臂驱动和 MoveIt
+
+gripper type 根据实际情况修改（50/100mm）
+
+ros2 launch alicia_d_moveit real_robot.launch.py gripper_type:=50mm
+
+终端 2：启动相机驱动
+
+若使用 Intel Realsense D405:
+
+ros2 launch realsense2_camera rs_launch.py \
+    enable_infra1:=true \
+    enable_infra2:=true \
+    infra_rgb:=true \
+    pointcloud.enable:=true
+
+若使用 Orbbec Gemini 335:
+
+ros2 launch orbbec_camera gemini_330_series.launch.py \
+    enable_left_ir:=true \
+    enable_right_ir:=true \
+    enable_point_cloud:=true \
+    enable_colored_point_cloud:=true
+
+4.2.3 运行标定
+请将ArUco码平放在机械臂正前方30～35cm处。
+
+终端 3：执行标定启动文件
+
+激活 conda 环境:
+
+conda activate calib
+
+执行标定启动文件（眼在手内，默认适配Realsense D405）：
+
+ros2 launch alicia_d_calibration hand_eye_calibration.launch.py \
+calibration_type:=eye_in_hand
+
+眼在手外，默认适配Realsense D405：
+
+ros2 launch alicia_d_calibration hand_eye_calibration.launch.py \
+calibration_type:=eye_to_hand
+
+若需要让末端更低（眼在手外时标定板偏高），可调整 Joint2/Joint3 偏移量（负值会降低末端）：
+
+ros2 launch alicia_d_calibration hand_eye_calibration.launch.py \
+    calibration_type:=eye_to_hand \
+    eye_to_hand_joint2_offset:=-0.04 \
+    eye_to_hand_joint3_offset:=-0.06
+
+若使用Gemini 335相机，请添加参数：
+
+ros2 launch alicia_d_calibration hand_eye_calibration.launch.py \
+    camera_topic:=/camera/color/image_raw \
+    camera_info_topic:=/camera/color/camera_info
+
+
+
+标定结束后，标定结果会自动保存在 alicia_d_calibration/config/hand_eye_calibration_result.yaml。
+
+4.2.4 验证标定结果
+终端 3：执行标定验证文件
+
+若使用Realsense D405相机：
+
+ros2 launch alicia_d_calibration verify_calibration.launch.py
+
+若使用Gemini 335相机，请添加参数：
+
+ros2 launch alicia_d_calibration verify_calibration.launch.py \
+    camera_topic:=/camera/color/image_raw \
+    camera_info_topic:=/camera/color/camera_info
+
+终端 4：验证标定
+
+查看 TF 树：
+
+ros2 run rqt_tf_tree rqt_tf_tree --force-discover
+
+验证标定结果:
+
+ros2 run tf2_ros tf2_echo base_link aruco_marker_frame
+
+若标定类型为 eye_to_hand（眼在手外，标记固定在末端），请改为：
+
+ros2 run tf2_ros tf2_echo gripper_center aruco_marker_frame
+
+验证脚本会输出稳定性指标（std_t / std_r），若平移标准差在 2cm 以上或旋转标准差在 2° 以上， 通常意味着数据质量不佳（光照、遮挡、标记抖动或采样不足）。
+
+将ArUco码放在相机视野内，验证终端中 base_link 到 aruco_marker_frame 的坐标变换。同时可在rviz中点击add添加pointcloud2，观察点云与机械臂的相对位置关系。
+
+5. 2D抓取（眼在手上）
+alicia_d_cube_sort 为 Alicia-D 机械臂提供完整的颜色识别和自动分拣功能，可以通过彩色相机检测工作区内的立方体，并按照颜色自动分拣到指定位置。
+
+移动机械臂到检测位置（home）
+等待检测节点发送检测结果
+优先拾取绿色立方体，放置到指定位置（drop_green）
+然后拾取蓝色立方体，放置到另一个位置（drop_blue）
+重复上述过程直到所有立方体被分拣
+场景布置：准备一张白色A4纸，放置在与其对比度相对较高的平面上（如黑色桌布）。物块置于A4纸上，需确保机械臂检测物块时（home），相机视野覆盖整张A4纸。
+
+INFO
+本模块以 Intel Realsense D405 和 Orbbec Gemini 335 相机为例。如使用其它相机，可能需要修改相关文件。
+
+alicia_d_cube_sort/
+├── scripts/
+│   ├── cube_detection.py              # 立方体检测节点
+│   └── cube_sorting.py                # 分拣控制节点
+├── launch/
+│   ├── cube_detection.launch.py       # 检测启动文件
+│   └── cube_sorting.launch.py         # 分拣启动文件
+├── config/
+│   └── cube_sorting.yaml              # 配置文件
+├── alicia_d_cube_sort/
+│   ├── __init__.py                    # Python 包初始化
+│   └── utils/                         # 辅助工具模块
+├── package.xml                        
+├── CMakeLists.txt                     
+└── README.md                          
+
+5.1 配置修改
+config/cube_sorting.yaml 文件定义了该模块的相关参数，您可以根据实际需求修改。
+
+您可能需要修改机械臂抓取流程中的预定义位置：
+
+positions:
+  # HOME position - Camera viewing position for cube detection - 机械臂检测物块时的关节角度（弧度制）
+  home:
+    joints: [0.0, 0.1089, 0.6703, 0.0, -1.4174, 0.0]
+    description: "Camera viewing position for cube detection"
+  
+  # Drop zone for GREEN cubes
+  drop_green:
+    joints: [1.0, -0.0483, 0.8309, -0.0545, -1.4830, -1.3617]
+    description: "Position above green cube drop zone"
+  
+  # Drop zone for BLUE cubes
+  drop_blue:
+    joints: [-1.0, 0.0882, 0.3399, 0.0468, -1.2804, -1.3249]
+    description: "Position above blue cube drop zone"
+
+修改以下配置可调整检测模块对噪声的敏感度：
+
+detection_confirmation:
+  confirm_count: 5         # Number of consecutive frames to confirm detection
+  distance_threshold: 0.01 # Max distance (m) to consider same cube across frames
+  timeout: 2.0             # Timeout (s) to forget unconfirmed detections
+
+5.2 环境准备
+在运行程序前，确保需要的环境已经设置：
+
+# 创建 conda 环境（如果需要）
+conda create -n 2d python=3.10 -y
+conda activate 2d
+conda install pip -y
+
+# 安装依赖
+pip install "numpy>=1.24,<2.0" scipy pyyaml opencv-python opencv-contrib-python jinja2 typeguard
+
+TIP
+若非明确指定，请尽量确保退出 conda 再运行程序：
+
+conda deactivate
+
+5.3 运行2D抓取模块
+5.3.1 启动必要的节点
+在不同的终端中依次启动：
+
+终端 1：启动机械臂驱动和 MoveIt
+
+gripper type 根据实际情况修改（50/100mm）
+
+ros2 launch alicia_d_moveit real_robot.launch.py gripper_type:=50mm
+
+终端 2：启动相机驱动
+
+若使用 Realsense D405 相机：
+
+ros2 launch realsense2_camera rs_launch.py \
+    enable_infra1:=true \
+    enable_infra2:=true \
+    infra_rgb:=true \
+    pointcloud.enable:=true
+
+若使用 Gemini 335 相机：
+
+ros2 launch orbbec_camera gemini_330_series.launch.py \
+    enable_left_ir:=true \
+    enable_right_ir:=true \
+    enable_point_cloud:=true \
+    enable_colored_point_cloud:=true
+
+5.3.2 运行检测模块
+终端 3：启动检测节点
+
+激活 conda 环境:
+
+conda activate 2d
+
+启动检测节点（默认适配Realsense D405）：
+
+ros2 launch alicia_d_cube_sort cube_detection.launch.py
+
+若使用 Gemini 335 相机，请添加参数：
+
+ros2 launch alicia_d_cube_sort cube_detection.launch.py \
+    camera_topic:=/camera/color/image_raw \
+    camera_info_topic:=/camera/color/camera_info
+
+请确保在抓取识别时，物体下方铺有一张完整可被相机识别的A4白纸（如图中黄色区域所示）：
+
+
+
+5.3.3 运行分拣模块
+终端 4：启动分拣节点
+
+请确保退出 conda 环境，启动分拣节点：
+
+ros2 launch alicia_d_cube_sort cube_sorting.launch.py
+
+启动后，机械臂将先运动到检测位置（HOME position），等待检测节点发送检测结果，然后抓取并分拣立方体。
+
+6. 6D抓取（眼在手上）
+alicia_d_6d_grasp 为 Alicia-D 机械臂提供完整的 6D 抓取功能，结合深度相机和抓取算法（GraspGen），实现对任意姿态物体的抓取。
+
+INFO
+本模块目前仅支持 Intel Realsense D405（推荐）和 Orbbec Gemini 335 相机。
+
+在本代码中，若使用 D405 则将支持彩色点云。使用Gemini 335 相机则暂不支持彩色点云，但不影响抓取效果。
+
+如需使用其它相机，需要自行更改相关代码。
+
+6.1 源码安装与环境准备
+CAUTION
+本小节转载并改编自官方文档 [GraspGen] [FoundationStereo] [SAM2]，可能落后于官方文档，强烈建议与官方文档对照阅读。
+
+如遇到问题，可寻求AI辅助。
+
+6.1.1 GraspGen 安装
+[GraspGen官方文档]
+
+# 环境准备
+conda create -n GraspGen python=3.10 -y && conda activate GraspGen
+pip install torch==2.1.0 torchvision==0.16.0 torch-cluster torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
+
+
+cd ~/alicia_ws/src/alicia_d_grasp_6d/Models
+
+# 克隆仓库并安装
+git clone https://github.com/NVlabs/GraspGen.git
+cd GraspGen && pip install -e .
+
+# 安装CUDA
+conda install -c "nvidia/label/cuda-12.1.0" cuda-toolkit
+
+# 安装 PointNet 依赖
+./install_pointnet.sh
+
+下载Checkpoints：
+
+cd ~/alicia_ws/src/alicia_d_grasp_6d/Models/GraspGen
+git clone https://huggingface.co/adithyamurali/GraspGenModels
+
+sudo apt update
+sudo apt install git-lfs
+git lfs install
+cd GraspGenModels
+git lfs pull
+
+NOTE
+如果您尚未安装NVDIA显卡驱动：
+
+sudo apt update
+sudo apt install nvidia-driver-535
+# 安装后必须重启电脑才能生效
+
+安装和启动 meshcat-server：
+
+conda activate GraspGen
+pip install meshcat
+meshcat-server
+
+新建终端，运行推理:
+
+conda activate GraspGen
+cd ~/alicia_ws/src/alicia_d_grasp_6d/Models/GraspGen
+python scripts/demo_object_pc.py --sample_data_dir GraspGenModels/sample_data/real_object_pc --gripper_config GraspGenModels/checkpoints/graspgen_robotiq_2f_140.yml 
+
+
+在浏览器中打开输出的链接，当 meshcat-server 中能够成功生成物体点云和抓取位姿，则该模块环境配置成功。
+
+6.1.2 FoundationStereo 安装
+[FoundationStereo官方文档]
+
+cd ~/alicia_ws/src/alicia_d_grasp_6d/Models
+
+git clone https://github.com/NVlabs/FoundationStereo.git
+
+环境准备：
+
+cd FoundationStereo
+conda env create -f environment.yml
+conda activate foundation_stereo
+conda install -c "nvidia/label/cuda-12.1.0" cuda-toolkit
+pip install flash-attn --no-build-isolation
+
+下载官方权重并保存到 FoundationStereo/pretrained_models/ 文件夹下。
+
+运行推理：
+
+cd ~/alicia_ws/src/alicia_d_grasp_6d/Models/FoundationStereo
+python scripts/run_demo.py --left_file ./assets/left.png --right_file ./assets/right.png --ckpt_dir ./pretrained_models/11-33-40/model_best_bp2.pth --out_dir ./test_outputs/
+
+
+若生成并弹出点云图，则该模块环境配置成功。
+
+6.1.3 SAM2 安装
+[SAM2官方文档]
+
+在 alicia_d_grasp_6d/Models/ 目录下：
+
+cd ~/alicia_ws/src/alicia_d_grasp_6d/Models
+conda create -n sam2 python=3.10 && conda activate sam2
+git clone https://github.com/facebookresearch/sam2.git && cd sam2
+pip install -e .
+pip install -e ".[notebooks]"
+
+打开 sam2/checkpoints/download_ckpts.sh ，将SAM 2 checkpoints的部分取消注释，可注释掉SAM 2.1 checkpoints：
+
+#!/bin/bash
+
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+# Use either wget or curl to download the checkpoints
+if command -v wget &> /dev/null; then
+    CMD="wget"
+elif command -v curl &> /dev/null; then
+    CMD="curl -L -O"
+else
+    echo "Please install wget or curl to download the checkpoints."
+    exit 1
+fi
+
+# Define the URLs for SAM 2 checkpoints
+SAM2_BASE_URL="https://dl.fbaipublicfiles.com/segment_anything_2/072824"
+sam2_hiera_t_url="${SAM2_BASE_URL}/sam2_hiera_tiny.pt"
+sam2_hiera_s_url="${SAM2_BASE_URL}/sam2_hiera_small.pt"
+sam2_hiera_b_plus_url="${SAM2_BASE_URL}/sam2_hiera_base_plus.pt"
+sam2_hiera_l_url="${SAM2_BASE_URL}/sam2_hiera_large.pt"
+
+# Download each of the four checkpoints using wget
+echo "Downloading sam2_hiera_tiny.pt checkpoint..."
+$CMD $sam2_hiera_t_url || { echo "Failed to download checkpoint from $sam2_hiera_t_url"; exit 1; }
+
+echo "Downloading sam2_hiera_small.pt checkpoint..."
+$CMD $sam2_hiera_s_url || { echo "Failed to download checkpoint from $sam2_hiera_s_url"; exit 1; }
+
+echo "Downloading sam2_hiera_base_plus.pt checkpoint..."
+$CMD $sam2_hiera_b_plus_url || { echo "Failed to download checkpoint from $sam2_hiera_b_plus_url"; exit 1; }
+
+echo "Downloading sam2_hiera_large.pt checkpoint..."
+$CMD $sam2_hiera_l_url || { echo "Failed to download checkpoint from $sam2_hiera_l_url"; exit 1; }
+
+# Define the URLs for SAM 2.1 checkpoints
+# SAM2p1_BASE_URL="https://dl.fbaipublicfiles.com/segment_anything_2/092824"
+# sam2p1_hiera_t_url="${SAM2p1_BASE_URL}/sam2.1_hiera_tiny.pt"
+# sam2p1_hiera_s_url="${SAM2p1_BASE_URL}/sam2.1_hiera_small.pt"
+# sam2p1_hiera_b_plus_url="${SAM2p1_BASE_URL}/sam2.1_hiera_base_plus.pt"
+# sam2p1_hiera_l_url="${SAM2p1_BASE_URL}/sam2.1_hiera_large.pt"
+
+# SAM 2.1 checkpoints
+# echo "Downloading sam2.1_hiera_tiny.pt checkpoint..."
+# $CMD $sam2p1_hiera_t_url || { echo "Failed to download checkpoint from $sam2p1_hiera_t_url"; exit 1; }
+
+# echo "Downloading sam2.1_hiera_small.pt checkpoint..."
+# $CMD $sam2p1_hiera_s_url || { echo "Failed to download checkpoint from $sam2p1_hiera_s_url"; exit 1; }
+
+# echo "Downloading sam2.1_hiera_base_plus.pt checkpoint..."
+# $CMD $sam2p1_hiera_b_plus_url || { echo "Failed to download checkpoint from $sam2p1_hiera_b_plus_url"; exit 1; }
+
+# echo "Downloading sam2.1_hiera_large.pt checkpoint..."
+# $CMD $sam2p1_hiera_l_url || { echo "Failed to download checkpoint from $sam2p1_hiera_l_url"; exit 1; }
+
+echo "All checkpoints are downloaded successfully."
+
+
+
+下载官方权重：
+
+cd checkpoints && \
+./download_ckpts.sh && \
+cd ..
+
+6.2 运行6D抓取模块
+操作流
+启动机械臂和相机；
+启动 ROS 桥接节点和 MeshCat 可视化服务器；
+启动抓取执行节点，等待机械臂移动到观察位置；
+启动深度估计节点（FoundationStereo）和目标分割节点（SAM2）。无顺序要求，可同时启动；
+在SAM2图像窗口选择目标物体后，启动抓取位姿生成节点（GraspGen）；
+在终端交互中选择是否执行抓取，当前的抓取的位姿将在meshcat中显示；
+机械臂执行抓取动作，完成后回到观察位置；
+（可选）在SAM2图像窗口选择新物体，然后在运行GraspGen节点的终端中按 Enter，基于新的点云和掩码生成新的抓取位姿，重复步骤6-8直至完成任务。
+6.2.1 启动机械臂和相机
+启动机械臂驱动和 MoveIt（夹爪类型根据实际情况修改）：
+
+ros2 launch alicia_d_moveit real_robot.launch.py gripper_type:=50mm
+
+若使用 Realsense D405 相机（推荐）：
+
+ros2 launch realsense2_camera rs_launch.py \
+    enable_infra1:=true \
+    enable_infra2:=true \
+    infra_rgb:=true \
+    pointcloud.enable:=true
+
+若使用 Gemini 335 相机：
+
+ros2 launch orbbec_camera gemini_330_series.launch.py \
+    enable_left_ir:=true \
+    enable_right_ir:=true \
+    enable_point_cloud:=true \
+    enable_colored_point_cloud:=true
+
+以下内容均以 Intel Realsense D405 相机为例。若使用 Orbbec Gemini 335 相机，请相应修改文件路径和文件名。
+
+6.2.2 启动 ROS 桥接节点
+# 系统 Python 环境
+python3 d405_ros_bridge.py
+
+6.2.3 启动 MeshCat 可视化服务器
+# graspgen 环境
+conda activate GraspGen
+meshcat-server
+
+请在浏览器中打开输出链接。
+
+6.2.4 启动抓取执行节点
+# 系统 Python 环境（退出conda）
+python3 d405_execution.py
+
+该节点负责监听抓取位姿话题，并调用 MoveIt 执行抓取动作。
+
+启动该节点后，机械臂会张开夹爪，并移动到预设的观察位置，等待抓取位姿。当GraspGen节点生成抓取位姿后，当前抓取位姿会在 MeshCat 中红色高亮显示，终端会提示用户是否执行当前抓取。
+
+交互操作:
+
+y：执行当前抓取
+n：跳过，查看下一个
+q：退出
+INFO
+在待选的抓取位姿中，具有以下特征的抓取位姿将被优先处理：
+
+抓取方向接近竖直向下
+较高的 confidence （由 GraspGen 评估的分数）
+较短的关节路径距离（基于当前机械臂位姿计算）
+故靠前的抓取位姿通常具有较高的质量和IK求解成功率。如发现靠前的大量位姿IK求解失败，可尝试调整 d405_execution.py 中的抓取相关参数：
+
+GRIPPER_DEPTH：夹爪深度
+PRE_GRASP_DISTANCE：预抓取距离
+min_z：抓取位姿 z 轴最小值，低于该值的位姿将被提前过滤
+TIP
+请等待机械臂移动到观察位置后，再启动后续节点。
+
+6.2.5 启动深度估计节点（FoundationStereo）
+# foundation_stereo 环境
+conda activate foundation_stereo
+python d405_foundationstereo.py --visualize
+
+参数:
+
+--visualize: 显示深度图（仅在第一次推理后显示，按q退出）
+--ckpt_dir: 模型权重路径
+--scale: 图像缩放比例
+--z_far: 最大深度
+--denoise_cloud: 启用点云去噪（默认开启）
+该节点推理过程可能较长，需稍作等待。显示深度图后，按 q 退出图片，方可发布点云话题。
+
+
+6.2.6 启动目标分割节点（SAM2）
+# SAM2 环境
+conda activate sam2
+python d405_sam2.py
+
+启动该节点后，会弹出一个窗口，实时显示彩色图像。用户可以通过鼠标点击图像来添加正样本点（目标区域）和负样本点（背景区域），以引导SAM2模型生成目标物体的掩码。
+
+参数:
+
+--model: 模型大小 [tiny/small/base/large]（默认 large）
+--bridge_port: ZeroMQ 端口
+交互操作:
+
+左键点击：添加正样本点（目标区域）
+右键点击：添加负样本点（背景区域）
+r 键：重置
+q：退出
+
+
+6.2.7 启动抓取位姿生成节点（GraspGen）
+# GraspGen 环境
+conda activate GraspGen
+python d405_graspgen.py
+
+该节点订阅点云和掩码话题，使用 GraspGen 模型生成抓取位姿，并发布到抓取执行节点。您可以在 meshcat-server 界面中查看生成的抓取位姿，当前的抓取位姿会以红色高亮显示。您可以在运行抓取执行节点的终端中选择是否执行当前抓取。
+
+当机械臂完成抓取并回到观察位置后，可在SAM2窗口中选择新的目标物体，然后在GraspGen终端中按 Enter，此时GraspGen将基于新的点云和掩码生成新的抓取位姿。
+
+参数:
+
+--gripper_config: 夹爪配置文件
+--grasp_threshold: 置信度阈值（默认 0.8）
+--num_grasps: 生成抓取数量（默认 200）
+--topk_num_grasps: 返回 top-k 抓取（默认 100）
