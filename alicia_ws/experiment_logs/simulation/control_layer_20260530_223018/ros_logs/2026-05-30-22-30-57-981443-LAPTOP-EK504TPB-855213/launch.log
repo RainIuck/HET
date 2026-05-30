@@ -1,0 +1,5 @@
+1780151457.9849360 [INFO] [launch]: All log files can be found below /home/Projects/HET/alicia_ws/experiment_logs/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213
+1780151457.9853680 [INFO] [launch]: Default logging verbosity is set to INFO
+1780151458.1018808 [INFO] [mock_decision_server.py-1]: process started with pid [855256]
+1780151458.1025310 [INFO] [thinkgrasp_mock_pick.py-2]: process started with pid [855259]
+1780151470.8505466 [INFO] [thinkgrasp_mock_pick.py-2]: process has finished cleanly [pid 855259]

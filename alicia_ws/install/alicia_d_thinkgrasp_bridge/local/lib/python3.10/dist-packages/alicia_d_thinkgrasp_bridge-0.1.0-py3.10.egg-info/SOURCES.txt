@@ -1,6 +1,0 @@
-setup.py
-alicia_d_thinkgrasp_bridge/__init__.py
-alicia_d_thinkgrasp_bridge.egg-info/PKG-INFO
-alicia_d_thinkgrasp_bridge.egg-info/SOURCES.txt
-alicia_d_thinkgrasp_bridge.egg-info/dependency_links.txt
-alicia_d_thinkgrasp_bridge.egg-info/top_level.txt

@@ -1,0 +1,45 @@
+[WARN] [1780151420.460874381] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1780151420.462243300] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1780151420.465707259] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1780151420.466309945] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1780151420.466569974] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1780151420.466855413] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1780151420.466911424] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1780151420.466923401] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1780151420.492060404] [controller_manager]: update rate is 200 Hz
+[INFO] [1780151420.492207658] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[INFO] [1780151420.492809523] [controller_manager]: Successful set up FIFO RT scheduling policy with priority 50.
+[INFO] [1780151424.372814056] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1780151424.444381822] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1780151424.444905171] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1780151426.997999745] [controller_manager]: Loading controller 'Alicia_controller'
+[WARN] [1780151427.051993145] [Alicia_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1780151427.058823342] [controller_manager]: Configuring controller 'Alicia_controller'
+[INFO] [1780151427.059191926] [Alicia_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1780151427.059240619] [Alicia_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1780151427.059311448] [Alicia_controller]: Using 'splines' interpolation method.
+[INFO] [1780151427.061517888] [Alicia_controller]: Controller state will be published at 200.00 Hz.
+[INFO] [1780151427.067294216] [Alicia_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1780151427.799011706] [controller_manager]: Loading controller 'Gripper_controller'
+[WARN] [1780151427.822130434] [Gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1780151427.857906824] [controller_manager]: Configuring controller 'Gripper_controller'
+[INFO] [1780151427.858185206] [Gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1780151427.858279009] [Gripper_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1780151427.858324935] [Gripper_controller]: Using 'splines' interpolation method.
+[INFO] [1780151427.859689052] [Gripper_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1780151427.863657172] [Gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1780151461.042039497] [Alicia_controller]: Received new action goal
+[INFO] [1780151461.042292599] [Alicia_controller]: Accepted new action goal
+[INFO] [1780151465.268213436] [Alicia_controller]: Goal reached, success!
+[INFO] [1780151465.316284614] [Gripper_controller]: Received new action goal
+[INFO] [1780151465.316608773] [Gripper_controller]: Accepted new action goal
+[INFO] [1780151466.818305283] [Gripper_controller]: Goal reached, success!
+[INFO] [1780151466.904965418] [Alicia_controller]: Received new action goal
+[INFO] [1780151466.905047007] [Alicia_controller]: Accepted new action goal
+[INFO] [1780151467.913276166] [Alicia_controller]: Goal reached, success!
+[INFO] [1780151467.974169529] [Gripper_controller]: Received new action goal
+[INFO] [1780151467.974332338] [Gripper_controller]: Accepted new action goal
+[INFO] [1780151469.483250207] [Gripper_controller]: Goal reached, success!
+[INFO] [1780151469.570054400] [Alicia_controller]: Received new action goal
+[INFO] [1780151469.570136017] [Alicia_controller]: Accepted new action goal
+[INFO] [1780151470.563226133] [Alicia_controller]: Goal reached, success!

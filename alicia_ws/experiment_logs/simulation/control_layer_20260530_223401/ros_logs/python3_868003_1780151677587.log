@@ -1,0 +1,24 @@
+[INFO] [1780151678.264474470] [thinkgrasp_mock_pick]: Waiting for MoveIt and gripper interfaces...
+[INFO] [1780151678.767218909] [thinkgrasp_mock_pick]: MoveIt and gripper interfaces are ready
+[INFO] [1780151678.777709647] [thinkgrasp_mock_pick]: Decision response: {'xyz': [0.15, 0.1, 0.1], 'rot': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, -1.0]], 'dep': 0.04}
+[INFO] [1780151678.779104115] [thinkgrasp_mock_pick]: Using grasp pose in base_link: xyz=[0.15, 0.1, 0.1], decision_quat=[1.0, 0.0, 0.0, 0.0], dep=0.04
+[INFO] [1780151678.780097271] [thinkgrasp_mock_pick]: Testing orientation candidate 1: [-1.0, 0.0, 0.0, 0.0]
+[INFO] [1780151678.814840849] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[INFO] [1780151678.823473861] [thinkgrasp_mock_pick]: IK solution: [-2.5893, 0.042, 0.1364, -0.0475, -1.0719, 2.6135]
+[INFO] [1780151678.844370653] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[INFO] [1780151678.845278325] [thinkgrasp_mock_pick]: Selected orientation candidate 1: [-1.0, 0.0, 0.0, 0.0]
+[INFO] [1780151678.846095393] [thinkgrasp_mock_pick]: Moving to pre_grasp: pos=[0.15, 0.1, 0.15], quat=[-1.0, 0.0, 0.0, 0.0]
+[INFO] [1780151678.906493360] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[INFO] [1780151678.955640892] [thinkgrasp_mock_pick]: Motion planning succeeded with 44 waypoints
+[INFO] [1780151683.236333688] [thinkgrasp_mock_pick]: Trajectory execution succeeded
+[INFO] [1780151684.791608583] [thinkgrasp_mock_pick]: Gripper moved to 0.0000
+[INFO] [1780151684.792666150] [thinkgrasp_mock_pick]: Moving to grasp: pos=[0.15, 0.1, 0.1], quat=[-1.0, 0.0, 0.0, 0.0]
+[INFO] [1780151684.797614812] [thinkgrasp_mock_pick]: IK solution: [-2.5893, 0.042, 0.1364, -0.0475, -1.0719, 2.6135]
+[INFO] [1780151684.826631589] [thinkgrasp_mock_pick]: Motion planning succeeded with 12 waypoints
+[INFO] [1780151685.900146598] [thinkgrasp_mock_pick]: Trajectory execution succeeded
+[INFO] [1780151687.455846841] [thinkgrasp_mock_pick]: Gripper moved to 0.0200
+[INFO] [1780151687.457041804] [thinkgrasp_mock_pick]: Moving to lift: pos=[0.15, 0.1, 0.15], quat=[-1.0, 0.0, 0.0, 0.0]
+[INFO] [1780151687.461347599] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[INFO] [1780151687.491772486] [thinkgrasp_mock_pick]: Motion planning succeeded with 12 waypoints
+[INFO] [1780151688.565682592] [thinkgrasp_mock_pick]: Trajectory execution succeeded
+[INFO] [1780151688.567070700] [thinkgrasp_mock_pick]: Mock ThinkGrasp pick sequence finished

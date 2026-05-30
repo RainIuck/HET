@@ -1,0 +1,219 @@
+[INFO] [launch]: All log files can be found below /home/Projects/HET/alicia_ws/experiment_logs/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800
+[INFO] [launch]: Default logging verbosity is set to INFO
+[1;32m[INFO] Using RViz config: /home/Projects/HET/alicia_ws/src/alicia_d_moveit/config/demo.rviz[0m
+[INFO] [robot_state_publisher-1]: process started with pid [865876]
+[INFO] [ros2_control_node-2]: process started with pid [865878]
+[INFO] [spawner-3]: process started with pid [865881]
+[INFO] [rviz2-4]: process started with pid [865883]
+[ros2_control_node-2] [WARN] [1780151642.736469233] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[ros2_control_node-2] [INFO] [1780151642.737463950] [resource_manager]: Loading hardware 'FakeSystem' 
+[ros2_control_node-2] [INFO] [1780151642.738517343] [resource_manager]: Initialize hardware 'FakeSystem' 
+[ros2_control_node-2] [INFO] [1780151642.738904642] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[ros2_control_node-2] [INFO] [1780151642.739200662] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[ros2_control_node-2] [INFO] [1780151642.739246260] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[ros2_control_node-2] [INFO] [1780151642.739267190] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[ros2_control_node-2] [INFO] [1780151642.739281609] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[ros2_control_node-2] [INFO] [1780151642.770351230] [controller_manager]: update rate is 200 Hz
+[ros2_control_node-2] [INFO] [1780151642.770495553] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[ros2_control_node-2] [INFO] [1780151642.771204527] [controller_manager]: Successful set up FIFO RT scheduling policy with priority 50.
+[robot_state_publisher-1] [WARN] [1780151642.827884397] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-1] [INFO] [1780151642.828122564] [robot_state_publisher]: got segment Link1
+[robot_state_publisher-1] [INFO] [1780151642.828271448] [robot_state_publisher]: got segment Link2
+[robot_state_publisher-1] [INFO] [1780151642.828298567] [robot_state_publisher]: got segment Link3
+[robot_state_publisher-1] [INFO] [1780151642.828310447] [robot_state_publisher]: got segment Link4
+[robot_state_publisher-1] [INFO] [1780151642.828321392] [robot_state_publisher]: got segment Link5
+[robot_state_publisher-1] [INFO] [1780151642.828333076] [robot_state_publisher]: got segment Link6
+[robot_state_publisher-1] [INFO] [1780151642.828345169] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1780151642.828356827] [robot_state_publisher]: got segment gripper_center
+[robot_state_publisher-1] [INFO] [1780151642.828368821] [robot_state_publisher]: got segment left_gripper
+[robot_state_publisher-1] [INFO] [1780151642.828379845] [robot_state_publisher]: got segment right_gripper
+[ros2_control_node-2] [INFO] [1780151643.244845992] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-3] [INFO] [1780151643.306545291] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[ros2_control_node-2] [INFO] [1780151643.310501701] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[ros2_control_node-2] [INFO] [1780151643.310940591] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-3] [INFO] [1780151643.333197627] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[INFO] [spawner-3]: process has finished cleanly [pid 865881]
+[INFO] [spawner-5]: process started with pid [866010]
+[ros2_control_node-2] [INFO] [1780151644.349442061] [controller_manager]: Loading controller 'Alicia_controller'
+[ros2_control_node-2] [WARN] [1780151644.387043929] [Alicia_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-5] [INFO] [1780151644.427667789] [spawner_Alicia_controller]: [94mLoaded [1mAlicia_controller[0m
+[ros2_control_node-2] [INFO] [1780151644.430888288] [controller_manager]: Configuring controller 'Alicia_controller'
+[ros2_control_node-2] [INFO] [1780151644.431223582] [Alicia_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ros2_control_node-2] [INFO] [1780151644.431257878] [Alicia_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[ros2_control_node-2] [INFO] [1780151644.431288382] [Alicia_controller]: Using 'splines' interpolation method.
+[ros2_control_node-2] [INFO] [1780151644.433299654] [Alicia_controller]: Controller state will be published at 200.00 Hz.
+[ros2_control_node-2] [INFO] [1780151644.437236188] [Alicia_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-5] [INFO] [1780151644.469186797] [spawner_Alicia_controller]: [92mConfigured and activated [1mAlicia_controller[0m
+[INFO] [spawner-5]: process has finished cleanly [pid 866010]
+[INFO] [spawner-6]: process started with pid [866104]
+[spawner-6] [INFO] [1780151645.244606161] [spawner_Gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[ros2_control_node-2] [INFO] [1780151646.506797046] [controller_manager]: Loading controller 'Gripper_controller'
+[ros2_control_node-2] [WARN] [1780151646.553724754] [Gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-6] [INFO] [1780151646.558847887] [spawner_Gripper_controller]: [94mLoaded [1mGripper_controller[0m
+[ros2_control_node-2] [INFO] [1780151646.563032201] [controller_manager]: Configuring controller 'Gripper_controller'
+[ros2_control_node-2] [INFO] [1780151646.563268287] [Gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ros2_control_node-2] [INFO] [1780151646.563329978] [Gripper_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[ros2_control_node-2] [INFO] [1780151646.563348011] [Gripper_controller]: Using 'splines' interpolation method.
+[ros2_control_node-2] [INFO] [1780151646.565204801] [Gripper_controller]: Controller state will be published at 50.00 Hz.
+[ros2_control_node-2] [INFO] [1780151646.570048176] [Gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-6] [INFO] [1780151646.598470307] [spawner_Gripper_controller]: [92mConfigured and activated [1mGripper_controller[0m
+[INFO] [spawner-6]: process has finished cleanly [pid 866104]
+[INFO] [move_group-7]: process started with pid [866256]
+[move_group-7] [INFO] [1780151647.144684895] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0733922 seconds
+[move_group-7] [INFO] [1780151647.144898601] [moveit_robot_model.robot_model]: Loading robot model 'Alicia_D_v5_6_gripper_50mm'...
+[move_group-7] [INFO] [1780151647.145003591] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[rviz2-4] [INFO] [1780151647.309891554] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-4] [INFO] [1780151647.310470314] [rviz2]: OpenGl version: 4.1 (GLSL 4.1)
+[rviz2-4] [INFO] [1780151647.958742657] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-4] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+[rviz2-4]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+[move_group-7] [WARN] [1780151648.735177425] [moveit_robot_model.robot_model]: Link gripper_center has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[move_group-7] [WARN] [1780151648.752570659] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[move_group-7] [WARN] [1780151648.752890605] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-4] [ERROR] [1780151651.235978229] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[rviz2-4] [INFO] [1780151651.327054221] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[rviz2-4] [INFO] [1780151651.848699164] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0621108 seconds
+[rviz2-4] [INFO] [1780151651.848837055] [moveit_robot_model.robot_model]: Loading robot model 'Alicia_D_v5_6_gripper_50mm'...
+[rviz2-4] [INFO] [1780151651.848860264] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-7] [INFO] [1780151653.149143218] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-7] [INFO] [1780151653.149805517] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-7] [INFO] [1780151653.152351608] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-7] [INFO] [1780151653.153914789] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-7] [INFO] [1780151653.154272041] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-7] [INFO] [1780151653.156213337] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-7] [INFO] [1780151653.156341721] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-7] [INFO] [1780151653.158241359] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-7] [INFO] [1780151653.160188841] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-7] [WARN] [1780151653.160900429] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-7] [ERROR] [1780151653.160952870] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[rviz2-4] [WARN] [1780151653.657692893] [moveit_robot_model.robot_model]: Link gripper_center has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[rviz2-4] [WARN] [1780151653.690883598] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-4] [WARN] [1780151653.691432220] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-4] [INFO] [1780151658.266317619] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[rviz2-4] [INFO] [1780151658.268101166] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[move_group-7] [INFO] [1780151665.491805103] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-7] [INFO] [1780151665.516285752] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-7] [INFO] [1780151665.520364944] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-7] [INFO] [1780151665.520475381] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-7] [INFO] [1780151665.520485986] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-7] [INFO] [1780151665.520527372] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-7] [INFO] [1780151665.520554929] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-7] [INFO] [1780151665.520564426] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-7] [INFO] [1780151665.520583206] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-7] [INFO] [1780151665.520591654] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-7] [INFO] [1780151665.520600415] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-7] [INFO] [1780151665.520737246] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-7] [INFO] [1780151665.520755278] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-7] [INFO] [1780151665.520761498] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-7] [INFO] [1780151665.520767164] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-7] [INFO] [1780151665.520772390] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-7] [INFO] [1780151665.520777563] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-7] [INFO] [1780151665.668540220] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for Alicia_controller
+[move_group-7] [INFO] [1780151665.675923154] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for Gripper_controller
+[move_group-7] [INFO] [1780151665.676428305] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151665.676482350] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151665.677816570] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-7] [INFO] [1780151665.677864008] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-7] [INFO] [1780151665.733891093] [move_group.move_group]: 
+[move_group-7] 
+[move_group-7] ********************************************************
+[move_group-7] * MoveGroup using: 
+[move_group-7] *     - ApplyPlanningSceneService
+[move_group-7] *     - ClearOctomapService
+[move_group-7] *     - CartesianPathService
+[move_group-7] *     - ExecuteTrajectoryAction
+[move_group-7] *     - GetPlanningSceneService
+[move_group-7] *     - KinematicsService
+[move_group-7] *     - MoveAction
+[move_group-7] *     - MotionPlanService
+[move_group-7] *     - QueryPlannersService
+[move_group-7] *     - StateValidationService
+[move_group-7] ********************************************************
+[move_group-7] 
+[move_group-7] [INFO] [1780151665.734019670] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-7] [INFO] [1780151665.734037624] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-7] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-7] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-7] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-7] [0m[92m
+[move_group-7] You can start planning now!
+[move_group-7] 
+[rviz2-4] [INFO] [1780151666.831503774] [interactive_marker_display_102118006236112]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[rviz2-4] [WARN] [1780151666.880509895] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-4] [WARN] [1780151666.880810392] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-4] [INFO] [1780151666.892918084] [moveit_ros_visualization.motion_planning_frame]: group Alicia
+[rviz2-4] [INFO] [1780151666.893026121] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'Alicia' in namespace ''
+[rviz2-4] [INFO] [1780151666.941261450] [move_group_interface]: Ready to take commands for planning group Alicia.
+[rviz2-4] [INFO] [1780151667.053357508] [interactive_marker_display_102118006236112]: Sending request for interactive markers
+[rviz2-4] [INFO] [1780151667.116419181] [interactive_marker_display_102118006236112]: Service response received for initialization
+[move_group-7] [INFO] [1780151678.908952403] [moveit_move_group_default_capabilities.plan_service_capability]: Received new planning service request...
+[move_group-7] [INFO] [1780151678.916868649] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'Alicia' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [WARN] [1780151678.938245849] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[move_group-7] [INFO] [1780151678.958790878] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-7] [INFO] [1780151678.959774176] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-7] [INFO] [1780151678.959993414] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151678.960048444] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151678.960666484] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1780151678.963120080] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1780151678.963441157] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151678.963502845] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151678.964063229] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to Alicia_controller
+[ros2_control_node-2] [INFO] [1780151678.965703936] [Alicia_controller]: Received new action goal
+[ros2_control_node-2] [INFO] [1780151678.966133016] [Alicia_controller]: Accepted new action goal
+[move_group-7] [INFO] [1780151678.966881286] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Alicia_controller started execution
+[move_group-7] [INFO] [1780151678.966953993] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[ros2_control_node-2] [INFO] [1780151683.196771520] [Alicia_controller]: Goal reached, success!
+[move_group-7] [INFO] [1780151683.218291757] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'Alicia_controller' successfully finished
+[move_group-7] [INFO] [1780151683.232441662] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1780151683.232752255] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[ros2_control_node-2] [INFO] [1780151683.238191816] [Gripper_controller]: Received new action goal
+[ros2_control_node-2] [INFO] [1780151683.238387701] [Gripper_controller]: Accepted new action goal
+[ros2_control_node-2] [INFO] [1780151684.746859887] [Gripper_controller]: Goal reached, success!
+[move_group-7] [INFO] [1780151684.799294835] [moveit_move_group_default_capabilities.plan_service_capability]: Received new planning service request...
+[move_group-7] [INFO] [1780151684.803386146] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'Alicia' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1780151684.828208037] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-7] [INFO] [1780151684.828584250] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-7] [INFO] [1780151684.828636807] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151684.828658560] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151684.828855148] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1780151684.832660188] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1780151684.832836155] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151684.832881398] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151684.833151189] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to Alicia_controller
+[ros2_control_node-2] [INFO] [1780151684.833888755] [Alicia_controller]: Received new action goal
+[ros2_control_node-2] [INFO] [1780151684.834020169] [Alicia_controller]: Accepted new action goal
+[move_group-7] [INFO] [1780151684.834553350] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Alicia_controller started execution
+[move_group-7] [INFO] [1780151684.834601352] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[ros2_control_node-2] [INFO] [1780151685.856979106] [Alicia_controller]: Goal reached, success!
+[move_group-7] [INFO] [1780151685.885500875] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'Alicia_controller' successfully finished
+[move_group-7] [INFO] [1780151685.897624004] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1780151685.898005249] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[ros2_control_node-2] [INFO] [1780151685.902019643] [Gripper_controller]: Received new action goal
+[ros2_control_node-2] [INFO] [1780151685.902194641] [Gripper_controller]: Accepted new action goal
+[ros2_control_node-2] [INFO] [1780151687.412068883] [Gripper_controller]: Goal reached, success!
+[move_group-7] [INFO] [1780151687.462704605] [moveit_move_group_default_capabilities.plan_service_capability]: Received new planning service request...
+[move_group-7] [INFO] [1780151687.469095070] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'Alicia' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-7] [INFO] [1780151687.493032296] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-7] [INFO] [1780151687.493369746] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-7] [INFO] [1780151687.493412330] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151687.493433671] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151687.493532353] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-7] [INFO] [1780151687.497619848] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-7] [INFO] [1780151687.497822733] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151687.497897553] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-7] [INFO] [1780151687.498139548] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to Alicia_controller
+[ros2_control_node-2] [INFO] [1780151687.499025298] [Alicia_controller]: Received new action goal
+[ros2_control_node-2] [INFO] [1780151687.499115006] [Alicia_controller]: Accepted new action goal
+[move_group-7] [INFO] [1780151687.499663192] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Alicia_controller started execution
+[move_group-7] [INFO] [1780151687.499696650] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[ros2_control_node-2] [INFO] [1780151688.541879035] [Alicia_controller]: Goal reached, success!
+[move_group-7] [INFO] [1780151688.550393644] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'Alicia_controller' successfully finished
+[move_group-7] [INFO] [1780151688.562516074] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-7] [INFO] [1780151688.562792483] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED

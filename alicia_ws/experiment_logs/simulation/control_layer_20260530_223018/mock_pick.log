@@ -1,0 +1,31 @@
+[INFO] [launch]: All log files can be found below /home/Projects/HET/alicia_ws/experiment_logs/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [mock_decision_server.py-1]: process started with pid [855256]
+[INFO] [thinkgrasp_mock_pick.py-2]: process started with pid [855259]
+[mock_decision_server.py-1] [INFO] [1780151458.627646167] [mock_decision_server]: Mock ThinkGrasp server listening on http://127.0.0.1:5000/grasp_pose
+[mock_decision_server.py-1] [INFO] [1780151458.629438984] [mock_decision_server]: Response payload: {'xyz': [0.15, 0.1, 0.1], 'rot': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, -1.0]], 'dep': 0.04}
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.212742280] [thinkgrasp_mock_pick]: Waiting for MoveIt and gripper interfaces...
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.715596299] [thinkgrasp_mock_pick]: MoveIt and gripper interfaces are ready
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.728271903] [thinkgrasp_mock_pick]: Decision response: {'xyz': [0.15, 0.1, 0.1], 'rot': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, -1.0]], 'dep': 0.04}
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.730994062] [thinkgrasp_mock_pick]: Using grasp pose in base_link: xyz=[0.15, 0.1, 0.1], decision_quat=[1.0, 0.0, 0.0, 0.0], dep=0.04
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.733103709] [thinkgrasp_mock_pick]: Testing orientation candidate 1: [-1.0, 0.0, 0.0, 0.0]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.798887430] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.812596310] [thinkgrasp_mock_pick]: IK solution: [-2.5893, 0.042, 0.1364, -0.0475, -1.0719, 2.6135]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.947020587] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.948040379] [thinkgrasp_mock_pick]: Selected orientation candidate 1: [-1.0, 0.0, 0.0, 0.0]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.949034674] [thinkgrasp_mock_pick]: Moving to pre_grasp: pos=[0.15, 0.1, 0.15], quat=[-1.0, 0.0, 0.0, 0.0]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151460.966786786] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151461.032869389] [thinkgrasp_mock_pick]: Motion planning succeeded with 44 waypoints
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151465.312765108] [thinkgrasp_mock_pick]: Trajectory execution succeeded
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151466.870009437] [thinkgrasp_mock_pick]: Gripper moved to 0.0000
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151466.870955579] [thinkgrasp_mock_pick]: Moving to grasp: pos=[0.15, 0.1, 0.1], quat=[-1.0, 0.0, 0.0, 0.0]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151466.875062906] [thinkgrasp_mock_pick]: IK solution: [-2.5893, 0.042, 0.1364, -0.0475, -1.0719, 2.6135]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151466.899965794] [thinkgrasp_mock_pick]: Motion planning succeeded with 12 waypoints
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151467.972486903] [thinkgrasp_mock_pick]: Trajectory execution succeeded
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151469.527101303] [thinkgrasp_mock_pick]: Gripper moved to 0.0200
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151469.527864933] [thinkgrasp_mock_pick]: Moving to lift: pos=[0.15, 0.1, 0.15], quat=[-1.0, 0.0, 0.0, 0.0]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151469.531837751] [thinkgrasp_mock_pick]: IK solution: [-2.6003, 0.1353, 0.2968, -0.0422, -1.3257, 2.612]
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151469.561612121] [thinkgrasp_mock_pick]: Motion planning succeeded with 11 waypoints
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151470.586254296] [thinkgrasp_mock_pick]: Trajectory execution succeeded
+[thinkgrasp_mock_pick.py-2] [INFO] [1780151470.587119036] [thinkgrasp_mock_pick]: Mock ThinkGrasp pick sequence finished
+[INFO] [thinkgrasp_mock_pick.py-2]: process has finished cleanly [pid 855259]

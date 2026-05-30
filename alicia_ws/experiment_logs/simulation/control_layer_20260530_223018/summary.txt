@@ -1,0 +1,11 @@
+[2026-05-30 22:30:18] Experiment directory: /home/Projects/HET/alicia_ws/experiment_logs/control_layer_20260530_223018
+[2026-05-30 22:30:18] Starting MoveIt demo launch
+[2026-05-30 22:30:48] Service ready: /compute_ik
+[2026-05-30 22:30:49] Service ready: /plan_kinematic_path
+[2026-05-30 22:30:49] Recording /joint_states
+[2026-05-30 22:30:49] Writing snapshot: before_mock_pick
+[2026-05-30 22:30:57] Running mock ThinkGrasp pick with execute_motion=true
+[2026-05-30 22:32:27] Writing snapshot: after_mock_pick
+[2026-05-30 22:32:32] Mock pick launch exited with code 124
+[2026-05-30 22:32:32] Done
+[2026-05-30 22:32:32] Cleaning up background ROS processes

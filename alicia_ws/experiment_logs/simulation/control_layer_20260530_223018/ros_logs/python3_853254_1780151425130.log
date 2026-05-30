@@ -1,0 +1,3 @@
+[INFO] [1780151425.239109703] [spawner_Alicia_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [1780151427.055214380] [spawner_Alicia_controller]: [94mLoaded [1mAlicia_controller[0m
+[INFO] [1780151427.095169144] [spawner_Alicia_controller]: [92mConfigured and activated [1mAlicia_controller[0m
