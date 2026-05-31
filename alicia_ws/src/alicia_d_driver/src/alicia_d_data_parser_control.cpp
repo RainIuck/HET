@@ -151,8 +151,10 @@ void AliciaDDataParserControl::parse_joint_data(const std::vector<uint8_t>& fram
         std::lock_guard<std::mutex> lock(state_mutex_);
         joint_state_ = JointState{
             joint_values,
+            joint_raw_values,
             gripper_value,
             timestamp,
+            run_status,
             run_status_text
         };
         info_received_flags_["joint"] = true;

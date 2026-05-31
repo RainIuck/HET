@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ba090e66c053b0b26de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alicia_d_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_data_parser_control_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_data_parser_control_lib-9b8111c29ee5d703c918.json",
+					"name" : "alicia_d_data_parser_control_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_driver_node-e76f4148b83ae5138f9f.json",
+					"name" : "alicia_d_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_driver_uninstall-350a2baeba3e7db79188.json",
+					"name" : "alicia_d_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_hardware_interface-a467c2a5ca6205c829d6.json",
+					"name" : "alicia_d_hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_communicator_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_communicator_lib-190aeead95dfe7e61441.json",
+					"name" : "serial_communicator_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-073fbba8488d9d0c096a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Projects/HET/alicia_ws/build/alicia_d_driver",
+		"source" : "/home/Projects/HET/alicia_ws/src/alicia_d_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

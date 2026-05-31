@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-71aa7311baaaa5093d70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alicia_d_cube_sort",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_cube_sort_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_cube_sort_uninstall-b1f6fb5c8001a3af185a.json",
+					"name" : "alicia_d_cube_sort_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_alicia_d_cube_sort_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_alicia_d_cube_sort_egg-0dafa8dd9afb09c9137b.json",
+					"name" : "ament_cmake_python_build_alicia_d_cube_sort_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_alicia_d_cube_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_alicia_d_cube_sort-33a42c8ceaca777f3556.json",
+					"name" : "ament_cmake_python_copy_alicia_d_cube_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dbb4c2f76bf47f85a8ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Projects/HET/alicia_ws/build/alicia_d_cube_sort",
+		"source" : "/home/Projects/HET/alicia_ws/src/alicia_d_cube_sort"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

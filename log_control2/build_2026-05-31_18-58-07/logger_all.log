@@ -1,0 +1,629 @@
+[2.184s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', 'log_control2', 'build', '--packages-select', 'alicia_d_driver', 'alicia_d_moveit', '--build-base', 'build_control2', '--install-base', 'install_control2']
+[2.184s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='log_control2', log_level=None, verb_name='build', build_base='/home/Projects/HET/build_control2', install_base='/home/Projects/HET/install_control2', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['alicia_d_driver', 'alicia_d_moveit'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72830c61bc70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72830c61b760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72830c61b760>>)
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.560s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/Projects/HET'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extensions ['ignore', 'ignore_ament_install']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'ignore'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'ignore_ament_install'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extensions ['colcon_pkg']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'colcon_pkg'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extensions ['colcon_meta']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'colcon_meta'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extensions ['ros']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'ros'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extensions ['cmake', 'python']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'cmake'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'python'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extensions ['python_setup_py']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(ThinkGrasp-main) by extension 'python_setup_py'
+[3.344s] DEBUG:colcon.colcon_core.package_identification:Package 'ThinkGrasp-main' with type 'python' and name 'ThinkGrasp'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extensions ['ignore', 'ignore_ament_install']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'ignore'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'ignore_ament_install'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extensions ['colcon_pkg']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'colcon_pkg'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extensions ['colcon_meta']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'colcon_meta'
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extensions ['ros']
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'ros'
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extensions ['cmake', 'python']
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'cmake'
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'python'
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extensions ['python_setup_py']
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws) by extension 'python_setup_py'
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/build_control2) by extensions ['ignore', 'ignore_ament_install']
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/build_control2) by extension 'ignore'
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/build_control2) ignored
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extensions ['ignore', 'ignore_ament_install']
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'ignore'
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'ignore_ament_install'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extensions ['colcon_pkg']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'colcon_pkg'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extensions ['colcon_meta']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'colcon_meta'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extensions ['ros']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'ros'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extensions ['cmake', 'python']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'cmake'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'python'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extensions ['python_setup_py']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs) by extension 'python_setup_py'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'ignore'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'ignore_ament_install'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extensions ['colcon_pkg']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'colcon_pkg'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extensions ['colcon_meta']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'colcon_meta'
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extensions ['ros']
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'ros'
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extensions ['cmake', 'python']
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'cmake'
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'python'
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extensions ['python_setup_py']
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics) by extension 'python_setup_py'
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extensions ['ignore', 'ignore_ament_install']
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'ignore'
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'ignore_ament_install'
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extensions ['colcon_pkg']
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'colcon_pkg'
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extensions ['colcon_meta']
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'colcon_meta'
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extensions ['ros']
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'ros'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extensions ['cmake', 'python']
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'cmake'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'python'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extensions ['python_setup_py']
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550) by extension 'python_setup_py'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extensions ['ignore', 'ignore_ament_install']
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'ignore'
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'ignore_ament_install'
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extensions ['colcon_pkg']
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'colcon_pkg'
+[3.354s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extensions ['colcon_meta']
+[3.354s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'colcon_meta'
+[3.354s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extensions ['ros']
+[3.354s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'ros'
+[3.354s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extensions ['cmake', 'python']
+[3.354s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'cmake'
+[3.354s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'python'
+[3.355s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extensions ['python_setup_py']
+[3.355s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949) by extension 'python_setup_py'
+[3.355s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extensions ['ignore', 'ignore_ament_install']
+[3.355s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'ignore'
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'ignore_ament_install'
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extensions ['colcon_pkg']
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'colcon_pkg'
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extensions ['colcon_meta']
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'colcon_meta'
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extensions ['ros']
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'ros'
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extensions ['cmake', 'python']
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'cmake'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'python'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extensions ['python_setup_py']
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation) by extension 'python_setup_py'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extensions ['ignore', 'ignore_ament_install']
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'ignore'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'ignore_ament_install'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extensions ['colcon_pkg']
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'colcon_pkg'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extensions ['colcon_meta']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'colcon_meta'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extensions ['ros']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'ros'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extensions ['cmake', 'python']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'cmake'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'python'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extensions ['python_setup_py']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950) by extension 'python_setup_py'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extensions ['ignore', 'ignore_ament_install']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'ignore'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'ignore_ament_install'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extensions ['colcon_pkg']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'colcon_pkg'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extensions ['colcon_meta']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'colcon_meta'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extensions ['ros']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'ros'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extensions ['cmake', 'python']
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'cmake'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'python'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extensions ['python_setup_py']
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_222950/ros_logs) by extension 'python_setup_py'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extensions ['ignore', 'ignore_ament_install']
+[3.361s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'ignore'
+[3.362s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'ignore_ament_install'
+[3.362s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extensions ['colcon_pkg']
+[3.362s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'colcon_pkg'
+[3.362s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extensions ['colcon_meta']
+[3.362s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'colcon_meta'
+[3.362s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extensions ['ros']
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'ros'
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extensions ['cmake', 'python']
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'cmake'
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'python'
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extensions ['python_setup_py']
+[3.363s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018) by extension 'python_setup_py'
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extensions ['ignore', 'ignore_ament_install']
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'ignore'
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'ignore_ament_install'
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extensions ['colcon_pkg']
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'colcon_pkg'
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extensions ['colcon_meta']
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'colcon_meta'
+[3.364s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extensions ['ros']
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'ros'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extensions ['cmake', 'python']
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'cmake'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'python'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extensions ['python_setup_py']
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs) by extension 'python_setup_py'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extensions ['ignore', 'ignore_ament_install']
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'ignore'
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'ignore_ament_install'
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extensions ['colcon_pkg']
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'colcon_pkg'
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extensions ['colcon_meta']
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'colcon_meta'
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extensions ['ros']
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'ros'
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extensions ['cmake', 'python']
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'cmake'
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'python'
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extensions ['python_setup_py']
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-19-699237-LAPTOP-EK504TPB-852831) by extension 'python_setup_py'
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extensions ['ignore', 'ignore_ament_install']
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'ignore'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'ignore_ament_install'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extensions ['colcon_pkg']
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'colcon_pkg'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extensions ['colcon_meta']
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'colcon_meta'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extensions ['ros']
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'ros'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extensions ['cmake', 'python']
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'cmake'
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'python'
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extensions ['python_setup_py']
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223018/ros_logs/2026-05-30-22-30-57-981443-LAPTOP-EK504TPB-855213) by extension 'python_setup_py'
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extensions ['ignore', 'ignore_ament_install']
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'ignore'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'ignore_ament_install'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extensions ['colcon_pkg']
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'colcon_pkg'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extensions ['colcon_meta']
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'colcon_meta'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extensions ['ros']
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'ros'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extensions ['cmake', 'python']
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'cmake'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'python'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extensions ['python_setup_py']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401) by extension 'python_setup_py'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extensions ['ignore', 'ignore_ament_install']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'ignore'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'ignore_ament_install'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extensions ['colcon_pkg']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'colcon_pkg'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extensions ['colcon_meta']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'colcon_meta'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extensions ['ros']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'ros'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extensions ['cmake', 'python']
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'cmake'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'python'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extensions ['python_setup_py']
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs) by extension 'python_setup_py'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extensions ['ignore', 'ignore_ament_install']
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'ignore'
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'ignore_ament_install'
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extensions ['colcon_pkg']
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'colcon_pkg'
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extensions ['colcon_meta']
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'colcon_meta'
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extensions ['ros']
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'ros'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extensions ['cmake', 'python']
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'cmake'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'python'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extensions ['python_setup_py']
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/experiment_logs/simulation/control_layer_20260530_223401/ros_logs/2026-05-30-22-34-02-205947-LAPTOP-EK504TPB-865800) by extension 'python_setup_py'
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/install_control2) by extensions ['ignore', 'ignore_ament_install']
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/install_control2) by extension 'ignore'
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/install_control2) ignored
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/log_control2) by extensions ['ignore', 'ignore_ament_install']
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/log_control2) by extension 'ignore'
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/log_control2) ignored
+[3.377s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[3.377s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'ignore'
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'ignore_ament_install'
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extensions ['colcon_pkg']
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'colcon_pkg'
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extensions ['colcon_meta']
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'colcon_meta'
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extensions ['ros']
+[3.378s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'ros'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extensions ['cmake', 'python']
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'cmake'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'python'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extensions ['python_setup_py']
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src) by extension 'python_setup_py'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extensions ['ignore', 'ignore_ament_install']
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extension 'ignore'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extension 'ignore_ament_install'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extensions ['colcon_pkg']
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extension 'colcon_pkg'
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extensions ['colcon_meta']
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extension 'colcon_meta'
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extensions ['ros']
+[3.380s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_calibration) by extension 'ros'
+[3.389s] DEBUG:colcon.colcon_core.package_identification:Package 'alicia_ws/src/alicia_d_calibration' with type 'ros.ament_cmake' and name 'alicia_d_calibration'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extensions ['ignore', 'ignore_ament_install']
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extension 'ignore'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extension 'ignore_ament_install'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extensions ['colcon_pkg']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extension 'colcon_pkg'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extensions ['colcon_meta']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extension 'colcon_meta'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extensions ['ros']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_cube_sort) by extension 'ros'
+[3.395s] DEBUG:colcon.colcon_core.package_identification:Package 'alicia_ws/src/alicia_d_cube_sort' with type 'ros.ament_cmake' and name 'alicia_d_cube_sort'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extension 'ignore'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extension 'ignore_ament_install'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extensions ['colcon_pkg']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extension 'colcon_pkg'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extensions ['colcon_meta']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extension 'colcon_meta'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extensions ['ros']
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_descriptions) by extension 'ros'
+[3.398s] DEBUG:colcon.colcon_core.package_identification:Package 'alicia_ws/src/alicia_d_descriptions' with type 'ros.ament_cmake' and name 'alicia_d_descriptions'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extension 'ignore'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extension 'ignore_ament_install'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extensions ['colcon_pkg']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extension 'colcon_pkg'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extensions ['colcon_meta']
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extension 'colcon_meta'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extensions ['ros']
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_driver) by extension 'ros'
+[3.404s] DEBUG:colcon.colcon_core.package_identification:Package 'alicia_ws/src/alicia_d_driver' with type 'ros.ament_cmake' and name 'alicia_d_driver'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extensions ['ignore', 'ignore_ament_install']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'ignore'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'ignore_ament_install'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extensions ['colcon_pkg']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'colcon_pkg'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extensions ['colcon_meta']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'colcon_meta'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extensions ['ros']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'ros'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extensions ['cmake', 'python']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'cmake'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'python'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extensions ['python_setup_py']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d) by extension 'python_setup_py'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/Models) by extensions ['ignore', 'ignore_ament_install']
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/Models) by extension 'ignore'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/Models) ignored
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extensions ['ignore', 'ignore_ament_install']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'ignore'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'ignore_ament_install'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extensions ['colcon_pkg']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'colcon_pkg'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extensions ['colcon_meta']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'colcon_meta'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extensions ['ros']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'ros'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extensions ['cmake', 'python']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'cmake'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'python'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extensions ['python_setup_py']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts) by extension 'python_setup_py'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extensions ['ignore', 'ignore_ament_install']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'ignore'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'ignore_ament_install'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extensions ['colcon_pkg']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'colcon_pkg'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extensions ['colcon_meta']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'colcon_meta'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extensions ['ros']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'ros'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extensions ['cmake', 'python']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'cmake'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'python'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extensions ['python_setup_py']
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405) by extension 'python_setup_py'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extensions ['ignore', 'ignore_ament_install']
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'ignore'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'ignore_ament_install'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extensions ['colcon_pkg']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'colcon_pkg'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extensions ['colcon_meta']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'colcon_meta'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extensions ['ros']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'ros'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extensions ['cmake', 'python']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'cmake'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'python'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extensions ['python_setup_py']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/intel_rs_d405/utils) by extension 'python_setup_py'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extensions ['ignore', 'ignore_ament_install']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'ignore'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'ignore_ament_install'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extensions ['colcon_pkg']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'colcon_pkg'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extensions ['colcon_meta']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'colcon_meta'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extensions ['ros']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'ros'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extensions ['cmake', 'python']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'cmake'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'python'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extensions ['python_setup_py']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335) by extension 'python_setup_py'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extensions ['ignore', 'ignore_ament_install']
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'ignore'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'ignore_ament_install'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extensions ['colcon_pkg']
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'colcon_pkg'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extensions ['colcon_meta']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'colcon_meta'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extensions ['ros']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'ros'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extensions ['cmake', 'python']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'cmake'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'python'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extensions ['python_setup_py']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_grasp_6d/scripts/orbbec_gemini_335/utils) by extension 'python_setup_py'
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extensions ['ignore', 'ignore_ament_install']
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extension 'ignore'
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extension 'ignore_ament_install'
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extensions ['colcon_pkg']
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extension 'colcon_pkg'
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extensions ['colcon_meta']
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extension 'colcon_meta'
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extensions ['ros']
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_moveit) by extension 'ros'
+[3.420s] DEBUG:colcon.colcon_core.package_identification:Package 'alicia_ws/src/alicia_d_moveit' with type 'ros.ament_cmake' and name 'alicia_d_moveit'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extension 'ignore'
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extension 'ignore_ament_install'
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extensions ['colcon_pkg']
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extension 'colcon_pkg'
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extensions ['colcon_meta']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extension 'colcon_meta'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extensions ['ros']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/alicia_d_thinkgrasp_bridge) by extension 'ros'
+[3.426s] DEBUG:colcon.colcon_core.package_identification:Package 'alicia_ws/src/alicia_d_thinkgrasp_bridge' with type 'ros.ament_cmake' and name 'alicia_d_thinkgrasp_bridge'
+[3.426s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extensions ['ignore', 'ignore_ament_install']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'ignore'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'ignore_ament_install'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extensions ['colcon_pkg']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'colcon_pkg'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extensions ['colcon_meta']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'colcon_meta'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extensions ['ros']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'ros'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extensions ['cmake', 'python']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'cmake'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'python'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extensions ['python_setup_py']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/docs) by extension 'python_setup_py'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extensions ['ignore', 'ignore_ament_install']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'ignore'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'ignore_ament_install'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extensions ['colcon_pkg']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'colcon_pkg'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extensions ['colcon_meta']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'colcon_meta'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extensions ['ros']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'ros'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extensions ['cmake', 'python']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'cmake'
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'python'
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extensions ['python_setup_py']
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/examples) by extension 'python_setup_py'
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extensions ['ignore', 'ignore_ament_install']
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'ignore'
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'ignore_ament_install'
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extensions ['colcon_pkg']
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'colcon_pkg'
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extensions ['colcon_meta']
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'colcon_meta'
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extensions ['ros']
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'ros'
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extensions ['cmake', 'python']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'cmake'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'python'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extensions ['python_setup_py']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/src/imgs) by extension 'python_setup_py'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extensions ['ignore', 'ignore_ament_install']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'ignore'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'ignore_ament_install'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extensions ['colcon_pkg']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'colcon_pkg'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extensions ['colcon_meta']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'colcon_meta'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extensions ['ros']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'ros'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extensions ['cmake', 'python']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'cmake'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'python'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extensions ['python_setup_py']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools) by extension 'python_setup_py'
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'ignore'
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'ignore_ament_install'
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extensions ['colcon_pkg']
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'colcon_pkg'
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extensions ['colcon_meta']
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'colcon_meta'
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extensions ['ros']
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'ros'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extensions ['cmake', 'python']
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'cmake'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'python'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extensions ['python_setup_py']
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(alicia_ws/tools/__pycache__) by extension 'python_setup_py'
+[3.437s] Level 1:colcon.colcon_core.package_identification:_identify(build_control2) by extensions ['ignore', 'ignore_ament_install']
+[3.437s] Level 1:colcon.colcon_core.package_identification:_identify(build_control2) by extension 'ignore'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(build_control2) ignored
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(install_control2) by extensions ['ignore', 'ignore_ament_install']
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(install_control2) by extension 'ignore'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(install_control2) ignored
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(log_control2) by extensions ['ignore', 'ignore_ament_install']
+[3.439s] Level 1:colcon.colcon_core.package_identification:_identify(log_control2) by extension 'ignore'
+[3.439s] Level 1:colcon.colcon_core.package_identification:_identify(log_control2) ignored
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.520s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ThinkGrasp' in 'ThinkGrasp-main'
+[3.520s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'alicia_d_calibration' in 'alicia_ws/src/alicia_d_calibration'
+[3.520s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'alicia_d_cube_sort' in 'alicia_ws/src/alicia_d_cube_sort'
+[3.520s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'alicia_d_descriptions' in 'alicia_ws/src/alicia_d_descriptions'
+[3.520s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'alicia_d_thinkgrasp_bridge' in 'alicia_ws/src/alicia_d_thinkgrasp_bridge'
+[3.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.529s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[3.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'cmake_args' from command line to 'None'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'cmake_target' from command line to 'None'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.669s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.669s] DEBUG:colcon.colcon_core.verb:Building package 'alicia_d_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/Projects/HET/build_control2/alicia_d_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/Projects/HET/install_control2/alicia_d_driver', 'merge_install': False, 'path': '/home/Projects/HET/alicia_ws/src/alicia_d_driver', 'symlink_install': False, 'test_result_base': None}
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'cmake_args' from command line to 'None'
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'cmake_target' from command line to 'None'
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[3.670s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[3.671s] Level 5:colcon.colcon_core.verb:set package 'alicia_d_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.671s] DEBUG:colcon.colcon_core.verb:Building package 'alicia_d_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/Projects/HET/build_control2/alicia_d_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/Projects/HET/install_control2/alicia_d_moveit', 'merge_install': False, 'path': '/home/Projects/HET/alicia_ws/src/alicia_d_moveit', 'symlink_install': False, 'test_result_base': None}
+[3.671s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.674s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.675s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/Projects/HET/alicia_ws/src/alicia_d_driver' with build type 'ament_cmake'
+[3.675s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/Projects/HET/alicia_ws/src/alicia_d_driver'
+[3.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/Projects/HET/build_control2/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_driver -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/install_control2/alicia_d_driver
+[87.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/Projects/HET/build_control2/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_driver -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/install_control2/alicia_d_driver
+[87.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/Projects/HET/build_control2/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/build_control2/alicia_d_driver -- -j20 -l20
+[140.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/Projects/HET/build_control2/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/build_control2/alicia_d_driver -- -j20 -l20
+[140.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/Projects/HET/build_control2/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/build_control2/alicia_d_driver
+[140.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alicia_d_driver)
+[140.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/Projects/HET/build_control2/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/build_control2/alicia_d_driver
+[140.857s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver' for CMake module files
+[140.858s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver' for CMake config files
+[140.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('alicia_d_driver', 'cmake_prefix_path')
+[140.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/cmake_prefix_path.ps1'
+[140.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/cmake_prefix_path.dsv'
+[140.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/cmake_prefix_path.sh'
+[140.864s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/lib'
+[140.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('alicia_d_driver', 'ld_library_path_lib')
+[140.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/ld_library_path_lib.ps1'
+[140.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/ld_library_path_lib.dsv'
+[140.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/ld_library_path_lib.sh'
+[140.867s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/bin'
+[140.868s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/lib/pkgconfig/alicia_d_driver.pc'
+[140.868s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/lib/python3.10/site-packages'
+[140.869s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/bin'
+[140.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.ps1'
+[140.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.dsv'
+[140.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.sh'
+[140.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.bash'
+[140.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.zsh'
+[140.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/Projects/HET/install_control2/alicia_d_driver/share/colcon-core/packages/alicia_d_driver)
+[140.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alicia_d_driver)
+[140.881s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver' for CMake module files
+[140.882s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver' for CMake config files
+[140.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('alicia_d_driver', 'cmake_prefix_path')
+[140.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/cmake_prefix_path.ps1'
+[140.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/cmake_prefix_path.dsv'
+[140.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/cmake_prefix_path.sh'
+[140.885s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/lib'
+[140.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('alicia_d_driver', 'ld_library_path_lib')
+[140.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/ld_library_path_lib.ps1'
+[140.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/ld_library_path_lib.dsv'
+[140.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/hook/ld_library_path_lib.sh'
+[140.890s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/bin'
+[140.890s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/lib/pkgconfig/alicia_d_driver.pc'
+[140.890s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/lib/python3.10/site-packages'
+[140.891s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_driver/bin'
+[140.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.ps1'
+[140.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.dsv'
+[140.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.sh'
+[140.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.bash'
+[140.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.zsh'
+[140.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/Projects/HET/install_control2/alicia_d_driver/share/colcon-core/packages/alicia_d_driver)
+[140.898s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/Projects/HET/alicia_ws/src/alicia_d_moveit' with build type 'ament_cmake'
+[140.899s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/Projects/HET/alicia_ws/src/alicia_d_moveit'
+[140.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[140.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[140.903s] ERROR:colcon.colcon_cmake.task.cmake.build:Failed to find the following files:
+- /home/Projects/HET/install_control2/alicia_d_descriptions/share/alicia_d_descriptions/package.sh
+Check that the following packages have been built:
+- alicia_d_descriptions
+[140.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alicia_d_moveit)
+[140.904s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_moveit' for CMake module files
+[140.905s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_moveit' for CMake config files
+[140.906s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_moveit/bin'
+[140.906s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_moveit/lib/pkgconfig/alicia_d_moveit.pc'
+[140.906s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_moveit/lib/python3.10/site-packages'
+[140.907s] Level 1:colcon.colcon_core.environment:checking '/home/Projects/HET/install_control2/alicia_d_moveit/bin'
+[140.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_moveit/share/alicia_d_moveit/package.ps1'
+[140.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/Projects/HET/install_control2/alicia_d_moveit/share/alicia_d_moveit/package.dsv'
+[140.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_moveit/share/alicia_d_moveit/package.sh'
+[140.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_moveit/share/alicia_d_moveit/package.bash'
+[140.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/Projects/HET/install_control2/alicia_d_moveit/share/alicia_d_moveit/package.zsh'
+[140.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/Projects/HET/install_control2/alicia_d_moveit/share/colcon-core/packages/alicia_d_moveit)
+[140.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[140.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[140.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[140.927s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[142.151s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[142.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[142.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[142.152s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[142.153s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/0/bus: No such file or directory
+[142.153s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[142.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Projects/HET/install_control2/local_setup.ps1'
+[142.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/Projects/HET/install_control2/_local_setup_util_ps1.py'
+[142.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Projects/HET/install_control2/setup.ps1'
+[142.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Projects/HET/install_control2/local_setup.sh'
+[142.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/Projects/HET/install_control2/_local_setup_util_sh.py'
+[142.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Projects/HET/install_control2/setup.sh'
+[142.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Projects/HET/install_control2/local_setup.bash'
+[142.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Projects/HET/install_control2/setup.bash'
+[142.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Projects/HET/install_control2/local_setup.zsh'
+[142.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Projects/HET/install_control2/setup.zsh'

@@ -1,0 +1,75 @@
+[3.001s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_moveit': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_moveit -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/alicia_ws/install/alicia_d_moveit
+[4.890s] -- The C compiler identification is GNU 11.4.0
+[12.866s] -- The CXX compiler identification is GNU 11.4.0
+[18.271s] -- Detecting C compiler ABI info
+[20.648s] -- Detecting C compiler ABI info - done
+[20.665s] -- Check for working C compiler: /usr/bin/cc - skipped
+[20.665s] -- Detecting C compile features
+[20.666s] -- Detecting C compile features - done
+[20.672s] -- Detecting CXX compiler ABI info
+[22.788s] -- Detecting CXX compiler ABI info - done
+[22.803s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.804s] -- Detecting CXX compile features
+[22.805s] -- Detecting CXX compile features - done
+[22.810s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[23.123s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[23.486s] -- Configuring done
+[23.499s] -- Generating done
+[23.505s] -- Build files have been written to: /home/Projects/HET/alicia_ws/build/alicia_d_moveit
+[23.518s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_moveit' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_moveit -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/alicia_ws/install/alicia_d_moveit
+[23.523s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_moveit': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_moveit -- -j20 -l20
+[23.606s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_moveit' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_moveit -- -j20 -l20
+[23.610s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_moveit': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_moveit
+[23.624s] -- Install configuration: ""
+[23.626s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/ament_index/resource_index/package_run_dependencies/alicia_d_moveit
+[23.628s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/ament_index/resource_index/parent_prefix_path/alicia_d_moveit
+[23.629s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/ament_prefix_path.sh
+[23.630s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/ament_prefix_path.dsv
+[23.630s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/path.sh
+[23.631s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/path.dsv
+[23.632s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.bash
+[23.633s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.sh
+[23.633s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.zsh
+[23.634s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.dsv
+[23.634s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/package.dsv
+[23.635s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/ament_index/resource_index/packages/alicia_d_moveit
+[23.637s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/cmake/alicia_d_moveitConfig.cmake
+[23.638s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/cmake/alicia_d_moveitConfig-version.cmake
+[23.638s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/package.xml
+[23.638s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch
+[23.639s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/static_virtual_joint_tfs.launch.py
+[23.640s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/spawn_controllers.launch.py
+[23.640s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/moveit_config_builder.py
+[23.641s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/moveit_rviz.launch.py
+[23.641s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/demo.launch.py
+[23.642s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/move_group.launch.py
+[23.643s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/setup_assistant.launch.py
+[23.643s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/__pycache__
+[23.644s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/__pycache__/moveit_config_builder.cpython-310.pyc
+[23.645s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/__pycache__/real_robot.launch.cpython-310.pyc
+[23.646s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/real_robot.launch.py
+[23.646s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/rsp.launch.py
+[23.646s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/warehouse_db.launch.py
+[23.646s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config
+[23.646s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_100mm_demo.urdf.xacro
+[23.647s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/kinematics.yaml
+[23.647s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_50mm_demo.urdf.xacro
+[23.647s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_100mm.urdf.xacro
+[23.648s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/hardware_defaults.yaml
+[23.649s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/moveit.rviz
+[23.649s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/pilz_cartesian_limits.yaml
+[23.650s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/moveit_controllers.yaml
+[23.650s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.ros2_control.xacro
+[23.651s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_100mm.srdf
+[23.651s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.urdf.xacro
+[23.652s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/demo.rviz
+[23.652s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.ros2_control.fake.xacro
+[23.653s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/joint_limits.yaml
+[23.653s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.srdf
+[23.653s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/initial_positions.yaml
+[23.653s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_50mm.urdf.xacro
+[23.654s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_50mm.srdf
+[23.654s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/ros2_controllers.yaml
+[23.654s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/sensors_3d.yaml
+[23.654s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/.setup_assistant
+[23.661s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_moveit' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver:/home/Projects/HET/alicia_ws/install/alicia_d_descriptions:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_moveit

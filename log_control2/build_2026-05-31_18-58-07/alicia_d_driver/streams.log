@@ -1,0 +1,95 @@
+[0.041s] Invoking command in '/home/Projects/HET/build_control2/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_driver -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/install_control2/alicia_d_driver
+[2.188s] -- The CXX compiler identification is GNU 11.4.0
+[11.058s] -- Detecting CXX compiler ABI info
+[13.490s] -- Detecting CXX compiler ABI info - done
+[13.506s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[13.507s] -- Detecting CXX compile features
+[13.508s] -- Detecting CXX compile features - done
+[13.517s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.839s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[14.062s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[14.066s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[46.496s] -- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[46.570s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[46.581s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[46.602s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[46.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[46.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[47.114s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[47.122s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[47.193s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[47.318s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[47.328s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[51.144s] -- Found FastRTPS: /opt/ros/humble/include  
+[51.152s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[51.172s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[52.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[52.808s] -- Looking for C++ include pthread.h
+[55.247s] -- Looking for C++ include pthread.h - found
+[55.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[57.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[57.365s] -- Found Threads: TRUE  
+[57.474s] -- Checking for module 'libserial'
+[57.502s] --   Found libserial, version 1.0.0
+[83.470s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[83.634s] -- Configuring done
+[83.708s] -- Generating done
+[83.734s] -- Build files have been written to: /home/Projects/HET/build_control2/alicia_d_driver
+[83.758s] Invoked command in '/home/Projects/HET/build_control2/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_driver -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/install_control2/alicia_d_driver
+[83.765s] Invoking command in '/home/Projects/HET/build_control2/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/build_control2/alicia_d_driver -- -j20 -l20
+[83.864s] [ 12%] [32mBuilding CXX object CMakeFiles/serial_communicator_lib.dir/src/serial_communicator.cpp.o[0m
+[92.431s] [ 25%] [32m[1mLinking CXX shared library libserial_communicator_lib.so[0m
+[95.450s] [ 25%] Built target serial_communicator_lib
+[95.513s] [ 37%] [32mBuilding CXX object CMakeFiles/alicia_d_data_parser_control_lib.dir/src/alicia_d_data_parser_control.cpp.o[0m
+[104.254s] [ 50%] [32m[1mLinking CXX shared library libalicia_d_data_parser_control_lib.so[0m
+[106.525s] [ 50%] Built target alicia_d_data_parser_control_lib
+[106.576s] [ 62%] [32mBuilding CXX object CMakeFiles/alicia_d_hardware_interface.dir/src/alicia_d_hardware_interface.cpp.o[0m
+[106.577s] [ 75%] [32mBuilding CXX object CMakeFiles/alicia_d_driver_node.dir/src/alicia_d_driver_node.cpp.o[0m
+[115.792s] [ 87%] [32m[1mLinking CXX shared library libalicia_d_hardware_interface.so[0m
+[118.292s] [ 87%] Built target alicia_d_hardware_interface
+[133.858s] [100%] [32m[1mLinking CXX executable alicia_d_driver_node[0m
+[137.063s] [100%] Built target alicia_d_driver_node
+[137.089s] Invoked command in '/home/Projects/HET/build_control2/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/build_control2/alicia_d_driver -- -j20 -l20
+[137.112s] Invoking command in '/home/Projects/HET/build_control2/alicia_d_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/build_control2/alicia_d_driver
+[137.125s] -- Install configuration: ""
+[137.126s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+[137.127s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/include/alicia_d_driver
+[137.127s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/include/alicia_d_driver/alicia_d_driver
+[137.128s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_hardware_interface.hpp
+[137.129s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_data_parser_control.hpp
+[137.130s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/serial_communicator.hpp
+[137.130s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_driver_node.hpp
+[137.130s] -- Up-to-date: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver
+[137.131s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.launch.py
+[137.131s] -- Up-to-date: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+[137.132s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node
+[137.145s] -- Set runtime path of "/home/Projects/HET/install_control2/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node" to ""
+[137.145s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/lib/libalicia_d_hardware_interface.so
+[137.149s] -- Set runtime path of "/home/Projects/HET/install_control2/alicia_d_driver/lib/libalicia_d_hardware_interface.so" to ""
+[137.149s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/lib/libserial_communicator_lib.so
+[137.151s] -- Set runtime path of "/home/Projects/HET/install_control2/alicia_d_driver/lib/libserial_communicator_lib.so" to ""
+[137.151s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so
+[137.154s] -- Set runtime path of "/home/Projects/HET/install_control2/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so" to ""
+[137.154s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/environment/library_path.sh
+[137.155s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/environment/library_path.dsv
+[137.157s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/ament_index/resource_index/package_run_dependencies/alicia_d_driver
+[137.158s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/ament_index/resource_index/parent_prefix_path/alicia_d_driver
+[137.158s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.sh
+[137.158s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.dsv
+[137.159s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/environment/path.sh
+[137.159s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/environment/path.dsv
+[137.160s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/local_setup.bash
+[137.160s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/local_setup.sh
+[137.161s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/local_setup.zsh
+[137.161s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/local_setup.dsv
+[137.162s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.dsv
+[137.163s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/ament_index/resource_index/packages/alicia_d_driver
+[137.164s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/alicia_d_driver
+[137.165s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport.cmake
+[137.165s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport-noconfig.cmake
+[137.166s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_targets-extras.cmake
+[137.166s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[137.167s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig.cmake
+[137.168s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig-version.cmake
+[137.168s] -- Installing: /home/Projects/HET/install_control2/alicia_d_driver/share/alicia_d_driver/package.xml
+[137.173s] Invoked command in '/home/Projects/HET/build_control2/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/build_control2/alicia_d_driver

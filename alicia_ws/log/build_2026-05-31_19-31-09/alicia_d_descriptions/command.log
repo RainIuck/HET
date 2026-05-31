@@ -1,0 +1,6 @@
+Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_descriptions -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/alicia_ws/install/alicia_d_descriptions
+Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_descriptions -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/alicia_ws/install/alicia_d_descriptions
+Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_descriptions -- -j20 -l20
+Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_descriptions -- -j20 -l20
+Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_descriptions
+Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_descriptions

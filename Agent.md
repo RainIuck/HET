@@ -8,8 +8,8 @@
 - 当前分支：`control2`
 - `control2` 是从最新可用的 `origin/control-layer` 创建的。
 - 当前目标：先优化 Alicia-D 真机状态反馈 / open-loop 问题，再新建 ROS2 节点控制 STS3215 新夹爪。
-- 已完成：控制层环境已搭建，`alicia_ws` 已在 `install_control2` 中构建成功；MoveIt 仿真 + mock ThinkGrasp 抓取链路已经完成一次规划和执行验证。
-- 当前最高优先级：`alicia_d_driver` 目前真机 MoveIt 使用 open-loop command state。也就是软件状态主要等于上一次下发的命令，不是可靠真实关节反馈。这个必须先优化，否则真机自动抓取风险很高。
+- 已完成：控制层环境已搭建；MoveIt 仿真 + mock ThinkGrasp 抓取链路已经完成一次规划和执行验证。
+- 当前最高优先级：继续真机验证 `alicia_d_driver` 的真实反馈闭环状态路径。代码已从默认 open-loop 改为默认使用 Alicia-D 主控真实 6 轴关节反馈；旧夹爪缺失只让夹爪状态降级为 command mirror，不应阻断 6 轴关节反馈。
 - 后续第二优先级：新夹爪为飞特 STS3215 总线舵机，需要独立 ROS2 节点控制，不应混入 Alicia-D 原主控协议。
 
 ## 记录维护规则
@@ -25,7 +25,7 @@
 - 2026-05-30：删除仓库里旧机器残留的 `alicia_ws/build`、`alicia_ws/install`、`alicia_ws/log` 构建产物。这些文件原本被 Git 跟踪，删除后会在 `git status` 中显示大量 `D`。
 - 2026-05-30：控制层依赖已安装。`rosdep` 曾因错误引用 `releases-fuerte.yaml` 报 `release-name must be a dictionary`，已从 rosdep source/cache 中移除该错误引用。
 - 2026-05-30：`warehouse_ros_mongo` 在当前 ROS Humble 源中无可用包；已安装 `warehouse_ros` / `warehouse_ros_sqlite`。当前 mock 控制链路不依赖 Mongo warehouse。
-- 2026-05-30：为避免旧 `build/install` 缓存路径污染，使用 `alicia_ws/install_control2` 作为当前可用安装空间。
+- 2026-05-30：曾为避免旧 `build/install` 缓存路径污染，使用 `alicia_ws/install_control2` 作为安装空间。
 - 2026-05-30：新增实验脚本 `alicia_ws/run_control_layer_smoke_test.sh`。它会启动 MoveIt demo、mock decision server、执行 mock pick，并记录实验日志到 `alicia_ws/experiment_logs/simulation/control_layer_<timestamp>/`。
 - 2026-05-30：仿真 smoke test 成功。实验目录：`alicia_ws/experiment_logs/simulation/control_layer_20260530_223401`。`pre_grasp` 规划 44 waypoints 并执行成功，`grasp` 规划 12 waypoints 并执行成功，夹爪 close 到 `0.0200` 成功，`lift` 规划 12 waypoints 并执行成功。
 - 2026-05-30：仿真日志发现的主要后续问题：`gripper_center` 只有 visual geometry 没有 collision geometry；`base_link` root link 带 inertia 触发 KDL 警告；未配置 3D sensor plugin 导致 Octomap 不更新；关节 acceleration limit 未定义，MoveIt 使用默认 `1 rad/s^2`。
@@ -33,6 +33,10 @@
 - 2026-05-30：真机反馈诊断日志整理到 `alicia_ws/experiment_logs/`，仿真日志在 `simulation/`，真机反馈诊断日志在 `feedback_diagnostics/`；旧 `alicia_ws/diagnostic_logs` 已删除。
 - 2026-05-30：已分析真机反馈诊断 `alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260530_235550`。结果：版本帧、自检帧、30/30 关节反馈帧 CRC 均有效；关节 raw 非全 0，最后一帧 raw 为 `[2048, 2041, 2040, 2047, 2041, 2047]`，约 `[0.000, -0.615, -0.703, -0.088, -0.615, -0.088] deg`；self-check `0x01FF`，`bit_9` 为 fault；运行状态大多 `idle`，但第 17/18 帧出现 `0xE1 overheat`，第 23 帧出现 `0xE2 overheat_protect`。这说明关节位置反馈链路可用，open-loop 默认策略应改回使用真实反馈并保留异常状态保护。
 - 2026-05-31：接回 Alicia-D 旧末端夹爪后重新运行反馈诊断，目录 `alicia_ws/experiment_logs/feedback_diagnostics/alicia_feedback_20260531_000949`。结果：版本仍为同一设备 `ADFX2604145YH2KT`，30/30 关节反馈帧 CRC 有效且非全 0；self-check 从不接旧夹爪时的 `0x01FF bit_9 fault` 变为 `0x03FF`，无 fault；30 帧运行状态全部 `0x00 idle`，未再出现 `0xE1/0xE2`；gripper raw 稳定约 `993`。A/B 结论：`bit_9` 基本可判定为 Alicia-D 原夹爪/末端舵机相关自检位；旧夹爪不影响 6 轴关节位置反馈，但会影响整机 self-check 完整通过。
+- 2026-05-31：已开始把 `alicia_d_driver` 从默认 open-loop 改为默认使用真实关节反馈。改动点：`use_open_loop_state` 默认改为 `false`；`JointState` 保存 6 轴 raw 值和 raw run status；hardware interface 会拒绝全 raw 0、反馈超时、非有限角度、未知 run status、`0xE2 overheat_protect` 作为有效闭环状态；`0xE1 overheat` 仍可用于位置反馈但会报警；若 self-check bit_9 fault，则 6 轴继续使用真实反馈，夹爪单独降级为 command mirror。新增 launch 参数 `use_open_loop_state` 和 `feedback_timeout_s`，保留显式 open-loop 调试入口。曾用 `build_control2/install_control2/log_control2` 编译验证通过；用户后续要求不再保留这些后缀目录，改回普通 `build/install/log`。
+- 2026-05-31：新增真机硬件默认配置 `alicia_ws/src/alicia_d_moveit/config/hardware_defaults.yaml`，当前默认 port 为 `/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B14041395-if00`，`use_open_loop_state=false`，`feedback_timeout_s=0.5`。`real_robot.launch.py` 默认从该配置读取参数，同时保留命令行覆盖。已重编 `alicia_d_moveit` 并验证 `--show-args` 能显示配置中的默认 port。
+- 2026-05-31：用户不需要 Windows attach 脚本，已删除 `alicia_ws/tools/attach_alicia_usb_to_wsl.ps1` 和 `alicia_ws/tools/attach_alicia_usb_to_wsl.sh`；同时已删除 `alicia_ws/build_control2`、`alicia_ws/install_control2`、`alicia_ws/log_control2`。后续编译默认使用普通 `alicia_ws/build`、`alicia_ws/install`、`alicia_ws/log`。
+- 2026-05-31：新增小幅动作反馈测试脚本 `alicia_ws/tools/tiny_feedback_motion_test.py`，默认对 Joint6 做 `+0.03 rad / 3s` 的 FollowJointTrajectory，并记录 `/joint_states` 与 `/Alicia_controller/controller_state` 到 `alicia_ws/experiment_logs/feedback_motion/`。首次测试目录 `tiny_feedback_motion_20260531_210724_current_gripper_state` 显示控制器 desired 从 `0` 到 `0.03`，但 controller actual 和 `/joint_states` 仍固定在 `initial_positions.yaml`，说明当前运行中的 driver 没有持续拿到真实反馈。排查发现 `SerialCommunicator::write_packet()` 每次写命令后都会 `FlushIOBuffers()`，在 200Hz 控制写入时可能冲掉反馈帧；已移除该 flush 并用普通 `colcon build --packages-up-to alicia_d_driver alicia_d_moveit` 编译通过。需要重启 `real_robot.launch.py` 后复测。
 
 ## 当前优先优化计划：修复 open-loop 状态问题
 

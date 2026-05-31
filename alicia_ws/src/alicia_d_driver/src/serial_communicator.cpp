@@ -146,10 +146,6 @@ bool SerialCommunicator::write_packet(const std::vector<uint8_t>& frame)
         serial_port_.Write(frame);
         
         std::this_thread::sleep_for(std::chrono::milliseconds(10));
-        try {
-            serial_port_.FlushIOBuffers();
-        } catch (const std::exception&) {
-        }
         
         // Always print sent frames for debugging
         // std::string hex_str = format_hex_bytes(frame);
@@ -536,6 +532,5 @@ void SerialCommunicator::initialize_serial_port()
     serial_port_.SetDTR(true);  // Some controllers ignore TX when DTR is low
     serial_port_.SetRTS(false); 
 }
-
 
 

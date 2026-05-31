@@ -1,0 +1,7 @@
+hardware_defaults:
+  gripper_type: "50mm"
+  port: "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B14041395-if00"
+  speed_deg_s: "20"
+  debug_mode: "false"
+  use_open_loop_state: "false"
+  feedback_timeout_s: "0.5"

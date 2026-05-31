@@ -6,9 +6,25 @@
 #include <vector>
 #include <chrono>
 #include <thread>
+#include <algorithm>
+#include <cctype>
 
 namespace alicia_d_driver
 {
+
+namespace
+{
+bool parse_bool_param(const std::string & value)
+{
+  std::string normalized;
+  normalized.reserve(value.size());
+  for (char ch : value)
+  {
+    normalized.push_back(static_cast<char>(std::tolower(static_cast<unsigned char>(ch))));
+  }
+  return normalized == "true" || normalized == "1" || normalized == "yes" || normalized == "on";
+}
+}  // namespace
 
 CallbackReturn AliciaDHardwareInterface::on_init(
   const hardware_interface::HardwareInfo & info)
@@ -21,9 +37,11 @@ CallbackReturn AliciaDHardwareInterface::on_init(
   // Get parameters from URDF
   port_ = info_.hardware_parameters["port"];
   debug_mode_ = info_.hardware_parameters.count("debug_mode") ? 
-                (info_.hardware_parameters["debug_mode"] == "true") : false;
+                parse_bool_param(info_.hardware_parameters["debug_mode"]) : false;
   use_open_loop_state_ = info_.hardware_parameters.count("use_open_loop_state") ?
-                         (info_.hardware_parameters["use_open_loop_state"] == "true") : true;
+                         parse_bool_param(info_.hardware_parameters["use_open_loop_state"]) : false;
+  feedback_timeout_s_ = info_.hardware_parameters.count("feedback_timeout_s") ?
+                        std::stod(info_.hardware_parameters["feedback_timeout_s"]) : 0.5;
   
   // Gripper type (required: "50mm" or "100mm", default "50mm")
   gripper_type_param_ = info_.hardware_parameters.count("gripper_type") ? 
@@ -60,6 +78,9 @@ CallbackReturn AliciaDHardwareInterface::on_init(
 
   // Initialize hardware connection status
   hardware_connected_ = false;
+  warned_invalid_feedback_ = false;
+  warned_gripper_feedback_unavailable_ = false;
+  warned_overheat_ = false;
 
   RCLCPP_INFO(rclcpp::get_logger("AliciaDHardwareInterface"), 
               "Initialized hardware interface (using unified data parser control)");
@@ -69,8 +90,90 @@ CallbackReturn AliciaDHardwareInterface::on_init(
   RCLCPP_INFO(rclcpp::get_logger("AliciaDHardwareInterface"),
               "State feedback mode: %s",
               use_open_loop_state_ ? "open-loop command state" : "hardware joint feedback");
+  RCLCPP_INFO(rclcpp::get_logger("AliciaDHardwareInterface"),
+              "Feedback timeout: %.3f s", feedback_timeout_s_);
 
   return CallbackReturn::SUCCESS;
+}
+
+bool AliciaDHardwareInterface::is_joint_feedback_valid(
+  const JointState & joint_state, double now_seconds) const
+{
+  if (joint_state.angles.size() < 6)
+  {
+    return false;
+  }
+
+  for (size_t i = 0; i < 6; ++i)
+  {
+    if (!std::isfinite(joint_state.angles[i]))
+    {
+      return false;
+    }
+  }
+
+  if (feedback_timeout_s_ > 0.0 && (now_seconds - joint_state.timestamp) > feedback_timeout_s_)
+  {
+    return false;
+  }
+
+  if (joint_state.raw_values.size() >= 6)
+  {
+    const bool all_raw_zero = std::all_of(
+      joint_state.raw_values.begin(), joint_state.raw_values.begin() + 6,
+      [](uint16_t value) { return value == 0; });
+    if (all_raw_zero)
+    {
+      return false;
+    }
+  }
+  else
+  {
+    const bool all_near_negative_pi = std::all_of(
+      joint_state.angles.begin(), joint_state.angles.begin() + 6,
+      [](double angle) { return std::abs(angle + M_PI) < 1e-3; });
+    if (all_near_negative_pi)
+    {
+      return false;
+    }
+  }
+
+  if (joint_state.run_status == 0xE2)
+  {
+    return false;
+  }
+
+  switch (joint_state.run_status)
+  {
+    case 0x00:  // idle
+    case 0x01:  // locked
+    case 0x10:  // sync
+    case 0x11:  // sync_locked
+    case 0xE1:  // overheat, still usable as position feedback but unsafe for automatic motion
+      return true;
+    default:
+      return false;
+  }
+}
+
+bool AliciaDHardwareInterface::is_gripper_feedback_valid(
+  const std::optional<SelfCheckData> & self_check_data) const
+{
+  if (!self_check_data.has_value() || self_check_data->bits.size() <= 9)
+  {
+    return true;
+  }
+  return self_check_data->bits[9];
+}
+
+void AliciaDHardwareInterface::mirror_commands_to_state()
+{
+  std::lock_guard<std::mutex> lock(data_mutex_);
+  hw_positions_state_ = hw_positions_command_;
+  for (size_t i = 0; i < hw_velocities_state_.size(); ++i)
+  {
+    hw_velocities_state_[i] = i < hw_velocities_command_.size() ? hw_velocities_command_[i] : 0.0;
+  }
 }
 
 CallbackReturn AliciaDHardwareInterface::on_configure(
@@ -186,31 +289,13 @@ return_type AliciaDHardwareInterface::read(
   if (!hardware_connected_ || !communicator_ || !communicator_->is_connected() || !data_parser_control_)
   {
     // In simulation mode, update state to match commands (simulate ideal robot)
-    std::lock_guard<std::mutex> lock(data_mutex_);
-    hw_positions_state_ = hw_positions_command_;
-    // Set velocities to zero in simulation (or copy from commands if provided)
-    for (size_t i = 0; i < hw_velocities_state_.size(); ++i)
-    {
-      if (i < hw_velocities_command_.size())
-      {
-        hw_velocities_state_[i] = hw_velocities_command_[i];
-      }
-      else
-      {
-        hw_velocities_state_[i] = 0.0;
-      }
-    }
+    mirror_commands_to_state();
     return return_type::OK;
   }
 
   if (use_open_loop_state_)
   {
-    std::lock_guard<std::mutex> lock(data_mutex_);
-    hw_positions_state_ = hw_positions_command_;
-    for (size_t i = 0; i < hw_velocities_state_.size(); ++i)
-    {
-      hw_velocities_state_[i] = i < hw_velocities_command_.size() ? hw_velocities_command_[i] : 0.0;
-    }
+    mirror_commands_to_state();
     return return_type::OK;
   }
 
@@ -226,8 +311,45 @@ return_type AliciaDHardwareInterface::read(
   // Update state from parser (data is parsed by background thread)
   auto joint_state = data_parser_control_->get_joint_state();
   auto velocity_data = data_parser_control_->get_velocity_data();
+  auto self_check_data = data_parser_control_->get_self_check_data();
   
-  if (joint_state.has_value())
+  if (!joint_state.has_value() ||
+      !is_joint_feedback_valid(*joint_state, now.seconds()))
+  {
+    if (!warned_invalid_feedback_)
+    {
+      if (joint_state.has_value())
+      {
+        RCLCPP_WARN(rclcpp::get_logger("AliciaDHardwareInterface"),
+                    "Ignoring invalid Alicia-D joint feedback: status=%s, age=%.3f s. "
+                    "Keeping last state instead of mirroring commands.",
+                    joint_state->run_status_text.c_str(),
+                    now.seconds() - joint_state->timestamp);
+      }
+      else
+      {
+        RCLCPP_WARN(rclcpp::get_logger("AliciaDHardwareInterface"),
+                    "No Alicia-D joint feedback received yet. Keeping last state instead of mirroring commands.");
+      }
+      warned_invalid_feedback_ = true;
+    }
+    return return_type::OK;
+  }
+
+  warned_invalid_feedback_ = false;
+
+  if (joint_state->run_status == 0xE1 && !warned_overheat_)
+  {
+    RCLCPP_WARN(rclcpp::get_logger("AliciaDHardwareInterface"),
+                "Alicia-D reported overheat status. Position feedback is still used, "
+                "but automatic motion should be treated as unsafe until this clears.");
+    warned_overheat_ = true;
+  }
+  else if (joint_state->run_status != 0xE1)
+  {
+    warned_overheat_ = false;
+  }
+
   {
     std::lock_guard<std::mutex> lock(data_mutex_);
     
@@ -237,10 +359,24 @@ return_type AliciaDHardwareInterface::read(
       hw_positions_state_[i] = joint_state->angles[i];
     }
     
-    // Update gripper position (convert from 0-1000 to meters)
     if (hw_positions_state_.size() > 6)
     {
-      hw_positions_state_[6] = data_parser_control_->gripper_value_to_position(joint_state->gripper);
+      if (is_gripper_feedback_valid(self_check_data))
+      {
+        hw_positions_state_[6] = data_parser_control_->gripper_value_to_position(joint_state->gripper);
+        warned_gripper_feedback_unavailable_ = false;
+      }
+      else
+      {
+        hw_positions_state_[6] = hw_positions_command_[6];
+        if (!warned_gripper_feedback_unavailable_)
+        {
+          RCLCPP_WARN(rclcpp::get_logger("AliciaDHardwareInterface"),
+                      "Alicia-D gripper self-check bit_9 is fault. "
+                      "Using real 6-axis arm feedback, but mirroring gripper command state.");
+          warned_gripper_feedback_unavailable_ = true;
+        }
+      }
     }
     
     // Update velocities if available
