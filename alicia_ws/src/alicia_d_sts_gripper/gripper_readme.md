@@ -45,6 +45,52 @@ poll_period_s: 0.05
 
 `manual_home_valid` 和 `zero_feedback_position` 是标定结果。机械结构、夹爪安装位置或最大打开参考变化后，需要重新标定。
 
+## 更换串口配置
+
+夹爪串口只需要改 YAML 中的 `port` 字段。优先使用 `/dev/serial/by-id/...` 这种稳定路径，不建议长期写 `/dev/ttyACM0` 或 `/dev/ttyACM1`，因为后者可能随插拔顺序变化。
+
+查看当前可见串口：
+
+```bash
+ls -l /dev/serial/by-id /dev/ttyACM* /dev/ttyUSB* 2>/dev/null
+```
+
+例如看到：
+
+```text
+/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B79032424-if00 -> ../../ttyACM1
+```
+
+就把配置文件中的 `port` 改成：
+
+```yaml
+port: /dev/serial/by-id/usb-1a86_USB_Single_Serial_5B79032424-if00
+```
+
+需要修改的源码配置文件是：
+
+```text
+src/alicia_d_sts_gripper/config/sts3215_gripper.yaml
+```
+
+改完源码 YAML 后，重新编译并重启夹爪节点，让 install 目录中的配置同步更新：
+
+```bash
+cd /home/Projects/HET/alicia_ws
+source /opt/ros/humble/setup.bash
+colcon build --packages-select alicia_d_sts_gripper
+source install/setup.bash
+ros2 launch alicia_d_sts_gripper sts3215_gripper.launch.py
+```
+
+如果只是临时验证，也可以直接改当前 install YAML：
+
+```text
+install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/config/sts3215_gripper.yaml
+```
+
+但这种改法不会回写源码配置，下次重新编译后可能被源码 YAML 覆盖。正式使用时应修改源码 YAML。
+
 ## 抓取测试流程
 
 下面流程包含启动节点、手动标定、回到打开位和执行夹取测试。第一次测试、重新装夹爪、手动改变夹爪位置后，都按这个完整流程来。
