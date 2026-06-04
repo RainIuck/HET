@@ -1,4 +1,5 @@
 from pathlib import Path
+from uuid import uuid4
 from matplotlib import pyplot as plt
 from flask import Flask, request, jsonify
 import logging
@@ -29,6 +30,9 @@ from compat import load_local_env
 
 
 app = Flask(__name__)
+UPLOAD_DIR = Path(__file__).resolve().parent / "uploads"
+
+
 def get_args_parser():
     parser = argparse.ArgumentParser('RefTR For Visual Grounding; FGC-GraspNet For Grasp Pose Detection',
                                      add_help=False)
@@ -351,6 +355,39 @@ def crop_pointcloud(pcd, cropping_box, color_image, depth_image):
     return full_pcd
 
 
+@app.route('/grasp_pose_upload', methods=['POST'])
+def grasp_pose_upload():
+    if 'rgb' not in request.files:
+        return jsonify({"error": "Missing multipart file field: rgb"}), 400
+    if 'depth' not in request.files:
+        return jsonify({"error": "Missing multipart file field: depth"}), 400
+    if 'text' not in request.form:
+        return jsonify({"error": "Missing multipart form field: text"}), 400
+
+    job_id = uuid4().hex
+    job_dir = UPLOAD_DIR / job_id
+    job_dir.mkdir(parents=True, exist_ok=True)
+
+    rgb_path = job_dir / "rgb.png"
+    depth_path = job_dir / "depth_raw.png"
+    text_path = job_dir / "task.txt"
+
+    request.files['rgb'].save(rgb_path)
+    request.files['depth'].save(depth_path)
+    text_path.write_text(request.form['text'], encoding='utf-8')
+
+    with app.test_request_context(
+        '/grasp_pose',
+        method='POST',
+        json={
+            'image_path': str(rgb_path),
+            'depth_path': str(depth_path),
+            'text_path': str(text_path),
+        },
+    ):
+        return get_grasp_pose()
+
+
 
 @app.route('/grasp_pose', methods=['POST'])
 def get_grasp_pose():
@@ -503,7 +540,8 @@ def get_grasp_pose():
 
         parser = argparse.ArgumentParser('Deformable DETR training and evaluation script', parents=[get_args_parser()])
         args = parser.parse_args([])  # Provide empty list to avoid reading command-line args
-        grasp_net = grasp_model(args=args,device="cuda" if use_gpu else "cpu", image=img_ori, bbox=bbox_positions, mask=masks, text=input_text)
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        grasp_net = grasp_model(args=args,device=device, image=img_ori, bbox=bbox_positions, mask=masks, text=input_text)
         gg ,gg_array= grasp_net.forward(endpoint ,pcd )
         grasp_pose_set=gg_array
         remain_bbox_images, bboxes, pos_bboxes, grasps = utils.preprocess(bbox_images, bbox_positions, grasp_pose_set, (32, 32))

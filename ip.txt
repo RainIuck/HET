@@ -1,0 +1,3 @@
+zerotier虚拟局域网ip：
+    Ubuntu Server: 10.246.52.176
+    Windows User: 10.246.52.141

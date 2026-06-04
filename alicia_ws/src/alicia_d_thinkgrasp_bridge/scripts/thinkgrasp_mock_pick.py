@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-import json
+from pathlib import Path
 import time
-import urllib.error
-import urllib.request
 
 import numpy as np
 import rclpy
+import requests
 from control_msgs.action import FollowJointTrajectory
 from moveit_msgs.action import ExecuteTrajectory
 from moveit_msgs.msg import Constraints, JointConstraint
@@ -38,6 +37,10 @@ class ThinkGraspMockPick(Node):
 
     def _declare_parameters(self):
         self.declare_parameter("decision_url", "http://127.0.0.1:5000/grasp_pose")
+        self.declare_parameter("decision_request_mode", "json_paths")
+        self.declare_parameter("decision_timeout_sec", 300.0)
+        self.declare_parameter("decision_retry_count", 20)
+        self.declare_parameter("decision_retry_delay_sec", 0.5)
         self.declare_parameter("image_path", "/tmp/mock_rgb.png")
         self.declare_parameter("depth_path", "/tmp/mock_depth.png")
         self.declare_parameter("text_path", "/tmp/mock_task.txt")
@@ -73,6 +76,16 @@ class ThinkGraspMockPick(Node):
 
     def _load_parameters(self):
         self.decision_url = self.get_parameter("decision_url").value
+        self.decision_request_mode = str(self.get_parameter("decision_request_mode").value)
+        if self.decision_request_mode not in {"json_paths", "multipart_upload"}:
+            raise ValueError(
+                "decision_request_mode must be either 'json_paths' or 'multipart_upload'"
+            )
+        self.decision_timeout_sec = float(self.get_parameter("decision_timeout_sec").value)
+        self.decision_retry_count = int(self.get_parameter("decision_retry_count").value)
+        self.decision_retry_delay_sec = float(
+            self.get_parameter("decision_retry_delay_sec").value
+        )
         self.image_path = self.get_parameter("image_path").value
         self.depth_path = self.get_parameter("depth_path").value
         self.text_path = self.get_parameter("text_path").value
@@ -123,32 +136,69 @@ class ThinkGraspMockPick(Node):
             self.get_logger().warn("No /joint_states received yet; IK will run without a seed state")
 
     def request_decision_pose(self):
+        attempts = max(1, self.decision_retry_count + 1)
+        last_error = None
+
+        for attempt in range(1, attempts + 1):
+            try:
+                if self.decision_request_mode == "json_paths":
+                    result = self._request_decision_pose_json_paths()
+                else:
+                    result = self._request_decision_pose_multipart_upload()
+                validate_decision_response(result)
+                self.get_logger().info(f"Decision response: {result}")
+                return result
+            except (
+                OSError,
+                RuntimeError,
+                ValueError,
+                requests.RequestException,
+            ) as exc:
+                last_error = exc
+                if attempt >= attempts:
+                    break
+                self.get_logger().warn(
+                    "Decision request failed "
+                    f"({attempt}/{attempts}): {exc}; retrying in "
+                    f"{self.decision_retry_delay_sec:.1f}s"
+                )
+                time.sleep(self.decision_retry_delay_sec)
+
+        raise RuntimeError(
+            f"Could not call decision endpoint {self.decision_url} "
+            f"with mode {self.decision_request_mode}: {last_error}"
+        )
+
+    def _request_decision_pose_json_paths(self):
         payload = {
             "image_path": self.image_path,
             "depth_path": self.depth_path,
             "text_path": self.text_path,
         }
-        data = json.dumps(payload).encode("utf-8")
-
-        request = urllib.request.Request(
+        response = requests.post(
             self.decision_url,
-            data=data,
-            headers={"Content-Type": "application/json"},
-            method="POST",
+            json=payload,
+            timeout=self.decision_timeout_sec,
         )
+        return decode_decision_response(response)
 
-        last_error = None
-        for _ in range(20):
-            try:
-                with urllib.request.urlopen(request, timeout=2.0) as response:
-                    result = json.loads(response.read().decode("utf-8"))
-                    self.get_logger().info(f"Decision response: {result}")
-                    return result
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-                last_error = exc
-                time.sleep(0.5)
+    def _request_decision_pose_multipart_upload(self):
+        image_path = require_readable_file(self.image_path, "image_path")
+        depth_path = require_readable_file(self.depth_path, "depth_path")
+        text_path = require_readable_file(self.text_path, "text_path")
+        task_text = text_path.read_text(encoding="utf-8")
 
-        raise RuntimeError(f"Could not call decision endpoint {self.decision_url}: {last_error}")
+        with image_path.open("rb") as rgb_file, depth_path.open("rb") as depth_file:
+            response = requests.post(
+                self.decision_url,
+                files={
+                    "rgb": ("rgb.png", rgb_file, "image/png"),
+                    "depth": ("depth_raw.png", depth_file, "image/png"),
+                },
+                data={"text": task_text},
+                timeout=self.decision_timeout_sec,
+            )
+        return decode_decision_response(response)
 
     def compute_ik(self, position, quaternion, log_failure=True, timeout_sec=None):
         timeout_sec = self.ik_timeout_sec if timeout_sec is None else timeout_sec
@@ -450,6 +500,45 @@ class ThinkGraspMockPick(Node):
                 return candidate
 
         return None
+
+
+def require_readable_file(path_value, parameter_name):
+    path = Path(path_value)
+    if not path.is_file():
+        raise ValueError(f"{parameter_name} does not point to a readable file: {path}")
+    return path
+
+
+def decode_decision_response(response):
+    try:
+        payload = response.json()
+    except ValueError as exc:
+        body_preview = response.text[:500]
+        raise ValueError(
+            f"Decision endpoint returned non-JSON HTTP {response.status_code}: {body_preview}"
+        ) from exc
+
+    if not response.ok:
+        raise RuntimeError(f"Decision endpoint returned HTTP {response.status_code}: {payload}")
+
+    return payload
+
+
+def validate_decision_response(payload):
+    if not isinstance(payload, dict):
+        raise ValueError("Decision response must be a JSON object")
+    for key in ("xyz", "rot"):
+        if key not in payload:
+            raise ValueError(f"Decision response is missing required key: {key}")
+
+    xyz = np.asarray(payload["xyz"], dtype=float)
+    rot = np.asarray(payload["rot"], dtype=float)
+    if xyz.shape != (3,):
+        raise ValueError(f"Decision response xyz must contain 3 values, got shape {xyz.shape}")
+    if rot.shape != (3, 3):
+        raise ValueError(f"Decision response rot must be 3x3, got shape {rot.shape}")
+    if "dep" in payload:
+        float(payload["dep"])
 
 
 def rotation_matrix_to_quaternion(matrix):
