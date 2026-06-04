@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-06-04T16:30:28",
+  "topic": "/new_gripper/state",
+  "csv": "/home/Projects/HET/alicia_ws/experiment_logs/gripper_debug_state/gripper_debug_20260604_163028/gripper_state_debug.csv",
+  "notes": [
+    "position_in_turn_12bit is raw_position_u16 & 0x0FFF.",
+    "turn_delta_total is derived by wrapping low-12-bit deltas across 0/4095.",
+    "node_relative_ticks is the value currently published by the gripper node."
+  ],
+  "samples": 59,
+  "finished_at": "2026-06-04T16:30:35"
+}

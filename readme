@@ -13,12 +13,12 @@
 当前结论如下：
 
 1. 决策层目前暴露的是 HTTP 接口，不是 ROS2 Topic/Action。
-2. 控制层已经可以调用一个 ThinkGrasp 风格的 mock HTTP 服务，解析 `xyz + rot + dep`，并通过 MoveIt 执行 `pre_grasp -> grasp -> close -> lift` 流程。
+2. 控制层已拆分为 ThinkGrasp Bridge、主控节点、机械臂动作节点和独立夹爪节点；节点之间通过 ROS 接口通信。
 3. 仿真链路已经跑通，mock 抓取点经过 IK 工作区扫描后能规划并执行。
 4. 真机底层关节控制可以工作，已经通过 `/joint_commands` 让机械臂抬升到较安全姿态。
 5. 真机关节实时反馈暂时不可信：协议返回的关节位置数据区全 0，导致 ROS2 侧解析为六个 `-pi`。
 6. 因为真实反馈不可用，真机 MoveIt 目前只能使用 open-loop 状态，即“以上一次命令位置作为当前状态”的临时策略。
-7. 新夹爪为飞特 STS3215 总线舵机，协议与 Alicia-D 原夹爪协议不同，后续应作为独立夹爪总线接入，不建议混入 Alicia-D 原总线协议。
+7. 新夹爪为飞特 STS3215 总线舵机，已经作为独立夹爪节点接入，不混入 Alicia-D 原总线协议。
 8. 决策层暂时不需要改接口；控制层会继续以 `POST /grasp_pose` 作为输入接口。
 
 一句话版本：
@@ -99,44 +99,47 @@ ThinkGrasp-main /grasp_pose
         |
         | xyz + rot + dep
         v
-ROS2 控制桥接层 alicia_d_thinkgrasp_bridge
+ThinkGrasp Bridge
         |
-        | 坐标转换 / IK / 规划 / 夹爪控制
+        | GraspCandidate
         v
-MoveIt2 + ros2_control
+Pick Coordinator
+        |
+        +----------------------+
+        |                      |
+        v                      v
+Arm Motion Server        STS3215 Gripper Node
+        |                      |
+        v                      v
+MoveIt2 + ros2_control   New gripper serial bus
         |
         v
-Alicia-D 机械臂 + 末端夹爪
+Alicia-D 机械臂
 ```
 
-控制层负责：
-
-1. 调用决策层 HTTP 接口。
-2. 校验返回 JSON。
-3. 将决策层位姿转换为 `base_link` 下的抓取位姿。
-4. 生成预抓取点、抓取点、抬升点。
-5. 调用 MoveIt IK 和规划。
-6. 执行动作序列。
-7. 控制夹爪开合。
-8. 处理 IK 失败、规划失败、执行失败、夹爪失败等异常。
+各节点详细职责见项目根目录 `structure.md`。
 
 ## 4. 新增控制层包
 
-当前新增包：
+当前控制层包：
 
 ```text
+alicia_ws/src/alicia_d_control_interfaces
 alicia_ws/src/alicia_d_thinkgrasp_bridge
+alicia_ws/src/alicia_d_arm_motion
+alicia_ws/src/alicia_d_sts_gripper
+alicia_ws/src/alicia_d_pick_coordinator
 ```
 
 主要文件：
 
 ```text
 scripts/mock_decision_server.py
-scripts/thinkgrasp_mock_pick.py
+scripts/thinkgrasp_bridge_node.py
 scripts/ik_workspace_probe.py
 scripts/safe_tcp_lift.py
 scripts/safe_joint_raise.py
-launch/mock_thinkgrasp_pick.launch.py
+launch/mock_thinkgrasp_bridge.launch.py
 config/mock_grasp.yaml
 ```
 
@@ -145,8 +148,8 @@ config/mock_grasp.yaml
 - `mock_decision_server.py`  
   模拟 ThinkGrasp 的 `/grasp_pose` HTTP 接口。
 
-- `thinkgrasp_mock_pick.py`  
-  调用决策层接口，解析 `xyz + rot + dep`，执行 mock 抓取流程。
+- `thinkgrasp_bridge_node.py`
+  调用决策层接口，解析 `xyz + rot + dep`，发布标准抓取候选，不执行机械臂或夹爪动作。主控收到新候选后会直接开始一次抓取流程。
 
 - `ik_workspace_probe.py`  
   只调用 FK/IK，不执行运动，用于扫描 Alicia-D 在 `base_link` 下的可达工作区。
@@ -172,19 +175,22 @@ source install/setup.bash
 ros2 launch alicia_d_moveit demo.launch.py gripper_type:=50mm
 ```
 
-另开终端启动 mock 决策层和抓取测试：
+另开终端启动 mock 决策层和 Bridge：
 
 ```bash
 cd ~/桌面/Robot_Arm/alicia_ws
 source install/setup.bash
-ros2 launch alicia_d_thinkgrasp_bridge mock_thinkgrasp_pick.launch.py
+ros2 launch alicia_d_thinkgrasp_bridge mock_thinkgrasp_bridge.launch.py
 ```
 
-只规划不执行：
+请求一条抓取候选：
 
 ```bash
-ros2 launch alicia_d_thinkgrasp_bridge mock_thinkgrasp_pick.launch.py execute_motion:=false
+ros2 service call /thinkgrasp/request_grasp std_srvs/srv/Trigger "{}"
 ```
+
+该服务让 mock Bridge 发布一条候选。若主控节点正在运行，候选发布后会直接触发
+一次抓取，不需要再发送单独的抓取 Action。
 
 当前 mock 抓取点配置：
 
@@ -197,8 +203,6 @@ alicia_ws/src/alicia_d_thinkgrasp_bridge/config/mock_grasp.yaml
 ```yaml
 xyz: [0.15, 0.1, 0.10]
 dep: 0.04
-pre_grasp_offset_z: 0.05
-lift_offset_z: 0.05
 ```
 
 仿真验证结果：

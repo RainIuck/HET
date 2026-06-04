@@ -1,0 +1,18 @@
+/**:
+  ros__parameters:
+    # Fill these values with /joint_states.position values in radians.
+    # The order intentionally matches the user's recorded joint-state order.
+    post_grasp_intermediate_joint_names:
+      - Joint2
+      - Joint3
+      - Joint1
+      - Joint4
+      - Joint6
+      - Joint5
+    post_grasp_intermediate_joint_positions:
+      - -0.007669903939428124
+      - 1.2977477465512521
+      - 0.10431069357622347
+      - 0.01380582709097089
+      - 0.10737865515199507
+      - -1.3499030933393643

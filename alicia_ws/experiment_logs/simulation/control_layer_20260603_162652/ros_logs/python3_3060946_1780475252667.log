@@ -1,0 +1,5 @@
+[INFO] [1780475253.587895598] [arm_motion.arm_motion_server]: Arm motion action ready at 'move_to_pose'
+[INFO] [1780475259.619629980] [arm_motion.arm_motion_server]: computing_ik
+[INFO] [1780475259.654647976] [arm_motion.arm_motion_server]: planning
+[INFO] [1780475259.730282013] [arm_motion.arm_motion_server]: executing
+[INFO] [1780475264.027723721] [arm_motion.arm_motion_server]: complete

@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 set -u
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SETUP_FILE="${ROOT_DIR}/install_control2/setup.bash"
+TOOLS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WS_DIR="$(cd "${TOOLS_DIR}/.." && pwd)"
+SETUP_FILE="${WS_DIR}/install/setup.bash"
 STAMP="$(date +%Y%m%d_%H%M%S)"
-RUN_DIR="${ROOT_DIR}/experiment_logs/control_layer_${STAMP}"
+RUN_DIR="${WS_DIR}/experiment_logs/simulation/control_layer_${STAMP}"
 ROS_LOG_DIR="${RUN_DIR}/ros_logs"
 
 mkdir -p "${RUN_DIR}" "${ROS_LOG_DIR}"
@@ -63,6 +64,27 @@ wait_for_service() {
   done
 }
 
+wait_for_action() {
+  local action_name="$1"
+  local timeout_sec="$2"
+  local started
+  started="$(date +%s)"
+
+  while true; do
+    if ros2 action list 2>/dev/null | grep -qx "${action_name}"; then
+      log "Action ready: ${action_name}"
+      return 0
+    fi
+
+    if (( "$(date +%s)" - started >= timeout_sec )); then
+      log "Timed out waiting for action: ${action_name}"
+      return 1
+    fi
+
+    sleep 1
+  done
+}
+
 snapshot() {
   local label="$1"
   log "Writing snapshot: ${label}"
@@ -96,31 +118,39 @@ log "Recording /joint_states"
 timeout 120s ros2 topic echo /joint_states > "${RUN_DIR}/joint_states.log" 2>&1 &
 PIDS+=("$!")
 
-snapshot "before_mock_pick"
+snapshot "before_arm_motion"
 
-BRIDGE_PREFIX="$(ros2 pkg prefix alicia_d_thinkgrasp_bridge)"
-CONFIG_FILE="${BRIDGE_PREFIX}/share/alicia_d_thinkgrasp_bridge/config/mock_grasp.yaml"
-
-log "Starting mock ThinkGrasp decision server"
-ros2 run alicia_d_thinkgrasp_bridge mock_decision_server.py \
-  --ros-args --params-file "${CONFIG_FILE}" > "${RUN_DIR}/mock_server.log" 2>&1 &
+log "Starting mock ThinkGrasp bridge"
+ros2 launch alicia_d_thinkgrasp_bridge mock_thinkgrasp_bridge.launch.py \
+  > "${RUN_DIR}/mock_bridge.log" 2>&1 &
 PIDS+=("$!")
 
-sleep 2
+log "Starting arm motion server"
+ros2 launch alicia_d_arm_motion arm_motion.launch.py > "${RUN_DIR}/arm_motion.log" 2>&1 &
+PIDS+=("$!")
 
-log "Running mock ThinkGrasp pick with execute_motion=true"
+wait_for_service /thinkgrasp/request_grasp 30 || exit 12
+wait_for_action /arm_motion/move_to_pose 30 || exit 13
+
+log "Requesting one mock grasp candidate"
+ros2 service call /thinkgrasp/request_grasp std_srvs/srv/Trigger "{}" \
+  > "${RUN_DIR}/grasp_candidate_request.log" 2>&1
+
+log "Sending one arm motion goal with execute=true"
 set +e
-timeout 90s ros2 run alicia_d_thinkgrasp_bridge thinkgrasp_mock_pick.py \
-  --ros-args --params-file "${CONFIG_FILE}" -p execute_motion:=true > "${RUN_DIR}/mock_pick.log" 2>&1
+timeout 90s ros2 action send_goal /arm_motion/move_to_pose \
+  alicia_d_control_interfaces/action/MoveArmToPose \
+  "{target_pose: {header: {frame_id: base_link}, pose: {position: {x: 0.15, y: 0.1, z: 0.15}, orientation: {x: 1.0, y: 0.0, z: 0.0, w: 0.0}}}, ik_link_name: gripper_center, max_velocity_scaling: 0.25, max_acceleration_scaling: 0.25, avoid_collisions: false, execute: true}" \
+  > "${RUN_DIR}/arm_goal.log" 2>&1
 MOCK_RC=$?
 set -e
 
-snapshot "after_mock_pick"
+snapshot "after_arm_motion"
 
 if [[ "${MOCK_RC}" -eq 0 ]]; then
-  log "Mock pick launch exited successfully"
+  log "Arm motion goal exited successfully"
 else
-  log "Mock pick launch exited with code ${MOCK_RC}"
+  log "Arm motion goal exited with code ${MOCK_RC}"
 fi
 
 log "Done"

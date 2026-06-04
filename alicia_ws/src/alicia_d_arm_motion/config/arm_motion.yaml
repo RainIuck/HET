@@ -1,0 +1,13 @@
+/**:
+  ros__parameters:
+    planning_group: "Alicia"
+    default_ik_link_name: "gripper_center"
+    arm_joint_names: ["Joint1", "Joint2", "Joint3", "Joint4", "Joint5", "Joint6"]
+    default_max_velocity_scaling: 0.25
+    default_max_acceleration_scaling: 0.25
+    default_avoid_collisions: false
+    ik_timeout_s: 1.0
+    planning_timeout_s: 10.0
+    execution_timeout_s: 30.0
+    num_planning_attempts: 5
+    joint_goal_tolerance: 0.01

@@ -1,0 +1,16 @@
+[2026-06-03 16:26:53] Experiment directory: /home/Projects/HET/alicia_ws/experiment_logs/simulation/control_layer_20260603_162652
+[2026-06-03 16:26:53] Starting MoveIt demo launch
+[2026-06-03 16:27:23] Service ready: /compute_ik
+[2026-06-03 16:27:23] Service ready: /plan_kinematic_path
+[2026-06-03 16:27:23] Recording /joint_states
+[2026-06-03 16:27:24] Writing snapshot: before_arm_motion
+[2026-06-03 16:27:30] Starting mock ThinkGrasp bridge
+[2026-06-03 16:27:30] Starting arm motion server
+[2026-06-03 16:27:34] Service ready: /thinkgrasp/request_grasp
+[2026-06-03 16:27:35] Action ready: /arm_motion/move_to_pose
+[2026-06-03 16:27:35] Requesting one mock grasp candidate
+[2026-06-03 16:27:36] Sending one arm motion goal with execute=true
+[2026-06-03 16:27:44] Writing snapshot: after_arm_motion
+[2026-06-03 16:27:51] Arm motion goal exited successfully
+[2026-06-03 16:27:51] Done
+[2026-06-03 16:27:51] Cleaning up background ROS processes

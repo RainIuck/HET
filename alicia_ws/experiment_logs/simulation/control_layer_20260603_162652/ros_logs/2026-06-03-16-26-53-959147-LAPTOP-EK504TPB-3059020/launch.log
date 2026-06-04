@@ -1,0 +1,12 @@
+1780475213.9621353 [INFO] [launch]: All log files can be found below /home/Projects/HET/alicia_ws/experiment_logs/simulation/control_layer_20260603_162652/ros_logs/2026-06-03-16-26-53-959147-LAPTOP-EK504TPB-3059020
+1780475213.9628479 [INFO] [launch]: Default logging verbosity is set to INFO
+1780475214.4946339 [INFO] [robot_state_publisher-1]: process started with pid [3059087]
+1780475214.4951842 [INFO] [ros2_control_node-2]: process started with pid [3059090]
+1780475214.4963348 [INFO] [spawner-3]: process started with pid [3059092]
+1780475214.4968622 [INFO] [rviz2-4]: process started with pid [3059095]
+1780475215.5359907 [INFO] [spawner-3]: process has finished cleanly [pid 3059092]
+1780475215.5423605 [INFO] [spawner-5]: process started with pid [3059214]
+1780475218.7145498 [INFO] [spawner-5]: process has finished cleanly [pid 3059214]
+1780475218.7197042 [INFO] [spawner-6]: process started with pid [3059353]
+1780475219.6621330 [INFO] [spawner-6]: process has finished cleanly [pid 3059353]
+1780475219.7772515 [INFO] [move_group-7]: process started with pid [3059418]

@@ -1,0 +1,2 @@
+[INFO] [1780475252.478460142] [mock_decision_server]: Mock ThinkGrasp server listening on http://127.0.0.1:5000/grasp_pose
+[INFO] [1780475252.480205597] [mock_decision_server]: Response payload: {'xyz': [0.15, 0.1, 0.1], 'rot': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, -1.0]], 'dep': 0.04}

@@ -1,0 +1,32 @@
+Waiting for an action server to become available...
+Sending goal:
+     target_pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: base_link
+  pose:
+    position:
+      x: 0.15
+      y: 0.1
+      z: 0.15
+    orientation:
+      x: 1.0
+      y: 0.0
+      z: 0.0
+      w: 0.0
+ik_link_name: gripper_center
+max_velocity_scaling: 0.25
+max_acceleration_scaling: 0.25
+avoid_collisions: false
+execute: true
+
+Goal accepted with ID: e479de062b924f7baeeceba6c9715da0
+
+Result:
+    success: true
+moveit_error_code: 1
+message: Target pose reached
+
+Goal finished with status: SUCCEEDED

@@ -1,0 +1,75 @@
+[INFO] [1780475220.137804355] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0834288 seconds
+[INFO] [1780475220.137998721] [moveit_robot_model.robot_model]: Loading robot model 'Alicia_D_v5_6_gripper_50mm'...
+[INFO] [1780475220.138015418] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1780475221.976887611] [moveit_robot_model.robot_model]: Link gripper_center has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[WARN] [1780475222.032544514] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1780475222.033125045] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1780475226.410121294] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1780475226.410676067] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1780475226.412877090] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1780475226.415767267] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1780475226.415884938] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1780475226.418394559] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1780475226.418493830] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1780475226.420626939] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1780475226.423588880] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1780475226.424428862] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1780475226.424480600] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1780475241.288942815] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[INFO] [1780475241.338614093] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1780475241.344559321] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1780475241.344835845] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1780475241.344855539] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1780475241.344903628] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1780475241.344933446] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1780475241.344942700] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1780475241.344961467] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1780475241.344969099] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1780475241.344978485] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1780475241.344997636] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1780475241.345004397] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1780475241.345009422] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1780475241.345014502] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1780475241.345019188] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1780475241.345023894] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1780475241.519454428] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for Alicia_controller
+[INFO] [1780475241.529853168] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for Gripper_controller
+[INFO] [1780475241.530291595] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1780475241.530340238] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1780475241.531889165] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1780475241.531938985] [move_group.move_group]: MoveGroup debug mode is ON
+[INFO] [1780475241.591783398] [move_group.move_group]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[INFO] [1780475241.591909261] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[INFO] [1780475241.591926335] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[INFO] [1780475259.656607951] [moveit_move_group_default_capabilities.plan_service_capability]: Received new planning service request...
+[INFO] [1780475259.668883305] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'Alicia' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[WARN] [1780475259.697626991] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[INFO] [1780475259.732258112] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[INFO] [1780475259.733387638] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[INFO] [1780475259.733538716] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1780475259.733597560] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1780475259.734092585] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1780475259.735491730] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1780475259.735586063] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1780475259.735617309] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1780475259.735888958] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to Alicia_controller
+[INFO] [1780475259.737867974] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Alicia_controller started execution
+[INFO] [1780475259.737942525] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1780475263.989602758] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'Alicia_controller' successfully finished
+[INFO] [1780475264.005662154] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1780475264.006047788] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED

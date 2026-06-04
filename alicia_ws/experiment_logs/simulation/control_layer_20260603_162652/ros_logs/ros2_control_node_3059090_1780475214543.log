@@ -1,0 +1,33 @@
+[WARN] [1780475214.686424918] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1780475214.687413493] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1780475214.691181309] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1780475214.691860607] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1780475214.692078010] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1780475214.692110737] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1780475214.692129667] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1780475214.692142195] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1780475214.713546217] [controller_manager]: update rate is 200 Hz
+[INFO] [1780475214.713683685] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[INFO] [1780475214.714158143] [controller_manager]: Successful set up FIFO RT scheduling policy with priority 50.
+[INFO] [1780475215.155272314] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1780475215.258850220] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1780475215.259232934] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1780475218.396745196] [controller_manager]: Loading controller 'Alicia_controller'
+[WARN] [1780475218.453579954] [Alicia_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1780475218.460162791] [controller_manager]: Configuring controller 'Alicia_controller'
+[INFO] [1780475218.460502650] [Alicia_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1780475218.460538707] [Alicia_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1780475218.460587485] [Alicia_controller]: Using 'splines' interpolation method.
+[INFO] [1780475218.462726591] [Alicia_controller]: Controller state will be published at 200.00 Hz.
+[INFO] [1780475218.467325386] [Alicia_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1780475219.289110479] [controller_manager]: Loading controller 'Gripper_controller'
+[WARN] [1780475219.328405138] [Gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1780475219.371512176] [controller_manager]: Configuring controller 'Gripper_controller'
+[INFO] [1780475219.371860110] [Gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1780475219.371920164] [Gripper_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[INFO] [1780475219.371947207] [Gripper_controller]: Using 'splines' interpolation method.
+[INFO] [1780475219.373712948] [Gripper_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1780475219.379044439] [Gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1780475259.737043145] [Alicia_controller]: Received new action goal
+[INFO] [1780475259.737234113] [Alicia_controller]: Accepted new action goal
+[INFO] [1780475263.964820346] [Alicia_controller]: Goal reached, success!

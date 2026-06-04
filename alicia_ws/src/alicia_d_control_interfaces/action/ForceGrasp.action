@@ -1,0 +1,17 @@
+int32 current_threshold_raw
+int32 max_ticks
+int32 speed
+---
+bool success
+bool contact_detected
+string message
+int32 raw_position
+int32 relative_ticks
+int32 load_raw
+int32 current_raw
+---
+int32 raw_position
+int32 relative_ticks
+int32 load_raw
+int32 current_raw
+bool moving

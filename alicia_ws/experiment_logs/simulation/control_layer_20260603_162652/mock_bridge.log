@@ -1,0 +1,8 @@
+[INFO] [launch]: All log files can be found below /home/Projects/HET/alicia_ws/experiment_logs/simulation/control_layer_20260603_162652/ros_logs/2026-06-03-16-27-31-817161-LAPTOP-EK504TPB-3060902
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [mock_decision_server.py-1]: process started with pid [3060948]
+[INFO] [thinkgrasp_bridge_node.py-2]: process started with pid [3060950]
+[mock_decision_server.py-1] [INFO] [1780475252.478460142] [mock_decision_server]: Mock ThinkGrasp server listening on http://127.0.0.1:5000/grasp_pose
+[mock_decision_server.py-1] [INFO] [1780475252.480205597] [mock_decision_server]: Response payload: {'xyz': [0.15, 0.1, 0.1], 'rot': [[1.0, 0.0, 0.0], [0.0, -1.0, 0.0], [0.0, 0.0, -1.0]], 'dep': 0.04}
+[thinkgrasp_bridge_node.py-2] [INFO] [1780475252.858663821] [thinkgrasp.thinkgrasp_bridge]: ThinkGrasp bridge ready: http://127.0.0.1:5000/grasp_pose -> 'grasp_candidate'
+[thinkgrasp_bridge_node.py-2] [INFO] [1780475256.421181205] [thinkgrasp.thinkgrasp_bridge]: Published grasp candidate: frame=base_link, position=(0.1500, 0.1000, 0.1000)

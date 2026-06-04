@@ -1,0 +1,16 @@
+/**:
+  ros__parameters:
+    initialize_gripper_on_start: false
+    interface_wait_timeout_s: 10.0
+    action_timeout_s: 45.0
+    pre_grasp_offset_z: 0.05
+    lift_offset_z: 0.05
+    gripper_open_ticks: 0
+    force_grasp_current_threshold_raw: 0
+    force_grasp_max_ticks: 0
+    force_grasp_speed: 0
+    arm_ik_link_name: "gripper_center"
+    arm_max_velocity_scaling: 0.25
+    arm_max_acceleration_scaling: 0.25
+    arm_avoid_collisions: false
+    arm_execute: true

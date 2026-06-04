@@ -1,0 +1,194 @@
+===== ros2 node list =====
+WARNING: Be aware that there are nodes in the graph that share an exact name, which can have unintended side effects.
+/Alicia_controller
+/Gripper_controller
+/controller_manager
+/interactive_marker_display_101309845666720
+/joint_state_broadcaster
+/move_group
+/move_group_private_103343259278944
+/moveit_simple_controller_manager
+/robot_state_publisher
+/robot_state_publisher
+/rviz2
+/rviz2_private_139304728088480
+/transform_listener_impl_5c24091f1630
+/transform_listener_impl_5c24092d96f0
+/transform_listener_impl_5dfd7a3ac030
+/transform_listener_impl_7eb268002980
+
+===== ros2 service list =====
+/Alicia_controller/describe_parameters
+/Alicia_controller/get_parameter_types
+/Alicia_controller/get_parameters
+/Alicia_controller/list_parameters
+/Alicia_controller/query_state
+/Alicia_controller/set_parameters
+/Alicia_controller/set_parameters_atomically
+/Gripper_controller/describe_parameters
+/Gripper_controller/get_parameter_types
+/Gripper_controller/get_parameters
+/Gripper_controller/list_parameters
+/Gripper_controller/query_state
+/Gripper_controller/set_parameters
+/Gripper_controller/set_parameters_atomically
+/apply_planning_scene
+/check_state_validity
+/clear_octomap
+/compute_cartesian_path
+/compute_fk
+/compute_ik
+/controller_manager/configure_controller
+/controller_manager/describe_parameters
+/controller_manager/get_parameter_types
+/controller_manager/get_parameters
+/controller_manager/list_controller_types
+/controller_manager/list_controllers
+/controller_manager/list_hardware_components
+/controller_manager/list_hardware_interfaces
+/controller_manager/list_parameters
+/controller_manager/load_controller
+/controller_manager/reload_controller_libraries
+/controller_manager/set_hardware_component_state
+/controller_manager/set_parameters
+/controller_manager/set_parameters_atomically
+/controller_manager/switch_controller
+/controller_manager/unload_controller
+/get_planner_params
+/get_planning_scene
+/interactive_marker_display_101309845666720/describe_parameters
+/interactive_marker_display_101309845666720/get_parameter_types
+/interactive_marker_display_101309845666720/get_parameters
+/interactive_marker_display_101309845666720/list_parameters
+/interactive_marker_display_101309845666720/set_parameters
+/interactive_marker_display_101309845666720/set_parameters_atomically
+/joint_state_broadcaster/describe_parameters
+/joint_state_broadcaster/get_parameter_types
+/joint_state_broadcaster/get_parameters
+/joint_state_broadcaster/list_parameters
+/joint_state_broadcaster/set_parameters
+/joint_state_broadcaster/set_parameters_atomically
+/load_map
+/move_group/describe_parameters
+/move_group/get_parameter_types
+/move_group/get_parameters
+/move_group/list_parameters
+/move_group/set_parameters
+/move_group/set_parameters_atomically
+/move_group_private_103343259278944/describe_parameters
+/move_group_private_103343259278944/get_parameter_types
+/move_group_private_103343259278944/get_parameters
+/move_group_private_103343259278944/list_parameters
+/move_group_private_103343259278944/set_parameters
+/move_group_private_103343259278944/set_parameters_atomically
+/moveit_simple_controller_manager/describe_parameters
+/moveit_simple_controller_manager/get_parameter_types
+/moveit_simple_controller_manager/get_parameters
+/moveit_simple_controller_manager/list_parameters
+/moveit_simple_controller_manager/set_parameters
+/moveit_simple_controller_manager/set_parameters_atomically
+/plan_kinematic_path
+/query_planner_interface
+/robot_state_publisher/describe_parameters
+/robot_state_publisher/get_parameter_types
+/robot_state_publisher/get_parameters
+/robot_state_publisher/list_parameters
+/robot_state_publisher/set_parameters
+/robot_state_publisher/set_parameters_atomically
+/rviz2/describe_parameters
+/rviz2/get_parameter_types
+/rviz2/get_parameters
+/rviz2/list_parameters
+/rviz2/set_parameters
+/rviz2/set_parameters_atomically
+/rviz2_private_139304728088480/describe_parameters
+/rviz2_private_139304728088480/get_parameter_types
+/rviz2_private_139304728088480/get_parameters
+/rviz2_private_139304728088480/list_parameters
+/rviz2_private_139304728088480/set_parameters
+/rviz2_private_139304728088480/set_parameters_atomically
+/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/get_interactive_markers
+/save_map
+/set_planner_params
+
+===== ros2 topic list =====
+/Alicia_controller/controller_state
+/Alicia_controller/joint_trajectory
+/Alicia_controller/state
+/Alicia_controller/transition_event
+/Gripper_controller/controller_state
+/Gripper_controller/joint_trajectory
+/Gripper_controller/state
+/Gripper_controller/transition_event
+/attached_collision_object
+/clicked_point
+/collision_object
+/display_contacts
+/display_planned_path
+/dynamic_joint_states
+/goal_pose
+/initialpose
+/joint_state_broadcaster/transition_event
+/joint_states
+/monitored_planning_scene
+/motion_plan_request
+/parameter_events
+/planning_scene
+/planning_scene_world
+/recognized_object_array
+/robot_description
+/robot_description_semantic
+/rosout
+/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback
+/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update
+/tf
+/tf_static
+/trajectory_execution_event
+
+===== ros2 control list_controllers =====
+[92mjoint_state_broadcaster[0m joint_state_broadcaster/JointStateBroadcaster          [92mactive[0m
+[92mAlicia_controller      [0m joint_trajectory_controller/JointTrajectoryController  [92mactive[0m
+[92mGripper_controller     [0m joint_trajectory_controller/JointTrajectoryController  [92mactive[0m
+
+===== one joint_states message =====
+A message was lost!!!
+	total count change:1
+	total count: 1---
+header:
+  stamp:
+    sec: 1780475250
+    nanosec: 614455706
+  frame_id: base_link
+name:
+- Joint2
+- Joint3
+- Joint1
+- Joint4
+- Joint6
+- Joint5
+- Gripper
+position:
+- 0.1089
+- 0.6703
+- 0.0
+- 0.0
+- 0.0
+- -1.4174
+- 0.0
+velocity:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+effort:
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+---

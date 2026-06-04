@@ -1,0 +1,2 @@
+[INFO] [1780475252.858663821] [thinkgrasp.thinkgrasp_bridge]: ThinkGrasp bridge ready: http://127.0.0.1:5000/grasp_pose -> 'grasp_candidate'
+[INFO] [1780475256.421181205] [thinkgrasp.thinkgrasp_bridge]: Published grasp candidate: frame=base_link, position=(0.1500, 0.1000, 0.1000)

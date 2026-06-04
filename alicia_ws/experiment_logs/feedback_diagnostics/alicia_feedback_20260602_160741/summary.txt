@@ -1,0 +1,11 @@
+Alicia-D feedback diagnostic summary
+generated_at: 2026-06-02T16:07:46
+records: 32
+joint_frames_ok: 30
+joint_frames_all_zero: 30
+self_check_mask: 0x01FF
+self_check_fault_bits: bit_9
+last_joint_raw: [0, 0, 0, 0, 0, 0]
+last_joint_deg: -180.000, -180.000, -180.000, -180.000, -180.000, -180.000
+last_run_status: 0x00(idle)
+result: all valid joint feedback frames reported raw zero

@@ -1,0 +1,8 @@
+---
+bool success
+string message
+int32 raw_position
+int32 relative_ticks
+---
+int32 raw_position
+bool moving
