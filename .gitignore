@@ -6,3 +6,5 @@ ThinkGrasp-main/assets/# VS Code IntelliSense cache
 *.vc.db
 *.db
 .vscode/
+alicia_ws/experiment_logs/
+alicia_ws/build/

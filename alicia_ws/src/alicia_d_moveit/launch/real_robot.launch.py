@@ -137,6 +137,7 @@ def launch_setup(context, *args, **kwargs):
         "capabilities": "",
         "disable_capabilities": "",
         "monitor_dynamics": False,
+        "trajectory_execution.allowed_start_tolerance": 0.05,
     }
     
     move_group_node = Node(

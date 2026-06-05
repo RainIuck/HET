@@ -54,9 +54,11 @@ def load_hardware_defaults():
 
 def launch_setup(context, *args, **kwargs):
     """Setup real robot launch with versioned config."""
+    hardware_defaults = kwargs.get("hardware_defaults", load_hardware_defaults())
+
     # Get launch configuration values
     gripper_type = LaunchConfiguration('gripper_type').perform(context)
-    port = LaunchConfiguration('port').perform(context)
+    port = hardware_defaults['port']
     speed_deg_s = float(LaunchConfiguration('speed_deg_s').perform(context))
     debug_mode = LaunchConfiguration('debug_mode').perform(context)
     use_open_loop_state = LaunchConfiguration('use_open_loop_state').perform(context)
@@ -135,6 +137,7 @@ def launch_setup(context, *args, **kwargs):
         "capabilities": "",
         "disable_capabilities": "",
         "monitor_dynamics": False,
+        "trajectory_execution.allowed_start_tolerance": 0.05,
     }
     
     move_group_node = Node(
@@ -226,11 +229,6 @@ def generate_launch_description():
             description='Gripper type: "50mm" or "100mm"'
         ),
         DeclareLaunchArgument(
-            'port',
-            default_value=defaults['port'],
-            description='Serial port for robot connection. Set in config/hardware_defaults.yaml or override here.'
-        ),
-        DeclareLaunchArgument(
             'speed_deg_s',
             default_value=defaults['speed_deg_s'],
             description='Default speed in degrees per second for joint movements.'
@@ -250,5 +248,5 @@ def generate_launch_description():
             default_value=defaults['feedback_timeout_s'],
             description='Maximum age in seconds for Alicia-D joint feedback before it is treated as invalid.'
         ),
-        OpaqueFunction(function=launch_setup)
+        OpaqueFunction(function=launch_setup, kwargs={"hardware_defaults": defaults})
     ])
