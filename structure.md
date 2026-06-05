@@ -133,6 +133,10 @@ home
   -> force grasp until effort threshold
   -> move arm to lift
   -> move arm to post_grasp_intermediate joint waypoint
+  -> move arm through configured place_path joint waypoints
+  -> move gripper to open position and release object
+  -> move arm back through place_path in reverse
+  -> move arm to post_grasp_intermediate joint waypoint
 ```
 
 当前 `pre_grasp` 和 `lift` 使用 `base_link` 的 `+Z` 偏移。以后可以在主控中改为沿抓取接近方向偏移。
@@ -331,6 +335,22 @@ post_grasp_intermediate_joint_positions
 关节角单位为弧度。默认位置值为 `.nan` 占位符；主控检测到未填写的占位符时，
 不会开始抓取。
 - 机械臂动作请求的任务级参数。
+
+### 放置路径配置
+
+```text
+alicia_d_pick_coordinator/config/place_path.yaml
+```
+
+保存放置和回位共用的固定关节路径。该路径从
+`post_grasp_intermediate` 开始，因此配置文件中不重复保存起点。主控到达
+`post_grasp_intermediate` 后，会正向走完 `place_path.waypoints` 中的所有关节
+路径点，在最后一个路径点打开夹爪释放物块，然后反向走回同一路径并最终回到
+`post_grasp_intermediate`。
+
+路径点数量不固定，主控按配置文件中的顺序全部执行。`enabled: false` 时不执行
+放置路径，抓取流程保持在 `post_grasp_intermediate` 结束；`enabled: true` 时，
+每个路径点必须包含 6 个有限关节角，`joint_names` 必须覆盖 `Joint1..Joint6`。
 
 ### ThinkGrasp Bridge 配置
 

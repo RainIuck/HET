@@ -1,0 +1,44 @@
+[2.739s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator -- -j20 -l20
+[2.893s] Built target ament_cmake_python_copy_alicia_d_pick_coordinator
+[3.598s] running egg_info
+[3.607s] writing alicia_d_pick_coordinator.egg-info/PKG-INFO
+[3.607s] writing dependency_links to alicia_d_pick_coordinator.egg-info/dependency_links.txt
+[3.607s] writing top-level names to alicia_d_pick_coordinator.egg-info/top_level.txt
+[3.608s] reading manifest file 'alicia_d_pick_coordinator.egg-info/SOURCES.txt'
+[3.610s] writing manifest file 'alicia_d_pick_coordinator.egg-info/SOURCES.txt'
+[3.678s] Built target ament_cmake_python_build_alicia_d_pick_coordinator_egg
+[3.720s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator -- -j20 -l20
+[3.725s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator
+[3.750s] -- Install configuration: ""
+[3.754s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/environment/pythonpath.sh
+[3.755s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/environment/pythonpath.dsv
+[3.758s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator-0.1.0-py3.10.egg-info
+[3.758s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator-0.1.0-py3.10.egg-info/PKG-INFO
+[3.764s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator-0.1.0-py3.10.egg-info/SOURCES.txt
+[3.765s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator-0.1.0-py3.10.egg-info/dependency_links.txt
+[3.766s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator-0.1.0-py3.10.egg-info/top_level.txt
+[3.766s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator
+[3.766s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator/__init__.py
+[3.870s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/local/lib/python3.10/dist-packages/alicia_d_pick_coordinator'...
+[3.871s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+[3.871s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/config
+[3.872s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/config/pick_coordinator.yaml
+[3.872s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/launch
+[3.872s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/launch/pick_coordinator.launch.py
+[3.873s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/launch/mock_pick_control.launch.py
+[3.873s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/ament_index/resource_index/package_run_dependencies/alicia_d_pick_coordinator
+[3.873s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/ament_index/resource_index/parent_prefix_path/alicia_d_pick_coordinator
+[3.874s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/environment/ament_prefix_path.sh
+[3.874s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/environment/ament_prefix_path.dsv
+[3.874s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/environment/path.sh
+[3.874s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/environment/path.dsv
+[3.874s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/local_setup.bash
+[3.875s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/local_setup.sh
+[3.875s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/local_setup.zsh
+[3.875s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/local_setup.dsv
+[3.876s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/package.dsv
+[3.876s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/ament_index/resource_index/packages/alicia_d_pick_coordinator
+[3.876s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/cmake/alicia_d_pick_coordinatorConfig.cmake
+[3.877s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/cmake/alicia_d_pick_coordinatorConfig-version.cmake
+[3.877s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/share/alicia_d_pick_coordinator/package.xml
+[3.877s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator

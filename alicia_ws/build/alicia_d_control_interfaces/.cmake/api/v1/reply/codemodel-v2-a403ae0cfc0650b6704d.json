@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a71c47f1258da1b70ec9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "alicia_d_control_interfaces__py",
+					"jsonFile" : "directory-alicia_d_control_interfaces__py-e48cc0950e8fe1647bdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/alicia_d_control_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "alicia_d_control_interfaces__rs",
+					"jsonFile" : "directory-alicia_d_control_interfaces__rs-65d65a4382c536d5eb35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/alicia_d_control_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "alicia_d_control_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces-546f16f85cd68495687d.json",
+					"name" : "alicia_d_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__cpp-ba883ebf8571bde3addb.json",
+					"name" : "alicia_d_control_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "alicia_d_control_interfaces__py::@7258242e2d34bcf7cf1b",
+					"jsonFile" : "target-alicia_d_control_interfaces__py-7bd6a4186153d09d8a08.json",
+					"name" : "alicia_d_control_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_generator_c-80ffc47413e84a909b27.json",
+					"name" : "alicia_d_control_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_generator_py-f7d87e327154e4bece78.json",
+					"name" : "alicia_d_control_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_c-22b29151ddb9c000cdc3.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_c__pyext-1f9ca4f117d36f9353c6.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_cpp-7a09b13416249c8ef03b.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c-b75cfba6aba57c987e33.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c__pyext-eb34149cc074e4c3c6af.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp-7d7ef425ee19c323f272.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_introspection_c-c2abc2faaea309a12790.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_introspection_c__pyext-0b7e41fadaf669abcd66.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp-e2ef42130d7df25d6c10.json",
+					"name" : "alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "alicia_d_control_interfaces__rs::@734b3054125e4e40c650",
+					"jsonFile" : "target-alicia_d_control_interfaces__rs-fd8485557dbc373d22b1.json",
+					"name" : "alicia_d_control_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_control_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_control_interfaces_uninstall-b939f710d35a3c8e5f46.json",
+					"name" : "alicia_d_control_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_alicia_d_control_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_alicia_d_control_interfaces_egg-4a29431f660935df0287.json",
+					"name" : "ament_cmake_python_build_alicia_d_control_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_alicia_d_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_alicia_d_control_interfaces-23534d92bd9344c21d90.json",
+					"name" : "ament_cmake_python_copy_alicia_d_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c7ad0fca4e6cbfc71a2c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces",
+		"source" : "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

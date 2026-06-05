@@ -72,7 +72,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/Projects/HET/alicia_ws/src/alicia_d_thinkgrasp_bridge/scripts/mock_decision_server.py"
     "/home/Projects/HET/alicia_ws/src/alicia_d_thinkgrasp_bridge/scripts/safe_joint_raise.py"
     "/home/Projects/HET/alicia_ws/src/alicia_d_thinkgrasp_bridge/scripts/safe_tcp_lift.py"
-    "/home/Projects/HET/alicia_ws/src/alicia_d_thinkgrasp_bridge/scripts/thinkgrasp_mock_pick.py"
+    "/home/Projects/HET/alicia_ws/src/alicia_d_thinkgrasp_bridge/scripts/thinkgrasp_bridge_node.py"
     )
 endif()
 

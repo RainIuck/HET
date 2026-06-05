@@ -1,0 +1,52 @@
+[0.100s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_descriptions -- -j20 -l20
+[0.248s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_descriptions -- -j20 -l20
+[0.278s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_descriptions
+[0.300s] -- Install configuration: ""
+[0.301s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/launch
+[0.302s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/launch/alicia.rviz
+[0.304s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/launch/display.launch.py
+[0.305s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf
+[0.305s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf/Alicia_D_v5_6
+[0.306s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf/Alicia_D_v5_6/Alicia_D_v5_6_gripper_100mm.urdf
+[0.307s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf/Alicia_D_v5_6/Alicia_D_v5_6_gripper_50mm.urdf
+[0.308s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes
+[0.310s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6
+[0.311s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm
+[0.312s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link6.STL
+[0.314s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link5.STL
+[0.315s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link2.STL
+[0.316s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link4.STL
+[0.316s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/right_gripper.STL
+[0.320s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link1.STL
+[0.322s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/left_gripper.STL
+[0.324s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link3.STL
+[0.326s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/base_link.STL
+[0.327s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/girpper_center.STL
+[0.328s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm
+[0.329s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link6.STL
+[0.331s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link5.STL
+[0.332s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link2.STL
+[0.335s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link4.STL
+[0.336s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/right_gripper.STL
+[0.341s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link1.STL
+[0.342s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/left_gripper.STL
+[0.344s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link3.STL
+[0.344s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/base_link.STL
+[0.345s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/girpper_center.STL
+[0.346s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/lib/alicia_d_descriptions/display.launch.py
+[0.348s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/package_run_dependencies/alicia_d_descriptions
+[0.348s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/parent_prefix_path/alicia_d_descriptions
+[0.349s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/ament_prefix_path.sh
+[0.350s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/ament_prefix_path.dsv
+[0.351s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/path.sh
+[0.352s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/path.dsv
+[0.352s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.bash
+[0.354s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.sh
+[0.357s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.zsh
+[0.360s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.dsv
+[0.361s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/package.dsv
+[0.363s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/packages/alicia_d_descriptions
+[0.364s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/cmake/alicia_d_descriptionsConfig.cmake
+[0.366s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/cmake/alicia_d_descriptionsConfig-version.cmake
+[0.367s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/package.xml
+[0.372s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_descriptions

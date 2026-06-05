@@ -1,0 +1,8 @@
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:msg/GraspCandidate.idl
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:msg/GripperState.idl
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/ForceGrasp.idl
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/HomeGripper.idl
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveArmToJoints.idl
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveArmToPose.idl
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveGripper.idl
+/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveGripperStep.idl

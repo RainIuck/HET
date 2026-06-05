@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from alicia_d_control_interfaces/action/MoveArmToJoints.action
+// generated code does not contain a copyright notice
+
+
+module alicia_d_control_interfaces {
+  module action {
+    struct MoveArmToJoints_Goal {
+      sequence<string> joint_names;
+
+      sequence<double> joint_positions;
+
+      double max_velocity_scaling;
+
+      double max_acceleration_scaling;
+
+      boolean execute;
+    };
+    struct MoveArmToJoints_Result {
+      boolean success;
+
+      int32 moveit_error_code;
+
+      string message;
+    };
+    struct MoveArmToJoints_Feedback {
+      string stage;
+    };
+  };
+};

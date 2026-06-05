@@ -1,0 +1,13 @@
+{
+  "package_name": "alicia_d_control_interfaces",
+  "non_idl_tuples": [
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:msg/GraspCandidate.msg",
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:msg/GripperState.msg",
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:action/ForceGrasp.action",
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:action/HomeGripper.action",
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:action/MoveArmToJoints.action",
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:action/MoveArmToPose.action",
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:action/MoveGripper.action",
+    "/home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces:action/MoveGripperStep.action"
+  ]
+}

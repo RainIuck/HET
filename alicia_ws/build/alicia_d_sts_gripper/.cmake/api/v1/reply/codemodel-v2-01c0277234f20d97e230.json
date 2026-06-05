@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-467ead6049e0279bba3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alicia_d_sts_gripper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_sts_gripper_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_sts_gripper_uninstall-4729af588262f59d5361.json",
+					"name" : "alicia_d_sts_gripper_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_alicia_d_sts_gripper_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_alicia_d_sts_gripper_egg-b7a67b8d3b33df5dc13a.json",
+					"name" : "ament_cmake_python_build_alicia_d_sts_gripper_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_alicia_d_sts_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_alicia_d_sts_gripper-e3f2b57b27b0f3067532.json",
+					"name" : "ament_cmake_python_copy_alicia_d_sts_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c1b5eeb35ed078c570aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper",
+		"source" : "/home/Projects/HET/alicia_ws/src/alicia_d_sts_gripper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

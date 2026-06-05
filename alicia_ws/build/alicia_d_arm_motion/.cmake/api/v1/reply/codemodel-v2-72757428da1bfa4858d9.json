@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6ba953acf3808a36e142.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alicia_d_arm_motion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_arm_motion_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_arm_motion_uninstall-206e5eb3d0f2b48ca9e8.json",
+					"name" : "alicia_d_arm_motion_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_alicia_d_arm_motion_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_alicia_d_arm_motion_egg-0863aab5bed7f25d63c7.json",
+					"name" : "ament_cmake_python_build_alicia_d_arm_motion_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_alicia_d_arm_motion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_alicia_d_arm_motion-507275ca4eabf1e9f637.json",
+					"name" : "ament_cmake_python_copy_alicia_d_arm_motion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b58ad2905c46f4da98df.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Projects/HET/alicia_ws/build/alicia_d_arm_motion",
+		"source" : "/home/Projects/HET/alicia_ws/src/alicia_d_arm_motion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

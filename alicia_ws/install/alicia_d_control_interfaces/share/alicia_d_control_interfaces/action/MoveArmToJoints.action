@@ -1,0 +1,11 @@
+string[] joint_names
+float64[] joint_positions
+float64 max_velocity_scaling
+float64 max_acceleration_scaling
+bool execute
+---
+bool success
+int32 moveit_error_code
+string message
+---
+string stage

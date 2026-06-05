@@ -1,0 +1,432 @@
+[30.045s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces
+[33.097s] -- The C compiler identification is GNU 11.4.0
+[48.669s] -- The CXX compiler identification is GNU 11.4.0
+[59.980s] -- Detecting C compiler ABI info
+[62.849s] -- Detecting C compiler ABI info - done
+[62.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[62.872s] -- Detecting C compile features
+[62.873s] -- Detecting C compile features - done
+[62.881s] -- Detecting CXX compiler ABI info
+[66.160s] -- Detecting CXX compiler ABI info - done
+[66.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[66.178s] -- Detecting CXX compile features
+[66.179s] -- Detecting CXX compile features - done
+[66.186s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[66.547s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[66.760s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[70.711s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[70.722s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[70.741s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[70.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[70.817s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[70.914s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[71.997s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[73.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[73.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[78.083s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[78.087s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[90.125s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[90.125s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[90.125s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[90.126s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[90.179s] -- Found PythonExtra: .so  
+[92.390s] -- Configuring done
+[92.563s] -- Generating done
+[92.609s] -- Build files have been written to: /home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces
+[92.639s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/Projects/HET/alicia_ws/src/alicia_d_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces
+[92.646s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces -- -j20 -l20
+[92.747s] [  1%] Generating C code for ROS interfaces
+[92.779s] [  3%] Generating C++ code for ROS interfaces
+[92.780s] [  3%] Generating Rust code for ROS interfaces
+[92.803s] [  3%] Built target ament_cmake_python_copy_alicia_d_control_interfaces
+[93.771s] running egg_info
+[93.774s] creating alicia_d_control_interfaces.egg-info
+[93.776s] writing alicia_d_control_interfaces.egg-info/PKG-INFO
+[93.777s] writing dependency_links to alicia_d_control_interfaces.egg-info/dependency_links.txt
+[93.779s] writing top-level names to alicia_d_control_interfaces.egg-info/top_level.txt
+[93.780s] writing manifest file 'alicia_d_control_interfaces.egg-info/SOURCES.txt'
+[93.786s] reading manifest file 'alicia_d_control_interfaces.egg-info/SOURCES.txt'
+[93.793s] writing manifest file 'alicia_d_control_interfaces.egg-info/SOURCES.txt'
+[93.877s] [  3%] Built target ament_cmake_python_build_alicia_d_control_interfaces_egg
+[94.460s] [  3%] Built target alicia_d_control_interfaces__rs
+[96.928s] [  8%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/alicia_d_control_interfaces/action/detail/move_gripper_step__functions.c.o
+[96.928s] [  8%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/alicia_d_control_interfaces/msg/detail/grasp_candidate__functions.c.o
+[96.929s] [  8%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/alicia_d_control_interfaces/action/detail/home_gripper__functions.c.o
+[96.929s] [  8%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/alicia_d_control_interfaces/msg/detail/gripper_state__functions.c.o
+[96.934s] [ 10%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/alicia_d_control_interfaces/action/detail/move_gripper__functions.c.o
+[96.935s] [ 11%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/alicia_d_control_interfaces/action/detail/move_arm_to_pose__functions.c.o
+[96.947s] [ 12%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/alicia_d_control_interfaces/action/detail/force_grasp__functions.c.o
+[97.254s] [ 12%] Built target alicia_d_control_interfaces__cpp
+[97.290s] [ 13%] Generating C++ type support for eProsima Fast-RTPS
+[97.292s] [ 15%] Generating C++ type support dispatch for ROS interfaces
+[97.308s] [ 16%] Generating C++ introspection for ROS interfaces
+[97.646s] [ 17%] Linking C shared library libalicia_d_control_interfaces__rosidl_generator_c.so
+[99.137s] [ 18%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/alicia_d_control_interfaces/msg/grasp_candidate__type_support.cpp.o
+[99.139s] [ 20%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/alicia_d_control_interfaces/msg/gripper_state__type_support.cpp.o
+[99.142s] [ 21%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/alicia_d_control_interfaces/action/force_grasp__type_support.cpp.o
+[99.142s] [ 22%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/alicia_d_control_interfaces/action/move_arm_to_pose__type_support.cpp.o
+[99.142s] [ 23%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/alicia_d_control_interfaces/action/home_gripper__type_support.cpp.o
+[99.143s] [ 25%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/alicia_d_control_interfaces/action/move_gripper_step__type_support.cpp.o
+[99.144s] [ 26%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/alicia_d_control_interfaces/action/move_gripper__type_support.cpp.o
+[100.106s] [ 27%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.cpp.o
+[100.107s] [ 28%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/alicia_d_control_interfaces/action/detail/force_grasp__type_support.cpp.o
+[100.113s] [ 30%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/alicia_d_control_interfaces/action/detail/move_gripper__type_support.cpp.o
+[100.113s] [ 31%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/alicia_d_control_interfaces/action/detail/move_gripper_step__type_support.cpp.o
+[100.116s] [ 32%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.cpp.o
+[100.120s] [ 33%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.cpp.o
+[100.137s] [ 35%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/alicia_d_control_interfaces/action/detail/home_gripper__type_support.cpp.o
+[100.490s] [ 35%] Built target alicia_d_control_interfaces__rosidl_generator_c
+[100.531s] [ 36%] Generating C type support for eProsima Fast-RTPS
+[100.531s] [ 37%] Generating C type support dispatch for ROS interfaces
+[100.541s] [ 38%] Generating C introspection for ROS interfaces
+[101.653s] [ 40%] Linking CXX shared library libalicia_d_control_interfaces__rosidl_typesupport_cpp.so
+[101.768s] [ 41%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/alicia_d_control_interfaces/msg/detail/dds_fastrtps/grasp_candidate__type_support.cpp.o
+[101.768s] [ 42%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/alicia_d_control_interfaces/action/detail/dds_fastrtps/home_gripper__type_support.cpp.o
+[101.772s] [ 43%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/alicia_d_control_interfaces/action/detail/dds_fastrtps/move_arm_to_pose__type_support.cpp.o
+[101.772s] [ 45%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/alicia_d_control_interfaces/msg/detail/dds_fastrtps/gripper_state__type_support.cpp.o
+[101.787s] [ 46%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/alicia_d_control_interfaces/action/detail/dds_fastrtps/move_gripper__type_support.cpp.o
+[101.831s] [ 47%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/alicia_d_control_interfaces/action/detail/dds_fastrtps/force_grasp__type_support.cpp.o
+[101.845s] [ 48%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/alicia_d_control_interfaces/action/detail/dds_fastrtps/move_gripper_step__type_support.cpp.o
+[103.426s] [ 50%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/msg/gripper_state__type_support.cpp.o
+[103.430s] [ 51%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_arm_to_pose__type_support.cpp.o
+[103.434s] [ 52%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/home_gripper__type_support.cpp.o
+[103.441s] [ 53%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper__type_support.cpp.o
+[103.463s] [ 55%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/force_grasp__type_support.cpp.o
+[103.463s] [ 56%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/msg/grasp_candidate__type_support.cpp.o
+[103.511s] [ 57%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper_step__type_support.cpp.o
+[103.827s] [ 58%] Linking CXX shared library libalicia_d_control_interfaces__rosidl_typesupport_c.so
+[104.516s] [ 60%] Linking CXX shared library libalicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[104.755s] [ 62%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.c.o
+[104.755s] [ 62%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/alicia_d_control_interfaces/action/detail/force_grasp__type_support.c.o
+[104.755s] [ 63%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/alicia_d_control_interfaces/action/detail/home_gripper__type_support.c.o
+[104.755s] [ 65%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.c.o
+[104.757s] [ 66%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/alicia_d_control_interfaces/action/detail/move_gripper__type_support.c.o
+[104.759s] [ 67%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/alicia_d_control_interfaces/action/detail/move_gripper_step__type_support.c.o
+[104.760s] [ 68%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.c.o
+[104.926s] [ 70%] Linking C shared library libalicia_d_control_interfaces__rosidl_typesupport_introspection_c.so
+[105.126s] [ 71%] Linking CXX shared library libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[105.293s] [ 71%] Built target alicia_d_control_interfaces__rosidl_typesupport_cpp
+[105.784s] [ 72%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/alicia_d_control_interfaces/action/detail/home_gripper__type_support_c.cpp.o
+[105.784s] [ 73%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/alicia_d_control_interfaces/action/detail/move_gripper__type_support_c.cpp.o
+[105.794s] [ 75%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support_c.cpp.o
+[105.797s] [ 76%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support_c.cpp.o
+[105.798s] [ 77%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/alicia_d_control_interfaces/msg/detail/gripper_state__type_support_c.cpp.o
+[105.807s] [ 78%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/alicia_d_control_interfaces/action/detail/force_grasp__type_support_c.cpp.o
+[105.826s] [ 80%] Building CXX object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/alicia_d_control_interfaces/action/detail/move_gripper_step__type_support_c.cpp.o
+[106.828s] [ 80%] Built target alicia_d_control_interfaces__rosidl_typesupport_c
+[107.232s] [ 81%] Linking CXX shared library libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[107.258s] [ 81%] Built target alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp
+[108.359s] [ 81%] Built target alicia_d_control_interfaces__rosidl_typesupport_introspection_c
+[108.550s] [ 81%] Built target alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[110.576s] [ 81%] Built target alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c
+[110.631s] [ 81%] Built target alicia_d_control_interfaces
+[110.678s] [ 82%] Generating Python code for ROS interfaces
+[117.722s] [ 82%] Built target alicia_d_control_interfaces__py
+[117.775s] [ 83%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/msg/_grasp_candidate_s.c.o
+[117.778s] [ 85%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_arm_to_pose_s.c.o
+[117.779s] [ 86%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/msg/_gripper_state_s.c.o
+[117.780s] [ 87%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_force_grasp_s.c.o
+[117.781s] [ 90%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_home_gripper_s.c.o
+[117.781s] [ 90%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_gripper_s.c.o
+[117.784s] [ 91%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_gripper_step_s.c.o
+[118.231s] [ 92%] Linking C shared library rosidl_generator_py/alicia_d_control_interfaces/libalicia_d_control_interfaces__rosidl_generator_py.so
+[120.842s] [ 92%] Built target alicia_d_control_interfaces__rosidl_generator_py
+[120.897s] [ 93%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[120.898s] [ 95%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_c.c.o
+[120.900s] [ 96%] Building C object CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[121.573s] [ 97%] Linking C shared library rosidl_generator_py/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[121.575s] [ 98%] Linking C shared library rosidl_generator_py/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[121.618s] [100%] Linking C shared library rosidl_generator_py/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[123.246s] [100%] Built target alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[123.247s] [100%] Built target alicia_d_control_interfaces__rosidl_typesupport_c__pyext
+[123.288s] [100%] Built target alicia_d_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[123.322s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces -- -j20 -l20
+[123.354s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces
+[123.374s] -- Install configuration: ""
+[123.378s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/alicia_d_control_interfaces
+[123.378s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces
+[123.380s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action
+[123.380s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail
+[123.382s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__functions.c
+[123.383s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__functions.c
+[123.384s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__struct.h
+[123.385s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.h
+[123.385s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__type_support.h
+[123.385s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__functions.h
+[123.387s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__functions.c
+[123.388s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.h
+[123.388s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__functions.h
+[123.388s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__functions.c
+[123.390s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.h
+[123.392s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__functions.h
+[123.393s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__struct.h
+[123.396s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__functions.h
+[123.396s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.h
+[123.397s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__struct.h
+[123.398s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__functions.c
+[123.401s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__struct.h
+[123.402s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__struct.h
+[123.402s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__functions.h
+[123.403s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/home_gripper.h
+[123.403s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_gripper_step.h
+[123.403s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_arm_to_pose.h
+[123.404s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/force_grasp.h
+[123.405s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_gripper.h
+[123.406s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg
+[123.406s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail
+[123.407s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.h
+[123.407s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__struct.h
+[123.407s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__functions.c
+[123.407s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__functions.h
+[123.410s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.h
+[123.412s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__functions.c
+[123.412s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__struct.h
+[123.413s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__functions.h
+[123.415s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/grasp_candidate.h
+[123.416s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[123.417s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/gripper_state.h
+[123.418s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/library_path.sh
+[123.418s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/library_path.dsv
+[123.420s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_generator_c.so
+[123.421s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_generator_c.so" to ""
+[123.422s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces
+[123.422s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action
+[123.422s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail
+[123.422s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_fastrtps_c.h
+[123.422s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_fastrtps_c.h
+[123.422s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_fastrtps_c.h
+[123.422s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_fastrtps_c.h
+[123.423s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__rosidl_typesupport_fastrtps_c.h
+[123.424s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg
+[123.427s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail
+[123.428s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_fastrtps_c.h
+[123.429s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_fastrtps_c.h
+[123.431s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[123.434s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[123.436s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[123.439s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces
+[123.439s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action
+[123.442s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_gripper.hpp
+[123.444s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail
+[123.444s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__type_support.hpp
+[123.446s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__struct.hpp
+[123.447s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.hpp
+[123.449s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__builder.hpp
+[123.449s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__traits.hpp
+[123.450s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.hpp
+[123.450s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__traits.hpp
+[123.451s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__builder.hpp
+[123.452s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__traits.hpp
+[123.453s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.hpp
+[123.454s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__builder.hpp
+[123.456s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__builder.hpp
+[123.457s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__builder.hpp
+[123.459s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.hpp
+[123.460s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__struct.hpp
+[123.462s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__traits.hpp
+[123.462s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__struct.hpp
+[123.462s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__struct.hpp
+[123.463s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__struct.hpp
+[123.464s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__traits.hpp
+[123.464s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_gripper_step.hpp
+[123.465s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/force_grasp.hpp
+[123.465s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_arm_to_pose.hpp
+[123.467s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/home_gripper.hpp
+[123.467s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg
+[123.467s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail
+[123.468s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__struct.hpp
+[123.468s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.hpp
+[123.468s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__struct.hpp
+[123.468s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__traits.hpp
+[123.469s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__builder.hpp
+[123.469s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__traits.hpp
+[123.469s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.hpp
+[123.469s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__builder.hpp
+[123.470s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/gripper_state.hpp
+[123.472s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/grasp_candidate.hpp
+[123.473s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[123.474s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces
+[123.475s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action
+[123.475s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail
+[123.476s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__rosidl_typesupport_fastrtps_cpp.hpp
+[123.476s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[123.476s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[123.476s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[123.477s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/dds_fastrtps
+[123.477s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_fastrtps_cpp.hpp
+[123.478s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg
+[123.479s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail
+[123.480s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_fastrtps_cpp.hpp
+[123.481s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/dds_fastrtps
+[123.482s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_fastrtps_cpp.hpp
+[123.483s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[123.485s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[123.486s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[123.486s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces
+[123.487s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action
+[123.487s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail
+[123.488s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.c
+[123.489s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_introspection_c.h
+[123.490s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_introspection_c.h
+[123.492s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.c
+[123.493s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__rosidl_typesupport_introspection_c.h
+[123.494s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_introspection_c.h
+[123.495s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_introspection_c.h
+[123.495s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__type_support.c
+[123.496s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.c
+[123.496s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.c
+[123.496s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg
+[123.497s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail
+[123.497s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.c
+[123.497s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.c
+[123.497s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_introspection_c.h
+[123.497s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_introspection_c.h
+[123.497s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[123.498s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_introspection_c.so
+[123.498s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[123.498s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_c.so
+[123.498s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_c.so" to ""
+[123.499s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces
+[123.499s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action
+[123.500s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail
+[123.500s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__rosidl_typesupport_introspection_cpp.hpp
+[123.500s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_introspection_cpp.hpp
+[123.500s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_introspection_cpp.hpp
+[123.501s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[123.501s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_introspection_cpp.hpp
+[123.501s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.cpp
+[123.501s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.cpp
+[123.501s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.cpp
+[123.501s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper_step__type_support.cpp
+[123.501s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.cpp
+[123.502s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg
+[123.502s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail
+[123.502s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.cpp
+[123.502s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_introspection_cpp.hpp
+[123.502s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.cpp
+[123.502s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_introspection_cpp.hpp
+[123.502s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[123.502s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[123.502s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_cpp.so
+[123.503s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[123.503s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/pythonpath.sh
+[123.504s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/pythonpath.dsv
+[123.504s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info
+[123.504s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[123.504s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[123.505s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[123.505s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[123.505s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces
+[123.506s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[123.506s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[123.506s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/__init__.py
+[123.507s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_c.c
+[123.508s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[123.508s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/libalicia_d_control_interfaces__rosidl_generator_py.so
+[123.508s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[123.508s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action
+[123.508s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_force_grasp_s.c
+[123.509s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_force_grasp.py
+[123.509s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper_step_s.c
+[123.509s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/__init__.py
+[123.509s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper.py
+[123.509s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_home_gripper.py
+[123.509s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper_step.py
+[123.510s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_arm_to_pose.py
+[123.510s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper_s.c
+[123.510s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_arm_to_pose_s.c
+[123.510s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_home_gripper_s.c
+[123.510s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg
+[123.510s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_grasp_candidate.py
+[123.510s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/__init__.py
+[123.511s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_gripper_state.py
+[123.511s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_grasp_candidate_s.c
+[123.511s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_gripper_state_s.c
+[123.511s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[123.705s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces'...
+[123.706s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/__init__.py'...
+[123.706s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action'...
+[123.706s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/__init__.py'...
+[123.706s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_force_grasp.py'...
+[123.706s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_home_gripper.py'...
+[123.706s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_arm_to_pose.py'...
+[123.707s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper.py'...
+[123.707s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper_step.py'...
+[123.707s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg'...
+[123.707s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/__init__.py'...
+[123.708s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_grasp_candidate.py'...
+[123.708s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_gripper_state.py'...
+[123.718s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[123.721s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[123.721s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[123.723s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[123.723s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[123.725s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[123.726s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_generator_py.so
+[123.727s] -- Set runtime path of "/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_generator_py.so" to ""
+[123.729s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/rust_packages/alicia_d_control_interfaces
+[123.731s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust
+[123.732s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/Cargo.toml
+[123.733s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/build.rs
+[123.733s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src
+[123.734s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/msg.rs
+[123.735s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/lib.rs
+[123.735s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/action.rs
+[123.736s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/action
+[123.736s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/action/rmw.rs
+[123.737s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/msg
+[123.737s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/msg/rmw.rs
+[123.739s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GraspCandidate.idl
+[123.741s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GripperState.idl
+[123.742s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/ForceGrasp.idl
+[123.743s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/HomeGripper.idl
+[123.746s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveArmToPose.idl
+[123.747s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveGripper.idl
+[123.748s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveGripperStep.idl
+[123.748s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GraspCandidate.msg
+[123.749s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GripperState.msg
+[123.749s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/ForceGrasp.action
+[123.749s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/HomeGripper.action
+[123.750s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveArmToPose.action
+[123.751s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveGripper.action
+[123.752s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveGripperStep.action
+[123.752s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/package_run_dependencies/alicia_d_control_interfaces
+[123.754s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/parent_prefix_path/alicia_d_control_interfaces
+[123.755s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/ament_prefix_path.sh
+[123.755s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/ament_prefix_path.dsv
+[123.755s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/path.sh
+[123.756s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/path.dsv
+[123.757s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.bash
+[123.758s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.sh
+[123.759s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.zsh
+[123.759s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.dsv
+[123.769s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/package.dsv
+[123.770s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/packages/alicia_d_control_interfaces
+[123.770s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_cExport.cmake
+[123.770s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[123.771s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[123.772s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[123.773s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_cppExport.cmake
+[123.776s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[123.776s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[123.785s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[123.786s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[123.790s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cExport.cmake
+[123.791s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[123.792s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[123.794s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[123.795s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cppExport.cmake
+[123.798s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[123.799s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_pyExport.cmake
+[123.802s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[123.804s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[123.805s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[123.808s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[123.809s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[123.810s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[123.812s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[123.815s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[123.816s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfacesConfig.cmake
+[123.818s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfacesConfig-version.cmake
+[123.820s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/package.xml
+[123.821s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces

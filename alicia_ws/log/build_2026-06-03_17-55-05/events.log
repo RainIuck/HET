@@ -1,0 +1,718 @@
+[0.000000] (-) TimerEvent: {}
+[0.001105] (-) JobUnselected: {'identifier': 'alicia_d_arm_motion'}
+[0.001797] (-) JobUnselected: {'identifier': 'alicia_d_calibration'}
+[0.002849] (-) JobUnselected: {'identifier': 'alicia_d_cube_sort'}
+[0.003018] (-) JobUnselected: {'identifier': 'alicia_d_descriptions'}
+[0.003099] (-) JobUnselected: {'identifier': 'alicia_d_driver'}
+[0.003175] (-) JobUnselected: {'identifier': 'alicia_d_moveit'}
+[0.003251] (-) JobUnselected: {'identifier': 'alicia_d_pick_coordinator'}
+[0.003325] (-) JobUnselected: {'identifier': 'alicia_d_thinkgrasp_bridge'}
+[0.003410] (alicia_d_control_interfaces) JobQueued: {'identifier': 'alicia_d_control_interfaces', 'dependencies': OrderedDict()}
+[0.003497] (alicia_d_sts_gripper) JobQueued: {'identifier': 'alicia_d_sts_gripper', 'dependencies': OrderedDict([('alicia_d_control_interfaces', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces')])}
+[0.003587] (alicia_d_control_interfaces) JobStarted: {'identifier': 'alicia_d_control_interfaces'}
+[0.098567] (-) TimerEvent: {}
+[0.199117] (-) TimerEvent: {}
+[0.299743] (-) TimerEvent: {}
+[0.400189] (-) TimerEvent: {}
+[0.501218] (-) TimerEvent: {}
+[0.602838] (-) TimerEvent: {}
+[0.703921] (-) TimerEvent: {}
+[0.804799] (-) TimerEvent: {}
+[0.905316] (-) TimerEvent: {}
+[1.005918] (-) TimerEvent: {}
+[1.106375] (-) TimerEvent: {}
+[1.207116] (-) TimerEvent: {}
+[1.307939] (-) TimerEvent: {}
+[1.408521] (-) TimerEvent: {}
+[1.509156] (-) TimerEvent: {}
+[1.609756] (-) TimerEvent: {}
+[1.710284] (-) TimerEvent: {}
+[1.810753] (-) TimerEvent: {}
+[1.911182] (-) TimerEvent: {}
+[2.011740] (-) TimerEvent: {}
+[2.112227] (-) TimerEvent: {}
+[2.212787] (-) TimerEvent: {}
+[2.313373] (-) TimerEvent: {}
+[2.413841] (-) TimerEvent: {}
+[2.514456] (-) TimerEvent: {}
+[2.615245] (-) TimerEvent: {}
+[2.715917] (-) TimerEvent: {}
+[2.816451] (-) TimerEvent: {}
+[2.916918] (-) TimerEvent: {}
+[3.017467] (-) TimerEvent: {}
+[3.118244] (-) TimerEvent: {}
+[3.218879] (-) TimerEvent: {}
+[3.319504] (-) TimerEvent: {}
+[3.420001] (-) TimerEvent: {}
+[3.520571] (-) TimerEvent: {}
+[3.621125] (-) TimerEvent: {}
+[3.721784] (-) TimerEvent: {}
+[3.822317] (-) TimerEvent: {}
+[3.922856] (-) TimerEvent: {}
+[4.023401] (-) TimerEvent: {}
+[4.124024] (-) TimerEvent: {}
+[4.224521] (-) TimerEvent: {}
+[4.324932] (-) TimerEvent: {}
+[4.425456] (-) TimerEvent: {}
+[4.526002] (-) TimerEvent: {}
+[4.626516] (-) TimerEvent: {}
+[4.727212] (-) TimerEvent: {}
+[4.827926] (-) TimerEvent: {}
+[4.928570] (-) TimerEvent: {}
+[5.029015] (-) TimerEvent: {}
+[5.129494] (-) TimerEvent: {}
+[5.230052] (-) TimerEvent: {}
+[5.330588] (-) TimerEvent: {}
+[5.431226] (-) TimerEvent: {}
+[5.531753] (-) TimerEvent: {}
+[5.632428] (-) TimerEvent: {}
+[5.732993] (-) TimerEvent: {}
+[5.833547] (-) TimerEvent: {}
+[5.934078] (-) TimerEvent: {}
+[6.034567] (-) TimerEvent: {}
+[6.135015] (-) TimerEvent: {}
+[6.235512] (-) TimerEvent: {}
+[6.336048] (-) TimerEvent: {}
+[6.436540] (-) TimerEvent: {}
+[6.536981] (-) TimerEvent: {}
+[6.637460] (-) TimerEvent: {}
+[6.738019] (-) TimerEvent: {}
+[6.838747] (-) TimerEvent: {}
+[6.939444] (-) TimerEvent: {}
+[7.040075] (-) TimerEvent: {}
+[7.140787] (-) TimerEvent: {}
+[7.241317] (-) TimerEvent: {}
+[7.341853] (-) TimerEvent: {}
+[7.442300] (-) TimerEvent: {}
+[7.542774] (-) TimerEvent: {}
+[7.643255] (-) TimerEvent: {}
+[7.743763] (-) TimerEvent: {}
+[7.844303] (-) TimerEvent: {}
+[7.944864] (-) TimerEvent: {}
+[8.045435] (-) TimerEvent: {}
+[8.146060] (-) TimerEvent: {}
+[8.246714] (-) TimerEvent: {}
+[8.347353] (-) TimerEvent: {}
+[8.447872] (-) TimerEvent: {}
+[8.548342] (-) TimerEvent: {}
+[8.648800] (-) TimerEvent: {}
+[8.749226] (-) TimerEvent: {}
+[8.849636] (-) TimerEvent: {}
+[8.950120] (-) TimerEvent: {}
+[9.050628] (-) TimerEvent: {}
+[9.151180] (-) TimerEvent: {}
+[9.251697] (-) TimerEvent: {}
+[9.352312] (-) TimerEvent: {}
+[9.452950] (-) TimerEvent: {}
+[9.553440] (-) TimerEvent: {}
+[9.653948] (-) TimerEvent: {}
+[9.754434] (-) TimerEvent: {}
+[9.854963] (-) TimerEvent: {}
+[9.955506] (-) TimerEvent: {}
+[10.055996] (-) TimerEvent: {}
+[10.156581] (-) TimerEvent: {}
+[10.257118] (-) TimerEvent: {}
+[10.357848] (-) TimerEvent: {}
+[10.458393] (-) TimerEvent: {}
+[10.558899] (-) TimerEvent: {}
+[10.659417] (-) TimerEvent: {}
+[10.759964] (-) TimerEvent: {}
+[10.860459] (-) TimerEvent: {}
+[10.961104] (-) TimerEvent: {}
+[11.061628] (-) TimerEvent: {}
+[11.162228] (-) TimerEvent: {}
+[11.262659] (-) TimerEvent: {}
+[11.363246] (-) TimerEvent: {}
+[11.463701] (-) TimerEvent: {}
+[11.564193] (-) TimerEvent: {}
+[11.664672] (-) TimerEvent: {}
+[11.765213] (-) TimerEvent: {}
+[11.865835] (-) TimerEvent: {}
+[11.966298] (-) TimerEvent: {}
+[12.066715] (-) TimerEvent: {}
+[12.167110] (-) TimerEvent: {}
+[12.267523] (-) TimerEvent: {}
+[12.367951] (-) TimerEvent: {}
+[12.468378] (-) TimerEvent: {}
+[12.568830] (-) TimerEvent: {}
+[12.669352] (-) TimerEvent: {}
+[12.769894] (-) TimerEvent: {}
+[12.870601] (-) TimerEvent: {}
+[12.971106] (-) TimerEvent: {}
+[13.071556] (-) TimerEvent: {}
+[13.171966] (-) TimerEvent: {}
+[13.272384] (-) TimerEvent: {}
+[13.372810] (-) TimerEvent: {}
+[13.473289] (-) TimerEvent: {}
+[13.574022] (-) TimerEvent: {}
+[13.674993] (-) TimerEvent: {}
+[13.775711] (-) TimerEvent: {}
+[13.876243] (-) TimerEvent: {}
+[13.976848] (-) TimerEvent: {}
+[14.077457] (-) TimerEvent: {}
+[14.178036] (-) TimerEvent: {}
+[14.278706] (-) TimerEvent: {}
+[14.379226] (-) TimerEvent: {}
+[14.479690] (-) TimerEvent: {}
+[14.580185] (-) TimerEvent: {}
+[14.680596] (-) TimerEvent: {}
+[14.781149] (-) TimerEvent: {}
+[14.881773] (-) TimerEvent: {}
+[14.982324] (-) TimerEvent: {}
+[15.083131] (-) TimerEvent: {}
+[15.183606] (-) TimerEvent: {}
+[15.284256] (-) TimerEvent: {}
+[15.384887] (-) TimerEvent: {}
+[15.485597] (-) TimerEvent: {}
+[15.586199] (-) TimerEvent: {}
+[15.686754] (-) TimerEvent: {}
+[15.787520] (-) TimerEvent: {}
+[15.888177] (-) TimerEvent: {}
+[15.988778] (-) TimerEvent: {}
+[16.089385] (-) TimerEvent: {}
+[16.189875] (-) TimerEvent: {}
+[16.290527] (-) TimerEvent: {}
+[16.391039] (-) TimerEvent: {}
+[16.491515] (-) TimerEvent: {}
+[16.592122] (-) TimerEvent: {}
+[16.692608] (-) TimerEvent: {}
+[16.793078] (-) TimerEvent: {}
+[16.894176] (-) TimerEvent: {}
+[16.994876] (-) TimerEvent: {}
+[17.095318] (-) TimerEvent: {}
+[17.195779] (-) TimerEvent: {}
+[17.296223] (-) TimerEvent: {}
+[17.396783] (-) TimerEvent: {}
+[17.497413] (-) TimerEvent: {}
+[17.598145] (-) TimerEvent: {}
+[17.698739] (-) TimerEvent: {}
+[17.799271] (-) TimerEvent: {}
+[17.899888] (-) TimerEvent: {}
+[18.000551] (-) TimerEvent: {}
+[18.101037] (-) TimerEvent: {}
+[18.201581] (-) TimerEvent: {}
+[18.302177] (-) TimerEvent: {}
+[18.402772] (-) TimerEvent: {}
+[18.503256] (-) TimerEvent: {}
+[18.603821] (-) TimerEvent: {}
+[18.704427] (-) TimerEvent: {}
+[18.805054] (-) TimerEvent: {}
+[18.907596] (-) TimerEvent: {}
+[19.008128] (-) TimerEvent: {}
+[19.108718] (-) TimerEvent: {}
+[19.209165] (-) TimerEvent: {}
+[19.310032] (-) TimerEvent: {}
+[19.410623] (-) TimerEvent: {}
+[19.511347] (-) TimerEvent: {}
+[19.611992] (-) TimerEvent: {}
+[19.712789] (-) TimerEvent: {}
+[19.813421] (-) TimerEvent: {}
+[19.914125] (-) TimerEvent: {}
+[20.014723] (-) TimerEvent: {}
+[20.115233] (-) TimerEvent: {}
+[20.215699] (-) TimerEvent: {}
+[20.316308] (-) TimerEvent: {}
+[20.417008] (-) TimerEvent: {}
+[20.517630] (-) TimerEvent: {}
+[20.618289] (-) TimerEvent: {}
+[20.718787] (-) TimerEvent: {}
+[20.819278] (-) TimerEvent: {}
+[20.919975] (-) TimerEvent: {}
+[21.020756] (-) TimerEvent: {}
+[21.121810] (-) TimerEvent: {}
+[21.222468] (-) TimerEvent: {}
+[21.322987] (-) TimerEvent: {}
+[21.423483] (-) TimerEvent: {}
+[21.524086] (-) TimerEvent: {}
+[21.624707] (-) TimerEvent: {}
+[21.725478] (-) TimerEvent: {}
+[21.826420] (-) TimerEvent: {}
+[21.927061] (-) TimerEvent: {}
+[22.027528] (-) TimerEvent: {}
+[22.128004] (-) TimerEvent: {}
+[22.228535] (-) TimerEvent: {}
+[22.328997] (-) TimerEvent: {}
+[22.429444] (-) TimerEvent: {}
+[22.529921] (-) TimerEvent: {}
+[22.630464] (-) TimerEvent: {}
+[22.731059] (-) TimerEvent: {}
+[22.831509] (-) TimerEvent: {}
+[22.932055] (-) TimerEvent: {}
+[23.032578] (-) TimerEvent: {}
+[23.133100] (-) TimerEvent: {}
+[23.233601] (-) TimerEvent: {}
+[23.334209] (-) TimerEvent: {}
+[23.434750] (-) TimerEvent: {}
+[23.535227] (-) TimerEvent: {}
+[23.635660] (-) TimerEvent: {}
+[23.736184] (-) TimerEvent: {}
+[23.836750] (-) TimerEvent: {}
+[23.937222] (-) TimerEvent: {}
+[24.037760] (-) TimerEvent: {}
+[24.138278] (-) TimerEvent: {}
+[24.238727] (-) TimerEvent: {}
+[24.339224] (-) TimerEvent: {}
+[24.439665] (-) TimerEvent: {}
+[24.540111] (-) TimerEvent: {}
+[24.640563] (-) TimerEvent: {}
+[24.741115] (-) TimerEvent: {}
+[24.841587] (-) TimerEvent: {}
+[24.942234] (-) TimerEvent: {}
+[25.043076] (-) TimerEvent: {}
+[25.143741] (-) TimerEvent: {}
+[25.244156] (-) TimerEvent: {}
+[25.344605] (-) TimerEvent: {}
+[25.445063] (-) TimerEvent: {}
+[25.545844] (-) TimerEvent: {}
+[25.646493] (-) TimerEvent: {}
+[25.747102] (-) TimerEvent: {}
+[25.847724] (-) TimerEvent: {}
+[25.948246] (-) TimerEvent: {}
+[26.048729] (-) TimerEvent: {}
+[26.149287] (-) TimerEvent: {}
+[26.249915] (-) TimerEvent: {}
+[26.350461] (-) TimerEvent: {}
+[26.451124] (-) TimerEvent: {}
+[26.551643] (-) TimerEvent: {}
+[26.652097] (-) TimerEvent: {}
+[26.752804] (-) TimerEvent: {}
+[26.853702] (-) TimerEvent: {}
+[26.954219] (-) TimerEvent: {}
+[27.054715] (-) TimerEvent: {}
+[27.155277] (-) TimerEvent: {}
+[27.255901] (-) TimerEvent: {}
+[27.356439] (-) TimerEvent: {}
+[27.456933] (-) TimerEvent: {}
+[27.557432] (-) TimerEvent: {}
+[27.657991] (-) TimerEvent: {}
+[27.758722] (-) TimerEvent: {}
+[27.859258] (-) TimerEvent: {}
+[27.959897] (-) TimerEvent: {}
+[28.060387] (-) TimerEvent: {}
+[28.160880] (-) TimerEvent: {}
+[28.261359] (-) TimerEvent: {}
+[28.361958] (-) TimerEvent: {}
+[28.462397] (-) TimerEvent: {}
+[28.562963] (-) TimerEvent: {}
+[28.663704] (-) TimerEvent: {}
+[28.764178] (-) TimerEvent: {}
+[28.864612] (-) TimerEvent: {}
+[28.965113] (-) TimerEvent: {}
+[29.065556] (-) TimerEvent: {}
+[29.166130] (-) TimerEvent: {}
+[29.267044] (-) TimerEvent: {}
+[29.367902] (-) TimerEvent: {}
+[29.468567] (-) TimerEvent: {}
+[29.569110] (-) TimerEvent: {}
+[29.669989] (-) TimerEvent: {}
+[29.770739] (-) TimerEvent: {}
+[29.871244] (-) TimerEvent: {}
+[29.971839] (-) TimerEvent: {}
+[30.033421] (alicia_d_control_interfaces) JobProgress: {'identifier': 'alicia_d_control_interfaces', 'progress': 'cmake'}
+[30.036269] (alicia_d_control_interfaces) JobProgress: {'identifier': 'alicia_d_control_interfaces', 'progress': 'build'}
+[30.038187] (alicia_d_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/e/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://172.29.80.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('USER', 'root'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/nls.messages.json","languagePack":{"translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","messagesFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/nls.messages.json","corruptMarkerFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fc3093d7294cc92428f5c656f415b3c7.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e","_corruptedFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('all_proxy', 'http://172.29.80.1:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-49ffd1c6-a8ea-42c4-b5bd-d767cec6971b.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.29.80.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ALL_PROXY', 'http://172.29.80.1:7890'), ('NAME', 'LAPTOP-EK504TPB'), ('WSL_INTEROP', '/run/WSL/1939278_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://172.29.80.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.codex/tmp/arg0/codex-arg0egQdTs:/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/e/matlab/matlab7/runtime/win64:/mnt/e/matlab/matlab7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/QT/6.6.3/mingw_64/bin:/mnt/d/Qt/Qt5.15.2/5.15.2/mingw81_64/bin:/mnt/d/Texlive/texlive/2023/bin/windows:/mnt/d/SUMO/bin/:/mnt/d/SUMO/tools/:/mnt/d/texlivedownload/texlive/2025/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/d/Program Files/MATLAB/R2025a/runtime/win64:/mnt/d/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/nodejs/:/mnt/c/Users/lenovo/typst/typst-x86_64-pc-windows-msvc/typst.exe:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/usbipd-win/:/mnt/e/Trae CN/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/pycharm/PyCharm Community Edition 2024.3.5/bin:/mnt/e/Anaconda:/mnt/e/Anaconda/Scripts:/mnt/e/Anaconda/Library/bin:/mnt/c/Users/lenovo/.dotnet/tools:/mnt/d/texlive/2025/bin/windows:/mnt/e/Microsoft VS Code/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/MikTex/miktex/bin/x64/:/mnt/c/Users/lenovo/AppData/Roaming/npm:/mnt/c/Users/lenovo/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe/typst-x86_64-pc-windows-msvc:/snap/bin:/root/.vscode-server/extensions/openai.chatgpt-26.5527.60818-linux-x64/bin/linux-x86_64'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e77d6-85ee-7653-aee0-3f9c56e4ff47'), ('GIT_PAGER', 'cat'), ('PWD', '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://172.29.80.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.072071] (-) TimerEvent: {}
+[30.172620] (-) TimerEvent: {}
+[30.203581] (alicia_d_control_interfaces) StdoutLine: {'line': b'[  1%] Built target alicia_d_control_interfaces__cpp\n'}
+[30.205539] (alicia_d_control_interfaces) StdoutLine: {'line': b'[  2%] Built target alicia_d_control_interfaces__rs\n'}
+[30.220895] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 13%] Built target alicia_d_control_interfaces__rosidl_generator_c\n'}
+[30.264042] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_alicia_d_control_interfaces\n'}
+[30.272941] (-) TimerEvent: {}
+[30.293142] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 25%] Built target alicia_d_control_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[30.296724] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 36%] Built target alicia_d_control_interfaces__rosidl_typesupport_cpp\n'}
+[30.300606] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 47%] Built target alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[30.304838] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 68%] Built target alicia_d_control_interfaces__rosidl_typesupport_introspection_c\n'}
+[30.308112] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target alicia_d_control_interfaces__rosidl_typesupport_c\n'}
+[30.323029] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 81%] Built target alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[30.373191] (-) TimerEvent: {}
+[30.377497] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 81%] Built target alicia_d_control_interfaces\n'}
+[30.431990] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 82%] Built target alicia_d_control_interfaces__py\n'}
+[30.473462] (-) TimerEvent: {}
+[30.501294] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 92%] Built target alicia_d_control_interfaces__rosidl_generator_py\n'}
+[30.571266] (alicia_d_control_interfaces) StdoutLine: {'line': b'[ 95%] Built target alicia_d_control_interfaces__rosidl_typesupport_c__pyext\n'}
+[30.573777] (-) TimerEvent: {}
+[30.577002] (alicia_d_control_interfaces) StdoutLine: {'line': b'[100%] Built target alicia_d_control_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[30.577800] (alicia_d_control_interfaces) StdoutLine: {'line': b'[100%] Built target alicia_d_control_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[30.673989] (-) TimerEvent: {}
+[30.774514] (-) TimerEvent: {}
+[30.875254] (-) TimerEvent: {}
+[30.949407] (alicia_d_control_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[30.952444] (alicia_d_control_interfaces) StdoutLine: {'line': b'writing alicia_d_control_interfaces.egg-info/PKG-INFO\n'}
+[30.954388] (alicia_d_control_interfaces) StdoutLine: {'line': b'writing dependency_links to alicia_d_control_interfaces.egg-info/dependency_links.txt\n'}
+[30.954713] (alicia_d_control_interfaces) StdoutLine: {'line': b'writing top-level names to alicia_d_control_interfaces.egg-info/top_level.txt\n'}
+[30.961247] (alicia_d_control_interfaces) StdoutLine: {'line': b"reading manifest file 'alicia_d_control_interfaces.egg-info/SOURCES.txt'\n"}
+[30.963948] (alicia_d_control_interfaces) StdoutLine: {'line': b"writing manifest file 'alicia_d_control_interfaces.egg-info/SOURCES.txt'\n"}
+[30.975558] (-) TimerEvent: {}
+[31.037076] (alicia_d_control_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_alicia_d_control_interfaces_egg\n'}
+[31.073952] (alicia_d_control_interfaces) CommandEnded: {'returncode': 0}
+[31.075816] (-) TimerEvent: {}
+[31.076723] (alicia_d_control_interfaces) JobProgress: {'identifier': 'alicia_d_control_interfaces', 'progress': 'install'}
+[31.100612] (alicia_d_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces'], 'cwd': '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/e/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://172.29.80.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('USER', 'root'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/nls.messages.json","languagePack":{"translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","messagesFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/nls.messages.json","corruptMarkerFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fc3093d7294cc92428f5c656f415b3c7.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e","_corruptedFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('all_proxy', 'http://172.29.80.1:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-49ffd1c6-a8ea-42c4-b5bd-d767cec6971b.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.29.80.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ALL_PROXY', 'http://172.29.80.1:7890'), ('NAME', 'LAPTOP-EK504TPB'), ('WSL_INTEROP', '/run/WSL/1939278_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://172.29.80.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.codex/tmp/arg0/codex-arg0egQdTs:/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/e/matlab/matlab7/runtime/win64:/mnt/e/matlab/matlab7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/QT/6.6.3/mingw_64/bin:/mnt/d/Qt/Qt5.15.2/5.15.2/mingw81_64/bin:/mnt/d/Texlive/texlive/2023/bin/windows:/mnt/d/SUMO/bin/:/mnt/d/SUMO/tools/:/mnt/d/texlivedownload/texlive/2025/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/d/Program Files/MATLAB/R2025a/runtime/win64:/mnt/d/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/nodejs/:/mnt/c/Users/lenovo/typst/typst-x86_64-pc-windows-msvc/typst.exe:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/usbipd-win/:/mnt/e/Trae CN/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/pycharm/PyCharm Community Edition 2024.3.5/bin:/mnt/e/Anaconda:/mnt/e/Anaconda/Scripts:/mnt/e/Anaconda/Library/bin:/mnt/c/Users/lenovo/.dotnet/tools:/mnt/d/texlive/2025/bin/windows:/mnt/e/Microsoft VS Code/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/MikTex/miktex/bin/x64/:/mnt/c/Users/lenovo/AppData/Roaming/npm:/mnt/c/Users/lenovo/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe/typst-x86_64-pc-windows-msvc:/snap/bin:/root/.vscode-server/extensions/openai.chatgpt-26.5527.60818-linux-x64/bin/linux-x86_64'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e77d6-85ee-7653-aee0-3f9c56e4ff47'), ('GIT_PAGER', 'cat'), ('PWD', '/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://172.29.80.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[31.121778] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.124254] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/alicia_d_control_interfaces\n'}
+[31.125117] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces\n'}
+[31.125702] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action\n'}
+[31.126201] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail\n'}
+[31.128422] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__functions.c\n'}
+[31.131378] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__functions.c\n'}
+[31.131733] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__struct.h\n'}
+[31.135090] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.h\n'}
+[31.139127] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__functions.c\n'}
+[31.140411] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.h\n'}
+[31.140611] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__functions.h\n'}
+[31.140780] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__functions.c\n'}
+[31.140947] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.h\n'}
+[31.141115] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__type_support.h\n'}
+[31.141343] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__functions.h\n'}
+[31.141928] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__struct.h\n'}
+[31.142137] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__struct.h\n'}
+[31.142301] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__functions.h\n'}
+[31.142408] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__functions.h\n'}
+[31.142532] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.h\n'}
+[31.142664] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__struct.h\n'}
+[31.142794] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__functions.c\n'}
+[31.142899] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__struct.h\n'}
+[31.143018] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__functions.h\n'}
+[31.143118] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/execute_pick.h\n'}
+[31.143213] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/home_gripper.h\n'}
+[31.143346] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_arm_to_pose.h\n'}
+[31.143586] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/force_grasp.h\n'}
+[31.143874] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_gripper.h\n'}
+[31.144052] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg\n'}
+[31.144194] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail\n'}
+[31.144342] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.h\n'}
+[31.144521] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__struct.h\n'}
+[31.144637] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__functions.c\n'}
+[31.144724] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__functions.h\n'}
+[31.144803] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.h\n'}
+[31.144881] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__functions.c\n'}
+[31.144955] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__struct.h\n'}
+[31.145042] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__functions.h\n'}
+[31.145119] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/grasp_candidate.h\n'}
+[31.145240] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[31.145373] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/gripper_state.h\n'}
+[31.145488] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/library_path.sh\n'}
+[31.145572] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/library_path.dsv\n'}
+[31.146371] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_generator_c.so\n'}
+[31.146634] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces\n'}
+[31.146777] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action\n'}
+[31.146863] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail\n'}
+[31.146942] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_fastrtps_c.h\n'}
+[31.147112] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__rosidl_typesupport_fastrtps_c.h\n'}
+[31.147235] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_fastrtps_c.h\n'}
+[31.147319] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_fastrtps_c.h\n'}
+[31.147426] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[31.148281] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg\n'}
+[31.148637] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail\n'}
+[31.148916] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_fastrtps_c.h\n'}
+[31.149087] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_fastrtps_c.h\n'}
+[31.149433] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[31.149958] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[31.150436] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces\n'}
+[31.150770] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action\n'}
+[31.151022] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_gripper.hpp\n'}
+[31.151206] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail\n'}
+[31.151385] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__struct.hpp\n'}
+[31.151638] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.hpp\n'}
+[31.151870] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__builder.hpp\n'}
+[31.152041] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__traits.hpp\n'}
+[31.152408] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__traits.hpp\n'}
+[31.152625] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.hpp\n'}
+[31.152954] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__builder.hpp\n'}
+[31.153421] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__builder.hpp\n'}
+[31.154009] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__traits.hpp\n'}
+[31.154531] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__struct.hpp\n'}
+[31.155020] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__type_support.hpp\n'}
+[31.155520] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.hpp\n'}
+[31.155976] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__builder.hpp\n'}
+[31.156112] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__builder.hpp\n'}
+[31.156205] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.hpp\n'}
+[31.156285] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__struct.hpp\n'}
+[31.156361] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__traits.hpp\n'}
+[31.156438] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__struct.hpp\n'}
+[31.156518] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__struct.hpp\n'}
+[31.156613] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__traits.hpp\n'}
+[31.156743] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/execute_pick.hpp\n'}
+[31.156934] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/force_grasp.hpp\n'}
+[31.157136] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/move_arm_to_pose.hpp\n'}
+[31.157264] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/home_gripper.hpp\n'}
+[31.157355] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg\n'}
+[31.157506] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail\n'}
+[31.157601] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__struct.hpp\n'}
+[31.157901] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.hpp\n'}
+[31.158169] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__struct.hpp\n'}
+[31.158282] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__traits.hpp\n'}
+[31.158409] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__builder.hpp\n'}
+[31.158491] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__traits.hpp\n'}
+[31.158568] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.hpp\n'}
+[31.158673] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__builder.hpp\n'}
+[31.158748] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/gripper_state.hpp\n'}
+[31.158847] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/grasp_candidate.hpp\n'}
+[31.158923] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[31.159004] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces\n'}
+[31.159114] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action\n'}
+[31.159239] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail\n'}
+[31.159356] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.159641] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.159864] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.160053] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.160381] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/dds_fastrtps\n'}
+[31.160503] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.160588] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg\n'}
+[31.160674] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail\n'}
+[31.160754] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.160836] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/dds_fastrtps\n'}
+[31.160914] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.160990] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[31.161068] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[31.161149] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces\n'}
+[31.161225] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action\n'}
+[31.161308] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail\n'}
+[31.161457] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.c\n'}
+[31.161638] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__type_support.c\n'}
+[31.162543] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_introspection_c.h\n'}
+[31.162769] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__rosidl_typesupport_introspection_c.h\n'}
+[31.163256] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_introspection_c.h\n'}
+[31.163899] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.c\n'}
+[31.164397] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_introspection_c.h\n'}
+[31.164931] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_introspection_c.h\n'}
+[31.165352] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.c\n'}
+[31.166150] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.c\n'}
+[31.166405] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg\n'}
+[31.166522] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail\n'}
+[31.166662] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.c\n'}
+[31.166783] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.c\n'}
+[31.166978] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_introspection_c.h\n'}
+[31.167161] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_introspection_c.h\n'}
+[31.167266] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[31.167362] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[31.167767] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_c.so\n'}
+[31.167888] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces\n'}
+[31.168596] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action\n'}
+[31.168848] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail\n'}
+[31.169002] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.169142] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.169276] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__type_support.cpp\n'}
+[31.169410] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.169537] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.169713] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/force_grasp__type_support.cpp\n'}
+[31.169893] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_arm_to_pose__type_support.cpp\n'}
+[31.170024] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/home_gripper__type_support.cpp\n'}
+[31.170152] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/move_gripper__type_support.cpp\n'}
+[31.170282] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/action/detail/execute_pick__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.170447] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg\n'}
+[31.170664] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail\n'}
+[31.170801] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__type_support.cpp\n'}
+[31.170932] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.171074] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/grasp_candidate__type_support.cpp\n'}
+[31.171200] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/include/alicia_d_control_interfaces/alicia_d_control_interfaces/msg/detail/gripper_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.171326] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[31.171449] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_typesupport_cpp.so\n'}
+[31.171578] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/pythonpath.sh\n'}
+[31.171716] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/pythonpath.dsv\n'}
+[31.171919] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info\n'}
+[31.172025] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[31.172113] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[31.172283] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[31.172531] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[31.172650] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces\n'}
+[31.172737] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[31.172823] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[31.172902] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/__init__.py\n'}
+[31.172981] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[31.173060] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[31.173150] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/libalicia_d_control_interfaces__rosidl_generator_py.so\n'}
+[31.173226] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[31.173312] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action\n'}
+[31.173390] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_force_grasp_s.c\n'}
+[31.173490] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_force_grasp.py\n'}
+[31.173565] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_execute_pick.py\n'}
+[31.173809] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/__init__.py\n'}
+[31.173935] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper.py\n'}
+[31.174021] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_home_gripper.py\n'}
+[31.174100] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_arm_to_pose.py\n'}
+[31.174189] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_gripper_s.c\n'}
+[31.174270] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_execute_pick_s.c\n'}
+[31.174348] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_move_arm_to_pose_s.c\n'}
+[31.174428] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action/_home_gripper_s.c\n'}
+[31.174564] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg\n'}
+[31.174692] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_grasp_candidate.py\n'}
+[31.174822] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/__init__.py\n'}
+[31.174931] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_gripper_state.py\n'}
+[31.175020] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_grasp_candidate_s.c\n'}
+[31.175097] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg/_gripper_state_s.c\n'}
+[31.175175] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/_alicia_d_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[31.176055] (-) TimerEvent: {}
+[31.231599] (alicia_d_control_interfaces) StdoutLine: {'line': b"Listing '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces'...\n"}
+[31.232070] (alicia_d_control_interfaces) StdoutLine: {'line': b"Listing '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/action'...\n"}
+[31.232560] (alicia_d_control_interfaces) StdoutLine: {'line': b"Listing '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/msg'...\n"}
+[31.247409] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[31.249273] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[31.251344] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages/alicia_d_control_interfaces/alicia_d_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[31.253449] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib/libalicia_d_control_interfaces__rosidl_generator_py.so\n'}
+[31.253733] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/rust_packages/alicia_d_control_interfaces\n'}
+[31.253962] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust\n'}
+[31.254139] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/Cargo.toml\n'}
+[31.255478] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/build.rs\n'}
+[31.256164] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src\n'}
+[31.256573] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/msg.rs\n'}
+[31.257755] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/lib.rs\n'}
+[31.258788] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/action.rs\n'}
+[31.259922] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/action\n'}
+[31.261571] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/action/rmw.rs\n'}
+[31.261905] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/msg\n'}
+[31.262115] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/rust/src/msg/rmw.rs\n'}
+[31.262553] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GraspCandidate.idl\n'}
+[31.263079] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GripperState.idl\n'}
+[31.264002] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/ExecutePick.idl\n'}
+[31.265031] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/ForceGrasp.idl\n'}
+[31.265246] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/HomeGripper.idl\n'}
+[31.266541] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveArmToPose.idl\n'}
+[31.266745] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveGripper.idl\n'}
+[31.266850] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GraspCandidate.msg\n'}
+[31.266938] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/msg/GripperState.msg\n'}
+[31.267019] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/ExecutePick.action\n'}
+[31.267099] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/ForceGrasp.action\n'}
+[31.267241] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/HomeGripper.action\n'}
+[31.267399] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveArmToPose.action\n'}
+[31.267501] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/action/MoveGripper.action\n'}
+[31.267608] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/package_run_dependencies/alicia_d_control_interfaces\n'}
+[31.268000] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/parent_prefix_path/alicia_d_control_interfaces\n'}
+[31.268179] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/ament_prefix_path.sh\n'}
+[31.268270] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/ament_prefix_path.dsv\n'}
+[31.268360] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/path.sh\n'}
+[31.268452] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/environment/path.dsv\n'}
+[31.271258] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.bash\n'}
+[31.271846] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.sh\n'}
+[31.272249] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.zsh\n'}
+[31.272571] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/local_setup.dsv\n'}
+[31.272856] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/package.dsv\n'}
+[31.273131] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/ament_index/resource_index/packages/alicia_d_control_interfaces\n'}
+[31.273420] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_cExport.cmake\n'}
+[31.273809] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[31.274111] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[31.274407] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[31.274653] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_cppExport.cmake\n'}
+[31.274918] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[31.275365] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[31.276186] (-) TimerEvent: {}
+[31.276270] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[31.276550] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[31.276788] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[31.276889] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[31.277157] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[31.277329] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[31.278096] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[31.279663] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[31.280378] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_pyExport.cmake\n'}
+[31.280655] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/export_alicia_d_control_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[31.281365] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[31.281782] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[31.282562] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[31.283748] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[31.284561] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[31.285351] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[31.286810] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[31.287792] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfacesConfig.cmake\n'}
+[31.290217] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/cmake/alicia_d_control_interfacesConfig-version.cmake\n'}
+[31.290911] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/share/alicia_d_control_interfaces/package.xml\n'}
+[31.291199] (alicia_d_control_interfaces) CommandEnded: {'returncode': 0}
+[31.345083] (alicia_d_control_interfaces) JobEnded: {'identifier': 'alicia_d_control_interfaces', 'rc': 0}
+[31.349049] (alicia_d_sts_gripper) JobStarted: {'identifier': 'alicia_d_sts_gripper'}
+[31.376727] (-) TimerEvent: {}
+[31.477232] (-) TimerEvent: {}
+[31.577945] (-) TimerEvent: {}
+[31.678496] (-) TimerEvent: {}
+[31.779139] (-) TimerEvent: {}
+[31.879657] (-) TimerEvent: {}
+[31.980449] (-) TimerEvent: {}
+[32.081148] (-) TimerEvent: {}
+[32.181690] (-) TimerEvent: {}
+[32.282166] (-) TimerEvent: {}
+[32.382712] (-) TimerEvent: {}
+[32.483194] (-) TimerEvent: {}
+[32.583770] (-) TimerEvent: {}
+[32.684310] (-) TimerEvent: {}
+[32.784791] (-) TimerEvent: {}
+[32.885193] (-) TimerEvent: {}
+[32.986004] (-) TimerEvent: {}
+[33.086618] (-) TimerEvent: {}
+[33.187249] (-) TimerEvent: {}
+[33.287846] (-) TimerEvent: {}
+[33.388292] (-) TimerEvent: {}
+[33.488817] (-) TimerEvent: {}
+[33.589355] (-) TimerEvent: {}
+[33.690075] (-) TimerEvent: {}
+[33.790741] (-) TimerEvent: {}
+[33.891328] (-) TimerEvent: {}
+[33.991835] (-) TimerEvent: {}
+[34.092413] (-) TimerEvent: {}
+[34.192866] (-) TimerEvent: {}
+[34.293395] (-) TimerEvent: {}
+[34.394217] (-) TimerEvent: {}
+[34.494833] (-) TimerEvent: {}
+[34.595426] (-) TimerEvent: {}
+[34.695916] (-) TimerEvent: {}
+[34.796436] (-) TimerEvent: {}
+[34.825744] (alicia_d_sts_gripper) JobProgress: {'identifier': 'alicia_d_sts_gripper', 'progress': 'cmake'}
+[34.830892] (alicia_d_sts_gripper) JobProgress: {'identifier': 'alicia_d_sts_gripper', 'progress': 'build'}
+[34.831662] (alicia_d_sts_gripper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper', '--', '-j20', '-l20'], 'cwd': '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/e/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://172.29.80.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('USER', 'root'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/nls.messages.json","languagePack":{"translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","messagesFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/nls.messages.json","corruptMarkerFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fc3093d7294cc92428f5c656f415b3c7.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e","_corruptedFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('all_proxy', 'http://172.29.80.1:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-49ffd1c6-a8ea-42c4-b5bd-d767cec6971b.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.29.80.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ALL_PROXY', 'http://172.29.80.1:7890'), ('NAME', 'LAPTOP-EK504TPB'), ('WSL_INTEROP', '/run/WSL/1939278_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://172.29.80.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.codex/tmp/arg0/codex-arg0egQdTs:/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/e/matlab/matlab7/runtime/win64:/mnt/e/matlab/matlab7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/QT/6.6.3/mingw_64/bin:/mnt/d/Qt/Qt5.15.2/5.15.2/mingw81_64/bin:/mnt/d/Texlive/texlive/2023/bin/windows:/mnt/d/SUMO/bin/:/mnt/d/SUMO/tools/:/mnt/d/texlivedownload/texlive/2025/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/d/Program Files/MATLAB/R2025a/runtime/win64:/mnt/d/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/nodejs/:/mnt/c/Users/lenovo/typst/typst-x86_64-pc-windows-msvc/typst.exe:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/usbipd-win/:/mnt/e/Trae CN/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/pycharm/PyCharm Community Edition 2024.3.5/bin:/mnt/e/Anaconda:/mnt/e/Anaconda/Scripts:/mnt/e/Anaconda/Library/bin:/mnt/c/Users/lenovo/.dotnet/tools:/mnt/d/texlive/2025/bin/windows:/mnt/e/Microsoft VS Code/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/MikTex/miktex/bin/x64/:/mnt/c/Users/lenovo/AppData/Roaming/npm:/mnt/c/Users/lenovo/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe/typst-x86_64-pc-windows-msvc:/snap/bin:/root/.vscode-server/extensions/openai.chatgpt-26.5527.60818-linux-x64/bin/linux-x86_64'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e77d6-85ee-7653-aee0-3f9c56e4ff47'), ('GIT_PAGER', 'cat'), ('PWD', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://172.29.80.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble')]), 'shell': False}
+[34.896726] (-) TimerEvent: {}
+[34.997233] (-) TimerEvent: {}
+[35.003792] (alicia_d_sts_gripper) StdoutLine: {'line': b'Built target ament_cmake_python_copy_alicia_d_sts_gripper\n'}
+[35.097462] (-) TimerEvent: {}
+[35.197934] (-) TimerEvent: {}
+[35.298544] (-) TimerEvent: {}
+[35.399233] (-) TimerEvent: {}
+[35.499689] (-) TimerEvent: {}
+[35.588369] (alicia_d_sts_gripper) StdoutLine: {'line': b'running egg_info\n'}
+[35.591191] (alicia_d_sts_gripper) StdoutLine: {'line': b'writing alicia_d_sts_gripper.egg-info/PKG-INFO\n'}
+[35.592498] (alicia_d_sts_gripper) StdoutLine: {'line': b'writing dependency_links to alicia_d_sts_gripper.egg-info/dependency_links.txt\n'}
+[35.592820] (alicia_d_sts_gripper) StdoutLine: {'line': b'writing top-level names to alicia_d_sts_gripper.egg-info/top_level.txt\n'}
+[35.599984] (-) TimerEvent: {}
+[35.600826] (alicia_d_sts_gripper) StdoutLine: {'line': b"reading manifest file 'alicia_d_sts_gripper.egg-info/SOURCES.txt'\n"}
+[35.603332] (alicia_d_sts_gripper) StdoutLine: {'line': b"writing manifest file 'alicia_d_sts_gripper.egg-info/SOURCES.txt'\n"}
+[35.684538] (alicia_d_sts_gripper) StdoutLine: {'line': b'Built target ament_cmake_python_build_alicia_d_sts_gripper_egg\n'}
+[35.700407] (-) TimerEvent: {}
+[35.720895] (alicia_d_sts_gripper) CommandEnded: {'returncode': 0}
+[35.724018] (alicia_d_sts_gripper) JobProgress: {'identifier': 'alicia_d_sts_gripper', 'progress': 'install'}
+[35.725150] (alicia_d_sts_gripper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper'], 'cwd': '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/e/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://172.29.80.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('USER', 'root'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/nls.messages.json","languagePack":{"translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","messagesFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/nls.messages.json","corruptMarkerFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fc3093d7294cc92428f5c656f415b3c7.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e","_corruptedFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('all_proxy', 'http://172.29.80.1:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-49ffd1c6-a8ea-42c4-b5bd-d767cec6971b.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.29.80.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ALL_PROXY', 'http://172.29.80.1:7890'), ('NAME', 'LAPTOP-EK504TPB'), ('WSL_INTEROP', '/run/WSL/1939278_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://172.29.80.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.codex/tmp/arg0/codex-arg0egQdTs:/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/e/matlab/matlab7/runtime/win64:/mnt/e/matlab/matlab7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/QT/6.6.3/mingw_64/bin:/mnt/d/Qt/Qt5.15.2/5.15.2/mingw81_64/bin:/mnt/d/Texlive/texlive/2023/bin/windows:/mnt/d/SUMO/bin/:/mnt/d/SUMO/tools/:/mnt/d/texlivedownload/texlive/2025/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/d/Program Files/MATLAB/R2025a/runtime/win64:/mnt/d/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/nodejs/:/mnt/c/Users/lenovo/typst/typst-x86_64-pc-windows-msvc/typst.exe:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/usbipd-win/:/mnt/e/Trae CN/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/pycharm/PyCharm Community Edition 2024.3.5/bin:/mnt/e/Anaconda:/mnt/e/Anaconda/Scripts:/mnt/e/Anaconda/Library/bin:/mnt/c/Users/lenovo/.dotnet/tools:/mnt/d/texlive/2025/bin/windows:/mnt/e/Microsoft VS Code/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/MikTex/miktex/bin/x64/:/mnt/c/Users/lenovo/AppData/Roaming/npm:/mnt/c/Users/lenovo/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe/typst-x86_64-pc-windows-msvc:/snap/bin:/root/.vscode-server/extensions/openai.chatgpt-26.5527.60818-linux-x64/bin/linux-x86_64'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e77d6-85ee-7653-aee0-3f9c56e4ff47'), ('GIT_PAGER', 'cat'), ('PWD', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://172.29.80.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble')]), 'shell': False}
+[35.750743] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.751850] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/pythonpath.sh\n'}
+[35.752948] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/pythonpath.dsv\n'}
+[35.754184] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info\n'}
+[35.754424] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[35.754599] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[35.754880] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[35.755150] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[35.755599] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper\n'}
+[35.755891] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper/__init__.py\n'}
+[35.756084] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper/sts3215_bus.py\n'}
+[35.800684] (-) TimerEvent: {}
+[35.863358] (alicia_d_sts_gripper) StdoutLine: {'line': b"Listing '/home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper'...\n"}
+[35.864133] (alicia_d_sts_gripper) StdoutLine: {'line': b"Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper/sts3215_bus.py'...\n"}
+[35.876328] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/gripper_action_node.py\n'}
+[35.877311] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/sts3215_raw_tool.py\n'}
+[35.878554] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/config\n'}
+[35.879546] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/config/sts3215_gripper.yaml\n'}
+[35.880271] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/launch\n'}
+[35.881642] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/launch/sts3215_gripper.launch.py\n'}
+[35.882168] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/package_run_dependencies/alicia_d_sts_gripper\n'}
+[35.883978] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/parent_prefix_path/alicia_d_sts_gripper\n'}
+[35.884205] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/ament_prefix_path.sh\n'}
+[35.884385] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/ament_prefix_path.dsv\n'}
+[35.884493] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/path.sh\n'}
+[35.884593] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/path.dsv\n'}
+[35.884688] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.bash\n'}
+[35.884777] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.sh\n'}
+[35.884866] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.zsh\n'}
+[35.884989] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.dsv\n'}
+[35.885077] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/package.dsv\n'}
+[35.885162] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/packages/alicia_d_sts_gripper\n'}
+[35.885243] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/cmake/alicia_d_sts_gripperConfig.cmake\n'}
+[35.885327] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/cmake/alicia_d_sts_gripperConfig-version.cmake\n'}
+[35.885411] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/package.xml\n'}
+[35.887227] (alicia_d_sts_gripper) CommandEnded: {'returncode': 0}
+[35.902029] (-) TimerEvent: {}
+[35.934606] (alicia_d_sts_gripper) JobEnded: {'identifier': 'alicia_d_sts_gripper', 'rc': 0}
+[35.937579] (-) EventReactorShutdown: {}

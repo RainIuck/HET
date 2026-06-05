@@ -1,0 +1,45 @@
+[30.028s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper -- -j20 -l20
+[30.169s] Built target ament_cmake_python_copy_alicia_d_sts_gripper
+[30.745s] running egg_info
+[30.747s] writing alicia_d_sts_gripper.egg-info/PKG-INFO
+[30.748s] writing dependency_links to alicia_d_sts_gripper.egg-info/dependency_links.txt
+[30.749s] writing top-level names to alicia_d_sts_gripper.egg-info/top_level.txt
+[30.755s] reading manifest file 'alicia_d_sts_gripper.egg-info/SOURCES.txt'
+[30.756s] writing manifest file 'alicia_d_sts_gripper.egg-info/SOURCES.txt'
+[30.834s] Built target ament_cmake_python_build_alicia_d_sts_gripper_egg
+[30.858s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper -- -j20 -l20
+[30.883s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper
+[30.898s] -- Install configuration: ""
+[30.898s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/pythonpath.sh
+[30.898s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/pythonpath.dsv
+[30.901s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info
+[30.901s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/PKG-INFO
+[30.901s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/SOURCES.txt
+[30.901s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/dependency_links.txt
+[30.901s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/top_level.txt
+[30.902s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper
+[30.902s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper/__init__.py
+[30.902s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper/sts3215_bus.py
+[30.987s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper'...
+[30.997s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/gripper_action_node.py
+[31.002s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/sts3215_raw_tool.py
+[31.003s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/config
+[31.003s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/config/sts3215_gripper.yaml
+[31.004s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/launch
+[31.005s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/launch/sts3215_gripper.launch.py
+[31.005s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/package_run_dependencies/alicia_d_sts_gripper
+[31.006s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/parent_prefix_path/alicia_d_sts_gripper
+[31.007s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/ament_prefix_path.sh
+[31.007s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/ament_prefix_path.dsv
+[31.008s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/path.sh
+[31.008s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/path.dsv
+[31.008s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.bash
+[31.009s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.sh
+[31.009s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.zsh
+[31.014s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.dsv
+[31.017s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/package.dsv
+[31.019s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/packages/alicia_d_sts_gripper
+[31.019s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/cmake/alicia_d_sts_gripperConfig.cmake
+[31.020s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/cmake/alicia_d_sts_gripperConfig-version.cmake
+[31.023s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/package.xml
+[31.025s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper

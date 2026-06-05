@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "alicia_d_control_interfaces__rs",
+		"source" : "/home/Projects/HET/alicia_ws/build/alicia_d_control_interfaces/alicia_d_control_interfaces__rs"
+	}
+}

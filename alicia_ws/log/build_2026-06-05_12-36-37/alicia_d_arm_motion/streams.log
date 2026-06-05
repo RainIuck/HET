@@ -1,0 +1,49 @@
+[1.459s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_arm_motion': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_arm_motion -- -j20 -l20
+[1.504s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.802s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[2.157s] -- Configuring done
+[2.170s] -- Generating done
+[2.177s] -- Build files have been written to: /home/Projects/HET/alicia_ws/build/alicia_d_arm_motion
+[2.269s] Built target ament_cmake_python_copy_alicia_d_arm_motion
+[2.874s] running egg_info
+[2.876s] writing alicia_d_arm_motion.egg-info/PKG-INFO
+[2.878s] writing dependency_links to alicia_d_arm_motion.egg-info/dependency_links.txt
+[2.878s] writing top-level names to alicia_d_arm_motion.egg-info/top_level.txt
+[2.883s] reading manifest file 'alicia_d_arm_motion.egg-info/SOURCES.txt'
+[2.884s] writing manifest file 'alicia_d_arm_motion.egg-info/SOURCES.txt'
+[2.947s] Built target ament_cmake_python_build_alicia_d_arm_motion_egg
+[2.975s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_arm_motion' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_arm_motion -- -j20 -l20
+[2.981s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_arm_motion': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_arm_motion
+[3.000s] -- Install configuration: ""
+[3.000s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/environment/pythonpath.sh
+[3.000s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/environment/pythonpath.dsv
+[3.000s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion-0.1.0-py3.10.egg-info
+[3.001s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion-0.1.0-py3.10.egg-info/PKG-INFO
+[3.001s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion-0.1.0-py3.10.egg-info/SOURCES.txt
+[3.002s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion-0.1.0-py3.10.egg-info/dependency_links.txt
+[3.002s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion-0.1.0-py3.10.egg-info/top_level.txt
+[3.002s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion
+[3.003s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion/__init__.py
+[3.096s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion'...
+[3.096s] Compiling '/home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/local/lib/python3.10/dist-packages/alicia_d_arm_motion/__init__.py'...
+[3.108s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+[3.109s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/config
+[3.110s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/config/arm_motion.yaml
+[3.110s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/launch
+[3.111s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/launch/arm_motion.launch.py
+[3.112s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/ament_index/resource_index/package_run_dependencies/alicia_d_arm_motion
+[3.112s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/ament_index/resource_index/parent_prefix_path/alicia_d_arm_motion
+[3.112s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/environment/ament_prefix_path.sh
+[3.113s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/environment/ament_prefix_path.dsv
+[3.113s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/environment/path.sh
+[3.114s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/environment/path.dsv
+[3.114s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/local_setup.bash
+[3.114s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/local_setup.sh
+[3.114s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/local_setup.zsh
+[3.114s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/local_setup.dsv
+[3.115s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/package.dsv
+[3.116s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/ament_index/resource_index/packages/alicia_d_arm_motion
+[3.116s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/cmake/alicia_d_arm_motionConfig.cmake
+[3.116s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/cmake/alicia_d_arm_motionConfig-version.cmake
+[3.117s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/share/alicia_d_arm_motion/package.xml
+[3.181s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_arm_motion' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_arm_motion

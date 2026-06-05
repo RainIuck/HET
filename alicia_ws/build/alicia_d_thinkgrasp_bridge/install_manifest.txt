@@ -9,9 +9,9 @@
 /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/mock_decision_server.py
 /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/safe_joint_raise.py
 /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/safe_tcp_lift.py
-/home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/thinkgrasp_mock_pick.py
+/home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/thinkgrasp_bridge_node.py
 /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/config/mock_grasp.yaml
-/home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/launch/mock_thinkgrasp_pick.launch.py
+/home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/launch/mock_thinkgrasp_bridge.launch.py
 /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/package_run_dependencies/alicia_d_thinkgrasp_bridge
 /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/parent_prefix_path/alicia_d_thinkgrasp_bridge
 /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/ament_prefix_path.sh

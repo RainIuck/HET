@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_force_grasp_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_force_grasp_s.c.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_home_gripper_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_home_gripper_s.c.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_arm_to_joints_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_arm_to_joints_s.c.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_arm_to_pose_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_arm_to_pose_s.c.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_gripper_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_gripper_s.c.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_gripper_step_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/action/_move_gripper_step_s.c.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/msg/_grasp_candidate_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/msg/_grasp_candidate_s.c.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/msg/_gripper_state_s.c.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/alicia_d_control_interfaces/msg/_gripper_state_s.c.o.d"
+  "rosidl_generator_py/alicia_d_control_interfaces/libalicia_d_control_interfaces__rosidl_generator_py.pdb"
+  "rosidl_generator_py/alicia_d_control_interfaces/libalicia_d_control_interfaces__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/alicia_d_control_interfaces__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

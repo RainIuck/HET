@@ -10,12 +10,10 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_python</buildtool_depend>
 
-  <depend>rclpy</depend>
+  <depend>alicia_d_control_interfaces</depend>
   <depend>geometry_msgs</depend>
-  <depend>sensor_msgs</depend>
-  <depend>control_msgs</depend>
-  <depend>trajectory_msgs</depend>
-  <depend>moveit_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>std_srvs</depend>
 
   <exec_depend>python3-numpy</exec_depend>
 

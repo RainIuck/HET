@@ -1,0 +1,7 @@
+created_at: 2026-06-05T21:20:32+08:00
+workspace: /home/Projects/HET/alicia_ws
+logs:
+  joint_states: joint_states.log
+  gripper_state: gripper_state.log
+  rosout: rosout.log
+  gripper_debug: gripper_debug_state/

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from alicia_d_control_interfaces/action/MoveGripper.action
+// generated code does not contain a copyright notice
+
+
+module alicia_d_control_interfaces {
+  module action {
+    struct MoveGripper_Goal {
+      int32 target_ticks;
+
+      int32 speed;
+    };
+    struct MoveGripper_Result {
+      boolean success;
+
+      string message;
+
+      int32 raw_position;
+
+      int32 relative_ticks;
+    };
+    struct MoveGripper_Feedback {
+      int32 raw_position;
+
+      int32 relative_ticks;
+
+      boolean moving;
+    };
+  };
+};

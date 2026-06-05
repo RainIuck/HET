@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from alicia_d_control_interfaces/action/MoveArmToPose.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module alicia_d_control_interfaces {
+  module action {
+    struct MoveArmToPose_Goal {
+      geometry_msgs::msg::PoseStamped target_pose;
+
+      string ik_link_name;
+
+      double max_velocity_scaling;
+
+      double max_acceleration_scaling;
+
+      boolean avoid_collisions;
+
+      boolean execute;
+    };
+    struct MoveArmToPose_Result {
+      boolean success;
+
+      int32 moveit_error_code;
+
+      string message;
+    };
+    struct MoveArmToPose_Feedback {
+      string stage;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from alicia_d_control_interfaces/action/HomeGripper.action
+// generated code does not contain a copyright notice
+
+
+module alicia_d_control_interfaces {
+  module action {
+    struct HomeGripper_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct HomeGripper_Result {
+      boolean success;
+
+      string message;
+
+      int32 raw_position;
+
+      int32 relative_ticks;
+    };
+    struct HomeGripper_Feedback {
+      int32 raw_position;
+
+      boolean moving;
+    };
+  };
+};

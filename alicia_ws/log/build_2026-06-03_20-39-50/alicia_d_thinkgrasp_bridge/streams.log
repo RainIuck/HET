@@ -1,0 +1,47 @@
+[1.117s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge -- -j20 -l20
+[1.288s] Built target ament_cmake_python_copy_alicia_d_thinkgrasp_bridge
+[2.049s] running egg_info
+[2.053s] writing alicia_d_thinkgrasp_bridge.egg-info/PKG-INFO
+[2.054s] writing dependency_links to alicia_d_thinkgrasp_bridge.egg-info/dependency_links.txt
+[2.055s] writing top-level names to alicia_d_thinkgrasp_bridge.egg-info/top_level.txt
+[2.062s] reading manifest file 'alicia_d_thinkgrasp_bridge.egg-info/SOURCES.txt'
+[2.065s] writing manifest file 'alicia_d_thinkgrasp_bridge.egg-info/SOURCES.txt'
+[2.144s] Built target ament_cmake_python_build_alicia_d_thinkgrasp_bridge_egg
+[2.176s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge -- -j20 -l20
+[2.183s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge
+[2.205s] -- Install configuration: ""
+[2.205s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/pythonpath.sh
+[2.205s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/pythonpath.dsv
+[2.206s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info
+[2.207s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/PKG-INFO
+[2.207s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/SOURCES.txt
+[2.208s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/dependency_links.txt
+[2.208s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge-0.1.0-py3.10.egg-info/top_level.txt
+[2.209s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge
+[2.210s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge/__init__.py
+[2.291s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/local/lib/python3.10/dist-packages/alicia_d_thinkgrasp_bridge'...
+[2.304s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/ik_workspace_probe.py
+[2.304s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/mock_decision_server.py
+[2.305s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/safe_joint_raise.py
+[2.305s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/safe_tcp_lift.py
+[2.305s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/thinkgrasp_bridge_node.py
+[2.307s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/config
+[2.308s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/config/mock_grasp.yaml
+[2.308s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/launch
+[2.309s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/launch/mock_thinkgrasp_bridge.launch.py
+[2.310s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/package_run_dependencies/alicia_d_thinkgrasp_bridge
+[2.310s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/parent_prefix_path/alicia_d_thinkgrasp_bridge
+[2.310s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/ament_prefix_path.sh
+[2.310s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/ament_prefix_path.dsv
+[2.310s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/path.sh
+[2.310s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/environment/path.dsv
+[2.311s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.bash
+[2.311s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.sh
+[2.311s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.zsh
+[2.311s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/local_setup.dsv
+[2.311s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/package.dsv
+[2.311s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/ament_index/resource_index/packages/alicia_d_thinkgrasp_bridge
+[2.312s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/cmake/alicia_d_thinkgrasp_bridgeConfig.cmake
+[2.312s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/cmake/alicia_d_thinkgrasp_bridgeConfig-version.cmake
+[2.312s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/share/alicia_d_thinkgrasp_bridge/package.xml
+[2.728s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge' returned '0': AMENT_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_thinkgrasp_bridge

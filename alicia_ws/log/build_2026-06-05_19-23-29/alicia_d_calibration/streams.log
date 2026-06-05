@@ -1,0 +1,46 @@
+[0.080s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_calibration -- -j20 -l20
+[0.268s] Built target ament_cmake_python_copy_alicia_d_calibration
+[0.917s] running egg_info
+[0.919s] writing alicia_d_calibration.egg-info/PKG-INFO
+[0.920s] writing dependency_links to alicia_d_calibration.egg-info/dependency_links.txt
+[0.920s] writing top-level names to alicia_d_calibration.egg-info/top_level.txt
+[0.926s] reading manifest file 'alicia_d_calibration.egg-info/SOURCES.txt'
+[0.927s] writing manifest file 'alicia_d_calibration.egg-info/SOURCES.txt'
+[0.989s] Built target ament_cmake_python_build_alicia_d_calibration_egg
+[1.028s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_calibration -- -j20 -l20
+[1.030s] Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_calibration
+[1.061s] -- Install configuration: ""
+[1.061s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/pythonpath.sh
+[1.061s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/pythonpath.dsv
+[1.061s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration-1.0.0-py3.10.egg-info
+[1.061s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration-1.0.0-py3.10.egg-info/PKG-INFO
+[1.061s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.061s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.062s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration-1.0.0-py3.10.egg-info/top_level.txt
+[1.062s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration
+[1.064s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration/__init__.py
+[1.117s] Listing '/home/Projects/HET/alicia_ws/install/alicia_d_calibration/local/lib/python3.10/dist-packages/alicia_d_calibration'...
+[1.130s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/hand_eye_calibration.py
+[1.132s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/generate_calibration_poses.py
+[1.132s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/aruco_detector.py
+[1.135s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/launch
+[1.136s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/launch/verify_calibration.launch.py
+[1.137s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/launch/hand_eye_calibration.launch.py
+[1.137s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/config
+[1.138s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/config/hand_eye_calibration_result.yaml
+[1.138s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/package_run_dependencies/alicia_d_calibration
+[1.139s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/parent_prefix_path/alicia_d_calibration
+[1.141s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/ament_prefix_path.sh
+[1.143s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/ament_prefix_path.dsv
+[1.144s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/path.sh
+[1.145s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/path.dsv
+[1.145s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.bash
+[1.145s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.sh
+[1.147s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.zsh
+[1.150s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.dsv
+[1.151s] -- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/package.dsv
+[1.151s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/packages/alicia_d_calibration
+[1.152s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/cmake/alicia_d_calibrationConfig.cmake
+[1.153s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/cmake/alicia_d_calibrationConfig-version.cmake
+[1.153s] -- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/package.xml
+[1.239s] Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_calibration

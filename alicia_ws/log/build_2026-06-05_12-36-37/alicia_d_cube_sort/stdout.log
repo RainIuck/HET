@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/Projects/HET/alicia_ws/build/alicia_d_cube_sort
+Built target ament_cmake_python_copy_alicia_d_cube_sort
+running egg_info
+writing alicia_d_cube_sort.egg-info/PKG-INFO
+writing dependency_links to alicia_d_cube_sort.egg-info/dependency_links.txt
+writing top-level names to alicia_d_cube_sort.egg-info/top_level.txt
+reading manifest file 'alicia_d_cube_sort.egg-info/SOURCES.txt'
+writing manifest file 'alicia_d_cube_sort.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_alicia_d_cube_sort_egg
+-- Install configuration: ""
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/pythonpath.sh
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/pythonpath.dsv
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort-1.0.0-py3.10.egg-info
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort-1.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort/utils
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort/utils/plane_estimation.py
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort/utils/color_detection.py
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort/utils/__init__.py
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort/__init__.py
+Listing '/home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort'...
+Listing '/home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/local/lib/python3.10/dist-packages/alicia_d_cube_sort/utils'...
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/lib/alicia_d_cube_sort/cube_detection.py
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/lib/alicia_d_cube_sort/cube_sorting.py
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/config
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/config/cube_sorting.yaml
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/launch
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/launch/cube_sorting.launch.py
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/launch/cube_detection.launch.py
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/package_run_dependencies/alicia_d_cube_sort
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/parent_prefix_path/alicia_d_cube_sort
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/ament_prefix_path.sh
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/ament_prefix_path.dsv
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/path.sh
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/path.dsv
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.bash
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.sh
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.zsh
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.dsv
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/package.dsv
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/packages/alicia_d_cube_sort
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/cmake/alicia_d_cube_sortConfig.cmake
+-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/cmake/alicia_d_cube_sortConfig-version.cmake
+-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/package.xml

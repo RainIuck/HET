@@ -1,0 +1,48 @@
+place_path:
+  enabled: true
+
+  joint_names:
+    - Joint2
+    - Joint3
+    - Joint1
+    - Joint4
+    - Joint6
+    - Joint5
+
+  # The path starts from post_grasp_intermediate, so do not repeat that
+  # waypoint here. The coordinator moves through all configured waypoints,
+  # opens the gripper at the last waypoint, then returns through the same path
+  # in reverse and finally moves back to post_grasp_intermediate.
+  waypoints:
+    - name: place_path_1
+      positions:
+        - 0.07209709703062517
+        - 0.6550097964271688
+        - -0.722504951094137
+        - 0.0
+        - 0.0015339807878858025
+        - -1.35143707412725
+    - name: place_path_2
+      positions:
+        - -0.1825437137583914
+        - 0.6488738732756261
+        - -0.722504951094137
+        - 0.0
+        - 0.003067961575771161
+        - -0.40036898563815226
+    - name: place_path_3
+      positions:
+        - -0.6412039693361979
+        - 0.6519418348513977
+        - -1.021631204731837
+        - 0.0
+        - 0.003067961575771161
+        - -0.3988350048502669
+    - name: place_path_4
+      positions:
+        - -0.9372622613981267
+        - 0.65807775800294
+        - -1.021631204731837
+        - 0.0
+        - 0.004601942363656963
+        - -0.36815538909255396

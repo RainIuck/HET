@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-693cdf28036b9eb7fb31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alicia_d_pick_coordinator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_pick_coordinator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_pick_coordinator_uninstall-a1724375262dffcc64fb.json",
+					"name" : "alicia_d_pick_coordinator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_alicia_d_pick_coordinator_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_alicia_d_pick_coordinator_egg-642fa7073028ac55d1b4.json",
+					"name" : "ament_cmake_python_build_alicia_d_pick_coordinator_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_alicia_d_pick_coordinator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_alicia_d_pick_coordinator-4d3fc16a8631d8e741ee.json",
+					"name" : "ament_cmake_python_copy_alicia_d_pick_coordinator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d1a94b35e4abe87b1753.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Projects/HET/alicia_ws/build/alicia_d_pick_coordinator",
+		"source" : "/home/Projects/HET/alicia_ws/src/alicia_d_pick_coordinator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

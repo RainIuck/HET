@@ -20,8 +20,6 @@
 /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/demo.launch.py
 /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/move_group.launch.py
 /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/setup_assistant.launch.py
-/home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/__pycache__/moveit_config_builder.cpython-310.pyc
-/home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/__pycache__/real_robot.launch.cpython-310.pyc
 /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/real_robot.launch.py
 /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/rsp.launch.py
 /home/Projects/HET/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/warehouse_db.launch.py

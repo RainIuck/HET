@@ -1,0 +1,440 @@
+stamp:
+  sec: 1780665641
+  nanosec: 755787994
+level: 20
+name: thinkgrasp.thinkgrasp_bridge
+msg: 'Published grasp candidate: frame=base_link, position=(0.1500, 0.1000, 0.1000)'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_thinkgrasp_bridge/lib/alicia_d_thinkgrasp_bridge/thinkgrasp_bridge_node.py
+function: _handle_request
+line: 53
+---
+stamp:
+  sec: 1780665641
+  nanosec: 769004377
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Received grasp candidate; starting pick sequence: source=thinkgrasp, frame=base_link, position=(0.1500, 0.1000, 0.1000)'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _on_candidate
+line: 137
+---
+stamp:
+  sec: 1780665641
+  nanosec: 774777883
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: waiting_for_interfaces'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665641
+  nanosec: 778923803
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: moving_pre_grasp'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665641
+  nanosec: 799202702
+level: 20
+name: arm_motion.arm_motion_server
+msg: computing_ik
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665641
+  nanosec: 833782761
+level: 20
+name: arm_motion.arm_motion_server
+msg: planning
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665641
+  nanosec: 910488063
+level: 20
+name: arm_motion.arm_motion_server
+msg: executing
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665641
+  nanosec: 924859238
+level: 20
+name: Alicia_controller
+msg: Received new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1254
+---
+stamp:
+  sec: 1780665641
+  nanosec: 925187097
+level: 20
+name: Alicia_controller
+msg: Accepted new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1269
+---
+stamp:
+  sec: 1780665646
+  nanosec: 155585233
+level: 20
+name: Alicia_controller
+msg: Goal reached, success!
+file: ./src/joint_trajectory_controller.cpp
+function: update
+line: 379
+---
+stamp:
+  sec: 1780665646
+  nanosec: 229310697
+level: 20
+name: arm_motion.arm_motion_server
+msg: complete
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665646
+  nanosec: 241618586
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: opening_gripper'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665646
+  nanosec: 888499034
+level: 20
+name: new_gripper.sts3215_gripper
+msg: Moving gripper from ticks=3454 to ticks=0
+file: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/gripper_action_node.py
+function: _move_to_ticks
+line: 708
+---
+stamp:
+  sec: 1780665654
+  nanosec: 122448866
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: moving_grasp'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665654
+  nanosec: 142875719
+level: 20
+name: arm_motion.arm_motion_server
+msg: computing_ik
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665654
+  nanosec: 157582600
+level: 20
+name: arm_motion.arm_motion_server
+msg: planning
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665654
+  nanosec: 209221106
+level: 20
+name: arm_motion.arm_motion_server
+msg: executing
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665654
+  nanosec: 215326658
+level: 20
+name: Alicia_controller
+msg: Received new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1254
+---
+stamp:
+  sec: 1780665654
+  nanosec: 215673620
+level: 20
+name: Alicia_controller
+msg: Accepted new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1269
+---
+stamp:
+  sec: 1780665655
+  nanosec: 258704602
+level: 20
+name: Alicia_controller
+msg: Goal reached, success!
+file: ./src/joint_trajectory_controller.cpp
+function: update
+line: 379
+---
+stamp:
+  sec: 1780665655
+  nanosec: 317391582
+level: 20
+name: arm_motion.arm_motion_server
+msg: complete
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665655
+  nanosec: 332433128
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: force_grasp'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665655
+  nanosec: 584471949
+level: 20
+name: new_gripper.sts3215_gripper
+msg: Force grasp toward ticks=4600, current threshold=0, load threshold=100, confirm samples=2
+file: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/gripper_action_node.py
+function: _force_grasp
+line: 796
+---
+stamp:
+  sec: 1780665669
+  nanosec: 196268519
+level: 20
+name: new_gripper.sts3215_gripper
+msg: 'Stop-and-hold command sent: current_position=4673, target_position=5212, remaining_ticks=539, stop_delta=-539'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/gripper_action_node.py
+function: _stop_motion_locked
+line: 457
+---
+stamp:
+  sec: 1780665669
+  nanosec: 211977709
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: moving_lift'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665669
+  nanosec: 251486711
+level: 20
+name: arm_motion.arm_motion_server
+msg: computing_ik
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665669
+  nanosec: 282498338
+level: 20
+name: arm_motion.arm_motion_server
+msg: planning
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665669
+  nanosec: 326965343
+level: 20
+name: arm_motion.arm_motion_server
+msg: executing
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665669
+  nanosec: 344769810
+level: 20
+name: Alicia_controller
+msg: Received new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1254
+---
+stamp:
+  sec: 1780665669
+  nanosec: 345165275
+level: 20
+name: Alicia_controller
+msg: Accepted new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1269
+---
+stamp:
+  sec: 1780665670
+  nanosec: 370587422
+level: 20
+name: Alicia_controller
+msg: Goal reached, success!
+file: ./src/joint_trajectory_controller.cpp
+function: update
+line: 379
+---
+stamp:
+  sec: 1780665670
+  nanosec: 490062379
+level: 20
+name: arm_motion.arm_motion_server
+msg: complete
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665670
+  nanosec: 502863382
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: moving_post_grasp_intermediate'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665670
+  nanosec: 526690463
+level: 20
+name: arm_motion.arm_motion_server
+msg: planning
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665670
+  nanosec: 609990322
+level: 20
+name: arm_motion.arm_motion_server
+msg: executing
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665670
+  nanosec: 626150678
+level: 20
+name: Alicia_controller
+msg: Received new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1254
+---
+stamp:
+  sec: 1780665670
+  nanosec: 626509215
+level: 20
+name: Alicia_controller
+msg: Accepted new action goal
+file: ./src/joint_trajectory_controller.cpp
+function: goal_received_callback
+line: 1269
+---
+stamp:
+  sec: 1780665674
+  nanosec: 875920133
+level: 20
+name: Alicia_controller
+msg: Goal reached, success!
+file: ./src/joint_trajectory_controller.cpp
+function: update
+line: 379
+---
+stamp:
+  sec: 1780665674
+  nanosec: 936398974
+level: 20
+name: arm_motion.arm_motion_server
+msg: complete
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665674
+  nanosec: 945990835
+level: 20
+name: pick_coordinator.pick_coordinator
+msg: 'Pick stage: moving_place_path_1_of_4_place_path_1'
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _publish_stage
+line: 176
+---
+stamp:
+  sec: 1780665674
+  nanosec: 955251239
+level: 20
+name: arm_motion.arm_motion_server
+msg: planning
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665674
+  nanosec: 995669184
+level: 20
+name: arm_motion.arm_motion_server
+msg: executing
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _publish_stage
+line: 136
+---
+stamp:
+  sec: 1780665675
+  nanosec: 29500059
+level: 40
+name: arm_motion.arm_motion_server
+msg: Trajectory execution failed
+file: /home/Projects/HET/alicia_ws/install/alicia_d_arm_motion/lib/alicia_d_arm_motion/arm_motion_server.py
+function: _abort
+line: 233
+---
+stamp:
+  sec: 1780665675
+  nanosec: 40195528
+level: 40
+name: pick_coordinator.pick_coordinator
+msg: Could not complete place path
+file: /home/Projects/HET/alicia_ws/install/alicia_d_pick_coordinator/lib/alicia_d_pick_coordinator/pick_coordinator.py
+function: _execute_candidate
+line: 224
+---

@@ -1,0 +1,10269 @@
+header:
+  stamp:
+    sec: 1780665633
+    nanosec: 833623432
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665633
+    nanosec: 928142059
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 58265124
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 121839176
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 143069447
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 212482053
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 312109584
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 411743524
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 513140465
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 608427818
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 713132725
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 811761027
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665634
+    nanosec: 913118749
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 10180974
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 112522910
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 223285546
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 349959000
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 464150337
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 523809469
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 908487699
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665635
+    nanosec: 974028572
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 26409011
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 118672973
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 218032256
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 310311949
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 412608962
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 517950551
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 623293100
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 718651821
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 812869887
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665636
+    nanosec: 908544357
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 11991336
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 154207815
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 278162830
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 355432769
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 436067378
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 556154631
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 687485278
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 717731093
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 810778419
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665637
+    nanosec: 914499410
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 11792724
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 118635072
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 220026208
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 309853305
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 419286921
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 520874039
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 620002748
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 712978514
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 896116919
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665638
+    nanosec: 942428658
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 13308325
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 161778779
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 516059167
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 554043878
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 609487182
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 709643270
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 816291607
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665639
+    nanosec: 911801139
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665640
+    nanosec: 17550840
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665640
+    nanosec: 115626859
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665640
+    nanosec: 212574884
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665640
+    nanosec: 313354769
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665640
+    nanosec: 414450536
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665640
+    nanosec: 511995881
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 85605854
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 191694228
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 355594564
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 440263379
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 462746988
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 509582293
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 610562192
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.300000190734863
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 713080642
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 810179602
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665641
+    nanosec: 918295318
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 8272917
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 111095916
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 212810325
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 313079502
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 413381695
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 579366370
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 714334226
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 784238157
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 865282304
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665642
+    nanosec: 940011281
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 61454441
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 132270643
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 209849901
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 311152176
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 409670524
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 510817623
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 614427208
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 714154683
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 822328156
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665643
+    nanosec: 909047232
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665644
+    nanosec: 12824884
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665644
+    nanosec: 112676436
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665644
+    nanosec: 210942531
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665644
+    nanosec: 313303535
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665644
+    nanosec: 410496908
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665644
+    nanosec: 862550417
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665644
+    nanosec: 965321032
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 11332949
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 51743522
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 112858085
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 212598685
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 321279031
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 411474639
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 516481193
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 612200222
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 714204586
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 816365244
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665645
+    nanosec: 921185392
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665646
+    nanosec: 23191144
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665646
+    nanosec: 450997603
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665646
+    nanosec: 679058055
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32769
+relative_ticks: 3454
+target_position: 4593
+position_error_direction: true
+position_error_ticks: 1
+estimated_position_minus: 4592
+estimated_position_plus: 4594
+load_raw: 0
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665646
+    nanosec: 905814791
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 36223
+relative_ticks: 6907
+target_position: 4592
+position_error_direction: true
+position_error_ticks: 3455
+estimated_position_minus: 1137
+estimated_position_plus: 8047
+load_raw: 28
+current_raw: 0
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665646
+    nanosec: 927000451
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 36223
+relative_ticks: 6904
+target_position: 4589
+position_error_direction: true
+position_error_ticks: 3455
+estimated_position_minus: 1134
+estimated_position_plus: 8044
+load_raw: 56
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 16226687
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 36212
+relative_ticks: 6876
+target_position: 4572
+position_error_direction: true
+position_error_ticks: 3444
+estimated_position_minus: 1128
+estimated_position_plus: 8016
+load_raw: 88
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 126706123
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 36174
+relative_ticks: 6792
+target_position: 4526
+position_error_direction: true
+position_error_ticks: 3406
+estimated_position_minus: 1120
+estimated_position_plus: 7932
+load_raw: 156
+current_raw: 2
+moving: true
+voltage_v: 12.100000381469727
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 218993696
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 36132
+relative_ticks: 6707
+target_position: 4483
+position_error_direction: true
+position_error_ticks: 3364
+estimated_position_minus: 1119
+estimated_position_plus: 7847
+load_raw: 164
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 332989033
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 36076
+relative_ticks: 6593
+target_position: 4425
+position_error_direction: true
+position_error_ticks: 3308
+estimated_position_minus: 1117
+estimated_position_plus: 7733
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 415474786
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 36032
+relative_ticks: 6506
+target_position: 4382
+position_error_direction: true
+position_error_ticks: 3264
+estimated_position_minus: 1118
+estimated_position_plus: 7646
+load_raw: 168
+current_raw: 4
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 525334180
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35979
+relative_ticks: 6399
+target_position: 4328
+position_error_direction: true
+position_error_ticks: 3211
+estimated_position_minus: 1117
+estimated_position_plus: 7539
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 616459934
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35932
+relative_ticks: 6305
+target_position: 4281
+position_error_direction: true
+position_error_ticks: 3164
+estimated_position_minus: 1117
+estimated_position_plus: 7445
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 719264251
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35881
+relative_ticks: 6203
+target_position: 4230
+position_error_direction: true
+position_error_ticks: 3113
+estimated_position_minus: 1117
+estimated_position_plus: 7343
+load_raw: 164
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 821114372
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35832
+relative_ticks: 6104
+target_position: 4180
+position_error_direction: true
+position_error_ticks: 3064
+estimated_position_minus: 1116
+estimated_position_plus: 7244
+load_raw: 176
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665647
+    nanosec: 909880823
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35782
+relative_ticks: 6006
+target_position: 4132
+position_error_direction: true
+position_error_ticks: 3014
+estimated_position_minus: 1118
+estimated_position_plus: 7146
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665648
+    nanosec: 624818207
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35499
+relative_ticks: 5421
+target_position: 3830
+position_error_direction: true
+position_error_ticks: 2731
+estimated_position_minus: 1099
+estimated_position_plus: 6561
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665648
+    nanosec: 674922650
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35401
+relative_ticks: 5243
+target_position: 3750
+position_error_direction: true
+position_error_ticks: 2633
+estimated_position_minus: 1117
+estimated_position_plus: 6383
+load_raw: 156
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665648
+    nanosec: 710903509
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35380
+relative_ticks: 5203
+target_position: 3731
+position_error_direction: true
+position_error_ticks: 2612
+estimated_position_minus: 1119
+estimated_position_plus: 6343
+load_raw: 160
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665648
+    nanosec: 812779490
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35330
+relative_ticks: 5102
+target_position: 3680
+position_error_direction: true
+position_error_ticks: 2562
+estimated_position_minus: 1118
+estimated_position_plus: 6242
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665648
+    nanosec: 935905521
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35271
+relative_ticks: 4983
+target_position: 3620
+position_error_direction: true
+position_error_ticks: 2503
+estimated_position_minus: 1117
+estimated_position_plus: 6123
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 14910890
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35230
+relative_ticks: 4902
+target_position: 3580
+position_error_direction: true
+position_error_ticks: 2462
+estimated_position_minus: 1118
+estimated_position_plus: 6042
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 120754843
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35176
+relative_ticks: 4794
+target_position: 3526
+position_error_direction: true
+position_error_ticks: 2408
+estimated_position_minus: 1118
+estimated_position_plus: 5934
+load_raw: 164
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 218585417
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35129
+relative_ticks: 4700
+target_position: 3479
+position_error_direction: true
+position_error_ticks: 2361
+estimated_position_minus: 1118
+estimated_position_plus: 5840
+load_raw: 160
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 314679568
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35079
+relative_ticks: 4600
+target_position: 3429
+position_error_direction: true
+position_error_ticks: 2311
+estimated_position_minus: 1118
+estimated_position_plus: 5740
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 412635658
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 35029
+relative_ticks: 4501
+target_position: 3380
+position_error_direction: true
+position_error_ticks: 2261
+estimated_position_minus: 1119
+estimated_position_plus: 5641
+load_raw: 164
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 515089840
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34979
+relative_ticks: 4399
+target_position: 3328
+position_error_direction: true
+position_error_ticks: 2211
+estimated_position_minus: 1117
+estimated_position_plus: 5539
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 616391167
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34928
+relative_ticks: 4299
+target_position: 3279
+position_error_direction: true
+position_error_ticks: 2160
+estimated_position_minus: 1119
+estimated_position_plus: 5439
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 796808609
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34862
+relative_ticks: 4161
+target_position: 3207
+position_error_direction: true
+position_error_ticks: 2094
+estimated_position_minus: 1113
+estimated_position_plus: 5301
+load_raw: 176
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 883013549
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34810
+relative_ticks: 4059
+target_position: 3157
+position_error_direction: true
+position_error_ticks: 2042
+estimated_position_minus: 1115
+estimated_position_plus: 5199
+load_raw: 164
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665649
+    nanosec: 973911464
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34763
+relative_ticks: 3962
+target_position: 3107
+position_error_direction: true
+position_error_ticks: 1995
+estimated_position_minus: 1112
+estimated_position_plus: 5102
+load_raw: 176
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 46833515
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34720
+relative_ticks: 3879
+target_position: 3067
+position_error_direction: true
+position_error_ticks: 1952
+estimated_position_minus: 1115
+estimated_position_plus: 5019
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 155415580
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34678
+relative_ticks: 3791
+target_position: 3021
+position_error_direction: true
+position_error_ticks: 1910
+estimated_position_minus: 1111
+estimated_position_plus: 4931
+load_raw: 176
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 262902273
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34619
+relative_ticks: 3675
+target_position: 2964
+position_error_direction: true
+position_error_ticks: 1851
+estimated_position_minus: 1113
+estimated_position_plus: 4815
+load_raw: 164
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 311367732
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34578
+relative_ticks: 3598
+target_position: 2928
+position_error_direction: true
+position_error_ticks: 1810
+estimated_position_minus: 1118
+estimated_position_plus: 4738
+load_raw: 164
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 419091486
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34526
+relative_ticks: 3493
+target_position: 2875
+position_error_direction: true
+position_error_ticks: 1758
+estimated_position_minus: 1117
+estimated_position_plus: 4633
+load_raw: 176
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 513237609
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34478
+relative_ticks: 3397
+target_position: 2827
+position_error_direction: true
+position_error_ticks: 1710
+estimated_position_minus: 1117
+estimated_position_plus: 4537
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 609886933
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34428
+relative_ticks: 3298
+target_position: 2778
+position_error_direction: true
+position_error_ticks: 1660
+estimated_position_minus: 1118
+estimated_position_plus: 4438
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 716954039
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34375
+relative_ticks: 3192
+target_position: 2725
+position_error_direction: true
+position_error_ticks: 1607
+estimated_position_minus: 1118
+estimated_position_plus: 4332
+load_raw: 160
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 810444360
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34327
+relative_ticks: 3097
+target_position: 2678
+position_error_direction: true
+position_error_ticks: 1559
+estimated_position_minus: 1119
+estimated_position_plus: 4237
+load_raw: 160
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665650
+    nanosec: 911205654
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34277
+relative_ticks: 2996
+target_position: 2627
+position_error_direction: true
+position_error_ticks: 1509
+estimated_position_minus: 1118
+estimated_position_plus: 4136
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665651
+    nanosec: 13166510
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34226
+relative_ticks: 2894
+target_position: 2576
+position_error_direction: true
+position_error_ticks: 1458
+estimated_position_minus: 1118
+estimated_position_plus: 4034
+load_raw: 160
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 39
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665651
+    nanosec: 114371414
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34177
+relative_ticks: 2796
+target_position: 2527
+position_error_direction: true
+position_error_ticks: 1409
+estimated_position_minus: 1118
+estimated_position_plus: 3936
+load_raw: 160
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665651
+    nanosec: 212136514
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34126
+relative_ticks: 2694
+target_position: 2476
+position_error_direction: true
+position_error_ticks: 1358
+estimated_position_minus: 1118
+estimated_position_plus: 3834
+load_raw: 160
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665651
+    nanosec: 318902306
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34075
+relative_ticks: 2592
+target_position: 2425
+position_error_direction: true
+position_error_ticks: 1307
+estimated_position_minus: 1118
+estimated_position_plus: 3732
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665651
+    nanosec: 417862738
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 34025
+relative_ticks: 2492
+target_position: 2375
+position_error_direction: true
+position_error_ticks: 1257
+estimated_position_minus: 1118
+estimated_position_plus: 3632
+load_raw: 160
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665651
+    nanosec: 516213441
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33977
+relative_ticks: 2395
+target_position: 2326
+position_error_direction: true
+position_error_ticks: 1209
+estimated_position_minus: 1117
+estimated_position_plus: 3535
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665651
+    nanosec: 970126887
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33875
+relative_ticks: 2144
+target_position: 2177
+position_error_direction: true
+position_error_ticks: 1107
+estimated_position_minus: 1070
+estimated_position_plus: 3284
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 49423032
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33714
+relative_ticks: 1867
+target_position: 2061
+position_error_direction: true
+position_error_ticks: 946
+estimated_position_minus: 1115
+estimated_position_plus: 3007
+load_raw: 180
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 69229940
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33701
+relative_ticks: 1842
+target_position: 2049
+position_error_direction: true
+position_error_ticks: 933
+estimated_position_minus: 1116
+estimated_position_plus: 2982
+load_raw: 176
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 109460552
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33676
+relative_ticks: 1794
+target_position: 2026
+position_error_direction: true
+position_error_ticks: 908
+estimated_position_minus: 1118
+estimated_position_plus: 2934
+load_raw: 176
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 210705228
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33625
+relative_ticks: 1692
+target_position: 1975
+position_error_direction: true
+position_error_ticks: 857
+estimated_position_minus: 1118
+estimated_position_plus: 2832
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 316171789
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33576
+relative_ticks: 1593
+target_position: 1925
+position_error_direction: true
+position_error_ticks: 808
+estimated_position_minus: 1117
+estimated_position_plus: 2733
+load_raw: 176
+current_raw: 4
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 410568904
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33526
+relative_ticks: 1493
+target_position: 1875
+position_error_direction: true
+position_error_ticks: 758
+estimated_position_minus: 1117
+estimated_position_plus: 2633
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 521335198
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33471
+relative_ticks: 1383
+target_position: 1820
+position_error_direction: true
+position_error_ticks: 703
+estimated_position_minus: 1117
+estimated_position_plus: 2523
+load_raw: 176
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 609756813
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33424
+relative_ticks: 1291
+target_position: 1775
+position_error_direction: true
+position_error_ticks: 656
+estimated_position_minus: 1119
+estimated_position_plus: 2431
+load_raw: 164
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 714413915
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33374
+relative_ticks: 1190
+target_position: 1724
+position_error_direction: true
+position_error_ticks: 606
+estimated_position_minus: 1118
+estimated_position_plus: 2330
+load_raw: 172
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 812891684
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33324
+relative_ticks: 1090
+target_position: 1674
+position_error_direction: true
+position_error_ticks: 556
+estimated_position_minus: 1118
+estimated_position_plus: 2230
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665652
+    nanosec: 917448367
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33274
+relative_ticks: 989
+target_position: 1623
+position_error_direction: true
+position_error_ticks: 506
+estimated_position_minus: 1117
+estimated_position_plus: 2129
+load_raw: 168
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665653
+    nanosec: 22424742
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33220
+relative_ticks: 882
+target_position: 1570
+position_error_direction: true
+position_error_ticks: 452
+estimated_position_minus: 1118
+estimated_position_plus: 2022
+load_raw: 168
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665653
+    nanosec: 550373617
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 33116
+relative_ticks: 832
+target_position: 0
+position_error_direction: true
+position_error_ticks: 348
+estimated_position_minus: -348
+estimated_position_plus: 348
+load_raw: 443
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665653
+    nanosec: 816978149
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32831
+relative_ticks: 104
+target_position: 1181
+position_error_direction: true
+position_error_ticks: 63
+estimated_position_minus: 1118
+estimated_position_plus: 1244
+load_raw: 152
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665653
+    nanosec: 838800004
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32816
+relative_ticks: 76
+target_position: 1168
+position_error_direction: true
+position_error_ticks: 48
+estimated_position_minus: 1120
+estimated_position_plus: 1216
+load_raw: 140
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665653
+    nanosec: 917135644
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32787
+relative_ticks: 25
+target_position: 1146
+position_error_direction: true
+position_error_ticks: 19
+estimated_position_minus: 1127
+estimated_position_plus: 1165
+load_raw: 88
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 13699521
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32774
+relative_ticks: 5
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 6
+estimated_position_minus: 1133
+estimated_position_plus: 1145
+load_raw: 44
+current_raw: 0
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 117919221
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 209481096
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 311372979
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 411821932
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 509754741
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 612857283
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 714723453
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665654
+    nanosec: 810978805
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 119666129
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 355180783
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 541624150
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 3
+target_position: 1139
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 1135
+estimated_position_plus: 1143
+load_raw: 40
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 596719415
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4593
+relative_ticks: -4594
+target_position: 1139
+position_error_direction: false
+position_error_ticks: 4593
+estimated_position_minus: -3454
+estimated_position_plus: 5732
+load_raw: 40
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 622839446
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4593
+relative_ticks: -4592
+target_position: 1141
+position_error_direction: false
+position_error_ticks: 4593
+estimated_position_minus: -3452
+estimated_position_plus: 5734
+load_raw: 20
+current_raw: 0
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 712286275
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4589
+relative_ticks: -4569
+target_position: 1160
+position_error_direction: false
+position_error_ticks: 4589
+estimated_position_minus: -3429
+estimated_position_plus: 5749
+load_raw: 120
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 810588781
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4559
+relative_ticks: -4509
+target_position: 1190
+position_error_direction: false
+position_error_ticks: 4559
+estimated_position_minus: -3369
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665655
+    nanosec: 909617772
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4529
+relative_ticks: -4449
+target_position: 1220
+position_error_direction: false
+position_error_ticks: 4529
+estimated_position_minus: -3309
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665656
+    nanosec: 10720032
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4499
+relative_ticks: -4389
+target_position: 1250
+position_error_direction: false
+position_error_ticks: 4499
+estimated_position_minus: -3249
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 48
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665656
+    nanosec: 110466157
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4470
+relative_ticks: -4330
+target_position: 1280
+position_error_direction: false
+position_error_ticks: 4470
+estimated_position_minus: -3190
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665656
+    nanosec: 209699789
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4439
+relative_ticks: -4269
+target_position: 1310
+position_error_direction: false
+position_error_ticks: 4439
+estimated_position_minus: -3129
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665656
+    nanosec: 310941269
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4409
+relative_ticks: -4209
+target_position: 1340
+position_error_direction: false
+position_error_ticks: 4409
+estimated_position_minus: -3069
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665656
+    nanosec: 412607923
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4378
+relative_ticks: -4147
+target_position: 1371
+position_error_direction: false
+position_error_ticks: 4378
+estimated_position_minus: -3007
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665656
+    nanosec: 509119134
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4349
+relative_ticks: -4089
+target_position: 1400
+position_error_direction: false
+position_error_ticks: 4349
+estimated_position_minus: -2949
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665656
+    nanosec: 618095474
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4318
+relative_ticks: -4027
+target_position: 1431
+position_error_direction: false
+position_error_ticks: 4318
+estimated_position_minus: -2887
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 181679407
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4215
+relative_ticks: -3806
+target_position: 1549
+position_error_direction: false
+position_error_ticks: 4215
+estimated_position_minus: -2666
+estimated_position_plus: 5764
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 379997155
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4092
+relative_ticks: -3574
+target_position: 1658
+position_error_direction: false
+position_error_ticks: 4092
+estimated_position_minus: -2434
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 395636968
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4084
+relative_ticks: -3559
+target_position: 1665
+position_error_direction: false
+position_error_ticks: 4084
+estimated_position_minus: -2419
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 410770716
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4078
+relative_ticks: -3547
+target_position: 1671
+position_error_direction: false
+position_error_ticks: 4078
+estimated_position_minus: -2407
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 509806477
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4048
+relative_ticks: -3487
+target_position: 1701
+position_error_direction: false
+position_error_ticks: 4048
+estimated_position_minus: -2347
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 615371942
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 4018
+relative_ticks: -3426
+target_position: 1732
+position_error_direction: false
+position_error_ticks: 4018
+estimated_position_minus: -2286
+estimated_position_plus: 5750
+load_raw: 108
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 710180127
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3988
+relative_ticks: -3367
+target_position: 1761
+position_error_direction: false
+position_error_ticks: 3988
+estimated_position_minus: -2227
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 811985006
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3958
+relative_ticks: -3307
+target_position: 1791
+position_error_direction: false
+position_error_ticks: 3958
+estimated_position_minus: -2167
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665657
+    nanosec: 914304981
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3927
+relative_ticks: -3244
+target_position: 1823
+position_error_direction: false
+position_error_ticks: 3927
+estimated_position_minus: -2104
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665658
+    nanosec: 11381849
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3898
+relative_ticks: -3186
+target_position: 1852
+position_error_direction: false
+position_error_ticks: 3898
+estimated_position_minus: -2046
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665658
+    nanosec: 110515038
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3868
+relative_ticks: -3126
+target_position: 1882
+position_error_direction: false
+position_error_ticks: 3868
+estimated_position_minus: -1986
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665658
+    nanosec: 215909991
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3836
+relative_ticks: -3062
+target_position: 1914
+position_error_direction: false
+position_error_ticks: 3836
+estimated_position_minus: -1922
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665658
+    nanosec: 309202549
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3808
+relative_ticks: -3006
+target_position: 1942
+position_error_direction: false
+position_error_ticks: 3808
+estimated_position_minus: -1866
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665658
+    nanosec: 939065167
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3769
+relative_ticks: -2920
+target_position: 1989
+position_error_direction: false
+position_error_ticks: 3769
+estimated_position_minus: -1780
+estimated_position_plus: 5758
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 234021431
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3536
+relative_ticks: -2460
+target_position: 2216
+position_error_direction: false
+position_error_ticks: 3536
+estimated_position_minus: -1320
+estimated_position_plus: 5752
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 247209469
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3525
+relative_ticks: -2441
+target_position: 2224
+position_error_direction: false
+position_error_ticks: 3525
+estimated_position_minus: -1301
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 308780910
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3507
+relative_ticks: -2405
+target_position: 2242
+position_error_direction: false
+position_error_ticks: 3507
+estimated_position_minus: -1265
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 412913507
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3476
+relative_ticks: -2343
+target_position: 2273
+position_error_direction: false
+position_error_ticks: 3476
+estimated_position_minus: -1203
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 511368094
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3446
+relative_ticks: -2283
+target_position: 2303
+position_error_direction: false
+position_error_ticks: 3446
+estimated_position_minus: -1143
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 608646507
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3416
+relative_ticks: -2223
+target_position: 2333
+position_error_direction: false
+position_error_ticks: 3416
+estimated_position_minus: -1083
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 45
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 708903944
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3387
+relative_ticks: -2164
+target_position: 2363
+position_error_direction: false
+position_error_ticks: 3387
+estimated_position_minus: -1024
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 809740202
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3356
+relative_ticks: -2103
+target_position: 2393
+position_error_direction: false
+position_error_ticks: 3356
+estimated_position_minus: -963
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665659
+    nanosec: 910423867
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3326
+relative_ticks: -2043
+target_position: 2423
+position_error_direction: false
+position_error_ticks: 3326
+estimated_position_minus: -903
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 9559804
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3295
+relative_ticks: -1982
+target_position: 2453
+position_error_direction: false
+position_error_ticks: 3295
+estimated_position_minus: -842
+estimated_position_plus: 5748
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 108457288
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3266
+relative_ticks: -1923
+target_position: 2483
+position_error_direction: false
+position_error_ticks: 3266
+estimated_position_minus: -783
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 50
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 209746502
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3235
+relative_ticks: -1862
+target_position: 2513
+position_error_direction: false
+position_error_ticks: 3235
+estimated_position_minus: -722
+estimated_position_plus: 5748
+load_raw: 108
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 562143843
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3167
+relative_ticks: -1709
+target_position: 2598
+position_error_direction: false
+position_error_ticks: 3167
+estimated_position_minus: -569
+estimated_position_plus: 5765
+load_raw: 104
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 687124805
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3105
+relative_ticks: -1596
+target_position: 2649
+position_error_direction: false
+position_error_ticks: 3105
+estimated_position_minus: -456
+estimated_position_plus: 5754
+load_raw: 112
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 809490965
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3074
+relative_ticks: -1535
+target_position: 2679
+position_error_direction: false
+position_error_ticks: 3074
+estimated_position_minus: -395
+estimated_position_plus: 5753
+load_raw: 116
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 933087279
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3029
+relative_ticks: -1447
+target_position: 2722
+position_error_direction: false
+position_error_ticks: 3029
+estimated_position_minus: -307
+estimated_position_plus: 5751
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665660
+    nanosec: 980083716
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 3006
+relative_ticks: -1402
+target_position: 2744
+position_error_direction: false
+position_error_ticks: 3006
+estimated_position_minus: -262
+estimated_position_plus: 5750
+load_raw: 116
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 10156574
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2996
+relative_ticks: -1382
+target_position: 2754
+position_error_direction: false
+position_error_ticks: 2996
+estimated_position_minus: -242
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 111344356
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2966
+relative_ticks: -1322
+target_position: 2784
+position_error_direction: false
+position_error_ticks: 2966
+estimated_position_minus: -182
+estimated_position_plus: 5750
+load_raw: 108
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 212501203
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2934
+relative_ticks: -1259
+target_position: 2815
+position_error_direction: false
+position_error_ticks: 2934
+estimated_position_minus: -119
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 312100798
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2905
+relative_ticks: -1200
+target_position: 2845
+position_error_direction: false
+position_error_ticks: 2905
+estimated_position_minus: -60
+estimated_position_plus: 5750
+load_raw: 108
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 412475641
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2876
+relative_ticks: -1142
+target_position: 2874
+position_error_direction: false
+position_error_ticks: 2876
+estimated_position_minus: -2
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 517407124
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2844
+relative_ticks: -1078
+target_position: 2906
+position_error_direction: false
+position_error_ticks: 2844
+estimated_position_minus: 62
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 41
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 611862185
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2816
+relative_ticks: -1021
+target_position: 2935
+position_error_direction: false
+position_error_ticks: 2816
+estimated_position_minus: 119
+estimated_position_plus: 5751
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 711876748
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2785
+relative_ticks: -960
+target_position: 2965
+position_error_direction: false
+position_error_ticks: 2785
+estimated_position_minus: 180
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 815040477
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2755
+relative_ticks: -900
+target_position: 2995
+position_error_direction: false
+position_error_ticks: 2755
+estimated_position_minus: 240
+estimated_position_plus: 5750
+load_raw: 108
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665661
+    nanosec: 912437146
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2725
+relative_ticks: -840
+target_position: 3025
+position_error_direction: false
+position_error_ticks: 2725
+estimated_position_minus: 300
+estimated_position_plus: 5750
+load_raw: 124
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 34936776
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2693
+relative_ticks: -774
+target_position: 3059
+position_error_direction: false
+position_error_ticks: 2693
+estimated_position_minus: 366
+estimated_position_plus: 5752
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 174524333
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2663
+relative_ticks: -711
+target_position: 3092
+position_error_direction: false
+position_error_ticks: 2663
+estimated_position_minus: 429
+estimated_position_plus: 5755
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 218204945
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2634
+relative_ticks: -658
+target_position: 3116
+position_error_direction: false
+position_error_ticks: 2634
+estimated_position_minus: 482
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 341535218
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2603
+relative_ticks: -588
+target_position: 3155
+position_error_direction: false
+position_error_ticks: 2603
+estimated_position_minus: 552
+estimated_position_plus: 5758
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 723952990
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2516
+relative_ticks: -410
+target_position: 3246
+position_error_direction: false
+position_error_ticks: 2516
+estimated_position_minus: 730
+estimated_position_plus: 5762
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 799224105
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2459
+relative_ticks: -308
+target_position: 3291
+position_error_direction: false
+position_error_ticks: 2459
+estimated_position_minus: 832
+estimated_position_plus: 5750
+load_raw: 104
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 811550305
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2453
+relative_ticks: -297
+target_position: 3296
+position_error_direction: false
+position_error_ticks: 2453
+estimated_position_minus: 843
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665662
+    nanosec: 923852397
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2422
+relative_ticks: -234
+target_position: 3328
+position_error_direction: false
+position_error_ticks: 2422
+estimated_position_minus: 906
+estimated_position_plus: 5750
+load_raw: 116
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 14609113
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2394
+relative_ticks: -178
+target_position: 3356
+position_error_direction: false
+position_error_ticks: 2394
+estimated_position_minus: 962
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 114267528
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2362
+relative_ticks: -115
+target_position: 3387
+position_error_direction: false
+position_error_ticks: 2362
+estimated_position_minus: 1025
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 215581067
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2333
+relative_ticks: -57
+target_position: 3416
+position_error_direction: false
+position_error_ticks: 2333
+estimated_position_minus: 1083
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 315267781
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2303
+relative_ticks: 4
+target_position: 3447
+position_error_direction: false
+position_error_ticks: 2303
+estimated_position_minus: 1144
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 45
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 417065017
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2273
+relative_ticks: 64
+target_position: 3477
+position_error_direction: false
+position_error_ticks: 2273
+estimated_position_minus: 1204
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 44
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 516133271
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2242
+relative_ticks: 125
+target_position: 3507
+position_error_direction: false
+position_error_ticks: 2242
+estimated_position_minus: 1265
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 608954783
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2213
+relative_ticks: 183
+target_position: 3536
+position_error_direction: false
+position_error_ticks: 2213
+estimated_position_minus: 1323
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 710400813
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2183
+relative_ticks: 244
+target_position: 3567
+position_error_direction: false
+position_error_ticks: 2183
+estimated_position_minus: 1384
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665663
+    nanosec: 865464442
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2149
+relative_ticks: 311
+target_position: 3600
+position_error_direction: false
+position_error_ticks: 2149
+estimated_position_minus: 1451
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 47
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 166074012
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2063
+relative_ticks: 488
+target_position: 3691
+position_error_direction: false
+position_error_ticks: 2063
+estimated_position_minus: 1628
+estimated_position_plus: 5754
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 269455670
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2025
+relative_ticks: 561
+target_position: 3726
+position_error_direction: false
+position_error_ticks: 2025
+estimated_position_minus: 1701
+estimated_position_plus: 5751
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 313869282
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 2011
+relative_ticks: 588
+target_position: 3739
+position_error_direction: false
+position_error_ticks: 2011
+estimated_position_minus: 1728
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 609639984
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1923
+relative_ticks: 767
+target_position: 3830
+position_error_direction: false
+position_error_ticks: 1923
+estimated_position_minus: 1907
+estimated_position_plus: 5753
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 633281165
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1905
+relative_ticks: 799
+target_position: 3844
+position_error_direction: false
+position_error_ticks: 1905
+estimated_position_minus: 1939
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 718810796
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1882
+relative_ticks: 846
+target_position: 3868
+position_error_direction: false
+position_error_ticks: 1882
+estimated_position_minus: 1986
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 811358537
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1852
+relative_ticks: 906
+target_position: 3898
+position_error_direction: false
+position_error_ticks: 1852
+estimated_position_minus: 2046
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 42
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665664
+    nanosec: 914530497
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1822
+relative_ticks: 966
+target_position: 3928
+position_error_direction: false
+position_error_ticks: 1822
+estimated_position_minus: 2106
+estimated_position_plus: 5750
+load_raw: 124
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 12266244
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1793
+relative_ticks: 1024
+target_position: 3957
+position_error_direction: false
+position_error_ticks: 1793
+estimated_position_minus: 2164
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 115359190
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1761
+relative_ticks: 1087
+target_position: 3988
+position_error_direction: false
+position_error_ticks: 1761
+estimated_position_minus: 2227
+estimated_position_plus: 5749
+load_raw: 108
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 213964019
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1732
+relative_ticks: 1146
+target_position: 4018
+position_error_direction: false
+position_error_ticks: 1732
+estimated_position_minus: 2286
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 317602984
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1702
+relative_ticks: 1207
+target_position: 4049
+position_error_direction: false
+position_error_ticks: 1702
+estimated_position_minus: 2347
+estimated_position_plus: 5751
+load_raw: 120
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 415402675
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1672
+relative_ticks: 1266
+target_position: 4078
+position_error_direction: false
+position_error_ticks: 1672
+estimated_position_minus: 2406
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 513500746
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1642
+relative_ticks: 1326
+target_position: 4108
+position_error_direction: false
+position_error_ticks: 1642
+estimated_position_minus: 2466
+estimated_position_plus: 5750
+load_raw: 108
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 610632873
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1612
+relative_ticks: 1386
+target_position: 4138
+position_error_direction: false
+position_error_ticks: 1612
+estimated_position_minus: 2526
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 788750947
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1570
+relative_ticks: 1472
+target_position: 4182
+position_error_direction: false
+position_error_ticks: 1570
+estimated_position_minus: 2612
+estimated_position_plus: 5752
+load_raw: 112
+current_raw: 3
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 881968114
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1541
+relative_ticks: 1532
+target_position: 4213
+position_error_direction: false
+position_error_ticks: 1541
+estimated_position_minus: 2672
+estimated_position_plus: 5754
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665665
+    nanosec: 990535868
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1507
+relative_ticks: 1597
+target_position: 4244
+position_error_direction: false
+position_error_ticks: 1507
+estimated_position_minus: 2737
+estimated_position_plus: 5751
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 55222118
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1483
+relative_ticks: 1645
+target_position: 4268
+position_error_direction: false
+position_error_ticks: 1483
+estimated_position_minus: 2785
+estimated_position_plus: 5751
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 288235197
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1443
+relative_ticks: 1731
+target_position: 4314
+position_error_direction: false
+position_error_ticks: 1443
+estimated_position_minus: 2871
+estimated_position_plus: 5757
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 345450404
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1390
+relative_ticks: 1829
+target_position: 4359
+position_error_direction: false
+position_error_ticks: 1390
+estimated_position_minus: 2969
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 357373896
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1386
+relative_ticks: 1836
+target_position: 4362
+position_error_direction: false
+position_error_ticks: 1386
+estimated_position_minus: 2976
+estimated_position_plus: 5748
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 410918479
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1371
+relative_ticks: 1868
+target_position: 4379
+position_error_direction: false
+position_error_ticks: 1371
+estimated_position_minus: 3008
+estimated_position_plus: 5750
+load_raw: 104
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 508879552
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1341
+relative_ticks: 1928
+target_position: 4409
+position_error_direction: false
+position_error_ticks: 1341
+estimated_position_minus: 3068
+estimated_position_plus: 5750
+load_raw: 116
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 611114944
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1310
+relative_ticks: 1989
+target_position: 4439
+position_error_direction: false
+position_error_ticks: 1310
+estimated_position_minus: 3129
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 710850306
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1280
+relative_ticks: 2049
+target_position: 4469
+position_error_direction: false
+position_error_ticks: 1280
+estimated_position_minus: 3189
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 809023203
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1250
+relative_ticks: 2109
+target_position: 4499
+position_error_direction: false
+position_error_ticks: 1250
+estimated_position_minus: 3249
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665666
+    nanosec: 915313758
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1220
+relative_ticks: 2170
+target_position: 4530
+position_error_direction: false
+position_error_ticks: 1220
+estimated_position_minus: 3310
+estimated_position_plus: 5750
+load_raw: 116
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665667
+    nanosec: 13423417
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1189
+relative_ticks: 2231
+target_position: 4560
+position_error_direction: false
+position_error_ticks: 1189
+estimated_position_minus: 3371
+estimated_position_plus: 5749
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665667
+    nanosec: 110334932
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1160
+relative_ticks: 2289
+target_position: 4589
+position_error_direction: false
+position_error_ticks: 1160
+estimated_position_minus: 3429
+estimated_position_plus: 5749
+load_raw: 116
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665667
+    nanosec: 211777368
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1130
+relative_ticks: 2349
+target_position: 4619
+position_error_direction: false
+position_error_ticks: 1130
+estimated_position_minus: 3489
+estimated_position_plus: 5749
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665667
+    nanosec: 328196964
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1097
+relative_ticks: 2416
+target_position: 4653
+position_error_direction: false
+position_error_ticks: 1097
+estimated_position_minus: 3556
+estimated_position_plus: 5750
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665667
+    nanosec: 495431128
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1051
+relative_ticks: 2508
+target_position: 4699
+position_error_direction: false
+position_error_ticks: 1051
+estimated_position_minus: 3648
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665667
+    nanosec: 543393323
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 1039
+relative_ticks: 2534
+target_position: 4713
+position_error_direction: false
+position_error_ticks: 1039
+estimated_position_minus: 3674
+estimated_position_plus: 5752
+load_raw: 116
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 129611837
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 925
+relative_ticks: 2780
+target_position: 4845
+position_error_direction: false
+position_error_ticks: 925
+estimated_position_minus: 3920
+estimated_position_plus: 5770
+load_raw: 104
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 201709421
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 834
+relative_ticks: 2943
+target_position: 4917
+position_error_direction: false
+position_error_ticks: 834
+estimated_position_minus: 4083
+estimated_position_plus: 5751
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 216260200
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 828
+relative_ticks: 2954
+target_position: 4922
+position_error_direction: false
+position_error_ticks: 828
+estimated_position_minus: 4094
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 321476167
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 797
+relative_ticks: 3016
+target_position: 4953
+position_error_direction: false
+position_error_ticks: 797
+estimated_position_minus: 4156
+estimated_position_plus: 5750
+load_raw: 116
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 416741200
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 769
+relative_ticks: 3071
+target_position: 4980
+position_error_direction: false
+position_error_ticks: 769
+estimated_position_minus: 4211
+estimated_position_plus: 5749
+load_raw: 120
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 512982364
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 739
+relative_ticks: 3132
+target_position: 5011
+position_error_direction: false
+position_error_ticks: 739
+estimated_position_minus: 4272
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 613315984
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 709
+relative_ticks: 3192
+target_position: 5041
+position_error_direction: false
+position_error_ticks: 709
+estimated_position_minus: 4332
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 1
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 712093269
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 679
+relative_ticks: 3252
+target_position: 5071
+position_error_direction: false
+position_error_ticks: 679
+estimated_position_minus: 4392
+estimated_position_plus: 5750
+load_raw: 112
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 47
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 820380718
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 647
+relative_ticks: 3316
+target_position: 5103
+position_error_direction: false
+position_error_ticks: 647
+estimated_position_minus: 4456
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665668
+    nanosec: 913654817
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 620
+relative_ticks: 3371
+target_position: 5131
+position_error_direction: false
+position_error_ticks: 620
+estimated_position_minus: 4511
+estimated_position_plus: 5751
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665669
+    nanosec: 9825726
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 589
+relative_ticks: 3432
+target_position: 5161
+position_error_direction: false
+position_error_ticks: 589
+estimated_position_minus: 4572
+estimated_position_plus: 5750
+load_raw: 120
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665669
+    nanosec: 111977203
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 560
+relative_ticks: 3491
+target_position: 5191
+position_error_direction: false
+position_error_ticks: 560
+estimated_position_minus: 4631
+estimated_position_plus: 5751
+load_raw: 120
+current_raw: 3
+moving: true
+voltage_v: 12.100000381469727
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665669
+    nanosec: 230914918
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32777
+relative_ticks: 4090
+target_position: 5221
+position_error_direction: true
+position_error_ticks: 9
+estimated_position_minus: 5212
+estimated_position_plus: 5230
+load_raw: 124
+current_raw: 2
+moving: true
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665669
+    nanosec: 814060603
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32771
+relative_ticks: 4060
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 3
+estimated_position_minus: 5194
+estimated_position_plus: 5200
+load_raw: 32
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665669
+    nanosec: 968225935
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32771
+relative_ticks: 4060
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 3
+estimated_position_minus: 5194
+estimated_position_plus: 5200
+load_raw: 32
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665669
+    nanosec: 994955155
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32771
+relative_ticks: 4060
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 3
+estimated_position_minus: 5194
+estimated_position_plus: 5200
+load_raw: 32
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 11920589
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32771
+relative_ticks: 4060
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 3
+estimated_position_minus: 5194
+estimated_position_plus: 5200
+load_raw: 32
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 113515472
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32771
+relative_ticks: 4060
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 3
+estimated_position_minus: 5194
+estimated_position_plus: 5200
+load_raw: 32
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 215591537
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32771
+relative_ticks: 4060
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 3
+estimated_position_minus: 5194
+estimated_position_plus: 5200
+load_raw: 32
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 324803854
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32772
+relative_ticks: 4061
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 4
+estimated_position_minus: 5193
+estimated_position_plus: 5201
+load_raw: 44
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 415492314
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 518152724
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 616200242
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 713942987
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 815868078
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665670
+    nanosec: 913473020
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665671
+    nanosec: 21753702
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665671
+    nanosec: 598725501
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665671
+    nanosec: 739471437
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665671
+    nanosec: 825383071
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665671
+    nanosec: 841584604
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665671
+    nanosec: 910820486
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 18209919
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 116970844
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 216197336
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 313773816
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 416148780
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 520392367
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 623138744
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 713359608
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665672
+    nanosec: 816005593
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 38715053
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 135852241
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 202989446
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 251218481
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 324649911
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 468889724
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 522789581
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 607890149
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 712401348
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 810755665
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665673
+    nanosec: 918565797
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 16683868
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 118020365
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 213573080
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 309256544
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 418980945
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 528464725
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 673836170
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 723855972
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 812155105
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665674
+    nanosec: 953486317
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 66580152
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 174153784
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 227427955
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 315780917
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 409460418
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 510700009
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 611628494
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 711750016
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 811336890
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665675
+    nanosec: 910253324
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 22556518
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 109617989
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 210369115
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 332639953
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 420799144
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 524941164
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 638888385
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665676
+    nanosec: 939672900
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 31052659
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 69870933
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 113219090
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 209813239
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 320465510
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 414410270
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 517808749
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 618818228
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 712448935
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 814464792
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665677
+    nanosec: 915917053
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 15030214
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 121858809
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 242530207
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 344422228
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 539277627
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 664606627
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 765955383
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 811440121
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 825171269
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665678
+    nanosec: 910276325
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 10801774
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 110924590
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 210591763
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 313229053
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 410171275
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 512416556
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 610738882
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 711197095
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 813855439
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665679
+    nanosec: 949578050
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 76199391
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 144448367
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 337720999
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 598473789
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 634064399
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 709977312
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 815281428
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665680
+    nanosec: 914799543
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 18650515
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 118699985
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 209761817
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 312863456
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 410762660
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 512619878
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 612071804
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 824640482
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 913149064
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665681
+    nanosec: 982437642
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 51463155
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 128904110
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 289291376
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 412210039
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 430186777
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 511414551
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 614384224
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 709382773
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 809966804
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665682
+    nanosec: 909206532
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 13881416
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 114694691
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 208944236
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 320755262
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 417780671
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 519220416
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 617007193
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 718732620
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665683
+    nanosec: 937226627
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 168791404
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 196905575
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 220062554
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 317153240
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 410320395
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 515429124
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 609774238
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 715068496
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 810194466
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665684
+    nanosec: 909452740
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665685
+    nanosec: 10594639
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665685
+    nanosec: 110618903
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665685
+    nanosec: 209436046
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665685
+    nanosec: 820976741
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 38175632
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 72737581
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 109903921
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 212071971
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 309122786
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 410125474
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 510419102
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 608514773
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 709392525
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 810513725
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665686
+    nanosec: 909874847
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665687
+    nanosec: 8655647
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665687
+    nanosec: 307949117
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665687
+    nanosec: 825550038
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665687
+    nanosec: 901192125
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665687
+    nanosec: 937215360
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 10765819
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 111755732
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 211925788
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 315651766
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 410390372
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 513618492
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 608981327
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 713960187
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 814753849
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665688
+    nanosec: 909194140
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 1
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665689
+    nanosec: 292380364
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665689
+    nanosec: 562965654
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665689
+    nanosec: 689528288
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665689
+    nanosec: 735416496
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665689
+    nanosec: 756885077
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665689
+    nanosec: 810689743
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665689
+    nanosec: 917866621
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665690
+    nanosec: 14721517
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---
+header:
+  stamp:
+    sec: 1780665690
+    nanosec: 111308748
+  frame_id: ''
+connected: true
+homed: true
+raw_position: 32770
+relative_ticks: 4059
+target_position: 5197
+position_error_direction: true
+position_error_ticks: 2
+estimated_position_minus: 5195
+estimated_position_plus: 5199
+load_raw: 24
+current_raw: 0
+moving: false
+voltage_v: 12.199999809265137
+temperature_c: 38
+fault: ''
+---

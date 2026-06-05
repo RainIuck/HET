@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/force_grasp__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/force_grasp__type_support.cpp.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/home_gripper__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/home_gripper__type_support.cpp.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_arm_to_joints__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_arm_to_joints__type_support.cpp.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_arm_to_pose__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_arm_to_pose__type_support.cpp.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper__type_support.cpp.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper_step__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper_step__type_support.cpp.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/msg/grasp_candidate__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/msg/grasp_candidate__type_support.cpp.o.d"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/msg/gripper_state__type_support.cpp.o"
+  "CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/alicia_d_control_interfaces/msg/gripper_state__type_support.cpp.o.d"
+  "libalicia_d_control_interfaces__rosidl_typesupport_c.pdb"
+  "libalicia_d_control_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/action/force_grasp__type_support.cpp"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/action/home_gripper__type_support.cpp"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/action/move_arm_to_joints__type_support.cpp"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/action/move_arm_to_pose__type_support.cpp"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper__type_support.cpp"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/action/move_gripper_step__type_support.cpp"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/msg/grasp_candidate__type_support.cpp"
+  "rosidl_typesupport_c/alicia_d_control_interfaces/msg/gripper_state__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/alicia_d_control_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

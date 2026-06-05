@@ -1,0 +1,4 @@
+Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_calibration -- -j20 -l20
+Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/Projects/HET/alicia_ws/build/alicia_d_calibration -- -j20 -l20
+Invoking command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_calibration
+Invoked command in '/home/Projects/HET/alicia_ws/build/alicia_d_calibration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/Projects/HET/alicia_ws/build/alicia_d_calibration

@@ -1,0 +1,371 @@
+[0.000000] (-) TimerEvent: {}
+[0.000776] (-) JobUnselected: {'identifier': 'alicia_d_arm_motion'}
+[0.001671] (-) JobUnselected: {'identifier': 'alicia_d_calibration'}
+[0.002342] (-) JobUnselected: {'identifier': 'alicia_d_control_interfaces'}
+[0.003253] (-) JobUnselected: {'identifier': 'alicia_d_cube_sort'}
+[0.003626] (-) JobUnselected: {'identifier': 'alicia_d_descriptions'}
+[0.003881] (-) JobUnselected: {'identifier': 'alicia_d_driver'}
+[0.004314] (-) JobUnselected: {'identifier': 'alicia_d_moveit'}
+[0.004517] (-) JobUnselected: {'identifier': 'alicia_d_pick_coordinator'}
+[0.004557] (-) JobUnselected: {'identifier': 'alicia_d_thinkgrasp_bridge'}
+[0.004645] (alicia_d_sts_gripper) JobQueued: {'identifier': 'alicia_d_sts_gripper', 'dependencies': OrderedDict([('alicia_d_control_interfaces', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces')])}
+[0.004794] (alicia_d_sts_gripper) JobStarted: {'identifier': 'alicia_d_sts_gripper'}
+[0.099671] (-) TimerEvent: {}
+[0.200210] (-) TimerEvent: {}
+[0.300709] (-) TimerEvent: {}
+[0.401314] (-) TimerEvent: {}
+[0.501890] (-) TimerEvent: {}
+[0.602688] (-) TimerEvent: {}
+[0.703538] (-) TimerEvent: {}
+[0.804386] (-) TimerEvent: {}
+[0.905096] (-) TimerEvent: {}
+[1.005791] (-) TimerEvent: {}
+[1.106307] (-) TimerEvent: {}
+[1.206853] (-) TimerEvent: {}
+[1.307349] (-) TimerEvent: {}
+[1.407826] (-) TimerEvent: {}
+[1.508242] (-) TimerEvent: {}
+[1.608865] (-) TimerEvent: {}
+[1.709654] (-) TimerEvent: {}
+[1.810278] (-) TimerEvent: {}
+[1.910934] (-) TimerEvent: {}
+[2.011485] (-) TimerEvent: {}
+[2.112002] (-) TimerEvent: {}
+[2.212519] (-) TimerEvent: {}
+[2.313126] (-) TimerEvent: {}
+[2.413582] (-) TimerEvent: {}
+[2.513996] (-) TimerEvent: {}
+[2.614481] (-) TimerEvent: {}
+[2.714926] (-) TimerEvent: {}
+[2.815393] (-) TimerEvent: {}
+[2.915885] (-) TimerEvent: {}
+[3.016345] (-) TimerEvent: {}
+[3.116842] (-) TimerEvent: {}
+[3.217363] (-) TimerEvent: {}
+[3.317859] (-) TimerEvent: {}
+[3.418427] (-) TimerEvent: {}
+[3.519233] (-) TimerEvent: {}
+[3.620014] (-) TimerEvent: {}
+[3.720800] (-) TimerEvent: {}
+[3.821809] (-) TimerEvent: {}
+[3.922288] (-) TimerEvent: {}
+[4.022763] (-) TimerEvent: {}
+[4.123358] (-) TimerEvent: {}
+[4.224086] (-) TimerEvent: {}
+[4.324536] (-) TimerEvent: {}
+[4.425199] (-) TimerEvent: {}
+[4.525694] (-) TimerEvent: {}
+[4.626172] (-) TimerEvent: {}
+[4.726799] (-) TimerEvent: {}
+[4.827398] (-) TimerEvent: {}
+[4.928083] (-) TimerEvent: {}
+[5.028510] (-) TimerEvent: {}
+[5.129151] (-) TimerEvent: {}
+[5.229547] (-) TimerEvent: {}
+[5.330003] (-) TimerEvent: {}
+[5.430415] (-) TimerEvent: {}
+[5.530860] (-) TimerEvent: {}
+[5.631390] (-) TimerEvent: {}
+[5.732066] (-) TimerEvent: {}
+[5.833304] (-) TimerEvent: {}
+[5.933886] (-) TimerEvent: {}
+[6.034421] (-) TimerEvent: {}
+[6.134955] (-) TimerEvent: {}
+[6.235508] (-) TimerEvent: {}
+[6.336051] (-) TimerEvent: {}
+[6.436635] (-) TimerEvent: {}
+[6.537622] (-) TimerEvent: {}
+[6.638127] (-) TimerEvent: {}
+[6.738679] (-) TimerEvent: {}
+[6.839526] (-) TimerEvent: {}
+[6.940329] (-) TimerEvent: {}
+[7.041093] (-) TimerEvent: {}
+[7.141779] (-) TimerEvent: {}
+[7.242264] (-) TimerEvent: {}
+[7.342787] (-) TimerEvent: {}
+[7.443255] (-) TimerEvent: {}
+[7.543696] (-) TimerEvent: {}
+[7.644292] (-) TimerEvent: {}
+[7.745095] (-) TimerEvent: {}
+[7.845694] (-) TimerEvent: {}
+[7.946371] (-) TimerEvent: {}
+[8.046963] (-) TimerEvent: {}
+[8.147542] (-) TimerEvent: {}
+[8.248039] (-) TimerEvent: {}
+[8.348518] (-) TimerEvent: {}
+[8.449194] (-) TimerEvent: {}
+[8.549632] (-) TimerEvent: {}
+[8.650263] (-) TimerEvent: {}
+[8.750756] (-) TimerEvent: {}
+[8.851298] (-) TimerEvent: {}
+[8.951745] (-) TimerEvent: {}
+[9.052491] (-) TimerEvent: {}
+[9.153114] (-) TimerEvent: {}
+[9.253571] (-) TimerEvent: {}
+[9.354110] (-) TimerEvent: {}
+[9.454646] (-) TimerEvent: {}
+[9.555260] (-) TimerEvent: {}
+[9.656034] (-) TimerEvent: {}
+[9.757110] (-) TimerEvent: {}
+[9.858008] (-) TimerEvent: {}
+[9.958830] (-) TimerEvent: {}
+[10.059398] (-) TimerEvent: {}
+[10.159985] (-) TimerEvent: {}
+[10.260607] (-) TimerEvent: {}
+[10.361331] (-) TimerEvent: {}
+[10.461866] (-) TimerEvent: {}
+[10.562468] (-) TimerEvent: {}
+[10.662955] (-) TimerEvent: {}
+[10.763690] (-) TimerEvent: {}
+[10.864233] (-) TimerEvent: {}
+[10.964836] (-) TimerEvent: {}
+[11.065372] (-) TimerEvent: {}
+[11.166047] (-) TimerEvent: {}
+[11.266637] (-) TimerEvent: {}
+[11.367012] (-) TimerEvent: {}
+[11.467490] (-) TimerEvent: {}
+[11.568034] (-) TimerEvent: {}
+[11.668651] (-) TimerEvent: {}
+[11.769389] (-) TimerEvent: {}
+[11.870228] (-) TimerEvent: {}
+[11.971062] (-) TimerEvent: {}
+[12.071667] (-) TimerEvent: {}
+[12.172317] (-) TimerEvent: {}
+[12.273396] (-) TimerEvent: {}
+[12.373856] (-) TimerEvent: {}
+[12.474288] (-) TimerEvent: {}
+[12.574761] (-) TimerEvent: {}
+[12.675184] (-) TimerEvent: {}
+[12.775787] (-) TimerEvent: {}
+[12.876397] (-) TimerEvent: {}
+[12.977153] (-) TimerEvent: {}
+[13.077671] (-) TimerEvent: {}
+[13.178508] (-) TimerEvent: {}
+[13.279185] (-) TimerEvent: {}
+[13.379612] (-) TimerEvent: {}
+[13.480167] (-) TimerEvent: {}
+[13.580730] (-) TimerEvent: {}
+[13.681336] (-) TimerEvent: {}
+[13.782129] (-) TimerEvent: {}
+[13.883168] (-) TimerEvent: {}
+[13.983946] (-) TimerEvent: {}
+[14.084802] (-) TimerEvent: {}
+[14.185304] (-) TimerEvent: {}
+[14.285919] (-) TimerEvent: {}
+[14.386478] (-) TimerEvent: {}
+[14.487072] (-) TimerEvent: {}
+[14.587600] (-) TimerEvent: {}
+[14.688199] (-) TimerEvent: {}
+[14.788751] (-) TimerEvent: {}
+[14.889480] (-) TimerEvent: {}
+[14.990113] (-) TimerEvent: {}
+[15.090752] (-) TimerEvent: {}
+[15.191434] (-) TimerEvent: {}
+[15.291925] (-) TimerEvent: {}
+[15.392363] (-) TimerEvent: {}
+[15.492965] (-) TimerEvent: {}
+[15.593355] (-) TimerEvent: {}
+[15.693969] (-) TimerEvent: {}
+[15.794574] (-) TimerEvent: {}
+[15.895363] (-) TimerEvent: {}
+[15.996371] (-) TimerEvent: {}
+[16.097110] (-) TimerEvent: {}
+[16.197597] (-) TimerEvent: {}
+[16.298271] (-) TimerEvent: {}
+[16.398851] (-) TimerEvent: {}
+[16.499413] (-) TimerEvent: {}
+[16.599885] (-) TimerEvent: {}
+[16.700473] (-) TimerEvent: {}
+[16.801094] (-) TimerEvent: {}
+[16.901521] (-) TimerEvent: {}
+[17.001954] (-) TimerEvent: {}
+[17.102583] (-) TimerEvent: {}
+[17.203364] (-) TimerEvent: {}
+[17.304176] (-) TimerEvent: {}
+[17.404666] (-) TimerEvent: {}
+[17.505166] (-) TimerEvent: {}
+[17.605689] (-) TimerEvent: {}
+[17.706143] (-) TimerEvent: {}
+[17.806690] (-) TimerEvent: {}
+[17.907625] (-) TimerEvent: {}
+[18.008611] (-) TimerEvent: {}
+[18.109197] (-) TimerEvent: {}
+[18.209667] (-) TimerEvent: {}
+[18.310275] (-) TimerEvent: {}
+[18.410734] (-) TimerEvent: {}
+[18.511234] (-) TimerEvent: {}
+[18.611898] (-) TimerEvent: {}
+[18.712470] (-) TimerEvent: {}
+[18.813232] (-) TimerEvent: {}
+[18.913878] (-) TimerEvent: {}
+[19.014715] (-) TimerEvent: {}
+[19.115273] (-) TimerEvent: {}
+[19.215831] (-) TimerEvent: {}
+[19.316309] (-) TimerEvent: {}
+[19.416939] (-) TimerEvent: {}
+[19.517498] (-) TimerEvent: {}
+[19.618111] (-) TimerEvent: {}
+[19.718586] (-) TimerEvent: {}
+[19.819423] (-) TimerEvent: {}
+[19.920392] (-) TimerEvent: {}
+[20.021255] (-) TimerEvent: {}
+[20.121751] (-) TimerEvent: {}
+[20.222407] (-) TimerEvent: {}
+[20.322980] (-) TimerEvent: {}
+[20.423569] (-) TimerEvent: {}
+[20.524241] (-) TimerEvent: {}
+[20.624844] (-) TimerEvent: {}
+[20.725341] (-) TimerEvent: {}
+[20.825820] (-) TimerEvent: {}
+[20.926485] (-) TimerEvent: {}
+[21.026995] (-) TimerEvent: {}
+[21.127459] (-) TimerEvent: {}
+[21.227999] (-) TimerEvent: {}
+[21.328534] (-) TimerEvent: {}
+[21.429003] (-) TimerEvent: {}
+[21.529519] (-) TimerEvent: {}
+[21.629963] (-) TimerEvent: {}
+[21.730411] (-) TimerEvent: {}
+[21.830868] (-) TimerEvent: {}
+[21.931411] (-) TimerEvent: {}
+[22.031966] (-) TimerEvent: {}
+[22.132603] (-) TimerEvent: {}
+[22.233110] (-) TimerEvent: {}
+[22.333672] (-) TimerEvent: {}
+[22.434121] (-) TimerEvent: {}
+[22.534863] (-) TimerEvent: {}
+[22.635393] (-) TimerEvent: {}
+[22.735846] (-) TimerEvent: {}
+[22.836395] (-) TimerEvent: {}
+[22.936805] (-) TimerEvent: {}
+[23.037308] (-) TimerEvent: {}
+[23.137888] (-) TimerEvent: {}
+[23.238366] (-) TimerEvent: {}
+[23.338943] (-) TimerEvent: {}
+[23.439786] (-) TimerEvent: {}
+[23.540232] (-) TimerEvent: {}
+[23.640629] (-) TimerEvent: {}
+[23.741101] (-) TimerEvent: {}
+[23.841575] (-) TimerEvent: {}
+[23.942168] (-) TimerEvent: {}
+[24.042706] (-) TimerEvent: {}
+[24.143150] (-) TimerEvent: {}
+[24.243624] (-) TimerEvent: {}
+[24.344055] (-) TimerEvent: {}
+[24.444572] (-) TimerEvent: {}
+[24.545040] (-) TimerEvent: {}
+[24.645403] (-) TimerEvent: {}
+[24.745817] (-) TimerEvent: {}
+[24.846290] (-) TimerEvent: {}
+[24.946738] (-) TimerEvent: {}
+[25.047205] (-) TimerEvent: {}
+[25.147710] (-) TimerEvent: {}
+[25.248101] (-) TimerEvent: {}
+[25.348469] (-) TimerEvent: {}
+[25.448884] (-) TimerEvent: {}
+[25.549343] (-) TimerEvent: {}
+[25.649762] (-) TimerEvent: {}
+[25.750299] (-) TimerEvent: {}
+[25.850979] (-) TimerEvent: {}
+[25.952152] (-) TimerEvent: {}
+[26.052654] (-) TimerEvent: {}
+[26.153126] (-) TimerEvent: {}
+[26.253624] (-) TimerEvent: {}
+[26.354065] (-) TimerEvent: {}
+[26.454500] (-) TimerEvent: {}
+[26.554935] (-) TimerEvent: {}
+[26.655373] (-) TimerEvent: {}
+[26.755834] (-) TimerEvent: {}
+[26.856340] (-) TimerEvent: {}
+[26.956747] (-) TimerEvent: {}
+[27.057243] (-) TimerEvent: {}
+[27.157711] (-) TimerEvent: {}
+[27.258147] (-) TimerEvent: {}
+[27.358581] (-) TimerEvent: {}
+[27.459047] (-) TimerEvent: {}
+[27.559499] (-) TimerEvent: {}
+[27.659914] (-) TimerEvent: {}
+[27.760380] (-) TimerEvent: {}
+[27.861029] (-) TimerEvent: {}
+[27.961529] (-) TimerEvent: {}
+[28.062043] (-) TimerEvent: {}
+[28.162496] (-) TimerEvent: {}
+[28.262913] (-) TimerEvent: {}
+[28.363322] (-) TimerEvent: {}
+[28.464050] (-) TimerEvent: {}
+[28.564735] (-) TimerEvent: {}
+[28.665477] (-) TimerEvent: {}
+[28.765928] (-) TimerEvent: {}
+[28.866379] (-) TimerEvent: {}
+[28.966861] (-) TimerEvent: {}
+[29.067408] (-) TimerEvent: {}
+[29.168034] (-) TimerEvent: {}
+[29.268436] (-) TimerEvent: {}
+[29.368882] (-) TimerEvent: {}
+[29.469371] (-) TimerEvent: {}
+[29.569799] (-) TimerEvent: {}
+[29.670216] (-) TimerEvent: {}
+[29.770908] (-) TimerEvent: {}
+[29.871644] (-) TimerEvent: {}
+[29.972291] (-) TimerEvent: {}
+[30.025038] (alicia_d_sts_gripper) JobProgress: {'identifier': 'alicia_d_sts_gripper', 'progress': 'cmake'}
+[30.026934] (alicia_d_sts_gripper) JobProgress: {'identifier': 'alicia_d_sts_gripper', 'progress': 'build'}
+[30.028429] (alicia_d_sts_gripper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper', '--', '-j20', '-l20'], 'cwd': '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/e/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://172.29.80.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('USER', 'root'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/nls.messages.json","languagePack":{"translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","messagesFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/nls.messages.json","corruptMarkerFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fc3093d7294cc92428f5c656f415b3c7.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e","_corruptedFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('all_proxy', 'http://172.29.80.1:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-49ffd1c6-a8ea-42c4-b5bd-d767cec6971b.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.29.80.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ALL_PROXY', 'http://172.29.80.1:7890'), ('NAME', 'LAPTOP-EK504TPB'), ('WSL_INTEROP', '/run/WSL/1939278_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://172.29.80.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.codex/tmp/arg0/codex-arg0egQdTs:/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/e/matlab/matlab7/runtime/win64:/mnt/e/matlab/matlab7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/QT/6.6.3/mingw_64/bin:/mnt/d/Qt/Qt5.15.2/5.15.2/mingw81_64/bin:/mnt/d/Texlive/texlive/2023/bin/windows:/mnt/d/SUMO/bin/:/mnt/d/SUMO/tools/:/mnt/d/texlivedownload/texlive/2025/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/d/Program Files/MATLAB/R2025a/runtime/win64:/mnt/d/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/nodejs/:/mnt/c/Users/lenovo/typst/typst-x86_64-pc-windows-msvc/typst.exe:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/usbipd-win/:/mnt/e/Trae CN/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/pycharm/PyCharm Community Edition 2024.3.5/bin:/mnt/e/Anaconda:/mnt/e/Anaconda/Scripts:/mnt/e/Anaconda/Library/bin:/mnt/c/Users/lenovo/.dotnet/tools:/mnt/d/texlive/2025/bin/windows:/mnt/e/Microsoft VS Code/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/MikTex/miktex/bin/x64/:/mnt/c/Users/lenovo/AppData/Roaming/npm:/mnt/c/Users/lenovo/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe/typst-x86_64-pc-windows-msvc:/snap/bin:/root/.vscode-server/extensions/openai.chatgpt-26.5527.60818-linux-x64/bin/linux-x86_64'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e77d6-85ee-7653-aee0-3f9c56e4ff47'), ('GIT_PAGER', 'cat'), ('PWD', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://172.29.80.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble')]), 'shell': False}
+[30.072594] (-) TimerEvent: {}
+[30.173177] (-) TimerEvent: {}
+[30.173824] (alicia_d_sts_gripper) StdoutLine: {'line': b'Built target ament_cmake_python_copy_alicia_d_sts_gripper\n'}
+[30.273468] (-) TimerEvent: {}
+[30.374025] (-) TimerEvent: {}
+[30.474506] (-) TimerEvent: {}
+[30.575121] (-) TimerEvent: {}
+[30.675707] (-) TimerEvent: {}
+[30.748932] (alicia_d_sts_gripper) StdoutLine: {'line': b'running egg_info\n'}
+[30.751303] (alicia_d_sts_gripper) StdoutLine: {'line': b'writing alicia_d_sts_gripper.egg-info/PKG-INFO\n'}
+[30.752186] (alicia_d_sts_gripper) StdoutLine: {'line': b'writing dependency_links to alicia_d_sts_gripper.egg-info/dependency_links.txt\n'}
+[30.753251] (alicia_d_sts_gripper) StdoutLine: {'line': b'writing top-level names to alicia_d_sts_gripper.egg-info/top_level.txt\n'}
+[30.759753] (alicia_d_sts_gripper) StdoutLine: {'line': b"reading manifest file 'alicia_d_sts_gripper.egg-info/SOURCES.txt'\n"}
+[30.760840] (alicia_d_sts_gripper) StdoutLine: {'line': b"writing manifest file 'alicia_d_sts_gripper.egg-info/SOURCES.txt'\n"}
+[30.776032] (-) TimerEvent: {}
+[30.838404] (alicia_d_sts_gripper) StdoutLine: {'line': b'Built target ament_cmake_python_build_alicia_d_sts_gripper_egg\n'}
+[30.861382] (alicia_d_sts_gripper) CommandEnded: {'returncode': 0}
+[30.863276] (alicia_d_sts_gripper) JobProgress: {'identifier': 'alicia_d_sts_gripper', 'progress': 'install'}
+[30.876294] (-) TimerEvent: {}
+[30.884715] (alicia_d_sts_gripper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper'], 'cwd': '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/e/Microsoft VS Code'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://172.29.80.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('USER', 'root'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/nls.messages.json","languagePack":{"translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","messagesFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/nls.messages.json","corruptMarkerFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fc3093d7294cc92428f5c656f415b3c7.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","_cacheRoot":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn","_resolvedLanguagePackCoreLocation":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e","_corruptedFile":"/root/.vscode-server/data/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"}'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/lenovo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('all_proxy', 'http://172.29.80.1:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-49ffd1c6-a8ea-42c4-b5bd-d767cec6971b.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://172.29.80.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ALL_PROXY', 'http://172.29.80.1:7890'), ('NAME', 'LAPTOP-EK504TPB'), ('WSL_INTEROP', '/run/WSL/1939278_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://172.29.80.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.codex/tmp/arg0/codex-arg0egQdTs:/root/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/matlab/runtime/win64:/mnt/d/matlab/bin:/mnt/e/matlab/matlab7/runtime/win64:/mnt/e/matlab/matlab7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.1.1/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/QT/6.6.3/mingw_64/bin:/mnt/d/Qt/Qt5.15.2/5.15.2/mingw81_64/bin:/mnt/d/Texlive/texlive/2023/bin/windows:/mnt/d/SUMO/bin/:/mnt/d/SUMO/tools/:/mnt/d/texlivedownload/texlive/2025/bin/windows:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/d/Program Files/MATLAB/R2025a/runtime/win64:/mnt/d/Program Files/MATLAB/R2025a/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/nodejs/:/mnt/c/Users/lenovo/typst/typst-x86_64-pc-windows-msvc/typst.exe:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/usbipd-win/:/mnt/e/Trae CN/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/e/pycharm/PyCharm Community Edition 2024.3.5/bin:/mnt/e/Anaconda:/mnt/e/Anaconda/Scripts:/mnt/e/Anaconda/Library/bin:/mnt/c/Users/lenovo/.dotnet/tools:/mnt/d/texlive/2025/bin/windows:/mnt/e/Microsoft VS Code/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/d/MikTex/miktex/bin/x64/:/mnt/c/Users/lenovo/AppData/Roaming/npm:/mnt/c/Users/lenovo/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WinGet/Packages/Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe/typst-x86_64-pc-windows-msvc:/snap/bin:/root/.vscode-server/extensions/openai.chatgpt-26.5527.60818-linux-x64/bin/linux-x86_64'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e77d6-85ee-7653-aee0-3f9c56e4ff47'), ('GIT_PAGER', 'cat'), ('PWD', '/home/Projects/HET/alicia_ws/build/alicia_d_sts_gripper'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://172.29.80.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/Projects/HET/alicia_ws/install/alicia_d_control_interfaces:/opt/ros/humble')]), 'shell': False}
+[30.902445] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.902867] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/pythonpath.sh\n'}
+[30.902990] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/pythonpath.dsv\n'}
+[30.905390] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info\n'}
+[30.905773] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[30.905964] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[30.906068] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[30.906242] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[30.906342] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper\n'}
+[30.906517] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper/__init__.py\n'}
+[30.906707] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper/sts3215_bus.py\n'}
+[30.976663] (-) TimerEvent: {}
+[30.991475] (alicia_d_sts_gripper) StdoutLine: {'line': b"Listing '/home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/local/lib/python3.10/dist-packages/alicia_d_sts_gripper'...\n"}
+[31.001877] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/gripper_action_node.py\n'}
+[31.005205] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/lib/alicia_d_sts_gripper/sts3215_raw_tool.py\n'}
+[31.007204] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/config\n'}
+[31.007928] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/config/sts3215_gripper.yaml\n'}
+[31.008995] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/launch\n'}
+[31.009266] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/launch/sts3215_gripper.launch.py\n'}
+[31.009386] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/package_run_dependencies/alicia_d_sts_gripper\n'}
+[31.009496] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/parent_prefix_path/alicia_d_sts_gripper\n'}
+[31.011002] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/ament_prefix_path.sh\n'}
+[31.011918] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/ament_prefix_path.dsv\n'}
+[31.012337] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/path.sh\n'}
+[31.012667] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/environment/path.dsv\n'}
+[31.012850] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.bash\n'}
+[31.013307] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.sh\n'}
+[31.013711] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.zsh\n'}
+[31.014804] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/local_setup.dsv\n'}
+[31.019878] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Installing: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/package.dsv\n'}
+[31.023528] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/ament_index/resource_index/packages/alicia_d_sts_gripper\n'}
+[31.024054] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/cmake/alicia_d_sts_gripperConfig.cmake\n'}
+[31.024542] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/cmake/alicia_d_sts_gripperConfig-version.cmake\n'}
+[31.024852] (alicia_d_sts_gripper) StdoutLine: {'line': b'-- Up-to-date: /home/Projects/HET/alicia_ws/install/alicia_d_sts_gripper/share/alicia_d_sts_gripper/package.xml\n'}
+[31.028599] (alicia_d_sts_gripper) CommandEnded: {'returncode': 0}
+[31.077088] (-) TimerEvent: {}
+[31.095977] (alicia_d_sts_gripper) JobEnded: {'identifier': 'alicia_d_sts_gripper', 'rc': 0}
+[31.098893] (-) EventReactorShutdown: {}

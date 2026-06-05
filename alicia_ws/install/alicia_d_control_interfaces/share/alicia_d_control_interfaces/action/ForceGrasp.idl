@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from alicia_d_control_interfaces/action/ForceGrasp.action
+// generated code does not contain a copyright notice
+
+
+module alicia_d_control_interfaces {
+  module action {
+    struct ForceGrasp_Goal {
+      int32 current_threshold_raw;
+
+      int32 max_ticks;
+
+      int32 speed;
+    };
+    struct ForceGrasp_Result {
+      boolean success;
+
+      boolean contact_detected;
+
+      string message;
+
+      int32 raw_position;
+
+      int32 relative_ticks;
+
+      int32 load_raw;
+
+      int32 current_raw;
+    };
+    struct ForceGrasp_Feedback {
+      int32 raw_position;
+
+      int32 relative_ticks;
+
+      int32 load_raw;
+
+      int32 current_raw;
+
+      boolean moving;
+    };
+  };
+};

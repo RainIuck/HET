@@ -1,0 +1,4 @@
+source;share/alicia_d_pick_coordinator/local_setup.bash
+source;share/alicia_d_pick_coordinator/local_setup.dsv
+source;share/alicia_d_pick_coordinator/local_setup.sh
+source;share/alicia_d_pick_coordinator/local_setup.zsh

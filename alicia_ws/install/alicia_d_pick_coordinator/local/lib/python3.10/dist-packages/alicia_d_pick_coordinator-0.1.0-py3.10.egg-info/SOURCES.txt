@@ -1,0 +1,6 @@
+setup.py
+alicia_d_pick_coordinator/__init__.py
+alicia_d_pick_coordinator.egg-info/PKG-INFO
+alicia_d_pick_coordinator.egg-info/SOURCES.txt
+alicia_d_pick_coordinator.egg-info/dependency_links.txt
+alicia_d_pick_coordinator.egg-info/top_level.txt
