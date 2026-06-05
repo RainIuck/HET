@@ -41,6 +41,16 @@ def parse_args():
         default=15,
         help="Frames to discard after starting the camera.",
     )
+    parser.add_argument(
+        "--command",
+        help="Text command to send once; if omitted, commands are read interactively.",
+    )
+    parser.add_argument(
+        "--simulate-control-delay",
+        type=float,
+        default=10.0,
+        help="Seconds to wait after each response to simulate robot execution.",
+    )
     return parser.parse_args()
 
 
@@ -143,18 +153,59 @@ def print_response(response, elapsed):
     print(json.dumps(payload, ensure_ascii=False, indent=2))
 
 
+def capture_save_and_send(args, pipeline, align_to_color, command, warmup_frames):
+    color_image, depth_raw = capture_aligned_frame(pipeline, align_to_color, warmup_frames)
+    rgb_path, depth_path = save_frame_pair(args.save_dir, color_image, depth_raw)
+    print(f"Saved RGB: {rgb_path}")
+    print(f"Saved depth: {depth_path}")
+    print(f"Sending command to {args.server_url!r}: {command}")
+    response, elapsed = send_request(args.server_url, rgb_path, depth_path, command, args.timeout)
+    print_response(response, elapsed)
+    return response
+
+
 def main():
     args = parse_args()
     print_realsense_info()
     pipeline, align_to_color = start_camera(args.width, args.height, args.fps)
 
+    if args.command:
+        try:
+            capture_save_and_send(
+                args,
+                pipeline,
+                align_to_color,
+                args.command,
+                args.warmup_frames,
+            )
+        except requests.RequestException as exc:
+            print(f"Network error: {exc}")
+        except RuntimeError as exc:
+            print(f"Capture/upload error: {exc}")
+        finally:
+            pipeline.stop()
+            print("Camera stopped.")
+        return
+
     print("Camera is ready. Type a text command and press Enter.")
     print("Use q, quit, or exit to stop.")
+    print(
+        "Each round will capture RGB-D, send it to the server, print the response, "
+        f"then wait {args.simulate_control_delay:.1f}s to simulate robot execution."
+    )
 
     try:
         first_capture = True
         while True:
-            command = input("> ").strip()
+            try:
+                command = input("> ").strip()
+            except EOFError:
+                print(
+                    "No interactive input stream is available. "
+                    "For the loop mode, activate the HET environment first and run "
+                    "python directly instead of using conda run."
+                )
+                break
             if command.lower() in {"q", "quit", "exit"}:
                 break
             if not command:
@@ -162,16 +213,15 @@ def main():
 
             try:
                 warmup = args.warmup_frames if first_capture else 0
-                color_image, depth_raw = capture_aligned_frame(pipeline, align_to_color, warmup)
+                capture_save_and_send(args, pipeline, align_to_color, command, warmup)
                 first_capture = False
-                rgb_path, depth_path = save_frame_pair(args.save_dir, color_image, depth_raw)
-                print(f"Saved RGB: {rgb_path}")
-                print(f"Saved depth: {depth_path}")
-                print(f"Sending command to {args.server_url!r}: {command}")
-                response, elapsed = send_request(
-                    args.server_url, rgb_path, depth_path, command, args.timeout
-                )
-                print_response(response, elapsed)
+                if args.simulate_control_delay > 0.0:
+                    print(
+                        "Simulating robot grasp execution for "
+                        f"{args.simulate_control_delay:.1f}s..."
+                    )
+                    time.sleep(args.simulate_control_delay)
+                    print("Simulation finished. Ready for the next command.")
             except requests.RequestException as exc:
                 print(f"Network error: {exc}")
             except RuntimeError as exc:
