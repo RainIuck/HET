@@ -143,7 +143,8 @@ def send_request(server_url, rgb_path, depth_path, text, timeout):
 
 
 def print_response(response, elapsed):
-    print(f"Server responded in {elapsed:.2f}s with HTTP {response.status_code}")
+    print(f"Send-to-response elapsed time: {elapsed:.2f}s")
+    print(f"Server responded with HTTP {response.status_code}")
     try:
         payload = response.json()
     except ValueError:
