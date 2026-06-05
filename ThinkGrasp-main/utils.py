@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from scipy.spatial.transform import Rotation as R
 from constants import WORKSPACE_LIMITS, PIXEL_SIZE
 import imageio
+from nonblocking_visualization import show_matplotlib_non_blocking
 
 
 from models.graspnet.utils.data_utils import CameraInfo, create_point_cloud_from_depth_image
@@ -504,7 +505,7 @@ def visualize_data(bbox_images, bboxes, pos_bboxes, grasps):
         ax.set_title(f"BBox {i + 1}")
         ax.axis('off')
 
-    plt.show()
+    show_matplotlib_non_blocking(plt)
     
     if bboxes is not None:
         fig, axs = plt.subplots(1, bboxes.size(1), figsize=(20, 5))
@@ -518,7 +519,7 @@ def visualize_data(bbox_images, bboxes, pos_bboxes, grasps):
             ax.set_title(f"Processed BBox {i + 1}")
             ax.axis('off')
 
-        plt.show()
+        show_matplotlib_non_blocking(plt)
         
     if pos_bboxes is not None:
         fig, axs = plt.subplots(1, pos_bboxes.size(1), figsize=(20, 5))
@@ -532,7 +533,7 @@ def visualize_data(bbox_images, bboxes, pos_bboxes, grasps):
             ax.set_title(f"Processed pos_bboxes {i + 1}")
             ax.axis('off')
 
-        plt.show()
+        show_matplotlib_non_blocking(plt)
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -546,7 +547,7 @@ def visualize_processed_data(remain_bbox_images, bboxes, pos_bboxes, grasps):
         plt.imshow(grid_img.permute(1, 2, 0))
         plt.title("Processed BBox Images")
         plt.axis('off')
-        plt.show()
+        show_matplotlib_non_blocking(plt)
 
 
     if pos_bboxes is not None and pos_bboxes.nelement() > 0:
@@ -557,7 +558,7 @@ def visualize_processed_data(remain_bbox_images, bboxes, pos_bboxes, grasps):
         plt.xlabel("X Position")
         plt.ylabel("Y Position")
         plt.grid(True)
-        plt.show()
+        show_matplotlib_non_blocking(plt)
 
     print("Grasps:", grasps)
 
@@ -620,6 +621,8 @@ def preprocess(bbox_images, bbox_positions, grasp_pose_set, n_px):
             grasps = grasp
         else:
             grasps = torch.cat((grasps, grasp), dim=0) # shape = [n_grasp, grasp_dim]
+    if grasps is None:
+        return remain_bboxes, bboxes, pos_bboxes, None
     grasps = grasps.unsqueeze(0).to(dtype=torch.float32) # shape = [1, n_grasp, grasp_dim]
     # print("------------------------------------------")
     # print(remain_bboxes, bboxes, pos_bboxes, grasps)
@@ -636,7 +639,7 @@ def plot_probs(text, bboxes, probs):
         plt.xticks([])
         plt.yticks([])
         ax.set_title(str(probs[0][i]), fontsize=10)
-    plt.show()
+    show_matplotlib_non_blocking(plt)
     
 def plot_attnmap(attn_map):
     fig, ax = plt.subplots()
@@ -647,7 +650,7 @@ def plot_attnmap(attn_map):
     plt.colorbar(im)
     # show
     fig.tight_layout()
-    plt.show()
+    show_matplotlib_non_blocking(plt)
 
 
 # Get rotation matrix from euler angles

@@ -17,6 +17,7 @@ from PIL import Image, ImageDraw
 import cv2
 
 from compat import torch_load
+from nonblocking_visualization import draw_open3d_non_blocking
 
 
 
@@ -215,7 +216,7 @@ class grasp_model():
 
     def vis_grasps(self, gg, cloud):
         grippers = gg.to_open3d_geometry_list()
-        o3d.visualization.draw_geometries([cloud, *grippers])
+        draw_open3d_non_blocking([cloud, *grippers])
         return gg
 
 
@@ -241,11 +242,11 @@ class grasp_model():
         gg_array, gg = self.get_grasps(grasp_net, end_points)
 
         grippers = gg.to_open3d_geometry_list()
-        o3d.visualization.draw_geometries([cloud, *grippers])
+        draw_open3d_non_blocking([cloud, *grippers])
         gg = self.choose_in_mask(gg)
 
         grippers = gg.to_open3d_geometry_list()
-        o3d.visualization.draw_geometries([cloud, *grippers])
+        draw_open3d_non_blocking([cloud, *grippers])
 
         gg = self.collision_detection(gg, np.array(cloud.points))
         
@@ -254,7 +255,7 @@ class grasp_model():
         gg_array = gg.grasp_group_array
         
         grippers = gg.to_open3d_geometry_list()
-        o3d.visualization.draw_geometries([cloud, *grippers])
+        draw_open3d_non_blocking([cloud, *grippers])
         
         Path(self.output_path).mkdir(parents=True, exist_ok=True)
         

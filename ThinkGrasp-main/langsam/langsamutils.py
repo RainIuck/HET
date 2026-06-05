@@ -8,6 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 import numpy as np
+from nonblocking_visualization import show_matplotlib_non_blocking
 
 def draw_bounding_boxes(image, boxes, colors=None, thickness=2):
     """
@@ -89,7 +90,7 @@ def display_image(image):
     ax.imshow(image)
     ax.set_title("Image ")
     ax.axis('off')
-    plt.show()
+    show_matplotlib_non_blocking(plt)
 
 def display_image_with_masks(image, masks):
     num_masks = len(masks)
@@ -105,7 +106,7 @@ def display_image_with_masks(image, masks):
         axes[i+1].axis('off')
 
     plt.tight_layout()
-    plt.show()
+    show_matplotlib_non_blocking(plt)
 
 def display_image_with_boxes(image, boxes, logits,phrases):
     fig, ax = plt.subplots()
@@ -126,7 +127,7 @@ def display_image_with_boxes(image, boxes, logits,phrases):
         # Add confidence score as text
         ax.text(x_min, y_min, f"{phrases}: {confidence_score}", fontsize=8, color='white', verticalalignment='top')
 
-    plt.show()
+    show_matplotlib_non_blocking(plt)
 
 def draw_image(image, masks, boxes, labels, alpha=0.4):
     image = torch.from_numpy(image).permute(2, 0, 1)
@@ -150,5 +151,4 @@ def print_logits(logits):
     print("\nConfidence:")
     for i, logit in enumerate(logits):
         print(f"Logit {i+1}: {logit}")
-
 

@@ -27,6 +27,7 @@ from openai import OpenAI
 from grasp_detetor import Graspnet
 import utils
 from compat import load_local_env
+from nonblocking_visualization import draw_open3d_non_blocking, show_matplotlib_non_blocking
 
 
 app = Flask(__name__)
@@ -192,7 +193,11 @@ def ensure_ray_actors():
 
     use_gpu = torch.cuda.is_available()
     if not ray.is_initialized():
-        ray.init(num_gpus=torch.cuda.device_count() if use_gpu else 0, ignore_reinit_error=True)
+        ray.init(
+            num_gpus=torch.cuda.device_count() if use_gpu else 0,
+            include_dashboard=False,
+            ignore_reinit_error=True,
+        )
 
     gpu_count = torch.cuda.device_count() if use_gpu else 0
     gpu_allocation = 0.8 if gpu_count >= 2 else 0.45
@@ -239,7 +244,7 @@ def visualize_cropping_box(image, cropping_box):
     plt.imshow(image)
     plt.gca().add_patch(plt.Rectangle((x1, y1), x2-x1, y2-y1, edgecolor='red', facecolor='none'))
     plt.title("Cropping Box Visualization")
-    plt.show()
+    show_matplotlib_non_blocking(plt)
 
 
 def select_action(bboxes, pos_bboxes, text, actions, evaluate=True):
@@ -544,10 +549,14 @@ def get_grasp_pose():
         grasp_net = grasp_model(args=args,device=device, image=img_ori, bbox=bbox_positions, mask=masks, text=input_text)
         gg ,gg_array= grasp_net.forward(endpoint ,pcd )
         grasp_pose_set=gg_array
+        if grasp_pose_set is None or len(grasp_pose_set) == 0:
+            return jsonify({"error": "No grasp candidates found after FGC-GraspNet filtering"}), 422
         remain_bbox_images, bboxes, pos_bboxes, grasps = utils.preprocess(bbox_images, bbox_positions, grasp_pose_set, (32, 32))
 
         if bboxes is None:
             return jsonify({"error": "No bounding boxes found"}), 400
+        if grasps is None:
+            return jsonify({"error": "No grasp candidates found"}), 422
 
         if len(grasp_pose_set) == 1:
             action_idx = 0
@@ -574,7 +583,7 @@ def get_grasp_pose():
         dep_list = dep.tolist()
         grippers = gg.to_open3d_geometry_list()
         chosen_gripper = grippers[action_idx]
-        o3d.visualization.draw_geometries([pcd, chosen_gripper])
+        draw_open3d_non_blocking([pcd, chosen_gripper])
 
         return jsonify({
                 'xyz': xyz_list,
@@ -584,7 +593,7 @@ def get_grasp_pose():
 
 
     except Exception as e:
-        logging.error(f"Error with OpenAI API request: {e}")
+        logging.exception("Error while handling grasp pose request")
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
@@ -592,4 +601,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.output_dir:
         Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+    ensure_ray_actors()
     app.run(host='0.0.0.0', port=5000)
