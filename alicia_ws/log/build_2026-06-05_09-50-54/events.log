@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (-) JobUnselected: {'identifier': 'alicia_d_arm_motion'}
+[0.000176] (-) JobUnselected: {'identifier': 'alicia_d_calibration'}
+[0.000218] (-) JobUnselected: {'identifier': 'alicia_d_cube_sort'}
+[0.000245] (-) JobUnselected: {'identifier': 'alicia_d_descriptions'}
+[0.000270] (-) JobUnselected: {'identifier': 'alicia_d_driver'}
+[0.000293] (-) JobUnselected: {'identifier': 'alicia_d_moveit'}
+[0.000319] (-) JobUnselected: {'identifier': 'alicia_d_pick_coordinator'}
+[0.000343] (-) JobUnselected: {'identifier': 'alicia_d_thinkgrasp_bridge'}
+[0.000375] (alicia_d_control_interfaces) JobQueued: {'identifier': 'alicia_d_control_interfaces', 'dependencies': OrderedDict()}
+[0.000402] (alicia_d_sts_gripper) JobQueued: {'identifier': 'alicia_d_sts_gripper', 'dependencies': OrderedDict([('alicia_d_control_interfaces', '/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_control_interfaces')])}
+[0.000434] (alicia_d_control_interfaces) JobStarted: {'identifier': 'alicia_d_control_interfaces'}
+[0.018820] (alicia_d_control_interfaces) JobProgress: {'identifier': 'alicia_d_control_interfaces', 'progress': 'cmake'}
+[0.018939] (alicia_d_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zyx/桌面/Robot_Arm/alicia_ws/install/alicia_d_control_interfaces'], 'cwd': '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/zyx'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zyx'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/zyx/.config/Code/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","messagesFile":"/home/zyx/.config/Code/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/nls.messages.json","corruptMarkerFile":"/home/zyx/.config/Code/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"fc3093d7294cc92428f5c656f415b3c7.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/zyx/.config/Code/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/tcf.json","_cacheRoot":"/home/zyx/.config/Code/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn","_resolvedLanguagePackCoreLocation":"/home/zyx/.config/Code/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/07ff9d6178ede9a1bd12ad3399074d726ebe6e43","_corruptedFile":"/home/zyx/.config/Code/clp/fc3093d7294cc92428f5c656f415b3c7.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zyx'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/zyx/桌面/Robot_Arm'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-58e22d7f-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1960'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2323'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/zyx/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3346'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zyx'), ('JOURNAL_STREAM', '8:20673'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'zyx'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zyx/.local/bin:/home/zyx/.local/bin:/home/zyx/.codex/tmp/arg0/codex-arg0hZY29b:/home/zyx/.local/bin:/usr/local/cuda-13.0/bin:/home/zyx/miniconda3/condabin:/opt/ros/humble/bin:/home/zyx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zyx/.vscode/extensions/openai.chatgpt-26.527.60818-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/zyx-OMEN-by-HP-Gaming-Laptop-16-wf0xxx:@/tmp/.ICE-unix/2292,unix/zyx-OMEN-by-HP-Gaming-Laptop-16-wf0xxx:/tmp/.ICE-unix/2292'), ('INVOCATION_ID', '9fbbc414a1be4d09b013c7b83f96e6f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zyx/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e956a-4c94-76b3-8953-2524c6dfdbd7'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/zyx/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zyx/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/zyx/.config/Code/CachedData/07ff9d6178ede9a1bd12ad3399074d726ebe6e43'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '3346'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099062] (-) TimerEvent: {}
+[0.153209] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.199348] (-) TimerEvent: {}
+[0.244330] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[0.257313] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299556] (-) TimerEvent: {}
+[0.363000] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.370524] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.372593] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.373783] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.380229] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399735] (-) TimerEvent: {}
+[0.500052] (-) TimerEvent: {}
+[0.512419] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.520246] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.520442] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.521045] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.527332] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600300] (-) TimerEvent: {}
+[0.700500] (-) TimerEvent: {}
+[0.713405] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800645] (-) TimerEvent: {}
+[0.817227] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.862380] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.868364] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.879708] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.897020] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900762] (-) TimerEvent: {}
+[0.914416] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.961413] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.001017] (-) TimerEvent: {}
+[1.101305] (-) TimerEvent: {}
+[1.201649] (-) TimerEvent: {}
+[1.279534] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.279777] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.279839] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.279880] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.279922] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.279970] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280012] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.280052] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.280105] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.280146] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.280185] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280235] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280278] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.280323] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.280370] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.280416] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.280455] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280510] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280547] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.280585] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.280622] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.280665] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.280697] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280729] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280763] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.280797] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.280837] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.280875] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.280916] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280953] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.280993] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.281034] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.281076] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.281122] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.281170] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.281214] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.281252] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.281299] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.281347] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.281392] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.281444] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.281490] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.281538] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[1.281584] (alicia_d_control_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[1.281635] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.281685] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.281733] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.281780] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.301910] (-) TimerEvent: {}
+[1.305684] (alicia_d_control_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:69 (message):\n'}
+[1.305879] (alicia_d_control_interfaces) StderrLine: {'line': b'  Target dependency\n'}
+[1.305942] (alicia_d_control_interfaces) StderrLine: {'line': b"  '/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces/msg/GraspCandidate.idl'\n"}
+[1.305993] (alicia_d_control_interfaces) StderrLine: {'line': b'  does not exist\n'}
+[1.306041] (alicia_d_control_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.306102] (alicia_d_control_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.306152] (alicia_d_control_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.306211] (alicia_d_control_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.306264] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.306318] (alicia_d_control_interfaces) StderrLine: {'line': b'\n'}
+[1.306361] (alicia_d_control_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.306415] (alicia_d_control_interfaces) StdoutLine: {'line': b'See also "/home/zyx/\xe6\xa1\x8c\xe9\x9d\xa2/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.313326] (alicia_d_control_interfaces) CommandEnded: {'returncode': 1}
+[1.342496] (alicia_d_control_interfaces) JobEnded: {'identifier': 'alicia_d_control_interfaces', 'rc': 1}
+[1.353413] (alicia_d_sts_gripper) JobSkipped: {'identifier': 'alicia_d_sts_gripper'}
+[1.353542] (-) EventReactorShutdown: {}

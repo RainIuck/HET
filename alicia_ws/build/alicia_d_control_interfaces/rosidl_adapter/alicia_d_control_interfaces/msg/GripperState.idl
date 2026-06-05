@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from alicia_d_control_interfaces/msg/GripperState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module alicia_d_control_interfaces {
+  module msg {
+    struct GripperState {
+      std_msgs::msg::Header header;
+
+      boolean connected;
+
+      boolean homed;
+
+      int32 raw_position;
+
+      int32 relative_ticks;
+
+      int32 target_position;
+
+      boolean position_error_direction;
+
+      int32 position_error_ticks;
+
+      int32 estimated_position_minus;
+
+      int32 estimated_position_plus;
+
+      int32 load_raw;
+
+      int32 current_raw;
+
+      boolean moving;
+
+      float voltage_v;
+
+      int32 temperature_c;
+
+      string fault;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+std_msgs/Header header
+bool connected
+bool homed
+int32 raw_position
+int32 relative_ticks
+int32 target_position
+bool position_error_direction
+int32 position_error_ticks
+int32 estimated_position_minus
+int32 estimated_position_plus
+int32 load_raw
+int32 current_raw
+bool moving
+float32 voltage_v
+int32 temperature_c
+string fault

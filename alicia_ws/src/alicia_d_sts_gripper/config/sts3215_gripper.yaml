@@ -10,8 +10,8 @@
     homing_timeout_s: 8.0
     torque_off_after_home: true
     manual_home_valid: true
-    zero_feedback_position: 3823
-    zero_target_position: 3823
+    zero_feedback_position: 2183
+    zero_target_position: 2183
     open_ticks: 0
     max_closed_ticks: 4600
     min_safe_ticks: 0
@@ -23,21 +23,23 @@
     default_speed: 500
     default_acceleration: 20
     force_grasp_speed: 300
-    force_current_threshold_raw: 1
-    force_load_threshold_raw: 1150
-    force_contact_confirm_samples: 5
-    force_require_slowdown: false
+    force_current_threshold_raw: 0
+    force_load_threshold_raw: 100
+    force_contact_confirm_samples: 2
+    force_require_slowdown: true
     force_slow_window_samples: 6
     force_slow_max_delta_ticks: 25
+    force_emergency_load_threshold_raw: 125
+    force_emergency_current_threshold_raw: 0
     force_min_valid_voltage_v: 1.0
     force_min_valid_temperature_c: 1
-    force_max_load_jump_raw: 500
-    force_max_current_jump_raw: 500
+    force_max_load_jump_raw: 0
+    force_max_current_jump_raw: 0
     move_time: 0
     raw_tolerance: 12
     goal_timeout_s: 25.0
     poll_period_s: 0.05
-    serial_timeout_s: 0.12
+    serial_timeout_s: 0.20
     serial_write_timeout_s: 1.0
     state_publish_rate: 10.0
     connect_on_start: true

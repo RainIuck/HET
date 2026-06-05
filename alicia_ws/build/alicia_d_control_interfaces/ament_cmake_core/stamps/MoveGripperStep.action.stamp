@@ -1,0 +1,11 @@
+int32 delta_ticks
+int32 speed
+---
+bool success
+string message
+int32 raw_position
+int32 moved_ticks
+---
+int32 raw_position
+int32 moved_ticks
+bool moving

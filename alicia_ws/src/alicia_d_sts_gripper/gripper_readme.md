@@ -26,21 +26,24 @@ max_closed_ticks: 4600
 max_safe_ticks: 4700
 
 force_grasp_speed: 300
-force_current_threshold_raw: 1
-force_load_threshold_raw: 1150
-force_contact_confirm_samples: 5
+force_current_threshold_raw: 0
+force_load_threshold_raw: 100
+force_contact_confirm_samples: 2
 
-force_require_slowdown: false
+force_require_slowdown: true
 force_slow_window_samples: 6
 force_slow_max_delta_ticks: 25
+force_emergency_load_threshold_raw: 125
+force_emergency_current_threshold_raw: 0
 
 force_min_valid_voltage_v: 1.0
 force_min_valid_temperature_c: 1
-force_max_load_jump_raw: 500
-force_max_current_jump_raw: 500
+force_max_load_jump_raw: 0
+force_max_current_jump_raw: 0
 
 goal_timeout_s: 25.0
 poll_period_s: 0.05
+serial_timeout_s: 0.20
 ```
 
 `manual_home_valid` 和 `zero_feedback_position` 是标定结果。机械结构、夹爪安装位置或最大打开参考变化后，需要重新标定。
@@ -109,12 +112,13 @@ max_ticks: 0             -> max_closed_ticks
 speed: 0                 -> force_grasp_speed
 ```
 
-它不是关闭电流条件。按当前 YAML，夹取测试实际使用：
+按当前 YAML，夹取测试实际使用：
 
 ```text
-current_raw >= 1
-load_raw >= 1150
-连续 5 个有效样本
+current_raw 条件关闭
+load_raw >= 100
+推进变慢条件开启
+连续 2 个有效样本
 最大闭合目标 = 4600 ticks
 夹取速度 = 300
 超时时间 = 25 s
@@ -128,6 +132,11 @@ ros2 action send_goal /new_gripper/move_relative \
   "{target_ticks: 2000, speed: 0}" \
   --feedback
 ```
+
+`move_relative` 执行中也会检查 emergency load/current 阈值。若运动时超过
+emergency 阈值，节点会发送 stop-and-hold，并让该 Action 失败返回。
+夹爪状态发布循环也有同样的 emergency watchdog；只要检测到舵机仍在运动且超过
+emergency 阈值，即使当前 Action 层漏判，也会发送 stop-and-hold。
 
 再回到打开位：
 
@@ -152,7 +161,7 @@ relative_ticks        相对最大打开零点的当前位置估计
 raw_position          STS 地址 56；Step 模式下是位置误差，不是绝对角度
 target_position       STS 地址 67 当前目标位置
 position_error_ticks  地址 56 中的当前位置/目标位置误差
-load_raw              舵机负载反馈
+load_raw              当前控制输出驱动电机的电压占空比幅值，单位 0.1%；已剥离 STS BIT10 方向位
 current_raw           舵机电流反馈
 moving                舵机运动标志
 fault                 节点最近一次故障信息
@@ -168,28 +177,39 @@ fault                 节点最近一次故障信息
 voltage_v < force_min_valid_voltage_v
 temperature_c < force_min_valid_temperature_c
 缺少 load/current 反馈
-load 相对上一个有效样本跳变 > force_max_load_jump_raw
-current 相对上一个有效样本跳变 > force_max_current_jump_raw
+force_max_load_jump_raw > 0 且 load 相对上一个有效样本跳变过大
+force_max_current_jump_raw > 0 且 current 相对上一个有效样本跳变过大
 ```
 
-异常样本只是不计入成功次数，不会清空已经累计的连续成功次数。
+异常样本只是不计入成功次数，不会清空已经累计的连续成功次数。当前默认将
+`force_max_load_jump_raw` 和 `force_max_current_jump_raw` 设为 `0`，即关闭跳变过滤；
+对夹爪安全来说，高 load/current 应优先触发早停，而不应因为跳变过快被忽略。
 
 对有效样本，当前接触条件是：
 
 ```text
-current_raw >= force_current_threshold_raw
-load_raw >= force_load_threshold_raw
+force_current_threshold_raw > 0 且 current_raw >= force_current_threshold_raw
+或
+force_load_threshold_raw > 0 且 load_raw >= force_load_threshold_raw
 ```
 
 当前 YAML 中：
 
 ```text
-force_current_threshold_raw = 1
-force_load_threshold_raw = 1150
-force_contact_confirm_samples = 5
+force_current_threshold_raw = 0
+force_load_threshold_raw = 100
+force_contact_confirm_samples = 2
+force_require_slowdown = true
+force_emergency_load_threshold_raw = 125
 ```
 
-也就是连续 5 个有效样本同时满足电流和 load 阈值，才判定夹取成功。
+也就是连续 2 个有效样本满足任一已启用的力反馈阈值，并且夹爪推进明显变慢，才判定夹取成功。
+`force_current_threshold_raw` 为 `0` 时，电流条件关闭，仅作为实时观测量；当前默认
+使用 load + slowdown 判定。这里的 `load_raw` 是剥离 STS BIT10 方向位后的占空比幅值，
+单位是 0.1%，不是牛顿或牛米。夹紧方向原始值如果约为 `1080`，
+实际负载幅值约为 `1080 - 1024 = 56`，即约 `5.6%` 驱动占空比。
+`force_emergency_load_threshold_raw` 是高负载保护阈值，
+达到后不等待 slowdown 条件，也不等待连续样本确认，直接按接触处理并停止。
 
 代码还支持“位置推进变慢”条件：
 
@@ -203,10 +223,11 @@ relative_ticks 在最近 force_slow_window_samples 个有效样本内的净变�
 当前 YAML 中：
 
 ```yaml
-force_require_slowdown: false
+force_require_slowdown: true
 ```
 
-所以变慢条件目前关闭，实际成功条件是 load/current 阈值连续满足。
+所以普通接触判断要求 load/current 任一阈值连续满足，并且夹爪推进明显变慢。
+若达到 emergency 高负载阈值，则不等待变慢条件。
 
 如果 Action 返回：
 
@@ -216,7 +237,8 @@ contact_detected: false
 message: Force grasp timed out without contact
 ```
 
-表示在 `goal_timeout_s` 时间内没有满足完整成功条件。例如 load 已经够高，但 `current_raw` 仍低于 `force_current_threshold_raw`，就不会判定成功。
+表示在 `goal_timeout_s` 时间内没有满足完整成功条件。例如 load 没有达到
+`force_load_threshold_raw`，就不会判定成功。
 
 ## 文件结构
 

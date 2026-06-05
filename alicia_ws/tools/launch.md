@@ -103,7 +103,7 @@ tools/attach_alicia_usb_to_wsl.sh 2-3
 如果串口仍存在但 Action 报 `Write timeout`，检查夹爪 YAML 中的写超时配置：
 
 ```yaml
-serial_timeout_s: 0.12
+serial_timeout_s: 0.20
 serial_write_timeout_s: 1.0
 ```
 

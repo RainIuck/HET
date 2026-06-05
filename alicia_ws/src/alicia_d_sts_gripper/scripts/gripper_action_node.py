@@ -123,21 +123,23 @@ class Sts3215GripperNode(Node):
         self.declare_parameter("default_speed", 500)
         self.declare_parameter("default_acceleration", 20)
         self.declare_parameter("force_grasp_speed", 200)
-        self.declare_parameter("force_current_threshold_raw", 7)
-        self.declare_parameter("force_load_threshold_raw", 1100)
-        self.declare_parameter("force_contact_confirm_samples", 8)
+        self.declare_parameter("force_current_threshold_raw", 0)
+        self.declare_parameter("force_load_threshold_raw", 100)
+        self.declare_parameter("force_contact_confirm_samples", 2)
         self.declare_parameter("force_require_slowdown", True)
         self.declare_parameter("force_slow_window_samples", 6)
         self.declare_parameter("force_slow_max_delta_ticks", 25)
+        self.declare_parameter("force_emergency_load_threshold_raw", 125)
+        self.declare_parameter("force_emergency_current_threshold_raw", 0)
         self.declare_parameter("force_min_valid_voltage_v", 1.0)
         self.declare_parameter("force_min_valid_temperature_c", 1)
-        self.declare_parameter("force_max_load_jump_raw", 500)
-        self.declare_parameter("force_max_current_jump_raw", 500)
+        self.declare_parameter("force_max_load_jump_raw", 0)
+        self.declare_parameter("force_max_current_jump_raw", 0)
         self.declare_parameter("move_time", 0)
         self.declare_parameter("raw_tolerance", 12)
         self.declare_parameter("goal_timeout_s", 8.0)
         self.declare_parameter("poll_period_s", 0.05)
-        self.declare_parameter("serial_timeout_s", 0.12)
+        self.declare_parameter("serial_timeout_s", 0.20)
         self.declare_parameter("serial_write_timeout_s", 1.0)
         self.declare_parameter("state_publish_rate", 10.0)
         self.declare_parameter("connect_on_start", True)
@@ -196,6 +198,12 @@ class Sts3215GripperNode(Node):
         )
         self.force_slow_max_delta_ticks = max(
             0, int(self.get_parameter("force_slow_max_delta_ticks").value)
+        )
+        self.force_emergency_load_threshold_raw = max(
+            0, int(self.get_parameter("force_emergency_load_threshold_raw").value)
+        )
+        self.force_emergency_current_threshold_raw = max(
+            0, int(self.get_parameter("force_emergency_current_threshold_raw").value)
         )
         self.force_min_valid_voltage_v = float(
             self.get_parameter("force_min_valid_voltage_v").value
@@ -264,6 +272,16 @@ class Sts3215GripperNode(Node):
             return 0
         return int(raw_value) & 0x7FFF
 
+    @staticmethod
+    def _load_magnitude(raw_value):
+        if raw_value is None:
+            return 0
+        # STS present-load feedback is motor drive voltage duty in 0.1%
+        # units. Bit 10 stores direction; the low 10 bits are magnitude.
+        # A closing no-load value around 1080 therefore means
+        # 1024(direction) + ~56(duty magnitude), not 1080 force.
+        return int(raw_value) & 0x03FF
+
     def _state_has_valid_position_feedback(self, state):
         if state is None or state.target_position is None:
             return False
@@ -298,17 +316,39 @@ class Sts3215GripperNode(Node):
         self._relative_ticks = current_position - self._zero_feedback_position
 
     def _read_state_locked(self):
-        state = self._connect().read_state(self.servo_id)
-        self._update_relative_from_state(state)
-        self._last_state = state
-        self._connected = True
-        self._fault = ""
-        return state
+        last_error = None
+        for attempt in range(3):
+            try:
+                state = self._connect().read_state(self.servo_id)
+                self._update_relative_from_state(state)
+                self._last_state = state
+                self._connected = True
+                self._fault = ""
+                return state
+            except Sts3215Error as exc:
+                last_error = exc
+                if attempt < 2:
+                    time.sleep(0.01)
+                    continue
+                raise
+        raise last_error
 
     def _publish_state(self):
         try:
             with self._io_lock:
-                self._read_state_locked()
+                state = self._read_state_locked()
+                load_raw = self._load_magnitude(state.load_raw)
+                current = self._effort_magnitude(state.current_raw)
+                if bool(state.moving) and self._emergency_force_detected(
+                    load_raw,
+                    current,
+                ):
+                    self._stop_motion_locked(state)
+                    self._fault = (
+                        "Emergency force threshold reached in state watchdog; "
+                        "gripper stopped"
+                    )
+                    self.get_logger().error(self._fault)
         except Exception as exc:
             self._set_fault(f"State read failed: {exc}")
 
@@ -342,7 +382,7 @@ class Sts3215GripperNode(Node):
             msg.position_error_ticks = position_error_ticks
             msg.estimated_position_minus = target_position - position_error_ticks
             msg.estimated_position_plus = target_position + position_error_ticks
-            msg.load_raw = int(self._last_state.load_raw or 0)
+            msg.load_raw = self._load_magnitude(self._last_state.load_raw)
             msg.current_raw = int(self._last_state.current_raw or 0)
             msg.moving = bool(self._last_state.moving)
             msg.voltage_v = float(self._last_state.voltage_v or 0.0)
@@ -479,6 +519,18 @@ class Sts3215GripperNode(Node):
             return False
         progress = abs(int(relative_history[-1]) - int(relative_history[0]))
         return progress <= self.force_slow_max_delta_ticks
+
+    def _emergency_force_detected(self, load_raw, current_raw):
+        return (
+            (
+                self.force_emergency_load_threshold_raw > 0
+                and load_raw >= self.force_emergency_load_threshold_raw
+            )
+            or (
+                self.force_emergency_current_threshold_raw > 0
+                and current_raw >= self.force_emergency_current_threshold_raw
+            )
+        )
 
     def _execute_home(self, goal_handle):
         self._begin_action()
@@ -677,11 +729,17 @@ class Sts3215GripperNode(Node):
                 return False, "Move canceled"
             with self._io_lock:
                 state = self._read_state_locked()
+            load_raw = self._load_magnitude(state.load_raw)
+            current = self._effort_magnitude(state.current_raw)
             feedback = MoveGripper.Feedback()
             feedback.raw_position = int(self._last_raw)
             feedback.relative_ticks = int(self._relative_ticks)
             feedback.moving = bool(state.moving)
             goal_handle.publish_feedback(feedback)
+            if self._emergency_force_detected(load_raw, current):
+                with self._io_lock:
+                    self._stop_motion_locked(state)
+                return False, "Emergency force threshold reached during move"
             position_error = int(state.position_error_ticks or 0)
             if (
                 abs(self._relative_ticks - target_ticks) <= self.tick_tolerance
@@ -719,7 +777,9 @@ class Sts3215GripperNode(Node):
             result.raw_position = int(self._last_raw)
             result.relative_ticks = int(self._relative_ticks)
             state = self._last_state
-            result.load_raw = int(state.load_raw or 0) if state is not None else 0
+            result.load_raw = self._load_magnitude(
+                state.load_raw if state is not None else None
+            )
             result.current_raw = int(state.current_raw or 0) if state is not None else 0
             if success:
                 goal_handle.succeed()
@@ -770,15 +830,22 @@ class Sts3215GripperNode(Node):
                 return False, False, "Force grasp canceled"
             with self._io_lock:
                 state = self._read_state_locked()
-            load_raw = int(state.load_raw or 0)
+            load_raw = self._load_magnitude(state.load_raw)
             current = self._effort_magnitude(state.current_raw)
             feedback = ForceGrasp.Feedback()
             feedback.raw_position = int(self._last_raw)
             feedback.relative_ticks = int(self._relative_ticks)
-            feedback.load_raw = int(state.load_raw or 0)
+            feedback.load_raw = load_raw
             feedback.current_raw = int(state.current_raw or 0)
             feedback.moving = bool(state.moving)
             goal_handle.publish_feedback(feedback)
+
+            if self._emergency_force_detected(load_raw, current):
+                with self._io_lock:
+                    self._stop_motion_locked(state)
+                return True, True, (
+                    "Emergency force threshold reached; gripper stopped"
+                )
 
             valid_sample, invalid_reason = self._force_sample_valid(
                 state,
@@ -802,13 +869,16 @@ class Sts3215GripperNode(Node):
             last_valid_current = current
             relative_history.append(int(self._relative_ticks))
 
-            current_contact = current_threshold > 0 and current >= current_threshold
+            current_contact = (
+                current_threshold > 0 and current >= current_threshold
+            )
             load_contact = (
                 self.force_load_threshold_raw > 0
                 and load_raw >= self.force_load_threshold_raw
             )
+            force_contact = current_contact or load_contact
             slow_contact = self._force_slowdown_detected(relative_history)
-            if current_contact and load_contact and slow_contact:
+            if force_contact and slow_contact:
                 contact_sample_count += 1
             else:
                 contact_sample_count = 0
@@ -817,7 +887,7 @@ class Sts3215GripperNode(Node):
                 with self._io_lock:
                     self._stop_motion_locked(state)
                 return True, True, (
-                    "Contact detected from sustained load/current and slow motion feedback"
+                    "Contact detected from sustained force feedback"
                 )
             position_error = int(state.position_error_ticks or 0)
             if (

@@ -1,0 +1,8 @@
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:msg/GraspCandidate.idl
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:msg/GripperState.idl
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/ForceGrasp.idl
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/HomeGripper.idl
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveArmToJoints.idl
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveArmToPose.idl
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveGripper.idl
+/home/zyx/桌面/Robot_Arm/alicia_ws/build/alicia_d_control_interfaces/rosidl_adapter/alicia_d_control_interfaces:action/MoveGripperStep.idl

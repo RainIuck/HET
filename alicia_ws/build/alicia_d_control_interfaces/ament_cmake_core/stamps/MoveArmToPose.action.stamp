@@ -1,0 +1,12 @@
+geometry_msgs/PoseStamped target_pose
+string ik_link_name
+float64 max_velocity_scaling
+float64 max_acceleration_scaling
+bool avoid_collisions
+bool execute
+---
+bool success
+int32 moveit_error_code
+string message
+---
+string stage

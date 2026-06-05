@@ -1,0 +1,13 @@
+{
+  "package_name": "alicia_d_control_interfaces",
+  "non_idl_tuples": [
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:msg/GraspCandidate.msg",
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:msg/GripperState.msg",
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:action/ForceGrasp.action",
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:action/HomeGripper.action",
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:action/MoveArmToJoints.action",
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:action/MoveArmToPose.action",
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:action/MoveGripper.action",
+    "/home/zyx/桌面/Robot_Arm/alicia_ws/src/alicia_d_control_interfaces:action/MoveGripperStep.action"
+  ]
+}
