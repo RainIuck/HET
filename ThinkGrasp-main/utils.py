@@ -15,6 +15,7 @@ from nonblocking_visualization import show_matplotlib_non_blocking
 
 
 from models.graspnet.utils.data_utils import CameraInfo, create_point_cloud_from_depth_image
+from calibration import make_camera_info
 reconstruction_config = {
     'nb_neighbors': 50,
     'std_ratio': 2.0,
@@ -736,9 +737,7 @@ def angle2rotm(angle, axis, point=None):
 
 def get_and_process_data(cropping_box,color, depth):
     color = np.array(Image.fromarray(color), dtype=np.float32) / 255.0
-    camera = CameraInfo(
-        width=640, height=480, fx=382.8567, fy=382.4391, cx=331.3490, cy=247.1126, scale=1000.0
-    )
+    camera = make_camera_info(CameraInfo)
     kernel = 0.2
 
     cloud = create_point_cloud_from_depth_image(depth, camera, organized=True)
@@ -746,7 +745,8 @@ def get_and_process_data(cropping_box,color, depth):
     x1_, y1_, x2_, y2_ = x1 - int((x2 - x1) * kernel) - 50, y1 - int((y2 - y1) * kernel) - 50, x2 + int(
         (x2 - x1) * kernel) + 50, y2 + int((y2 - y1) * kernel) + 50
 
-    xmin, ymin, xmax, ymax = 0, 0, 480, 640
+    image_height, image_width = depth.shape
+    xmin, ymin, xmax, ymax = 0, 0, image_width, image_height
     dx1, dy1, dx2, dy2 = max(x1_, xmin), max(y1_, ymin), min(x2_, xmax), min(y2_, ymax)
     print(x1_, y1_, x2_, y2_, xmin, ymin, xmax, ymax)
 

@@ -17,6 +17,7 @@ from PIL import Image, ImageDraw
 import cv2
 
 from compat import torch_load
+from calibration import make_camera_info
 from nonblocking_visualization import draw_open3d_non_blocking
 
 
@@ -119,9 +120,7 @@ class grasp_model():
 
         return processed_masks
     def choose_in_mask(self, gg):
-        camera = CameraInfo(
-            width=640, height=480, fx=383.9592, fy=383.6245, cx=322.1625, cy=245.3161, scale=1000.0
-        )
+        camera = make_camera_info(CameraInfo)
         gg_new = GraspGroup()
         self.mask = self.process_masks(self.mask)
         # self.mask = self.mask.squeeze(0)
@@ -133,7 +132,7 @@ class grasp_model():
             if translation[-1] != 0:
                 xmap, ymap = self.pc_to_depth(translation, camera)
                 
-                if self.mask[ymap, xmap]:
+                if 0 <= ymap < self.mask.shape[0] and 0 <= xmap < self.mask.shape[1] and self.mask[ymap, xmap]:
                     gg_new.add(grasp)
         return gg_new
 
@@ -147,9 +146,7 @@ class grasp_model():
         '''we use the intrinsic of the Realsense D435i camera in our experiments,
             you can change the intrinsic by yourself.
         '''
-        camera=  CameraInfo(
-            width=640, height=480, fx=383.9592, fy=383.6245, cx=322.1625, cy=245.3161, scale=1000.0
-        )
+        camera = make_camera_info(CameraInfo)
 
         cloud = create_point_cloud_from_depth_image(depth, camera, organized=True)
 

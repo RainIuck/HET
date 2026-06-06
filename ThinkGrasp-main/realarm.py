@@ -27,6 +27,7 @@ from openai import OpenAI
 from grasp_detetor import Graspnet
 import utils
 from compat import load_local_env
+from calibration import transform_grasp_to_base
 from nonblocking_visualization import draw_open3d_non_blocking, show_matplotlib_non_blocking
 
 
@@ -577,10 +578,14 @@ def get_grasp_pose():
         print("chose_rot:", chose_rot)
         print("dep:", dep)
 
+        chose_xyz_base, chose_rot_base = transform_grasp_to_base(chose_xyz, chose_rot, data)
+        print("chose_xyz_base:", chose_xyz_base)
+        print("chose_rot_base:", chose_rot_base)
+
         # Convert ndarrays to lists
-        xyz_list = chose_xyz.tolist()
-        rot_list = chose_rot.tolist()
-        dep_list = dep.tolist()
+        xyz_list = chose_xyz_base.tolist()
+        rot_list = chose_rot_base.tolist()
+        dep_list = float(dep)
         grippers = gg.to_open3d_geometry_list()
         chosen_gripper = grippers[action_idx]
         draw_open3d_non_blocking([pcd, chosen_gripper])
