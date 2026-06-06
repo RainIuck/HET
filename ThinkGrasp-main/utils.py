@@ -35,6 +35,41 @@ graspnet_config = {
     'mask_thresh': 0.5
 }
 
+
+def _depth_raw_at_pixel(depth_image, pixel_x, pixel_y, depth_region=None):
+    image_height, image_width = depth_image.shape[:2]
+    pixel_x = int(np.clip(pixel_x, 0, image_width - 1))
+    pixel_y = int(np.clip(pixel_y, 0, image_height - 1))
+
+    center_depth = float(depth_image[pixel_y, pixel_x])
+    if center_depth > 0:
+        return center_depth
+
+    if depth_region is not None:
+        valid_depths = depth_region[depth_region > 0]
+        if valid_depths.size > 0:
+            return float(np.median(valid_depths))
+
+    x1 = max(pixel_x - 2, 0)
+    y1 = max(pixel_y - 2, 0)
+    x2 = min(pixel_x + 3, image_width)
+    y2 = min(pixel_y + 3, image_height)
+    valid_depths = depth_image[y1:y2, x1:x2]
+    valid_depths = valid_depths[valid_depths > 0]
+    if valid_depths.size > 0:
+        return float(np.median(valid_depths))
+
+    return 0.0
+
+
+def pixel_to_camera_position(pixel_x, pixel_y, depth_image, camera=None, depth_region=None):
+    camera = camera or make_camera_info(CameraInfo)
+    depth_raw = _depth_raw_at_pixel(depth_image, pixel_x, pixel_y, depth_region)
+    z = depth_raw / camera.scale
+    x = (pixel_x - camera.cx) * z / camera.fx
+    y = (pixel_y - camera.cy) * z / camera.fy
+    return [x, y, z]
+
 def get_heightmap(points, colors, bounds, pixel_size):
     """Get top-down (z-axis) orthographic heightmap image from 3D pointcloud.
 
@@ -325,6 +360,7 @@ def convert_outputnew(image_pil, boxes, logits, phrases, color_image, depth_imag
     bbox_images = []
     bbox_positions = []
     bbox_depthimages = []
+    camera = make_camera_info(CameraInfo)
 
     grid_size = 3
     grid_cells = [(i, j) for i in range(grid_size) for j in range(grid_size)]
@@ -358,11 +394,13 @@ def convert_outputnew(image_pil, boxes, logits, phrases, color_image, depth_imag
 
         pixel_x = (cell_x0 + cell_x1) // 2
         pixel_y = (cell_y0 + cell_y1) // 2
-        bbox_pos = [
-            pixel_y * PIXEL_SIZE + WORKSPACE_LIMITS[0][0],
-            pixel_x * PIXEL_SIZE + WORKSPACE_LIMITS[1][0],
-            depth_image[pixel_y][pixel_x] + WORKSPACE_LIMITS[2][0],
-        ]
+        bbox_pos = pixel_to_camera_position(
+            pixel_x,
+            pixel_y,
+            depth_image,
+            camera=camera,
+            depth_region=bbox_depthimage,
+        )
         bbox_positions.append(bbox_pos)
 
     return bbox_images, bbox_positions
@@ -373,6 +411,7 @@ def convert_output(image_pil, boxes, logits, phrases, color_image, depth_image, 
     bbox_images = []
     bbox_positions = []
     bbox_depthimages = []
+    camera = make_camera_info(CameraInfo)
 
     grid_size = 3
     grid_cells = [(i, j) for i in range(grid_size) for j in range(grid_size)]
@@ -400,17 +439,18 @@ def convert_output(image_pil, boxes, logits, phrases, color_image, depth_image, 
         bbox_image = color_image[cell_y0:cell_y1, cell_x0:cell_x1]
         bbox_images.append(bbox_image)
 
-        # Crop depth image to the preferred grid cell (if needed)
-        # bbox_depthimage = depth_image[cell_y0:cell_y1, cell_x0:cell_x1]
-        # bbox_depthimages.append(bbox_depthimage)
+        bbox_depthimage = depth_image[cell_y0:cell_y1, cell_x0:cell_x1]
+        bbox_depthimages.append(bbox_depthimage)
 
         pixel_x = (cell_x0 + cell_x1) // 2
         pixel_y = (cell_y0 + cell_y1) // 2
-        bbox_pos = [
-            pixel_y * PIXEL_SIZE + WORKSPACE_LIMITS[0][0],
-            pixel_x * PIXEL_SIZE + WORKSPACE_LIMITS[1][0],
-            depth_image[pixel_y][pixel_x] + WORKSPACE_LIMITS[2][0],
-        ]
+        bbox_pos = pixel_to_camera_position(
+            pixel_x,
+            pixel_y,
+            depth_image,
+            camera=camera,
+            depth_region=bbox_depthimage,
+        )
         bbox_positions.append(bbox_pos)
 
     return bbox_images, bbox_positions
